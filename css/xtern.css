@@ -1,0 +1,256 @@
+#header-wrapper {
+    background: #404040;
+    border-bottom: 4px solid #7a7a7a;
+}
+#header {
+    color: #fff;
+    text-align: center;
+}
+#header a {
+    display: inline-block;
+}
+#header #logo-svg {
+    width: 8rem;
+    height: 2rem;
+}
+#header #logo-svg path {
+    fill: #fff;
+}
+#sidebar {
+  background-color: #333;
+}
+#sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
+  background-color: #292929;
+}
+date {
+  display: block;
+  text-align: center;
+}
+.gf-red {
+  color: #ff5252;
+}
+.gf-tab {
+  border-bottom: 2px solid #ff5252;
+  font-weight: bold;
+  text-transform: uppercase;
+  zoom: 0.75;
+  padding: 0px 8px 8px 8px;
+  text-align: center;
+  color: #ff5252;
+  font-size: 14px;
+  line-height: 12px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+p.file {
+  color: #a2a2a2;
+  font-family: "Consolas", menlo, monospace;
+  margin-bottom: 0;
+}
+p.file + p {
+  display: none;
+}
+p.file + p + pre {
+  margin-top: 0;
+}
+
+#home h1 {
+  background: #ffce00;
+  padding-top: 1.5rem;
+  margin-bottom: 0;
+  margin-top: 3rem;
+}
+
+#header svg * {
+  fill: #ffce00;
+}
+
+figure {
+  background-color: #ddd;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+#body figure img {
+  margin: 0;
+}
+
+/*#footer {
+  text-align: center;
+}*/
+
+/* Prism syntax highlighting */
+/* Need to override a number of rules included in the theme */
+pre,
+.entry-content pre {
+  background: #f6f6f6;
+  border: 1px solid #eee;
+  tab-size: 2;
+  hyphens: none;
+  position: relative;
+  padding: 0;
+}
+code {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+pre,
+pre[class*="language-"],
+code,
+code[class*="language-"] {
+  font-family: "Operator Mono A", "Operator Mono B", 'Fira Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+pre code {
+  display: block;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-flex: 1;
+  flex: 1;
+  padding: 1.5em;
+}
+
+pre .command-line-prompt {
+  border-right: 1px solid #ddd;
+}
+
+pre .command-line-prompt > span:before {
+  color: #ccc;
+}
+
+/* Line highlight */
+.line-highlight {
+  margin-top: 1.5em;
+}
+
+/* Language label */
+pre[class*="language-"],
+.entry-content pre[class*="language-"] {
+  padding: 0;
+  margin: 0.5em 0;
+}
+
+/* Line number */
+pre.line-numbers,
+.entry-content pre.line-numbers {
+  padding-left: 0.5em;
+}
+
+.line-numbers .line-numbers-rows {
+  border-right: 1px solid #ddd;
+  left: -1em;
+  top: 1.5em;
+}
+
+pre.line-numbers code,
+.entry-content pre.line-numbers code {
+  padding-left: 3em;
+}
+
+.line-numbers-rows > span:before {
+  color: #bbb;
+}
+
+/* Language label AND line numbers */
+pre.line-numbers[rel],
+.entry-content pre.line-numbers[rel] {
+  padding-left: 0;
+}
+
+pre.line-numbers[rel] .line-numbers-rows,
+.entry-content pre.line-numbers[rel] .line-numbers-rows {
+  left: -0.4em;
+}
+
+pre.line-numbers[rel] code,
+.entry-content pre.line-numbers[rel] code {
+  padding-left: 3.4em;
+}
+
+pre[rel] {
+  display: flex;
+}
+
+pre[rel="CSS"]::before {
+  background: #1A8FE3;
+}
+
+pre[rel]::before {
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  font-size: 0.9em;
+  font-weight: 300;
+  content: attr(rel);
+  color: white;
+  background: #999;
+  padding: 1px 0 1em;
+  text-indent: 15px;
+  width: 30px;
+  line-height: 2;
+  position: relative;
+  top: auto;
+  left: auto;
+}
+
+pre[rel="html"]::before,
+pre[rel="css"]::before,
+pre[rel="jsx"]::before,
+pre[rel="ts"]::before,
+pre[rel="json"]::before,
+pre[rel="js"]::before {
+  text-transform: uppercase;
+}
+
+pre[rel="Ruby (IRB)"] {
+  min-height: 6.8em;
+}
+pre[rel="Ruby"]::before,
+pre[rel="Ruby (IRB)"]::before {
+  background: #D11149;
+}
+
+pre[rel="JavaScript"],
+pre[rel="TypeScript"] {
+  min-height: 7em;
+}
+pre[rel="js"]::before,
+pre[rel="jsx"]::before,
+pre[rel="JavaScript"]::before,
+pre[rel="TypeScript"]::before {
+  background: #FF9800;
+}
+
+pre[rel="JSON"]::before {
+  background: #624763;
+}
+
+pre[rel="Terminal"] {
+  min-height: 6.2em;
+}
+pre[rel="Terminal"]::before {
+  background: #2F1847;
+}
+
+pre[rel="MetaSploit"] {
+  min-height: 6.8em;
+}
+
+pre[rel="JSON"]::before,
+pre[rel="Terminal"]::before {
+  letter-spacing: 1px;
+}
+
+pre .copy-to-clipboard {
+  background-color: #ccc;
+}
