@@ -69,6 +69,26 @@ p.file + p + pre {
   margin-top: 3rem;
 }
 
+#home .padding {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+}
+
+#home .padding p,
+#home .padding li {
+  text-align: left;
+}
+
+#home .padding li {
+  list-style-type: disc;
+}
+
+#home .padding h2 {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
 #header svg * {
   fill: #ffce00;
 }
