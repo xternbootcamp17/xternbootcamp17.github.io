@@ -7,13 +7,28 @@
   </url>
   
   <url>
+    <loc>http://xternbootcamp17.github.io/setup-mac/google-chrome/</loc>
+    <lastmod>2016-06-10T22:39:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://xternbootcamp17.github.io/prereqs/html-css/</loc>
     <lastmod>2017-04-10T22:15:59-04:00</lastmod>
   </url>
   
   <url>
+    <loc>http://xternbootcamp17.github.io/setup-mac/command-line/</loc>
+    <lastmod>2016-06-10T23:02:52-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://xternbootcamp17.github.io/prereqs/javascript/</loc>
     <lastmod>2017-04-11T00:02:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://xternbootcamp17.github.io/setup-mac/git/</loc>
+    <lastmod>2016-06-10T23:06:12-04:00</lastmod>
   </url>
   
   <url>
@@ -27,6 +42,11 @@
   </url>
   
   <url>
+    <loc>http://xternbootcamp17.github.io/setup-mac/</loc>
+    <lastmod>2017-04-11T19:48:50-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://xternbootcamp17.github.io/prereqs/</loc>
     <lastmod>2017-04-10T11:10:36-04:00</lastmod>
   </url>
@@ -34,6 +54,12 @@
   <url>
     <loc>http://xternbootcamp17.github.io/prereqs/</loc>
     <lastmod>2017-04-10T11:10:36-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://xternbootcamp17.github.io/setup-mac/</loc>
+    <lastmod>2017-04-11T19:48:50-04:00</lastmod>
     <priority>0</priority>
   </url>
   

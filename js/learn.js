@@ -168,15 +168,21 @@ jQuery(document).ready(function() {
 
     // clipboard
     var clipInit = false;
-    $('code').each(function() {
+    $('code, .terminal-commands').each(function() {
         var code = $(this),
-            text = code.text();
+            text = code.text(), 
+            term = code.closest('.terminal-commands');
 
         if (text.length > 5) {
             if (!clipInit) {
                 var text, clip = new Clipboard('.copy-to-clipboard', {
                     text: function(trigger) {
-                        text = $(trigger).prev('code').text();
+                        var term = $(trigger).closest('.terminal-commands');
+                        if (term.length > 0) {
+                          text = term.text().trim();
+                        } else {
+                          text = $(trigger).prev('code').text();
+                        }
                         return text.replace(/^\$\s/gm, '');
                     }
                 });
@@ -199,7 +205,13 @@ jQuery(document).ready(function() {
                 clipInit = true;
             }
 
-            code.after('<span class="copy-to-clipboard" title="Copy to clipboard" />');
+            if (term.length > 0) {
+                console.log('terminal found');
+                window.term = term;
+              term.append('<span class="copy-to-clipboard" title="Copy to clipboard" />');
+            } else {
+              code.after('<span class="copy-to-clipboard" title="Copy to clipboard" />');
+            }
             code.next('.copy-to-clipboard').on('mouseleave', function() {
                 $(this).attr('aria-label', null).removeClass('tooltipped tooltipped-s tooltipped-w');
             });

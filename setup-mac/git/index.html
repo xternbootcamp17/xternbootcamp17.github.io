@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>Prerequisites</title>
+    <title>Git</title>
     <link href="http://xternbootcamp17.github.io//css/nucleus.css" rel="stylesheet">
     <link href="http://xternbootcamp17.github.io//css/font-awesome.min.css" rel="stylesheet">
     
@@ -25,7 +25,7 @@
     <link href="/css/prism.css" rel="stylesheet">
 <link href="/css/xtern.css" rel="stylesheet">
   </head>
-  <body class="" data-url="/prereqs/">
+  <body class="" data-url="/setup-mac/git/">
     
     <nav id="sidebar">
   <div id="header-wrapper">
@@ -43,7 +43,7 @@
       
       
 
-      <li class="dd-item active parent" data-nav-id="/prereqs/">
+      <li class="dd-item  " data-nav-id="/prereqs/">
         <a href="/prereqs/">
           <span>
             
@@ -104,7 +104,7 @@
       
       
 
-      <li class="dd-item  " data-nav-id="/setup-mac/">
+      <li class="dd-item  parent" data-nav-id="/setup-mac/">
         <a href="/setup-mac/">
           <span>
             
@@ -136,7 +136,7 @@
           
           
           
-            <li class="dd-item " data-nav-id="/setup-mac/git/">
+            <li class="dd-item active" data-nav-id="/setup-mac/git/">
               <a href="/setup-mac/git/">
                 <span>Git     </i></span>
               </a>
@@ -171,15 +171,19 @@
                       </a>
                   </span>
                 
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
                 
                   
                   
                   
                     
                     
+                <a href="/setup-mac/" itemprop="url"><span itemprop="title">Setup for Mac</span></a> <i class="fa fa-angle-right"></i>
+                    
                   
                 
-                <span itemprop="title"> Prerequisites</span>
+                <span itemprop="title"> Git</span>
               </div>
               
                   <div class="progress">
@@ -188,12 +192,11 @@
 <ul>
 <li>
 <ul>
-<li>
-<ul>
-<li><a href="#before-you-start">Before you start</a></li>
+<li><a href="#about-git">About Git</a></li>
+<li><a href="#homebrew">Homebrew</a></li>
+<li><a href="#installing-git-with-homebrew">Installing Git with Homebrew</a></li>
+<li><a href="#configuring-git">Configuring Git</a></li>
 </ul></li>
-</ul></li>
-<li><a href="#prerequisites">Prerequisites</a></li>
 </ul>
 </nav>
     </div>
@@ -203,23 +206,271 @@
 
             </div>
             
-              <div id="chapter">
-            
               <div id="body-inner">
+                
+                <h1>Git</h1>
                 
 
 
 
-<h3 id="before-you-start">Before you start</h3>
+<h2 id="about-git">About Git</h2>
 
-<h1 id="prerequisites">Prerequisites</h1>
+<p>Git is a distributed version control system. (But you knew that already, because you totally completed a <a href="/prereqs/git/">Git tutorial</a>&mdash;<em>right</em>?) If you have previously installed Xcode and its command-line tools, you may already have Git installed. Find out by entering the following command:</p>
 
-<p>Three weeks is not a whole lot of time, so the more you know about the fundamentals of the Web&mdash;HTML, CSS, and JavaScript&mdash;the better prepared we&rsquo;ll be to jump right into React.</p>
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+  
+<pre>
+<span class="command-line-prompt"><span data-prompt="$"></span>
+</span
+><span class="terminal-commands">git --version
+<span class="output-line">git version 2.12.2</span>
+
+</span></pre>
+
+</div>
+</div>
+
+<p>If you see something like <code>git version 2.12.2</code>, then you already have Git. If not, skip to the next section to install Homebrew. If you have Git, but the version number is lower than 2.12.2 (as of April 11, 2017), then your version of Git is out of date. Continue to the next step to install Homebrew.</p>
+
+<p>If your Git version is up-to-date, skip to the Git Configuration section.</p>
+
+<h2 id="homebrew">Homebrew</h2>
+
+<p><a href="http://brew.sh">Homebrew</a> is a package manager for OS X. That is, it manages the installation of certain software—especially UNIX tools—and the installed versions of that software.</p>
+
+<p>Install Homebrew with the following command:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>ruby -e &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&#34;
+</span></pre>
+
+</div>
+</div>
+
+<h2 id="installing-git-with-homebrew">Installing Git with Homebrew</h2>
+
+<p>If you do not have Git installed at all, or if your version is out of date, run the following command to install the latest version:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>brew install git
+</span></pre>
+
+</div>
+</div>
+
+<p>Now check your Git version again.</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>git --version
+</span></pre>
+
+</div>
+</div>
+
+<p>You should see an up-to-date version number.</p>
+
+<p>The next time a new version of Git is released, just type the following commands:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span><span data-prompt="$"></span></span>brew update           # This updates Homebrew so it knows about the latest versions.
+brew upgrade git      # This upgrades Git itself.
+</span></pre>
+
+</div>
+</div>
+
+<h2 id="configuring-git">Configuring Git</h2>
+
+<p>Next, tell Git what name and email address it should use to sign code that you&rsquo;ve authored. Enter the following commands, substituting your actual name and email address:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span><span data-prompt="$"></span></span>git config --global user.name &#34;Your Full Name&#34;
+git config --global user.email &#34;youremailaddress@example.com&#34;
+</span></pre>
+
+</div>
+</div>
+
+
+  <div class="aside aside-info">
+  
+    <h4>GitHub Desktop</h4>
+    
+      <div class="emoji">
+        <i class="fa fa-github-alt"></i>
+      </div>
+    
+  
+  <div class="body">
+  <p><strong><a href="https://desktop.github.com/">GitHub Desktop</a></strong> is a very nice, free graphical interface for Git. Although we&rsquo;ll use Git from the command-line a great deal, we&rsquo;ll also look at how GitHub Desktop can make certain tasks easier.</p>
+
+  </div>
+</div>
+
 
 
       
-      
-        </div> 
       
       </div>
     </div>
@@ -228,8 +479,8 @@
 
     <div id="navigation">
         
-        
-        <a class="nav nav-next" href="/prereqs/codewars" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-prev" href="/setup-mac/command-line"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="/setup-mac/nodejs" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
     </div>
 
     </section>

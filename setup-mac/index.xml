@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setup-macs on XTERN Bootcamp 2017</title>
+    <link>http://xternbootcamp17.github.io/setup-mac/index.xml</link>
+    <description>Recent content in Setup-macs on XTERN Bootcamp 2017</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Apr 2017 19:48:50 -0400</lastBuildDate>
+    <atom:link href="http://xternbootcamp17.github.io/setup-mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Setup for Mac</title>
+      <link>http://xternbootcamp17.github.io/setup-mac/</link>
+      <pubDate>Tue, 11 Apr 2017 19:48:50 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-mac/</guid>
+      <description>
+  &lt;div class=&#34;aside aside-danger&#34;&gt;
+  
+    &lt;h4&gt;Work In Progress&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;The setup instructions are a work in progress. Feel free to get a head start, but check here again before class starts, as this will evolve.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;With this guide, you can prepare your laptop with everything you&amp;rsquo;ll need to get started with the Xtern Bootcamp. This guide is written specifically for macOS/Mac OS X.&lt;/p&gt;
+
+&lt;p&gt;If you have trouble at any point, please contact &lt;a href=&#34;mailto:dave@getfretless.com&#34;&gt;Davey&lt;/a&gt; or &lt;a href=&#34;seth@getfretless.com&#34;&gt;Seth&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google Chrome</title>
+      <link>http://xternbootcamp17.github.io/setup-mac/google-chrome/</link>
+      <pubDate>Fri, 10 Jun 2016 22:39:00 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-mac/google-chrome/</guid>
+      <description>
+
+&lt;p&gt;To develop with React, you&amp;rsquo;ll want a modern web browser with a JavaScript console and debugger. The latest versions of all the major browsers have the tools you need, but we highly recommend using Google Chrome for the course, as we can provide the most detailed help for the tools built into Chrome.&lt;/p&gt;
+
+&lt;h3 id=&#34;download-google-chrome-http-www-google-com-chrome&#34;&gt;&lt;a href=&#34;http://www.google.com/chrome/&#34;&gt;Download Google Chrome&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h2 id=&#34;recommended-extensions&#34;&gt;Recommended Extensions&lt;/h2&gt;
+
+&lt;p&gt;We recommend installing the following extensions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi&#34;&gt;React Developer Tools&lt;/a&gt;: Self-explanatory.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa&#34;&gt;JSON Formatter&lt;/a&gt;: This displays JSON in a readable format in Chrome. There are several extensions that share this name. Accept no imitations; use the one I link to here.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop&#34;&gt;Postman&lt;/a&gt;: This gives you a nice interface for building HTTP requests (a REST client), including POST requests—ideal for testing APIs. Also available as a free standalone &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;desktop app&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;Paw&lt;/h4&gt;
+    
+      &lt;div class=&#34;emoji&#34;&gt;
+        &lt;i class=&#34;fa fa-paw&#34;&gt;&lt;/i&gt;
+      &lt;/div&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;https://paw.cloud/&#34;&gt;Paw&lt;/a&gt; is a very nice alternative to Postman, but it isn&amp;rsquo;t free. If you like &lt;del&gt;making your student debt even higher&lt;/del&gt; supporting fellow developers by buying commercial software, give Paw a shot.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Command Line</title>
+      <link>http://xternbootcamp17.github.io/setup-mac/command-line/</link>
+      <pubDate>Fri, 10 Jun 2016 23:02:52 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-mac/command-line/</guid>
+      <description>
+
+&lt;p&gt;You&amp;rsquo;ll be using a command-line throughout the setup process.&lt;/p&gt;
+
+&lt;h2 id=&#34;terminal-iterm2-or-hyper&#34;&gt;Terminal, iTerm2, or Hyper&lt;/h2&gt;
+
+&lt;p&gt;macOS comes with Terminal, which you can find at &lt;code&gt;/Applications/Utilities/Terminal.app&lt;/code&gt; or by searching for Terminal in Spotlight.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/terminal-icon.png&#34; alt=&#34;Terminal.app&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Many Mac users prefer &lt;a href=&#34;https://www.iterm2.com/index.html&#34;&gt;iTerm2&lt;/a&gt; over the built-in Terminal. iTerm2 is free, so I encourage you to check it out. It has some advanced features that the built-in Terminal lacks. I&amp;rsquo;ve been using &lt;a href=&#34;https://hyper.is/&#34;&gt;Hyper&lt;/a&gt; for about a month now. Hyper is written in JavaScript, HTML, and CSS and is cross-platform, which is particularly appealing for class.&lt;/p&gt;
+
+&lt;p&gt;Whichever you choose, you&amp;rsquo;ll use it frequently enough that I recommend keeping it in your Dock.&lt;/p&gt;
+
+&lt;p&gt;When you launch your terminal, it will (by default) run a UNIX shell called Bash. Bash will present a command prompt, indicated by &lt;code&gt;$&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;zsh&#34;&gt;ZSH&lt;/h2&gt;
+
+&lt;p&gt;I am a big fan of ZSH, which is an alternative to Bash. Even better is &lt;a href=&#34;http://ohmyz.sh/&#34;&gt;Oh My ZSH&lt;/a&gt;, which is a framework for managing ZSH configuration. I highly recommend checking it out. You&amp;rsquo;ll still use Terminal.app, iTerm2, or Hyper to launch your shell, but it will run ZSH in place of Bash.&lt;/p&gt;
+
+&lt;p&gt;I will be using ZSH (with Oh My ZSH) in class, but most of what we&amp;rsquo;ll do works just as well in Bash.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;Command Line Power User&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;If you&amp;rsquo;re not very familiar with UNIX shells, or if you&amp;rsquo;d like to learn some cool tricks, including Oh My ZSH features, sign up for Wes Bos&amp;rsquo;s free &lt;strong&gt;&lt;a href=&#34;http://commandlinepoweruser.com/&#34;&gt;Command Line Power User&lt;/a&gt;&lt;/strong&gt; videos. (They&amp;rsquo;re all on YouTube, but signing up for the email makes it a little easier to find them.)&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://xternbootcamp17.github.io/setup-mac/git/</link>
+      <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-mac/git/</guid>
+      <description>
+
+&lt;h2 id=&#34;about-git&#34;&gt;About Git&lt;/h2&gt;
+
+&lt;p&gt;Git is a distributed version control system. (But you knew that already, because you totally completed a &lt;a href=&#34;http://xternbootcamp17.github.io/prereqs/git/&#34;&gt;Git tutorial&lt;/a&gt;&amp;mdash;&lt;em&gt;right&lt;/em&gt;?) If you have previously installed Xcode and its command-line tools, you may already have Git installed. Find out by entering the following command:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/cmd.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+  
+&lt;pre&gt;
+&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;
+&lt;/span
+&gt;&lt;span class=&#34;terminal-commands&#34;&gt;git --version
+&lt;span class=&#34;output-line&#34;&gt;git version 2.12.2&lt;/span&gt;
+
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you see something like &lt;code&gt;git version 2.12.2&lt;/code&gt;, then you already have Git. If not, skip to the next section to install Homebrew. If you have Git, but the version number is lower than 2.12.2 (as of April 11, 2017), then your version of Git is out of date. Continue to the next step to install Homebrew.&lt;/p&gt;
+
+&lt;p&gt;If your Git version is up-to-date, skip to the Git Configuration section.&lt;/p&gt;
+
+&lt;h2 id=&#34;homebrew&#34;&gt;Homebrew&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://brew.sh&#34;&gt;Homebrew&lt;/a&gt; is a package manager for OS X. That is, it manages the installation of certain software—especially UNIX tools—and the installed versions of that software.&lt;/p&gt;
+
+&lt;p&gt;Install Homebrew with the following command:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/cmd.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;ruby -e &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;#34;
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;installing-git-with-homebrew&#34;&gt;Installing Git with Homebrew&lt;/h2&gt;
+
+&lt;p&gt;If you do not have Git installed at all, or if your version is out of date, run the following command to install the latest version:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/cmd.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;brew install git
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now check your Git version again.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/cmd.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;git --version
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You should see an up-to-date version number.&lt;/p&gt;
+
+&lt;p&gt;The next time a new version of Git is released, just type the following commands:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/cmd.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;brew update           # This updates Homebrew so it knows about the latest versions.
+brew upgrade git      # This upgrades Git itself.
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;configuring-git&#34;&gt;Configuring Git&lt;/h2&gt;
+
+&lt;p&gt;Next, tell Git what name and email address it should use to sign code that you&amp;rsquo;ve authored. Enter the following commands, substituting your actual name and email address:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/cmd.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;git config --global user.name &amp;#34;Your Full Name&amp;#34;
+git config --global user.email &amp;#34;youremailaddress@example.com&amp;#34;
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;GitHub Desktop&lt;/h4&gt;
+    
+      &lt;div class=&#34;emoji&#34;&gt;
+        &lt;i class=&#34;fa fa-github-alt&#34;&gt;&lt;/i&gt;
+      &lt;/div&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://desktop.github.com/&#34;&gt;GitHub Desktop&lt;/a&gt;&lt;/strong&gt; is a very nice, free graphical interface for Git. Although we&amp;rsquo;ll use Git from the command-line a great deal, we&amp;rsquo;ll also look at how GitHub Desktop can make certain tasks easier.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

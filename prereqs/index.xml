@@ -136,7 +136,16 @@
 
 &lt;p&gt;If you already have a decent handle on these topics, you&amp;rsquo;ll fly right through the lessons, but you may pick up a little bit of new knowledge along the way. I often find that when I review the basics, there&amp;rsquo;s something that I haven&amp;rsquo;t thought about in a long time that I ought to be using more often.&lt;/p&gt;
 
-&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;One of these courses or the other should be plenty of preparation. Don&amp;rsquo;t feel like you need to complete both, unless you just want the extra practice.&lt;/p&gt;
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;Note&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;One of these courses or the other should be plenty of preparation. Don&amp;rsquo;t feel like you need to complete both, unless you just want the extra practice.&lt;/p&gt;
+
+  &lt;/div&gt;
 &lt;/div&gt;
 
 
@@ -168,7 +177,7 @@
 
 &lt;h2 id=&#34;intermediate&#34;&gt;Intermediate&lt;/h2&gt;
 
-&lt;h3 id=&#34;javascript-30-by-wes-bos&#34;&gt;JavaScript 30 by Wes Bos:&lt;/h3&gt;
+&lt;h3 id=&#34;javascript-30-by-wes-bos&#34;&gt;JavaScript 30 by Wes Bos&lt;/h3&gt;
 
 &lt;p&gt;I highly recommend completing &lt;a href=&#34;https://javascript30.com/&#34;&gt;JavaScript 30&lt;/a&gt; by Wes Bos. It&amp;rsquo;s a series of thirty 20-minute videos, meant to be completed over the course of 30 days. That will take some planning on your part, obviously; you can&amp;rsquo;t wait until the last second to dive into this stuff. But it&amp;rsquo;s not a huge daily time commitment, and it will help a great deal.&lt;/p&gt;
 </description>
@@ -184,7 +193,16 @@
 
 &lt;p&gt;We will be using Git for source code management&amp;ndash;and hosting our repositories on &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;&amp;ndash;throughout the bootcamp. It will help if you&amp;rsquo;re not seeing it for the first time.&lt;/p&gt;
 
-&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;Once again, one of these courses or the other should be plenty of preparation.&lt;/p&gt;
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;Note&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;Once again, one of these courses or the other should be plenty of preparation.&lt;/p&gt;
+
+  &lt;/div&gt;
 &lt;/div&gt;
 
 

@@ -1,26 +1,38 @@
+@import url("https://cloud.typography.com/6104776/6029772/css/fonts.css");
 #header-wrapper {
-    background: #404040;
-    border-bottom: 4px solid #7a7a7a;
+  background: #404040;
+  border-bottom: 4px solid #7a7a7a;
 }
 #header {
-    color: #fff;
-    text-align: center;
+  color: #fff;
+  text-align: center;
 }
 #header a {
-    display: inline-block;
+  display: inline-block;
 }
 #header #logo-svg {
-    width: 8rem;
-    height: 2rem;
+  width: 8rem;
+  height: 2rem;
 }
 #header #logo-svg path {
-    fill: #fff;
+  fill: #fff;
+}
+#header svg {
+  width: 100%;
+}
+#header svg * {
+  fill: #ffce00;
 }
 #sidebar {
   background-color: #333;
 }
-#sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
+#sidebar ul.topics > li.parent,
+#sidebar ul.topics > li.active {
   background-color: #292929;
+}
+#body-inner {
+  margin: 0 auto 5rem auto;
+  max-width: 70em;
 }
 date {
   display: block;
@@ -47,7 +59,7 @@ date {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   border: 0;
 }
 p.file {
@@ -61,60 +73,50 @@ p.file + p {
 p.file + p + pre {
   margin-top: 0;
 }
-
 #home h1 {
   background: #ffce00;
   padding-top: 1.5rem;
   margin-bottom: 0;
   margin-top: 3rem;
 }
-
 #home .padding {
   margin-left: auto;
   margin-right: auto;
   width: 50em;
 }
-
-#home .padding p,
-#home .padding li {
-  text-align: left;
-}
-
 #home .padding li {
   list-style-type: disc;
 }
-
 #home .padding h2 {
   font-size: 1.1rem;
   text-align: center;
 }
-
-#header svg * {
-  fill: #ffce00;
+#home .padding p,
+#home .padding li {
+  text-align: left;
 }
-
+h2 {
+  text-transform: none;
+}
 figure {
   background-color: #ddd;
   padding: 0.5rem;
   text-align: center;
 }
-
 #body figure img {
   margin: 0 auto;
 }
-
-/*#footer {
-  text-align: center;
-}*/
-
-/* Prism syntax highlighting */
-/* Need to override a number of rules included in the theme */
-pre,
+pre[class*="language-"],
 .entry-content pre {
   background: #f6f6f6;
   border: 1px solid #eee;
-  tab-size: 2;
-  hyphens: none;
+  -moz-tab-size: 2;
+    -o-tab-size: 2;
+       tab-size: 2;
+  -webkit-hyphens: none;
+     -moz-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
   position: relative;
   padding: 0;
 }
@@ -123,88 +125,80 @@ code {
   padding: 0;
   margin: 0;
 }
-
+code + .copy-to-clipboard {
+  background-image: url("/images/clippy-dark.svg");
+  background-size: 12px 12px;
+  height: 16px;
+}
 pre,
 pre[class*="language-"],
 code,
 code[class*="language-"] {
-  font-family: "Operator Mono A", "Operator Mono B", 'Fira Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-family: "Operator Mono A", "Operator Mono B", "Fira Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
-
-pre code {
+pre[class*="language-"] code {
   display: block;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
   -webkit-box-flex: 1;
-  flex: 1;
+  -ms-flex: 1;
+      flex: 1;
   padding: 1.5em;
 }
-
 pre .command-line-prompt {
   border-right: 1px solid #ddd;
 }
-
 pre .command-line-prompt > span:before {
   color: #ccc;
 }
-
-/* Line highlight */
+pre .copy-to-clipboard {
+  background-color: #ccc;
+  background-image: url("/images/clippy.svg");
+}
 .line-highlight {
   margin-top: 1.5em;
 }
-
-/* Language label */
 pre[class*="language-"],
 .entry-content pre[class*="language-"] {
   padding: 0;
   margin: 0.5em 0;
 }
-
-/* Line number */
 pre.line-numbers,
 .entry-content pre.line-numbers {
   padding-left: 0.5em;
 }
-
 .line-numbers .line-numbers-rows {
   border-right: 1px solid #ddd;
   left: -1em;
   top: 1.5em;
 }
-
 pre.line-numbers code,
 .entry-content pre.line-numbers code {
   padding-left: 3em;
 }
-
 .line-numbers-rows > span:before {
   color: #bbb;
 }
-
-/* Language label AND line numbers */
 pre.line-numbers[rel],
 .entry-content pre.line-numbers[rel] {
   padding-left: 0;
 }
-
 pre.line-numbers[rel] .line-numbers-rows,
 .entry-content pre.line-numbers[rel] .line-numbers-rows {
   left: -0.4em;
 }
-
 pre.line-numbers[rel] code,
 .entry-content pre.line-numbers[rel] code {
   padding-left: 3.4em;
 }
-
 pre[rel] {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
-
 pre[rel="CSS"]::before {
-  background: #1A8FE3;
+  background: #1a8fe3;
 }
-
 pre[rel]::before {
   -webkit-writing-mode: vertical-lr;
   -ms-writing-mode: tb-lr;
@@ -212,7 +206,7 @@ pre[rel]::before {
   font-size: 0.9em;
   font-weight: 300;
   content: attr(rel);
-  color: white;
+  color: #fff;
   background: #999;
   padding: 1px 0 1em;
   text-indent: 15px;
@@ -222,7 +216,6 @@ pre[rel]::before {
   top: auto;
   left: auto;
 }
-
 pre[rel="html"]::before,
 pre[rel="css"]::before,
 pre[rel="jsx"]::before,
@@ -231,15 +224,13 @@ pre[rel="json"]::before,
 pre[rel="js"]::before {
   text-transform: uppercase;
 }
-
-pre[rel="Ruby (IRB)"] {
+pre[rel="Ruby(IRB)"] {
   min-height: 6.8em;
 }
 pre[rel="Ruby"]::before,
 pre[rel="Ruby (IRB)"]::before {
-  background: #D11149;
+  background: #d11149;
 }
-
 pre[rel="JavaScript"],
 pre[rel="TypeScript"] {
   min-height: 7em;
@@ -248,29 +239,233 @@ pre[rel="js"]::before,
 pre[rel="jsx"]::before,
 pre[rel="JavaScript"]::before,
 pre[rel="TypeScript"]::before {
-  background: #FF9800;
+  background: #ff9800;
 }
-
 pre[rel="JSON"]::before {
   background: #624763;
 }
-
 pre[rel="Terminal"] {
   min-height: 6.2em;
 }
 pre[rel="Terminal"]::before {
-  background: #2F1847;
+  background: #2f1847;
 }
-
 pre[rel="MetaSploit"] {
   min-height: 6.8em;
 }
-
 pre[rel="JSON"]::before,
 pre[rel="Terminal"]::before {
   letter-spacing: 1px;
 }
-
-pre .copy-to-clipboard {
-  background-color: #ccc;
+.copy-to-clipboard:hover {
+  background-color: #ddd;
 }
+.shell {
+  box-shadow: rgba(0,0,0,0.2) 0px 3px 20px;
+  margin: 0 auto;
+  max-width: 60em;
+}
+.shell.macos {
+  border-radius: 5px 5px 5px 5px;
+}
+.shell.macos .shell-body {
+  border: 1px solid #2e4759;
+  border-radius: 0 0 5px 5px;
+}
+.shell.macos pre {
+  border-radius: 0;
+}
+.shell.windows {
+  border: 1px solid #1883d7;
+}
+.shell.windows pre {
+  border-radius: 0;
+}
+.shell img {
+  margin: 0 !important;
+}
+.shell .controls {
+  float: left;
+}
+.shell pre {
+  background-color: #2e4759;
+  color: #fff;
+  margin: 0 auto;
+  padding: 10px;
+  font-weight: 500;
+  font-family: "Operator Mono", "Fira Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  line-height: 1.25;
+  white-space: pre !important;
+}
+.shell pre .terminal-commands {
+  overflow-x: scroll;
+}
+.shell pre .copy-to-clipboard:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+.shell .copy-to-clipboard {
+  background-image: url("/images/clippy-light.svg");
+  background-color: transparent;
+}
+.shell .command-line-prompt {
+  border: 0;
+  margin-right: 0;
+  font-weight: 300;
+}
+.shell .output-line {
+  color: #eee;
+  position: absolute;
+  left: 10px;
+  font-weight: 300;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Operator Mono A", "Operator Mono B", "Fira Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+.bar {
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  float: none;
+}
+.macos .bar {
+  border: 1px solid rgba(223,223,223,0.4);
+  border-radius: 5px 5px 0 0;
+  background-color: #f6f6f6;
+  background: linear-gradient(to bottom, #f0f0f0 0%, #eceeee 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+.macos .controls {
+  padding-left: 10px;
+  position: absolute;
+}
+.macos .windows-controls {
+  display: none;
+  display: none;
+}
+.macos .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 4px 0 0;
+  box-sizing: content-box;
+}
+.windows .bar {
+  background: #fff;
+  box-sizing: content-box;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  text-align: left;
+}
+.windows .windows.icon {
+  margin: 0 8px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.windows .windows.icon img {
+  height: 16px;
+}
+.macos .windows,
+.windows .macos {
+  display: none;
+}
+.windows-controls {
+  background-image: url("/images/windows-controls.png");
+  float: right;
+  width: 137px;
+  height: 30px;
+}
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+  .windows-controls {
+    background-image: url("/images/windows-controls@2x.png");
+    background-size: 137px 30px;
+  }
+}
+.windows .dot {
+  display: none;
+}
+.red {
+  background: #ff6057;
+  border: 1px solid #e14640;
+}
+.yellow {
+  background: #ffbd2e;
+  border: 1px solid #dfa123;
+}
+.green {
+  background: #27c93f;
+  border: 1px solid #1dad2b;
+}
+.shell-body {
+  font-size: 18px !important;
+}
+.shell .copy-to-clipboard.tooltipped-s:after,
+.shell .copy-to-clipboard.tooltipped-n:after {
+  -webkit-transform: translateX(10%);
+          transform: translateX(10%);
+}
+.aside {
+  margin: 2rem auto;
+  max-width: 50em;
+  position: relative;
+  padding-bottom: 1rem;
+  text-shadow: rgba(0,0,0,0.8) 1px 0 1px;
+  color: #fff;
+}
+.aside h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.aside .emoji {
+  float: left;
+  font-size: 400%;
+  margin: 0 1rem;
+}
+.aside .body {
+  padding: 0 1rem;
+}
+.aside a {
+  color: #ffce00;
+}
+#body .aside a.highlight:after {
+  background-color: #ffce00;
+}
+.aside.aside-tip {
+  background-color: #e6f9e6;
+  background-image: url("/images/sayagata.png"), linear-gradient(24deg, #5cb85c 0%, #77c8be 100%);
+}
+.aside.aside-tip h4 {
+  background: rgba(92,184,92,0.8);
+}
+.aside.aside-note,
+.aside.aside-info {
+  background-color: #2b59c3;
+  background-image: url("/images/sayagata.png"), linear-gradient(24deg, #2b59c3 0%, #77c8be 100%);
+}
+.aside.aside-note h4,
+.aside.aside-info h4 {
+  background: rgba(43,89,195,0.4);
+}
+.aside.aside-danger {
+  background-color: #cc2936;
+  background-image: url("/images/sayagata.png"), linear-gradient(24deg, #c92936 0%, #ebbab9 100%);
+}
+.aside.aside-danger h4 {
+  background: rgba(201,41,54,0.4);
+}
+/*# sourceMappingURL=xtern.css.map */
