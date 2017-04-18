@@ -447,7 +447,7 @@ pre[rel="Terminal"]::before {
 }
 .aside.aside-tip {
   background-color: #e6f9e6;
-  background-image: url("/images/sayagata.png"), linear-gradient(24deg, #5cb85c 0%, #77c8be 100%);
+  background-image: url("/images/y-pattern.png"), linear-gradient(24deg, #5cb85c 0%, #77c8be 100%);
 }
 .aside.aside-tip h4 {
   background: rgba(92,184,92,0.8);
@@ -455,7 +455,7 @@ pre[rel="Terminal"]::before {
 .aside.aside-note,
 .aside.aside-info {
   background-color: #2b59c3;
-  background-image: url("/images/sayagata.png"), linear-gradient(24deg, #2b59c3 0%, #77c8be 100%);
+  background-image: url("/images/y-pattern.png"), linear-gradient(24deg, #2b59c3 0%, #77c8be 100%);
 }
 .aside.aside-note h4,
 .aside.aside-info h4 {
