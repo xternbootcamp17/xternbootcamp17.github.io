@@ -148,7 +148,7 @@ pre[class*="language-"] code {
 pre .command-line-prompt {
   border-right: 1px solid #ddd;
 }
-pre .command-line-prompt > span:before {
+pre .command-line-prompt > span::before {
   color: #ccc;
 }
 pre .copy-to-clipboard {
@@ -176,7 +176,7 @@ pre.line-numbers code,
 .entry-content pre.line-numbers code {
   padding-left: 3em;
 }
-.line-numbers-rows > span:before {
+.line-numbers-rows > span::before {
   color: #bbb;
 }
 pre.line-numbers[rel],
@@ -445,6 +445,12 @@ pre[rel="Terminal"]::before {
 #body .aside a.highlight:after {
   background-color: #ffce00;
 }
+.aside code {
+  background: rgba(64,64,64,0.2);
+  color: #fff;
+  font-size: 100%;
+  padding: 2px;
+}
 .aside.aside-tip {
   background-color: #e6f9e6;
   background-image: url("/images/y-pattern.png"), linear-gradient(24deg, #5cb85c 0%, #77c8be 100%);
@@ -467,5 +473,58 @@ pre[rel="Terminal"]::before {
 }
 .aside.aside-danger h4 {
   background: rgba(201,41,54,0.4);
+}
+#node-logo {
+  background-color: #999;
+  background-image: url("/images/js-pattern.png"), linear-gradient(24deg, #999 0%, #d3d3d3 100%);
+  margin: 0 -6rem;
+  text-align: center;
+}
+#node-logo svg {
+  width: 12rem;
+  max-height: 12rem;
+  max-width: 90%;
+}
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+  #node-logo {
+    background-image: linear-gradient(24deg, #999 0%, #d3d3d3 100%);
+  }
+  #node-logo div {
+    background-image: url("/images/js-pattern@2x.png");
+    background-size: 192px 189px;
+  }
+}
+body[data-url="/setup-mac/node/"] h1 {
+  display: none;
+}
+body[data-url="/setup-mac/git/"] h1 {
+  display: none;
+}
+#git-logo {
+  background-color: #f54d27;
+  background-image: url("/images/git-pattern.png"), linear-gradient(24deg, #f54d27 0%, #f571b5 100%);
+  color: #fff;
+  margin: 0 -6rem;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Operator Mono A", "Operator Mono B", "Fira Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+#git-logo div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem 0;
+}
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+  #git-logo {
+    background-image: linear-gradient(24deg, #f54d27 0%, #f571b5 100%);
+  }
+  #git-logo div {
+    background-image: url("/images/git-pattern@2x.png");
+    background-size: 267px 267px;
+  }
 }
 /*# sourceMappingURL=xtern.css.map */
