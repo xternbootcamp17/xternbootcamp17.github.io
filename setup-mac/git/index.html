@@ -120,17 +120,17 @@
           
           
           
-            <li class="dd-item " data-nav-id="/setup-mac/google-chrome/">
-              <a href="/setup-mac/google-chrome/">
-                <span>Google Chrome     </i></span>
+            <li class="dd-item " data-nav-id="/setup-mac/chrome/">
+              <a href="/setup-mac/chrome/">
+                <span>Chrome     </i></span>
               </a>
             </li>
           
           
           
-            <li class="dd-item " data-nav-id="/setup-mac/command-line/">
-              <a href="/setup-mac/command-line/">
-                <span>Command Line     </i></span>
+            <li class="dd-item " data-nav-id="/setup-mac/terminal/">
+              <a href="/setup-mac/terminal/">
+                <span>Terminal     </i></span>
               </a>
             </li>
           
@@ -147,6 +147,14 @@
             <li class="dd-item " data-nav-id="/setup-mac/node/">
               <a href="/setup-mac/node/">
                 <span>Node.js     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/editor/">
+              <a href="/setup-mac/editor/">
+                <span>Editor     </i></span>
               </a>
             </li>
           
@@ -200,7 +208,6 @@
 <ul>
 <li>
 <ul>
-<li><a href="#about-git">About Git</a></li>
 <li><a href="#homebrew">Homebrew</a></li>
 <li><a href="#installing-git-with-homebrew">Installing Git with Homebrew</a></li>
 <li><a href="#configuring-git">Configuring Git</a></li>
@@ -221,7 +228,11 @@
 
 
 
-<div id="git-logo"><div><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="218.37" height="91.21" viewBox="0 0 218.37 91.21">
+<div class="page-heading"><div>
+
+
+<svg role="img" aria-labelledby="git-svg-title" id="git-logo-svg" data-name="git-logo-svg" xmlns="http://www.w3.org/2000/svg" width="218.37" height="91.21" viewBox="0 0 218.37 91.21">
+  <title id="git-svg-title">Git</title>
   <defs>
     <style>
       .cls-1 {
@@ -235,9 +246,10 @@
   <path class="cls-1" d="M218.37,64.42a34.81,34.81,0,0,1-14.19,3.48c-10.36,0-14.27-4.17-14.27-14V31.09c0-.52,0-.87-.7-.87h-6.09V22.47c7.66-.87,10.71-4.7,11.66-14.19h8.27V20.64c0,.61,0,.87.7.87H216v8.7h-13V51c0,5.14,1.22,7.14,5.92,7.14a20.72,20.72,0,0,0,7-1.39Z"/>
   <path class="cls-1" d="M89.42,41.58,49.63,1.79a5.87,5.87,0,0,0-8.3,0l-8.26,8.26L43.55,20.54a7,7,0,0,1,8.83,8.89l10.1,10.1a7,7,0,1,1-4.18,3.94L48.87,34V58.83a7,7,0,1,1-5.74-.2v-25a6.91,6.91,0,0,1-2.29-1.52,7,7,0,0,1-1.5-7.64L29,14.11,1.72,41.4a5.87,5.87,0,0,0,0,8.3L41.51,89.49a5.87,5.87,0,0,0,8.3,0L89.42,49.88A5.87,5.87,0,0,0,89.42,41.58Z"/>
 </svg>
-</div></div>
 
-<h2 id="about-git">About Git</h2>
+
+
+</div></div>
 
 <p>Git is a distributed version control system. (But you knew that already, because you totally completed a <a href="/prereqs/git/">Git tutorial</a>&mdash;<em>right</em>?) If you have previously installed Xcode and its command-line tools, you may already have Git installed. Find out by entering the following command:</p>
 
@@ -282,11 +294,28 @@
 
 <p>If you see something like <code>git version 2.12.2</code>, then you already have Git. If not, skip to the next section to install Homebrew. If you have Git, but the version number is lower than 2.12.2 (as of April 11, 2017), then your version of Git is out of date. Continue to the next step to install Homebrew.</p>
 
-<p>If your Git version is up-to-date, skip to the Git Configuration section.</p>
+<p>If your Git version is up-to-date, skip to the <a href="#configuring-git">Git Configuration</a> section.</p>
+
+
+  <div class="aside aside-info">
+  
+    <h4>GitHub Desktop</h4>
+    
+      <div class="emoji">
+        <i class="fa fa-github-alt"></i>
+      </div>
+    
+  
+  <div class="body">
+  <p><strong><a href="https://desktop.github.com/">GitHub Desktop</a></strong> is a very nice, free graphical interface for Git. Although we&rsquo;ll use Git from the command-line a great deal, we&rsquo;ll also look at how GitHub Desktop can make certain tasks easier.</p>
+
+  </div>
+</div>
+
 
 <h2 id="homebrew">Homebrew</h2>
 
-<p><a href="http://brew.sh">Homebrew</a> is a package manager for OS X. That is, it manages the installation of certain software—especially UNIX tools—and the installed versions of that software.</p>
+<p><strong><a href="http://brew.sh">Homebrew</a></strong> is a package manager for macOS. That is, it manages the installation of certain software&mdash;especially UNIX tools&mdash;and the installed versions of that software.</p>
 
 <p>Install Homebrew with the following command:</p>
 
@@ -477,23 +506,6 @@ git config --global user.email &#34;youremailaddress@example.com&#34;
 </div>
 
 
-  <div class="aside aside-info">
-  
-    <h4>GitHub Desktop</h4>
-    
-      <div class="emoji">
-        <i class="fa fa-github-alt"></i>
-      </div>
-    
-  
-  <div class="body">
-  <p><strong><a href="https://desktop.github.com/">GitHub Desktop</a></strong> is a very nice, free graphical interface for Git. Although we&rsquo;ll use Git from the command-line a great deal, we&rsquo;ll also look at how GitHub Desktop can make certain tasks easier.</p>
-
-  </div>
-</div>
-
-
-
       
       
       </div>
@@ -503,7 +515,7 @@ git config --global user.email &#34;youremailaddress@example.com&#34;
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="/setup-mac/command-line"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-prev" href="/setup-mac/terminal"> <i class="fa fa-chevron-left"></i></a>
         <a class="nav nav-next" href="/setup-mac/node" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
     </div>
 

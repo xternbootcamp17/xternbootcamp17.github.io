@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>CodeWars</title>
+    <title>Terminal</title>
     <link href="http://xternbootcamp17.github.io//css/nucleus.css" rel="stylesheet">
     <link href="http://xternbootcamp17.github.io//css/font-awesome.min.css" rel="stylesheet">
     
@@ -25,7 +25,7 @@
     <link href="/css/prism.css" rel="stylesheet">
 <link href="/css/xtern.css" rel="stylesheet">
   </head>
-  <body class="" data-url="/prereqs/codewars/">
+  <body class="" data-url="/setup-mac/terminal/">
     
     <nav id="sidebar">
   <div id="header-wrapper">
@@ -43,7 +43,7 @@
       
       
 
-      <li class="dd-item  parent" data-nav-id="/prereqs/">
+      <li class="dd-item  " data-nav-id="/prereqs/">
         <a href="/prereqs/">
           <span>
             
@@ -57,7 +57,7 @@
           
           
           
-            <li class="dd-item active" data-nav-id="/prereqs/codewars/">
+            <li class="dd-item " data-nav-id="/prereqs/codewars/">
               <a href="/prereqs/codewars/">
                 <span>CodeWars     </i></span>
               </a>
@@ -104,7 +104,7 @@
       
       
 
-      <li class="dd-item  " data-nav-id="/setup-mac/">
+      <li class="dd-item  parent" data-nav-id="/setup-mac/">
         <a href="/setup-mac/">
           <span>
             
@@ -128,7 +128,7 @@
           
           
           
-            <li class="dd-item " data-nav-id="/setup-mac/terminal/">
+            <li class="dd-item active" data-nav-id="/setup-mac/terminal/">
               <a href="/setup-mac/terminal/">
                 <span>Terminal     </i></span>
               </a>
@@ -195,11 +195,11 @@
                   
                     
                     
-                <a href="/prereqs/" itemprop="url"><span itemprop="title">Prerequisites</span></a> <i class="fa fa-angle-right"></i>
+                <a href="/setup-mac/" itemprop="url"><span itemprop="title">Setup for Mac</span></a> <i class="fa fa-angle-right"></i>
                     
                   
                 
-                <span itemprop="title"> CodeWars</span>
+                <span itemprop="title"> Terminal</span>
               </div>
               
                   <div class="progress">
@@ -208,17 +208,7 @@
 <ul>
 <li>
 <ul>
-<li>
-<ul>
-<li><a href="#tl-dr">TL;DR</a></li>
-</ul></li>
-<li><a href="#welcome">Welcome!</a>
-<ul>
-<li><a href="#signing-up">Signing up</a></li>
-<li><a href="#following-a-user">Following a User:</a></li>
-<li><a href="#finding-a-particular-exercise">Finding a Particular Exercise:</a></li>
-<li><a href="#other-questions">Other questions?</a></li>
-</ul></li>
+<li><a href="#zsh">Zsh</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -231,97 +221,60 @@
             
               <div id="body-inner">
                 
-                <h1>CodeWars</h1>
+                <h1>Terminal</h1>
                 
 
 
 
-<h3 id="tl-dr">TL;DR</h3>
+<div class="page-heading"><div>
 
-<ol>
-<li>Sign up at <a href="https://codewars.com">codewars.com</a> using your GitHub account.</li>
-<li>Follow <a href="https://www.codewars.com/users/sbaughman">Seth Baughman</a> and <a href="https://www.codewars.com/users/dstrus">Dave Strus</a>.</li>
-<li>Solve the problems on the list below.</li>
-<li>Email us when you&rsquo;re done so we can review your solutions. (Include your username.)</li>
-</ol>
 
-<h2 id="welcome">Welcome!</h2>
+<p><i class="fa fa-terminal"></i> terminal</p>
 
-<p>Congratulations on being accepted to the 2017 XTERN Bootcamp! This class will be a lot of fun and a lot of hard work, and by the end you&rsquo;ll be able to create front-end web applications in React, one of the hottest JavaScript libraries on the market today.</p>
 
-<p>In order to make sure everyone gets as much as possible out of this experience, it’s vitally important that everyone arrives with a solid understanding of the JavaScript language. That way, we get to focus on learning React and building cool stuff instead of spending all of our time on basic syntax.</p>
+</div></div>
 
-<p>You have already received a list of online resources that provide a basic foundation in JavaScript, HTML, and CSS (and they&rsquo;re linked again here). Once you have completed reading/watching/coding those, we have an assignment for you! The assignment should be completed and submitted to us for review before your first day of attending class.</p>
+<p>You&rsquo;ll be using a terminal app throughout the setup process, as well as in class.</p>
 
-<p>We will be using a website called CodeWars to test your knowledge of basic JavaScript. Personally, I like solving their exercises for fun, and I’ve identified 12 problems that I particularly enjoyed and that cover topics we will be using daily in class: Arrays, Objects, and String manipulation.</p>
+<p>macOS comes with <strong>Terminal.app</strong>, which you can find at <code>/Applications/Utilities/Terminal.app</code> or by searching for <em>Terminal</em> in Spotlight. It will do the job just fine, but if you&rsquo;re interesting in dressing it up or exploring other shells, read on.</p>
 
-<ul>
-<li><a href="https://www.codewars.com/kata/welcome">Welcome!</a> - 8 kyu</li>
-<li><a href="https://www.codewars.com/kata/number-of-people-in-the-bus">Number of People in the Bus</a> - 8 kyu</li>
-<li><a href="https://www.codewars.com/kata/vowel-count">Vowel Count</a> - 7 kyu</li>
-<li><a href="https://www.codewars.com/kata/mumbling">Mumbling</a> - 7kyu</li>
-<li><a href="https://www.codewars.com/kata/sum-of-two-lowest-positive-integers">Sum of two lowest positive integers</a> - 7 kyu</li>
-<li><a href="https://www.codewars.com/kata/find-how-many-times-did-a-team-from-a-given-country-win-the-champions-league">Find how many times did a team from a given country win the Champions League?</a> - 7 kyu</li>
-<li><a href="https://www.codewars.com/kata/resistor-color-codes">Resistor Color Codes</a> - 7 kyu</li>
-<li><a href="https://www.codewars.com/kata/who-likes-it">Who likes it?</a> - 6 kyu</li>
-<li><a href="https://www.codewars.com/kata/find-the-divisors">Find the divisors!</a> - 6 kyu</li>
-<li><a href="https://www.codewars.com/kata/format-a-string-of-names-like-bart-lisa-and-maggie">Format a string of names like ‘Bart, Lisa &amp; Maggie’</a> - 6 kyu</li>
-<li><a href="https://www.codewars.com/kata/decode-the-morse-code">Decode the Morse Code</a> - 6 kyu</li>
-<li><a href="https://www.codewars.com/kata/mirror-object-tcejbo-rorrim">Mirror object - tcejbo rorriM</a> - 6 kyu</li>
-</ul>
+<p><img src="/images/terminal-icon.png" alt="Terminal.app" /></p>
 
-<p>Now, you’re probably wondering <em>what the heck is a kyu?</em> On CodeWars, exercises are ranked in difficulty from 8 kyu (really easy) to 1 kyu (really, really hard).  So, the above problems aren&rsquo;t too difficult&mdash;just challenging enough to make sure that you’ll be able to do what we need to do.</p>
+<p><strong><a href="https://www.iterm2.com/index.html">iTerm2</a></strong> is a popular alternative to Terminal.app. It&rsquo;s free and includes some advanced features that the built-in Terminal lacks. Personally, I&rsquo;ve been using <strong><a href="https://hyper.is/">Hyper</a></strong> for about a month. Hyper is written in JavaScript, HTML, and CSS and is cross-platform, which is particularly appealing for class.</p>
 
-<p>So, that’s basically it. Sign up, do the problems, and send us an email when you’re done. <strong>Please be sure to include your username in the email so that we can be sure we&rsquo;re looking at the right solutions.</strong></p>
+<p>Whichever you choose, you&rsquo;ll use it frequently enough that I recommend keeping it in your Dock.</p>
 
-<p>Below, I’ve included some screenshots and instructions for how to get started.</p>
 
-<h3 id="signing-up">Signing up</h3>
+  <div class="aside aside-info">
+  
+    <h4>$ _</h4>
+    
+  
+  <div class="body">
+  <p>When you launch your terminal, it will (by default) run a UNIX shell called Bash. Bash will present a command prompt, indicated by <code>$</code>. We&rsquo;ll generally prefix terminal commands with that symbol in our documentation. You&rsquo;re not meant to type the <code>$</code> character, and it won&rsquo;t be included if you copy and paste the commands from this site.</p>
 
-<figure>
-<img src="/images/cw-ss-01.png" alt="Step 1">
-<figcaption><strong>Step 1:  Choose JavaScript as your language.</strong></figcaption>
-</figure>
+  </div>
+</div>
 
-<figure>
-<img src="/images/cw-ss-02.png" alt="Step 2">
-<figcaption><strong>Step 2: Solve the first problem.</strong></figcaption>
-</figure>
 
-<figure>
-<img src="/images/cw-ss-03.png" alt="Step 3">
-<figcaption><strong>Step 3:  Link your GitHub Account.</strong> (You do have a Github account, right? If not, <a href="https://github.com/">Sign up</a>!</figcaption>
-</figure>
+<h2 id="zsh">Zsh</h2>
 
-<h3 id="following-a-user">Following a User:</h3>
+<p>I am a big fan of Zsh (&ldquo;Z shell&rdquo;), which is an alternative to Bash. Even better is <strong><a href="http://ohmyz.sh/">Oh My Zsh</a></strong>, which is a framework for managing Zsh configuration. I love it. You&rsquo;ll still use Terminal.app, iTerm2, or Hyper to launch your shell, but it will run Zsh in place of Bash.</p>
 
-<p>Step 1:  Go to the url <a href="https://www.codewars.com/users/:username">https://www.codewars.com/users/:username</a>, where <em>:username</em> is the username of the person you want to follow.</p>
+<p>I will be using Zsh (with Oh My Zsh) in class, but most of what we&rsquo;ll do works just as well in Bash.</p>
 
-<p>For example, to follow Davey, go to <a href="https://www.codewars.com/users/dstrus">https://www.codewars.com/users/dstrus</a>.</p>
 
-<p>To follow Seth, go to <a href="https://www.codewars.com/users/sbaughman">https://www.codewars.com/users/sbaughman</a>.</p>
+  <div class="aside aside-info">
+  
+    <h4>Command Line Power User</h4>
+    
+  
+  <div class="body">
+  <p>If you&rsquo;re not very familiar with UNIX shells, or if you&rsquo;d like to learn some cool tricks, including Oh My ZSH features, sign up for Wes Bos&rsquo;s free <strong><a href="http://commandlinepoweruser.com/">Command Line Power User</a></strong> videos. (They&rsquo;re all on YouTube, but signing up for the email makes it a little easier to find them.)</p>
 
-<p>Step 2:  Click the <em>follow</em> button.</p>
+  </div>
+</div>
 
-<p><img src="/images/cw-ss-04.png" alt="Follow" /></p>
-
-<h3 id="finding-a-particular-exercise">Finding a Particular Exercise:</h3>
-
-<p>Click on the links in the list on the first page, OR&hellip;</p>
-
-<figure>
-<img src="/images/cw-ss-05.png" alt="Kata">
-<figcaption><strong>Step 1:  Click on ‘Kata’ in the side menu.</strong></figcaption>
-</figure>
-
-<figure>
-<img src="/images/cw-ss-06.png" alt="Search">
-<figcaption><strong>Step 2:  Type the name of the exercise in the search box.</strong></figcaption>
-</figure>
-
-<h3 id="other-questions">Other questions?</h3>
-
-<p>Check out the <a href="https://www.codewars.com/docs">CodeWars documentation</a> or <a href="mailto:dave@getfretless.com,seth@getfretless.com?subject=HALP">email us</a>.</p>
 
 
       
@@ -333,8 +286,8 @@
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="/prereqs/"> <i class="fa fa-chevron-left"></i></a>
-        <a class="nav nav-next" href="/prereqs/html-css" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-prev" href="/setup-mac/chrome"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="/setup-mac/git" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
     </div>
 
     </section>

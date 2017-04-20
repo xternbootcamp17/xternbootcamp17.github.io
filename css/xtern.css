@@ -95,6 +95,26 @@ p.file + p + pre {
 #home .padding li {
   text-align: left;
 }
+.download {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.download a {
+  display: inline-block;
+  padding: 1em 2em;
+  border-radius: 2px;
+  box-shadow: 4px 4px rgba(0,0,0,0.1);
+  background: #ffce00;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(128,128,128,0.8);
+  font-size: 1.5rem;
+}
+.download a:hover {
+  background: #fd1;
+}
+#body .download a.highlight::after {
+  background: transparent;
+}
 h2 {
   text-transform: none;
 }
@@ -384,7 +404,7 @@ pre[rel="Terminal"]::before {
   width: 137px;
   height: 30px;
 }
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
   .windows-controls {
     background-image: url("/images/windows-controls@2x.png");
     background-size: 137px 30px;
@@ -474,57 +494,109 @@ pre[rel="Terminal"]::before {
 .aside.aside-danger h4 {
   background: rgba(201,41,54,0.4);
 }
-#node-logo {
-  background-color: #999;
-  background-image: url("/images/js-pattern.png"), linear-gradient(24deg, #999 0%, #d3d3d3 100%);
-  margin: 0 -6rem;
-  text-align: center;
-}
-#node-logo svg {
-  width: 12rem;
-  max-height: 12rem;
-  max-width: 90%;
-}
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
-  #node-logo {
-    background-image: linear-gradient(24deg, #999 0%, #d3d3d3 100%);
-  }
-  #node-logo div {
-    background-image: url("/images/js-pattern@2x.png");
-    background-size: 192px 189px;
-  }
-}
-body[data-url="/setup-mac/node/"] h1 {
-  display: none;
-}
-body[data-url="/setup-mac/git/"] h1 {
-  display: none;
-}
-#git-logo {
-  background-color: #f54d27;
-  background-image: url("/images/git-pattern.png"), linear-gradient(24deg, #f54d27 0%, #f571b5 100%);
+.page-heading {
   color: #fff;
   margin: 0 -6rem;
   text-align: center;
-  font-size: 4rem;
-  font-family: "Operator Mono A", "Operator Mono B", "Fira Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
-#git-logo div {
+.page-heading div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 2rem 0;
 }
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
-  #git-logo {
+body[data-url="/setup-mac/node/"] h1 {
+  display: none;
+}
+body[data-url="/setup-mac/node/"] .page-heading {
+  background-color: #999;
+  background-image: url("/images/js-pattern.png"), linear-gradient(24deg, #999 0%, #d3d3d3 100%);
+}
+body[data-url="/setup-mac/node/"] .page-heading svg {
+  width: 12rem;
+  max-width: 90%;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+  body[data-url="/setup-mac/node/"] .page-heading {
+    background-image: linear-gradient(24deg, #999 0%, #d3d3d3 100%);
+  }
+  body[data-url="/setup-mac/node/"] .page-heading div {
+    background-image: url("/images/js-pattern@2x.png");
+    background-size: 192px 189px;
+  }
+}
+body[data-url="/setup-mac/git/"] h1 {
+  display: none;
+}
+body[data-url="/setup-mac/git/"] .page-heading {
+  background-color: #f54d27;
+  background-image: url("/images/git-pattern.png"), linear-gradient(24deg, #f54d27 0%, #f571b5 100%);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+  body[data-url="/setup-mac/git/"] .page-heading {
     background-image: linear-gradient(24deg, #f54d27 0%, #f571b5 100%);
   }
-  #git-logo div {
+  body[data-url="/setup-mac/git/"] .page-heading div {
     background-image: url("/images/git-pattern@2x.png");
     background-size: 267px 267px;
   }
+}
+body[data-url="/setup-mac/chrome/"] h1 {
+  display: none;
+}
+body[data-url="/setup-mac/chrome/"] .page-heading {
+  background-color: #41b3be;
+  background-image: linear-gradient(to right, #41b3be 0%, transparent 50%), linear-gradient(to left, #ffc983 15%, transparent 70%), linear-gradient(to bottom, #9bdea9 0%, transparent 100%), linear-gradient(to top, #a63680 15%, transparent 100%);
+}
+body[data-url="/setup-mac/chrome/"] .page-heading svg {
+  width: 20rem;
+  max-width: 90%;
+}
+body[data-url="/setup-mac/terminal/"] h1 {
+  display: none;
+}
+body[data-url="/setup-mac/terminal/"] .page-heading {
+  font-family: "Operator Mono A", "Operator Mono B", "Fira Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 4rem;
+  background-color: #590df6;
+  background-image: url("/images/y-pattern.png"), linear-gradient(34deg, #010efd 0%, #fe0c00 100%);
+}
+body[data-url="/setup-mac/"] h1 {
+  display: none;
+}
+body[data-url="/setup-mac/"] .page-heading {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
+  font-size: 4rem;
+  background-color: #f58122;
+  background-image: linear-gradient(#65b849 17%, #f7b423 17%, #f7b423 34%, #f58122 34%, #f58122 50%, #de3a3c 50%, #de3a3c 66%, #943f96 66%, #943f96 82%, #009fd9 82%, #009fd9 86%);
+}
+body[data-url="/setup-mac/editor/"] .page-heading {
+  color: #66595c;
+  font-family: "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
+  font-size: 4rem;
+  letter-spacing: 1rem;
+  background-color: #92d2c5;
+  background-image: linear-gradient(to bottom, #92d2c5 0%, #a7c799 100%);
+}
+body[data-url="/setup-mac/editor/"] .page-heading svg {
+  margin-right: 2rem;
+  width: 5rem;
+}
+body[data-url="/setup-mac/editor/"] .page-heading:first-of-type {
+  color: #fff;
+  font-family: "Segoe UI", "Helvetica Neue", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
+  font-size: 4rem;
+  letter-spacing: normal;
+  background: #373277;
+}
+body[data-url="/setup-mac/editor/"] .page-heading:first-of-type svg {
+  margin-right: 2rem;
+  width: 5rem;
 }
 /*# sourceMappingURL=xtern.css.map */
