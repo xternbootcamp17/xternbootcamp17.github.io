@@ -691,13 +691,11 @@ git config --global user.email &amp;#34;youremailaddress@example.com&amp;#34;
 &lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
 
 
-&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; version=&#34;1.2&#34; viewBox=&#34;0 0 442.37 270.929&#34;&gt;&lt;defs&gt;&lt;clipPath id=&#34;a&#34;&gt;&lt;path d=&#34;M239.03 226.605l-42.13 24.317c-1.578.91-2.546 2.59-2.546 4.406v48.668c0 1.817.968 3.496 2.546 4.406l42.133 24.336c1.575.907 3.517.907 5.09 0l42.126-24.336c1.57-.91 2.54-2.59 2.54-4.406v-48.668c0-1.816-.97-3.496-2.55-4.406l-42.12-24.317c-.79-.453-1.67-.68-2.55-.68-.88 0-1.76.227-2.55.68&#34;/&gt;&lt;/clipPath&gt;&lt;linearGradient id=&#34;b&#34; x1=&#34;-.348&#34; x2=&#34;1.251&#34; gradientTransform=&#34;rotate(116.114 53.1 202.97) scale(86.48)&#34; gradientUnits=&#34;userSpaceOnUse&#34;&gt;&lt;stop offset=&#34;.3&#34; stop-color=&#34;#3E863D&#34;/&gt;&lt;stop offset=&#34;.5&#34; stop-color=&#34;#55934F&#34;/&gt;&lt;stop offset=&#34;.8&#34; stop-color=&#34;#5AAD45&#34;/&gt;&lt;/linearGradient&gt;&lt;clipPath id=&#34;c&#34;&gt;&lt;path d=&#34;M195.398 307.086c.403.523.907.976 1.5 1.316l36.14 20.875 6.02 3.46c.9.52 1.926.74 2.934.665.336-.027.672-.09 1-.183l44.434-81.36c-.34-.37-.738-.68-1.184-.94l-27.586-15.93-14.582-8.39c-.414-.24-.863-.41-1.32-.53zm0 0&#34;/&gt;&lt;/clipPath&gt;&lt;linearGradient id=&#34;d&#34; x1=&#34;-.456&#34; x2=&#34;.582&#34; gradientTransform=&#34;rotate(-36.46 550.846 -214.337) scale(132.798)&#34; gradientUnits=&#34;userSpaceOnUse&#34;&gt;&lt;stop offset=&#34;.57&#34; stop-color=&#34;#3E863D&#34;/&gt;&lt;stop offset=&#34;.72&#34; stop-color=&#34;#619857&#34;/&gt;&lt;stop offset=&#34;1&#34; stop-color=&#34;#76AC64&#34;/&gt;&lt;/linearGradient&gt;&lt;clipPath id=&#34;e&#34;&gt;&lt;path d=&#34;M241.066 225.953c-.707.07-1.398.29-2.035.652l-42.01 24.247 45.3 82.51c.63-.09 1.25-.3 1.81-.624l42.13-24.336c1.3-.754 2.19-2.03 2.46-3.476l-46.18-78.89c-.34-.067-.68-.102-1.03-.102-.14 0-.28.007-.42.02&#34;/&gt;&lt;/clipPath&gt;&lt;linearGradient id=&#34;f&#34; x1=&#34;.043&#34; x2=&#34;.984&#34; gradientTransform=&#34;translate(192.862 279.652) scale(97.417)&#34; gradientUnits=&#34;userSpaceOnUse&#34;&gt;&lt;stop offset=&#34;.16&#34; stop-color=&#34;#6BBF47&#34;/&gt;&lt;stop offset=&#34;.38&#34; stop-color=&#34;#79B461&#34;/&gt;&lt;stop offset=&#34;.47&#34; stop-color=&#34;#75AC64&#34;/&gt;&lt;stop offset=&#34;.7&#34; stop-color=&#34;#659E5A&#34;/&gt;&lt;stop offset=&#34;.9&#34; stop-color=&#34;#3E863D&#34;/&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;path fill=&#34;#689f63&#34; d=&#34;M218.647 270.93c-1.46 0-2.91-.383-4.19-1.12l-13.337-7.896c-1.992-1.114-1.02-1.508-.363-1.735 2.656-.93 3.195-1.14 6.03-2.75.298-.17.688-.11.993.07l10.246 6.08c.37.2.895.2 1.238 0l39.95-23.06c.37-.21.61-.64.61-1.08v-46.1c0-.46-.24-.87-.618-1.1l-39.934-23.04c-.37-.22-.86-.22-1.23 0l-39.926 23.04c-.387.22-.633.65-.633 1.09v46.1c0 .44.24.86.62 1.07l10.94 6.32c5.94 2.97 9.57-.53 9.57-4.05v-45.5c0-.65.51-1.15 1.16-1.15h5.06c.63 0 1.15.5 1.15 1.15v45.52c0 7.92-4.32 12.47-11.83 12.47-2.31 0-4.13 0-9.21-2.5l-10.48-6.04c-2.59-1.5-4.19-4.3-4.19-7.29v-46.1c0-3 1.6-5.8 4.19-7.28l39.99-23.07c2.53-1.43 5.89-1.43 8.4 0l39.94 23.08c2.58 1.49 4.19 4.28 4.19 7.28v46.1c0 2.99-1.61 5.78-4.19 7.28l-39.94 23.07c-1.28.74-2.73 1.12-4.21 1.12&#34;/&gt;&lt;path fill=&#34;#689f63&#34; d=&#34;M230.987 239.164c-17.48 0-21.145-8.024-21.145-14.754 0-.64.516-1.15 1.157-1.15h5.16c.57 0 1.05.415 1.14.978.78 5.258 3.1 7.91 13.67 7.91 8.42 0 12-1.902 12-6.367 0-2.57-1.02-4.48-14.1-5.76-10.94-1.08-17.7-3.49-17.7-12.24 0-8.06 6.8-12.86 18.19-12.86 12.79 0 19.13 4.44 19.93 13.98.03.33-.09.65-.31.89-.22.23-.53.37-.85.37h-5.19c-.54 0-1.01-.38-1.12-.9-1.25-5.53-4.27-7.3-12.48-7.3-9.19 0-10.26 3.2-10.26 5.6 0 2.91 1.26 3.76 13.66 5.4 12.28 1.63 18.11 3.93 18.11 12.56 0 8.7-7.26 13.69-19.92 13.69m48.66-48.89h1.34c1.1 0 1.31-.77 1.31-1.22 0-1.18-.81-1.18-1.26-1.18h-1.38zm-1.63-3.78h2.97c1.02 0 3.02 0 3.02 2.28 0 1.59-1.02 1.92-1.63 2.12 1.19.08 1.27.86 1.43 1.96.08.69.21 1.88.45 2.28h-1.83c-.05-.4-.33-2.6-.33-2.72-.12-.49-.29-.73-.9-.73h-1.51v3.46h-1.67zm-3.57 4.3c0 3.58 2.89 6.48 6.44 6.48 3.58 0 6.47-2.96 6.47-6.48 0-3.59-2.93-6.44-6.48-6.44-3.5 0-6.44 2.81-6.44 6.43m14.16.03c0 4.24-3.47 7.7-7.7 7.7-4.2 0-7.7-3.42-7.7-7.7 0-4.36 3.58-7.7 7.7-7.7 4.15 0 7.69 3.35 7.69 7.7&#34;/&gt;&lt;path fill=&#34;#fff&#34; fill-rule=&#34;evenodd&#34; d=&#34;M94.936 90.55c0-1.84-.97-3.53-2.558-4.445l-42.356-24.37c-.715-.42-1.516-.64-2.328-.67h-.438c-.812.03-1.613.25-2.34.67L2.562 86.105C.984 87.025 0 88.715 0 90.555l.093 65.64c0 .91.47 1.76 1.27 2.21.78.48 1.76.48 2.54 0l25.18-14.42c1.59-.946 2.56-2.618 2.56-4.44V108.88c0-1.83.97-3.52 2.555-4.43l10.72-6.174c.796-.46 1.67-.688 2.56-.688.876 0 1.77.226 2.544.687l10.715 6.172c1.586.91 2.56 2.6 2.56 4.43v30.663c0 1.82.983 3.5 2.565 4.44l25.164 14.41c.79.47 1.773.47 2.56 0 .776-.45 1.268-1.3 1.268-2.21zm199.868 34.176c0 .457-.243.88-.64 1.106l-14.548 8.386c-.395.227-.883.227-1.277 0l-14.55-8.386c-.4-.227-.64-.65-.64-1.106V107.93c0-.458.24-.88.63-1.11l14.54-8.4c.4-.23.89-.23 1.29 0l14.55 8.4c.4.23.64.652.64 1.11zM298.734.324c-.794-.442-1.76-.43-2.544.027-.78.46-1.262 1.3-1.262 2.21v65c0 .64-.34 1.23-.894 1.55-.55.32-1.235.32-1.79 0L281.634 63c-1.58-.914-3.526-.914-5.112 0l-42.37 24.453c-1.583.91-2.56 2.6-2.56 4.42v48.92c0 1.83.977 3.51 2.56 4.43l42.37 24.47c1.582.91 3.53.91 5.117 0l42.37-24.48c1.58-.92 2.56-2.6 2.56-4.43V18.863c0-1.856-1.01-3.563-2.63-4.47zm141.093 107.164c1.574-.914 2.543-2.602 2.543-4.422V91.21c0-1.824-.97-3.507-2.547-4.425l-42.1-24.44c-1.59-.92-3.54-.92-5.13 0l-42.36 24.45c-1.59.92-2.56 2.6-2.56 4.43v48.9c0 1.84.99 3.54 2.58 4.45l42.09 23.99c1.55.89 3.45.9 5.02.03l25.46-14.15c.8-.45 1.31-1.3 1.31-2.22 0-.92-.49-1.78-1.29-2.23l-42.62-24.46c-.8-.45-1.29-1.3-1.29-2.21v-15.34c0-.916.48-1.76 1.28-2.216l13.26-7.65c.79-.46 1.76-.46 2.55 0l13.27 7.65c.79.45 1.28 1.3 1.28 2.21v12.06c0 .91.49 1.76 1.28 2.22.79.45 1.77.45 2.56-.01zm0 0&#34;/&gt;&lt;path fill=&#34;#689f63&#34; fill-rule=&#34;evenodd&#34; d=&#34;M394.538 105.2c.3-.177.676-.177.98 0l8.13 4.69c.304.176.49.5.49.85v9.39c0 .35-.186.674-.49.85l-8.13 4.69c-.304.177-.68.177-.98 0l-8.125-4.69c-.31-.176-.5-.5-.5-.85v-9.39c0-.35.18-.674.49-.85zm0 0&#34;/&gt;&lt;g clip-path=&#34;url(#a)&#34; transform=&#34;translate(-78.306 -164.016)&#34;&gt;&lt;path fill=&#34;url(#b)&#34; d=&#34;M331.363 246.793l-118.715-58.19-60.87 124.174L270.49 370.97zm0 0&#34;/&gt;&lt;/g&gt;&lt;g clip-path=&#34;url(#c)&#34; transform=&#34;translate(-78.306 -164.016)&#34;&gt;&lt;path fill=&#34;url(#d)&#34; d=&#34;M144.07 264.004l83.825 113.453 110.86-81.906-83.83-113.45zm0 0&#34;/&gt;&lt;/g&gt;&lt;g clip-path=&#34;url(#e)&#34; transform=&#34;translate(-78.306 -164.016)&#34;&gt;&lt;path fill=&#34;url(#f)&#34; d=&#34;M197.02 225.934v107.43h91.683v-107.43zm0 0&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;
+&lt;svg role=&#34;img&#34; aria-labelledby=&#34;node-svg-title&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; version=&#34;1.2&#34; viewBox=&#34;0 0 442.37 270.929&#34;&gt;&lt;title id=&#34;node-svg-title&#34;&gt;Node.js&lt;/title&gt;&lt;defs&gt;&lt;clipPath id=&#34;a&#34;&gt;&lt;path d=&#34;M239.03 226.605l-42.13 24.317c-1.578.91-2.546 2.59-2.546 4.406v48.668c0 1.817.968 3.496 2.546 4.406l42.133 24.336c1.575.907 3.517.907 5.09 0l42.126-24.336c1.57-.91 2.54-2.59 2.54-4.406v-48.668c0-1.816-.97-3.496-2.55-4.406l-42.12-24.317c-.79-.453-1.67-.68-2.55-.68-.88 0-1.76.227-2.55.68&#34;/&gt;&lt;/clipPath&gt;&lt;linearGradient id=&#34;b&#34; x1=&#34;-.348&#34; x2=&#34;1.251&#34; gradientTransform=&#34;rotate(116.114 53.1 202.97) scale(86.48)&#34; gradientUnits=&#34;userSpaceOnUse&#34;&gt;&lt;stop offset=&#34;.3&#34; stop-color=&#34;#3E863D&#34;/&gt;&lt;stop offset=&#34;.5&#34; stop-color=&#34;#55934F&#34;/&gt;&lt;stop offset=&#34;.8&#34; stop-color=&#34;#5AAD45&#34;/&gt;&lt;/linearGradient&gt;&lt;clipPath id=&#34;c&#34;&gt;&lt;path d=&#34;M195.398 307.086c.403.523.907.976 1.5 1.316l36.14 20.875 6.02 3.46c.9.52 1.926.74 2.934.665.336-.027.672-.09 1-.183l44.434-81.36c-.34-.37-.738-.68-1.184-.94l-27.586-15.93-14.582-8.39c-.414-.24-.863-.41-1.32-.53zm0 0&#34;/&gt;&lt;/clipPath&gt;&lt;linearGradient id=&#34;d&#34; x1=&#34;-.456&#34; x2=&#34;.582&#34; gradientTransform=&#34;rotate(-36.46 550.846 -214.337) scale(132.798)&#34; gradientUnits=&#34;userSpaceOnUse&#34;&gt;&lt;stop offset=&#34;.57&#34; stop-color=&#34;#3E863D&#34;/&gt;&lt;stop offset=&#34;.72&#34; stop-color=&#34;#619857&#34;/&gt;&lt;stop offset=&#34;1&#34; stop-color=&#34;#76AC64&#34;/&gt;&lt;/linearGradient&gt;&lt;clipPath id=&#34;e&#34;&gt;&lt;path d=&#34;M241.066 225.953c-.707.07-1.398.29-2.035.652l-42.01 24.247 45.3 82.51c.63-.09 1.25-.3 1.81-.624l42.13-24.336c1.3-.754 2.19-2.03 2.46-3.476l-46.18-78.89c-.34-.067-.68-.102-1.03-.102-.14 0-.28.007-.42.02&#34;/&gt;&lt;/clipPath&gt;&lt;linearGradient id=&#34;f&#34; x1=&#34;.043&#34; x2=&#34;.984&#34; gradientTransform=&#34;translate(192.862 279.652) scale(97.417)&#34; gradientUnits=&#34;userSpaceOnUse&#34;&gt;&lt;stop offset=&#34;.16&#34; stop-color=&#34;#6BBF47&#34;/&gt;&lt;stop offset=&#34;.38&#34; stop-color=&#34;#79B461&#34;/&gt;&lt;stop offset=&#34;.47&#34; stop-color=&#34;#75AC64&#34;/&gt;&lt;stop offset=&#34;.7&#34; stop-color=&#34;#659E5A&#34;/&gt;&lt;stop offset=&#34;.9&#34; stop-color=&#34;#3E863D&#34;/&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;path fill=&#34;#689f63&#34; d=&#34;M218.647 270.93c-1.46 0-2.91-.383-4.19-1.12l-13.337-7.896c-1.992-1.114-1.02-1.508-.363-1.735 2.656-.93 3.195-1.14 6.03-2.75.298-.17.688-.11.993.07l10.246 6.08c.37.2.895.2 1.238 0l39.95-23.06c.37-.21.61-.64.61-1.08v-46.1c0-.46-.24-.87-.618-1.1l-39.934-23.04c-.37-.22-.86-.22-1.23 0l-39.926 23.04c-.387.22-.633.65-.633 1.09v46.1c0 .44.24.86.62 1.07l10.94 6.32c5.94 2.97 9.57-.53 9.57-4.05v-45.5c0-.65.51-1.15 1.16-1.15h5.06c.63 0 1.15.5 1.15 1.15v45.52c0 7.92-4.32 12.47-11.83 12.47-2.31 0-4.13 0-9.21-2.5l-10.48-6.04c-2.59-1.5-4.19-4.3-4.19-7.29v-46.1c0-3 1.6-5.8 4.19-7.28l39.99-23.07c2.53-1.43 5.89-1.43 8.4 0l39.94 23.08c2.58 1.49 4.19 4.28 4.19 7.28v46.1c0 2.99-1.61 5.78-4.19 7.28l-39.94 23.07c-1.28.74-2.73 1.12-4.21 1.12&#34;/&gt;&lt;path fill=&#34;#689f63&#34; d=&#34;M230.987 239.164c-17.48 0-21.145-8.024-21.145-14.754 0-.64.516-1.15 1.157-1.15h5.16c.57 0 1.05.415 1.14.978.78 5.258 3.1 7.91 13.67 7.91 8.42 0 12-1.902 12-6.367 0-2.57-1.02-4.48-14.1-5.76-10.94-1.08-17.7-3.49-17.7-12.24 0-8.06 6.8-12.86 18.19-12.86 12.79 0 19.13 4.44 19.93 13.98.03.33-.09.65-.31.89-.22.23-.53.37-.85.37h-5.19c-.54 0-1.01-.38-1.12-.9-1.25-5.53-4.27-7.3-12.48-7.3-9.19 0-10.26 3.2-10.26 5.6 0 2.91 1.26 3.76 13.66 5.4 12.28 1.63 18.11 3.93 18.11 12.56 0 8.7-7.26 13.69-19.92 13.69m48.66-48.89h1.34c1.1 0 1.31-.77 1.31-1.22 0-1.18-.81-1.18-1.26-1.18h-1.38zm-1.63-3.78h2.97c1.02 0 3.02 0 3.02 2.28 0 1.59-1.02 1.92-1.63 2.12 1.19.08 1.27.86 1.43 1.96.08.69.21 1.88.45 2.28h-1.83c-.05-.4-.33-2.6-.33-2.72-.12-.49-.29-.73-.9-.73h-1.51v3.46h-1.67zm-3.57 4.3c0 3.58 2.89 6.48 6.44 6.48 3.58 0 6.47-2.96 6.47-6.48 0-3.59-2.93-6.44-6.48-6.44-3.5 0-6.44 2.81-6.44 6.43m14.16.03c0 4.24-3.47 7.7-7.7 7.7-4.2 0-7.7-3.42-7.7-7.7 0-4.36 3.58-7.7 7.7-7.7 4.15 0 7.69 3.35 7.69 7.7&#34;/&gt;&lt;path fill=&#34;#fff&#34; fill-rule=&#34;evenodd&#34; d=&#34;M94.936 90.55c0-1.84-.97-3.53-2.558-4.445l-42.356-24.37c-.715-.42-1.516-.64-2.328-.67h-.438c-.812.03-1.613.25-2.34.67L2.562 86.105C.984 87.025 0 88.715 0 90.555l.093 65.64c0 .91.47 1.76 1.27 2.21.78.48 1.76.48 2.54 0l25.18-14.42c1.59-.946 2.56-2.618 2.56-4.44V108.88c0-1.83.97-3.52 2.555-4.43l10.72-6.174c.796-.46 1.67-.688 2.56-.688.876 0 1.77.226 2.544.687l10.715 6.172c1.586.91 2.56 2.6 2.56 4.43v30.663c0 1.82.983 3.5 2.565 4.44l25.164 14.41c.79.47 1.773.47 2.56 0 .776-.45 1.268-1.3 1.268-2.21zm199.868 34.176c0 .457-.243.88-.64 1.106l-14.548 8.386c-.395.227-.883.227-1.277 0l-14.55-8.386c-.4-.227-.64-.65-.64-1.106V107.93c0-.458.24-.88.63-1.11l14.54-8.4c.4-.23.89-.23 1.29 0l14.55 8.4c.4.23.64.652.64 1.11zM298.734.324c-.794-.442-1.76-.43-2.544.027-.78.46-1.262 1.3-1.262 2.21v65c0 .64-.34 1.23-.894 1.55-.55.32-1.235.32-1.79 0L281.634 63c-1.58-.914-3.526-.914-5.112 0l-42.37 24.453c-1.583.91-2.56 2.6-2.56 4.42v48.92c0 1.83.977 3.51 2.56 4.43l42.37 24.47c1.582.91 3.53.91 5.117 0l42.37-24.48c1.58-.92 2.56-2.6 2.56-4.43V18.863c0-1.856-1.01-3.563-2.63-4.47zm141.093 107.164c1.574-.914 2.543-2.602 2.543-4.422V91.21c0-1.824-.97-3.507-2.547-4.425l-42.1-24.44c-1.59-.92-3.54-.92-5.13 0l-42.36 24.45c-1.59.92-2.56 2.6-2.56 4.43v48.9c0 1.84.99 3.54 2.58 4.45l42.09 23.99c1.55.89 3.45.9 5.02.03l25.46-14.15c.8-.45 1.31-1.3 1.31-2.22 0-.92-.49-1.78-1.29-2.23l-42.62-24.46c-.8-.45-1.29-1.3-1.29-2.21v-15.34c0-.916.48-1.76 1.28-2.216l13.26-7.65c.79-.46 1.76-.46 2.55 0l13.27 7.65c.79.45 1.28 1.3 1.28 2.21v12.06c0 .91.49 1.76 1.28 2.22.79.45 1.77.45 2.56-.01zm0 0&#34;/&gt;&lt;path fill=&#34;#689f63&#34; fill-rule=&#34;evenodd&#34; d=&#34;M394.538 105.2c.3-.177.676-.177.98 0l8.13 4.69c.304.176.49.5.49.85v9.39c0 .35-.186.674-.49.85l-8.13 4.69c-.304.177-.68.177-.98 0l-8.125-4.69c-.31-.176-.5-.5-.5-.85v-9.39c0-.35.18-.674.49-.85zm0 0&#34;/&gt;&lt;g clip-path=&#34;url(#a)&#34; transform=&#34;translate(-78.306 -164.016)&#34;&gt;&lt;path fill=&#34;url(#b)&#34; d=&#34;M331.363 246.793l-118.715-58.19-60.87 124.174L270.49 370.97zm0 0&#34;/&gt;&lt;/g&gt;&lt;g clip-path=&#34;url(#c)&#34; transform=&#34;translate(-78.306 -164.016)&#34;&gt;&lt;path fill=&#34;url(#d)&#34; d=&#34;M144.07 264.004l83.825 113.453 110.86-81.906-83.83-113.45zm0 0&#34;/&gt;&lt;/g&gt;&lt;g clip-path=&#34;url(#e)&#34; transform=&#34;translate(-78.306 -164.016)&#34;&gt;&lt;path fill=&#34;url(#f)&#34; d=&#34;M197.02 225.934v107.43h91.683v-107.43zm0 0&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;
 
 
 
 &lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 
 &lt;p&gt;If you installed Homebrew in the previous step, use it to install Node.js:&lt;/p&gt;
 
@@ -737,7 +735,9 @@ git config --global user.email &amp;#34;youremailaddress@example.com&amp;#34;
 
 &lt;p&gt;If not, you can click one of the big, green download links on the Node.js web site.&lt;/p&gt;
 
-&lt;h3 id=&#34;download-node-js-http-nodejs-org&#34;&gt;&lt;a href=&#34;http://nodejs.org/&#34;&gt;Download Node.js&lt;/a&gt;&lt;/h3&gt;
+&lt;div class=&#34;download&#34;&gt;
+&lt;a href=&#34;http://nodejs.org/&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; Download Node.js&lt;/a&gt;
+&lt;/div&gt;
 
 
   &lt;div class=&#34;aside aside-info&#34;&gt;
@@ -792,7 +792,7 @@ git config --global user.email &amp;#34;youremailaddress@example.com&amp;#34;
 
 &lt;p&gt;You should see a progress bar of sorts while packages download and, eventually, a tree structure of various package names and version numbers. As you may have guessed, aside from testing your Node installation, this has the side effect of installing &lt;code&gt;create-react-app&lt;/code&gt;, which we&amp;rsquo;ll later use to do exactly what its name suggests.&lt;/p&gt;
 
-
+&lt;p&gt;
   &lt;div class=&#34;aside aside-tip&#34;&gt;
   
     &lt;h4&gt;tip&lt;/h4&gt;
@@ -802,7 +802,7 @@ git config --global user.email &amp;#34;youremailaddress@example.com&amp;#34;
 
   &lt;/div&gt;
 &lt;/div&gt;
-
+&lt;/p&gt;
 </description>
     </item>
     
@@ -843,13 +843,12 @@ git config --global user.email &amp;#34;youremailaddress@example.com&amp;#34;
    xmlns:rdf=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#&#34;
    xmlns:svg=&#34;http://www.w3.org/2000/svg&#34;
    xmlns=&#34;http://www.w3.org/2000/svg&#34;
-   xmlns:sodipodi=&#34;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&#34;
-   xmlns:inkscape=&#34;http://www.inkscape.org/namespaces/inkscape&#34;
    role=&#34;img&#34;
    viewBox=&#34;0 0 500 516.8125&#34;
    id=&#34;vs-logo-svg&#34;
-   version=&#34;1.2&#34;
-   sodipodi:docname=&#34;Visual Studio Logo.svg&#34;&gt;
+   aria-labelledby=&#34;vs-svg-title&#34;
+   version=&#34;1.2&#34;&gt;
+  &lt;title id=&#34;vs-svg-title&#34;&gt;Visual Studio Code&lt;/title&gt;
   &lt;defs
      id=&#34;defs4&#34; /&gt;
   &lt;sodipodi:namedview
@@ -937,7 +936,8 @@ git config --global user.email &amp;#34;youremailaddress@example.com&amp;#34;
 
 
 &lt;svg
-   role=&#34;image&#34;
+   role=&#34;img&#34;
+   aria-labelledby=&#34;atom-svg-title&#34;
    xmlns:dc=&#34;http://purl.org/dc/elements/1.1/&#34;
    xmlns:cc=&#34;http://creativecommons.org/ns#&#34;
    xmlns:rdf=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#&#34;
@@ -945,6 +945,7 @@ git config --global user.email &amp;#34;youremailaddress@example.com&amp;#34;
    xmlns=&#34;http://www.w3.org/2000/svg&#34;
    version=&#34;1.1&#34;
    viewBox=&#34;0 0 131 120&#34;&gt;
+  &lt;title id=&#34;atom-svg-title&#34;&gt;Atom&lt;/title&gt;
   &lt;path
      d=&#34;M 103.96875,29.43727 C 106.08143,18.684552 104.89996,10.523975 99.90625,7.2810201 98.241679,6.2000351 96.24602,5.7270015 94,5.8122701 81.871494,6.2727205 62.301679,22.972344 46.3125,47.59352 27.362362,76.774173 20.627996,106.01897 31.28125,112.93727 c 5.056946,3.28402 13.115147,0.95604 22.21875,-5.53125&#34;
      style=&#34;fill:none;stroke:#66595c;stroke-width:5;stroke-linecap:round&#34; /&gt;
@@ -1011,6 +1012,351 @@ git config --global user.email &amp;#34;youremailaddress@example.com&amp;#34;
   &lt;/div&gt;
 &lt;/div&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>http://xternbootcamp17.github.io/setup-mac/ssh/</link>
+      <pubDate>Fri, 10 Jun 2016 23:28:03 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-mac/ssh/</guid>
+      <description>
+
+&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;p&gt;&lt;i class=&#34;fa fa-terminal&#34;&gt;&lt;/i&gt; ssh&lt;/p&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We recommend setting up an SSH key to simplify authentication with GitHub and other services.&lt;/p&gt;
+
+&lt;h2 id=&#34;check-for-an-existing-key&#34;&gt;Check for an existing key&lt;/h2&gt;
+
+&lt;p&gt;Make sure you&amp;rsquo;re in your home directory. You should be by default, but you can double-check with the &amp;ldquo;print working directory&amp;rdquo; command: &lt;code&gt;pwd&lt;/code&gt;. You should be in &lt;code&gt;/Users/yourusername&lt;/code&gt;. If not, you can switch to that directory with the &lt;code&gt;cd&lt;/code&gt; command, passing in the directory you want to switch to.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/cmd.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+  
+&lt;pre&gt;
+&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;
+&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span
+&gt;&lt;span class=&#34;terminal-commands&#34;&gt;pwd
+&lt;span class=&#34;output-line&#34;&gt;/some/other/dir&lt;/span&gt;
+cd ~
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;aside aside-tip&#34;&gt;
+  
+    &lt;h4&gt;~&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;You can always use a tilde &lt;code&gt;~&lt;/code&gt; as a shortcut for your home directory.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Check to see if you already have an .ssh key configured:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/cmd.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+  
+&lt;pre&gt;
+&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;
+&lt;/span
+&gt;&lt;span class=&#34;terminal-commands&#34;&gt;ls ~/.ssh/id_rsa
+&lt;span class=&#34;output-line&#34;&gt;/Users/dstrus/.ssh/id_rsa&lt;/span&gt;
+
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If it prints &lt;code&gt;/Users/yourusername/.ssh/id_rsa&lt;/code&gt;, then you already have an SSH key and can skip to the next page. Otherwise, read on.&lt;/p&gt;
+
+&lt;h2 id=&#34;generate-an-ssh-key&#34;&gt;Generate an SSH key&lt;/h2&gt;
+
+&lt;p&gt;Type the following command to generate your SSH key, substituting the same email address you used for Git earlier:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/cmd.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;ssh-keygen -t rsa -C &amp;#34;youremail@example.com&amp;#34;
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It should prompt you for a file name. You can just hit &amp;lsquo;enter&amp;rsquo; to accept the default.&lt;/p&gt;
+
+&lt;p&gt;It will then prompt you for a password. You can just hit &amp;lsquo;enter&amp;rsquo; (twice) to not set a passphrase. That compromises your key should anyone gain access to your laptop, but it may be simpler for the sake of this course. It&amp;rsquo;s much safer to use a passphrase when generating a key when you truly want to maximize security.&lt;/p&gt;
+
+&lt;p&gt;If all is well, you should see that your identification and your public key have been saved to &lt;code&gt;.ssh/id_rsa&lt;/code&gt; and &lt;code&gt;.ssh/id_rsa.pub&lt;/code&gt; respectively.&lt;/p&gt;
+
+&lt;p&gt;Run the following command to add your new key to the SSH agent on your Mac:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/cmd.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;ssh-add ~/.ssh/id_rsa
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You&amp;rsquo;ll test your new key shortly, but first you&amp;rsquo;ll need to create a GitHub account and add your public key to the account.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>http://xternbootcamp17.github.io/setup-mac/github/</link>
+      <pubDate>Fri, 10 Jun 2016 23:31:46 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-mac/github/</guid>
+      <description>
+
+&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;svg role=&#34;img&#34; aria-labelledby=&#34;github-svg-title&#34; id=&#34;github-logo&#34; data-name=&#34;github-logo&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 480.24 129.87&#34;&gt;&lt;title id=&#34;github-svg-title&#34;&gt;GitHub&lt;/title&gt;&lt;defs&gt;&lt;style&gt;.cls-1{fill:#fff;}&lt;/style&gt;&lt;/defs&gt;&lt;title&gt;github-logo&lt;/title&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M92.5,55.59H52.14a1.89,1.89,0,0,0-1.89,1.89V77.2a1.89,1.89,0,0,0,1.89,1.89H67.88v24.51s-3.54,1.21-13.31,1.21c-11.53,0-27.64-4.21-27.64-39.63S43.71,25.09,59.46,25.09c13.63,0,19.5,2.4,23.24,3.56A1.9,1.9,0,0,0,85,26.8l4.5-19.06a1.76,1.76,0,0,0-.72-1.47C87.22,5.18,78,0,54.58,0,27.63,0,0,11.46,0,66.56s31.64,63.31,58.3,63.31c22.08,0,35.47-9.43,35.47-9.43a1.62,1.62,0,0,0,.61-1.43V57.47A1.89,1.89,0,0,0,92.5,55.59Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M300.47,6.6a1.88,1.88,0,0,0-1.87-1.9H275.88A1.89,1.89,0,0,0,274,6.6V50.51H238.58V6.6a1.88,1.88,0,0,0-1.87-1.9H214a1.89,1.89,0,0,0-1.88,1.9v118.9a1.89,1.89,0,0,0,1.88,1.9h22.72a1.89,1.89,0,0,0,1.88-1.9V74.65H274l-.06,50.86a1.89,1.89,0,0,0,1.88,1.9H298.6a1.89,1.89,0,0,0,1.88-1.9Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M135.38,22.2A14.65,14.65,0,1,0,120.72,37,14.72,14.72,0,0,0,135.38,22.2Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M133.75,100.42V45.54a1.89,1.89,0,0,0-1.88-1.89H109.22a2.17,2.17,0,0,0-2,2.11v78.64c0,2.31,1.44,3,3.3,3H131c2.24,0,2.79-1.1,2.79-3Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M386.83,43.82H364.28a1.89,1.89,0,0,0-1.88,1.9V104a25.48,25.48,0,0,1-13.86,4.19c-8.13,0-10.29-3.69-10.29-11.65V45.72a1.89,1.89,0,0,0-1.87-1.9H313.5a1.89,1.89,0,0,0-1.88,1.9v54.69c0,23.65,13.18,29.43,31.31,29.43,14.87,0,26.87-8.22,26.87-8.22a47.74,47.74,0,0,0,.83,4.84,2,2,0,0,0,1.66,1l14.56-.06a1.89,1.89,0,0,0,1.88-1.9V45.72A1.89,1.89,0,0,0,386.83,43.82Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M448.46,41.15a42.4,42.4,0,0,0-21.52,5.71V6.6a1.88,1.88,0,0,0-1.87-1.9H402.28a1.89,1.89,0,0,0-1.88,1.9v118.9a1.89,1.89,0,0,0,1.88,1.9h15.81a1.88,1.88,0,0,0,1.65-1c.39-.64,1-5.48,1-5.48s9.32,8.83,27,8.83c20.71,0,32.58-10.5,32.58-47.15S461.28,41.15,448.46,41.15Zm-8.89,67a27,27,0,0,1-13.13-3.79V66.7a30.05,30.05,0,0,1,11.65-3.78C446.22,62.19,454,64.65,454,84,454,104.44,450.51,108.47,439.57,108.14Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M199.06,43.63H182l0-22.52c0-.85-.44-1.28-1.42-1.28H157.33c-.9,0-1.39.4-1.39,1.27V44.37s-11.64,2.81-12.43,3a1.89,1.89,0,0,0-1.36,1.81V63.84a1.89,1.89,0,0,0,1.88,1.9h11.91v35.18c0,26.13,18.33,28.7,30.7,28.7a51.86,51.86,0,0,0,13.53-2.23,1.76,1.76,0,0,0,1.07-1.71l0-16.09a1.92,1.92,0,0,0-1.88-1.9c-1,0-3.53.4-6.15.4-8.37,0-11.21-3.89-11.21-8.93s0-33.43,0-33.43h17a1.89,1.89,0,0,0,1.88-1.9V45.53A1.89,1.89,0,0,0,199.06,43.63Z&#34;/&gt;&lt;/svg&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;create-a-free-github-account&#34;&gt;Create a free GitHub account&lt;/h2&gt;
+
+&lt;p&gt;GitHub is a service for storing your code in the cloud. It&amp;rsquo;s wonderful for collaboration.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/join?source=header-home&#34;&gt;Sign up for GitHub&lt;/a&gt; using the same email address you used when creating your SSH key and your Git configuration.&lt;/p&gt;
+
+&lt;div class=&#34;img github-create-account&#34;&gt;&lt;span&gt;Enter your info, and hit the green &#34;Create an account&#34; button.&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;On the next screen, you&amp;rsquo;ll see information about GitHub&amp;rsquo;s free and paid plans. To finish creating a free account, just hit the green &amp;ldquo;Continue&amp;rdquo; button.&lt;/p&gt;
+
+&lt;div class=&#34;img github-choose-plan&#34;&gt;&lt;span&gt;Hit the green &#34;Continue&#34; button.&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;The next screen includes a survey. You&amp;rsquo;re welcome to hit the &amp;ldquo;skip this step&amp;rdquo; link.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;div class=&#34;aside aside-tip&#34;&gt;
+  
+    &lt;h4&gt;Verify your email address&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;GitHub will send you an email after you sign up. Click the link in the email to verify that the address belongs to you.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;add-your-public-key-to-your-github-account&#34;&gt;Add your public key to your GitHub account&lt;/h2&gt;
+
+&lt;p&gt;To send and receive code between your laptop and GitHub securely, you&amp;rsquo;ll need to add your public SSH key to your GitHub account. &lt;strong&gt;Never copy your private key to another machine unless you are absolutely sure what you&amp;rsquo;re doing.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy the contents of your public key to the clipboard with the following command:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/cmd.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;cat ~/.ssh/id_rsa.pub | pbcopy
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;code&gt;cat&lt;/code&gt; command prints the contents of a text file to the screen&amp;mdash;or more accurately, to STDOUT. The &lt;code&gt;pbcopy&lt;/code&gt; command&amp;mdash;which is not a standard UNIX utility, but is included with OS X/macOS&amp;mdash;copies text to the clipboard. The pipe &lt;code&gt;|&lt;/code&gt; takes the output from the command on the left and passes it as an argument to the command on the right.&lt;/p&gt;
+
+&lt;p&gt;Now go to GitHub settings to add your public key to your account.&lt;/p&gt;
+
+&lt;div class=&#34;img github-settings&#34;&gt;&lt;span&gt;Choose _Settings_ from the user menu in the upper-right of your GitHub page.&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;Choose &amp;ldquo;SSH and GPG Keys&amp;rdquo; from the left menu, then click &amp;ldquo;New SSH key&amp;rdquo; on the right.&lt;/p&gt;
+
+&lt;div class=&#34;img github-ssh-settings&#34;&gt;&lt;span&gt;Click the button to add an SSH key to your account.&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;Give your SSH Key a title (something to identify the machine on which the key was generated, such as &amp;ldquo;MacBook&amp;rdquo;), and then paste in the contents that you copied from the terminal.&lt;/p&gt;
+
+&lt;div class=&#34;img github-new-ssh-key&#34;&gt;&lt;span&gt;Paste in the contents of your public key.&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;test-your-ssh-key-with-your-github-account&#34;&gt;Test your SSH key with your GitHub account&lt;/h2&gt;
+
+&lt;p&gt;Return to Terminal and type the following command:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/cmd.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+  
+&lt;pre&gt;
+&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;
+&lt;/span
+&gt;&lt;span class=&#34;terminal-commands&#34;&gt;ssh -T git@github.com
+&lt;span class=&#34;output-line&#34;&gt;Hi dstrus! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access.&lt;/span&gt;
+
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you see a message like the one above, you&amp;rsquo;re ready to go!&lt;/p&gt;
 </description>
     </item>
     

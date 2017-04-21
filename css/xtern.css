@@ -32,7 +32,6 @@
 }
 #body-inner {
   margin: 0 auto 5rem auto;
-  max-width: 70em;
 }
 date {
   display: block;
@@ -498,6 +497,7 @@ pre[rel="Terminal"]::before {
   color: #fff;
   margin: 0 -6rem;
   text-align: center;
+  max-width: 100vw;
 }
 .page-heading div {
   display: -webkit-box;
@@ -510,6 +510,7 @@ pre[rel="Terminal"]::before {
       -ms-flex-align: center;
           align-items: center;
   padding: 2rem 0;
+  max-width: 100vw;
 }
 body[data-url="/setup-mac/node/"] h1 {
   display: none;
@@ -573,6 +574,7 @@ body[data-url="/setup-mac/"] h1 {
 body[data-url="/setup-mac/"] .page-heading {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
   font-size: 4rem;
+  text-shadow: 1px 0 1px #666;
   background-color: #f58122;
   background-image: linear-gradient(#65b849 17%, #f7b423 17%, #f7b423 34%, #f58122 34%, #f58122 50%, #de3a3c 50%, #de3a3c 66%, #943f96 66%, #943f96 82%, #009fd9 82%, #009fd9 86%);
 }
@@ -598,5 +600,96 @@ body[data-url="/setup-mac/editor/"] .page-heading:first-of-type {
 body[data-url="/setup-mac/editor/"] .page-heading:first-of-type svg {
   margin-right: 2rem;
   width: 5rem;
+}
+body[data-url="/setup-mac/ssh/"] h1 {
+  display: none;
+}
+body[data-url="/setup-mac/ssh/"] .page-heading {
+  font-family: "Operator Mono A", "Operator Mono B", "Fira Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 4rem;
+  background-color: #590df6;
+  background-image: url("/images/y-pattern.png"), linear-gradient(34deg, #010efd 0%, #fe0c00 100%);
+}
+body[data-url="/setup-mac/github/"] h1 {
+  display: none;
+}
+body[data-url="/setup-mac/github/"] .page-heading {
+  font-family: "Operator Mono A", "Operator Mono B", "Fira Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 4rem;
+  background-color: #590df6;
+  background-image: url("/images/y-pattern.png"), linear-gradient(34deg, #3e2c56 0%, #2a1c3c 100%);
+}
+body[data-url="/setup-mac/github/"] .page-heading svg {
+  height: 5rem;
+}
+div.img {
+  position: relative;
+  margin: 0 auto 2rem;
+}
+div.img span {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  background: #ffce00;
+  padding: 1rem;
+  box-shadow: 0px 5px 20px #999;
+  font-size: 80%;
+  text-align: center;
+  width: 100%;
+}
+div.img.github-create-account {
+  background-image: url("/images/github-01-create-account.png");
+  background-size: 567px 502px;
+  width: 567px;
+  height: 502px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+  div.img.github-create-account {
+    background-image: url("/images/github-01-create-account@2x.png");
+  }
+}
+div.img.github-choose-plan {
+  background-image: url("/images/github-02-choose-plan.png");
+  background-size: 601px 464px;
+  width: 601px;
+  height: 464px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+  div.img.github-choose-plan {
+    background-image: url("/images/github-02-choose-plan@2x.png");
+  }
+}
+div.img.github-settings {
+  background-image: url("/images/github-03-settings-menu.png");
+  background-size: 567px 454px;
+  width: 567px;
+  height: 454px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+  div.img.github-settings {
+    background-image: url("/images/github-03-settings-menu@2x.png");
+  }
+}
+div.img.github-ssh-settings {
+  background-image: url("/images/github-04-ssh-settings.png");
+  background-size: 567px 454px;
+  width: 567px;
+  height: 454px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+  div.img.github-ssh-settings {
+    background-image: url("/images/github-04-ssh-settings@2x.png");
+  }
+}
+div.img.github-new-ssh-key {
+  background-image: url("/images/github-05-new-ssh-key.png");
+  background-size: 567px 454px;
+  width: 567px;
+  height: 454px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+  div.img.github-new-ssh-key {
+    background-image: url("/images/github-05-new-ssh-key@2x.png");
+  }
 }
 /*# sourceMappingURL=xtern.css.map */

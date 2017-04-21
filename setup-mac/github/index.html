@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>Terminal</title>
+    <title>GitHub</title>
     <link href="http://xternbootcamp17.github.io//css/nucleus.css" rel="stylesheet">
     <link href="http://xternbootcamp17.github.io//css/font-awesome.min.css" rel="stylesheet">
     
@@ -25,7 +25,7 @@
     <link href="/css/prism.css" rel="stylesheet">
 <link href="/css/xtern.css" rel="stylesheet">
   </head>
-  <body class="" data-url="/setup-mac/terminal/">
+  <body class="" data-url="/setup-mac/github/">
     
     <nav id="sidebar">
   <div id="header-wrapper">
@@ -128,7 +128,7 @@
           
           
           
-            <li class="dd-item active" data-nav-id="/setup-mac/terminal/">
+            <li class="dd-item " data-nav-id="/setup-mac/terminal/">
               <a href="/setup-mac/terminal/">
                 <span>Terminal     </i></span>
               </a>
@@ -168,7 +168,7 @@
           
           
           
-            <li class="dd-item " data-nav-id="/setup-mac/github/">
+            <li class="dd-item active" data-nav-id="/setup-mac/github/">
               <a href="/setup-mac/github/">
                 <span>GitHub     </i></span>
               </a>
@@ -215,7 +215,7 @@
                     
                   
                 
-                <span itemprop="title"> Terminal</span>
+                <span itemprop="title"> GitHub</span>
               </div>
               
                   <div class="progress">
@@ -224,7 +224,9 @@
 <ul>
 <li>
 <ul>
-<li><a href="#zsh">Zsh</a></li>
+<li><a href="#create-a-free-github-account">Create a free GitHub account</a></li>
+<li><a href="#add-your-public-key-to-your-github-account">Add your public key to your GitHub account</a></li>
+<li><a href="#test-your-ssh-key-with-your-github-account">Test your SSH key with your GitHub account</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -237,7 +239,7 @@
             
               <div id="body-inner">
                 
-                <h1>Terminal</h1>
+                <h1>GitHub</h1>
                 
 
 
@@ -245,52 +247,136 @@
 <div class="page-heading"><div>
 
 
-<p><i class="fa fa-terminal"></i> terminal</p>
+<svg role="img" aria-labelledby="github-svg-title" id="github-logo" data-name="github-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480.24 129.87"><title id="github-svg-title">GitHub</title><defs><style>.cls-1{fill:#fff;}</style></defs><title>github-logo</title><path class="cls-1" d="M92.5,55.59H52.14a1.89,1.89,0,0,0-1.89,1.89V77.2a1.89,1.89,0,0,0,1.89,1.89H67.88v24.51s-3.54,1.21-13.31,1.21c-11.53,0-27.64-4.21-27.64-39.63S43.71,25.09,59.46,25.09c13.63,0,19.5,2.4,23.24,3.56A1.9,1.9,0,0,0,85,26.8l4.5-19.06a1.76,1.76,0,0,0-.72-1.47C87.22,5.18,78,0,54.58,0,27.63,0,0,11.46,0,66.56s31.64,63.31,58.3,63.31c22.08,0,35.47-9.43,35.47-9.43a1.62,1.62,0,0,0,.61-1.43V57.47A1.89,1.89,0,0,0,92.5,55.59Z"/><path class="cls-1" d="M300.47,6.6a1.88,1.88,0,0,0-1.87-1.9H275.88A1.89,1.89,0,0,0,274,6.6V50.51H238.58V6.6a1.88,1.88,0,0,0-1.87-1.9H214a1.89,1.89,0,0,0-1.88,1.9v118.9a1.89,1.89,0,0,0,1.88,1.9h22.72a1.89,1.89,0,0,0,1.88-1.9V74.65H274l-.06,50.86a1.89,1.89,0,0,0,1.88,1.9H298.6a1.89,1.89,0,0,0,1.88-1.9Z"/><path class="cls-1" d="M135.38,22.2A14.65,14.65,0,1,0,120.72,37,14.72,14.72,0,0,0,135.38,22.2Z"/><path class="cls-1" d="M133.75,100.42V45.54a1.89,1.89,0,0,0-1.88-1.89H109.22a2.17,2.17,0,0,0-2,2.11v78.64c0,2.31,1.44,3,3.3,3H131c2.24,0,2.79-1.1,2.79-3Z"/><path class="cls-1" d="M386.83,43.82H364.28a1.89,1.89,0,0,0-1.88,1.9V104a25.48,25.48,0,0,1-13.86,4.19c-8.13,0-10.29-3.69-10.29-11.65V45.72a1.89,1.89,0,0,0-1.87-1.9H313.5a1.89,1.89,0,0,0-1.88,1.9v54.69c0,23.65,13.18,29.43,31.31,29.43,14.87,0,26.87-8.22,26.87-8.22a47.74,47.74,0,0,0,.83,4.84,2,2,0,0,0,1.66,1l14.56-.06a1.89,1.89,0,0,0,1.88-1.9V45.72A1.89,1.89,0,0,0,386.83,43.82Z"/><path class="cls-1" d="M448.46,41.15a42.4,42.4,0,0,0-21.52,5.71V6.6a1.88,1.88,0,0,0-1.87-1.9H402.28a1.89,1.89,0,0,0-1.88,1.9v118.9a1.89,1.89,0,0,0,1.88,1.9h15.81a1.88,1.88,0,0,0,1.65-1c.39-.64,1-5.48,1-5.48s9.32,8.83,27,8.83c20.71,0,32.58-10.5,32.58-47.15S461.28,41.15,448.46,41.15Zm-8.89,67a27,27,0,0,1-13.13-3.79V66.7a30.05,30.05,0,0,1,11.65-3.78C446.22,62.19,454,64.65,454,84,454,104.44,450.51,108.47,439.57,108.14Z"/><path class="cls-1" d="M199.06,43.63H182l0-22.52c0-.85-.44-1.28-1.42-1.28H157.33c-.9,0-1.39.4-1.39,1.27V44.37s-11.64,2.81-12.43,3a1.89,1.89,0,0,0-1.36,1.81V63.84a1.89,1.89,0,0,0,1.88,1.9h11.91v35.18c0,26.13,18.33,28.7,30.7,28.7a51.86,51.86,0,0,0,13.53-2.23,1.76,1.76,0,0,0,1.07-1.71l0-16.09a1.92,1.92,0,0,0-1.88-1.9c-1,0-3.53.4-6.15.4-8.37,0-11.21-3.89-11.21-8.93s0-33.43,0-33.43h17a1.89,1.89,0,0,0,1.88-1.9V45.53A1.89,1.89,0,0,0,199.06,43.63Z"/></svg>
 
 
 </div></div>
 
-<p>You&rsquo;ll be using a terminal app throughout the setup process, as well as in class.</p>
+<h2 id="create-a-free-github-account">Create a free GitHub account</h2>
 
-<p>macOS comes with <strong>Terminal.app</strong>, which you can find at <code>/Applications/Utilities/Terminal.app</code> or by searching for <em>Terminal</em> in Spotlight. It will do the job just fine, but if you&rsquo;re interesting in dressing it up or exploring other shells, read on.</p>
+<p>GitHub is a service for storing your code in the cloud. It&rsquo;s wonderful for collaboration.</p>
 
-<p><img src="/images/terminal-icon.png" alt="Terminal.app" /></p>
+<p><a href="https://github.com/join?source=header-home">Sign up for GitHub</a> using the same email address you used when creating your SSH key and your Git configuration.</p>
 
-<p><strong><a href="https://www.iterm2.com/index.html">iTerm2</a></strong> is a popular alternative to Terminal.app. It&rsquo;s free and includes some advanced features that the built-in Terminal lacks. Personally, I&rsquo;ve been using <strong><a href="https://hyper.is/">Hyper</a></strong> for about a month. Hyper is written in JavaScript, HTML, and CSS and is cross-platform, which is particularly appealing for class.</p>
+<div class="img github-create-account"><span>Enter your info, and hit the green "Create an account" button.</span></div>
 
-<p>Whichever you choose, you&rsquo;ll use it frequently enough that I recommend keeping it in your Dock.</p>
+<p>On the next screen, you&rsquo;ll see information about GitHub&rsquo;s free and paid plans. To finish creating a free account, just hit the green &ldquo;Continue&rdquo; button.</p>
 
+<div class="img github-choose-plan"><span>Hit the green "Continue" button.</span></div>
 
-  <div class="aside aside-info">
+<p>The next screen includes a survey. You&rsquo;re welcome to hit the &ldquo;skip this step&rdquo; link.</p>
+
+<p>
+  <div class="aside aside-tip">
   
-    <h4>$ _</h4>
+    <h4>Verify your email address</h4>
     
   
   <div class="body">
-  <p>When you launch your terminal, it will (by default) run a UNIX shell called Bash. Bash will present a command prompt, indicated by <code>$</code>. We&rsquo;ll generally prefix terminal commands with that symbol in our documentation. You&rsquo;re not meant to type the <code>$</code> character, and it won&rsquo;t be included if you copy and paste the commands from this site.</p>
+  <p>GitHub will send you an email after you sign up. Click the link in the email to verify that the address belongs to you.</p>
 
   </div>
 </div>
+</p>
+
+<h2 id="add-your-public-key-to-your-github-account">Add your public key to your GitHub account</h2>
+
+<p>To send and receive code between your laptop and GitHub securely, you&rsquo;ll need to add your public SSH key to your GitHub account. <strong>Never copy your private key to another machine unless you are absolutely sure what you&rsquo;re doing.</strong></p>
+
+<p>Copy the contents of your public key to the clipboard with the following command:</p>
 
 
-<h2 id="zsh">Zsh</h2>
-
-<p>I am a big fan of Zsh (&ldquo;Z shell&rdquo;), which is an alternative to Bash. Even better is <strong><a href="http://ohmyz.sh/">Oh My Zsh</a></strong>, which is a framework for managing Zsh configuration. I love it. You&rsquo;ll still use Terminal.app, iTerm2, or Hyper to launch your shell, but it will run Zsh in place of Bash.</p>
-
-<p>I will be using Zsh (with Oh My Zsh) in class, but most of what we&rsquo;ll do works just as well in Bash.</p>
 
 
-  <div class="aside aside-info">
-  
-    <h4>Command Line Power User</h4>
-    
-  
-  <div class="body">
-  <p>If you&rsquo;re not very familiar with UNIX shells, or if you&rsquo;d like to learn some cool tricks, including Oh My ZSH features, sign up for Wes Bos&rsquo;s free <strong><a href="http://commandlinepoweruser.com/">Command Line Power User</a></strong> videos. (They&rsquo;re all on YouTube, but signing up for the email makes it a little easier to find them.)</p>
 
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
   </div>
 </div>
+<div class="shell-body">
 
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>cat ~/.ssh/id_rsa.pub | pbcopy
+</span></pre>
+
+</div>
+</div>
+
+<p>The <code>cat</code> command prints the contents of a text file to the screen&mdash;or more accurately, to STDOUT. The <code>pbcopy</code> command&mdash;which is not a standard UNIX utility, but is included with OS X/macOS&mdash;copies text to the clipboard. The pipe <code>|</code> takes the output from the command on the left and passes it as an argument to the command on the right.</p>
+
+<p>Now go to GitHub settings to add your public key to your account.</p>
+
+<div class="img github-settings"><span>Choose _Settings_ from the user menu in the upper-right of your GitHub page.</span></div>
+
+<p>Choose &ldquo;SSH and GPG Keys&rdquo; from the left menu, then click &ldquo;New SSH key&rdquo; on the right.</p>
+
+<div class="img github-ssh-settings"><span>Click the button to add an SSH key to your account.</span></div>
+
+<p>Give your SSH Key a title (something to identify the machine on which the key was generated, such as &ldquo;MacBook&rdquo;), and then paste in the contents that you copied from the terminal.</p>
+
+<div class="img github-new-ssh-key"><span>Paste in the contents of your public key.</span></div>
+
+<h2 id="test-your-ssh-key-with-your-github-account">Test your SSH key with your GitHub account</h2>
+
+<p>Return to Terminal and type the following command:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+  
+<pre>
+<span class="command-line-prompt"><span data-prompt="$"></span>
+</span
+><span class="terminal-commands">ssh -T git@github.com
+<span class="output-line">Hi dstrus! You&#39;ve successfully authenticated, but GitHub does not provide shell access.</span>
+
+</span></pre>
+
+</div>
+</div>
+
+<p>If you see a message like the one above, you&rsquo;re ready to go!</p>
 
 
       
@@ -302,8 +388,8 @@
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="/setup-mac/chrome"> <i class="fa fa-chevron-left"></i></a>
-        <a class="nav nav-next" href="/setup-mac/git" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-prev" href="/setup-mac/ssh"> <i class="fa fa-chevron-left"></i></a>
+        
     </div>
 
     </section>

@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>Terminal</title>
+    <title>SSH</title>
     <link href="http://xternbootcamp17.github.io//css/nucleus.css" rel="stylesheet">
     <link href="http://xternbootcamp17.github.io//css/font-awesome.min.css" rel="stylesheet">
     
@@ -25,7 +25,7 @@
     <link href="/css/prism.css" rel="stylesheet">
 <link href="/css/xtern.css" rel="stylesheet">
   </head>
-  <body class="" data-url="/setup-mac/terminal/">
+  <body class="" data-url="/setup-mac/ssh/">
     
     <nav id="sidebar">
   <div id="header-wrapper">
@@ -128,7 +128,7 @@
           
           
           
-            <li class="dd-item active" data-nav-id="/setup-mac/terminal/">
+            <li class="dd-item " data-nav-id="/setup-mac/terminal/">
               <a href="/setup-mac/terminal/">
                 <span>Terminal     </i></span>
               </a>
@@ -160,7 +160,7 @@
           
           
           
-            <li class="dd-item " data-nav-id="/setup-mac/ssh/">
+            <li class="dd-item active" data-nav-id="/setup-mac/ssh/">
               <a href="/setup-mac/ssh/">
                 <span>SSH     </i></span>
               </a>
@@ -215,7 +215,7 @@
                     
                   
                 
-                <span itemprop="title"> Terminal</span>
+                <span itemprop="title"> SSH</span>
               </div>
               
                   <div class="progress">
@@ -224,7 +224,8 @@
 <ul>
 <li>
 <ul>
-<li><a href="#zsh">Zsh</a></li>
+<li><a href="#check-for-an-existing-key">Check for an existing key</a></li>
+<li><a href="#generate-an-ssh-key">Generate an SSH key</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -237,7 +238,7 @@
             
               <div id="body-inner">
                 
-                <h1>Terminal</h1>
+                <h1>SSH</h1>
                 
 
 
@@ -245,52 +246,193 @@
 <div class="page-heading"><div>
 
 
-<p><i class="fa fa-terminal"></i> terminal</p>
+<p><i class="fa fa-terminal"></i> ssh</p>
 
 
 </div></div>
 
-<p>You&rsquo;ll be using a terminal app throughout the setup process, as well as in class.</p>
+<p>We recommend setting up an SSH key to simplify authentication with GitHub and other services.</p>
 
-<p>macOS comes with <strong>Terminal.app</strong>, which you can find at <code>/Applications/Utilities/Terminal.app</code> or by searching for <em>Terminal</em> in Spotlight. It will do the job just fine, but if you&rsquo;re interesting in dressing it up or exploring other shells, read on.</p>
+<h2 id="check-for-an-existing-key">Check for an existing key</h2>
 
-<p><img src="/images/terminal-icon.png" alt="Terminal.app" /></p>
-
-<p><strong><a href="https://www.iterm2.com/index.html">iTerm2</a></strong> is a popular alternative to Terminal.app. It&rsquo;s free and includes some advanced features that the built-in Terminal lacks. Personally, I&rsquo;ve been using <strong><a href="https://hyper.is/">Hyper</a></strong> for about a month. Hyper is written in JavaScript, HTML, and CSS and is cross-platform, which is particularly appealing for class.</p>
-
-<p>Whichever you choose, you&rsquo;ll use it frequently enough that I recommend keeping it in your Dock.</p>
+<p>Make sure you&rsquo;re in your home directory. You should be by default, but you can double-check with the &ldquo;print working directory&rdquo; command: <code>pwd</code>. You should be in <code>/Users/yourusername</code>. If not, you can switch to that directory with the <code>cd</code> command, passing in the directory you want to switch to.</p>
 
 
-  <div class="aside aside-info">
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
   
-    <h4>$ _</h4>
+<pre>
+<span class="command-line-prompt"><span data-prompt="$"></span>
+<span data-prompt="$"></span></span
+><span class="terminal-commands">pwd
+<span class="output-line">/some/other/dir</span>
+cd ~
+</span></pre>
+
+</div>
+</div>
+
+
+  <div class="aside aside-tip">
+  
+    <h4>~</h4>
     
   
   <div class="body">
-  <p>When you launch your terminal, it will (by default) run a UNIX shell called Bash. Bash will present a command prompt, indicated by <code>$</code>. We&rsquo;ll generally prefix terminal commands with that symbol in our documentation. You&rsquo;re not meant to type the <code>$</code> character, and it won&rsquo;t be included if you copy and paste the commands from this site.</p>
+  <p>You can always use a tilde <code>~</code> as a shortcut for your home directory.</p>
 
   </div>
 </div>
 
 
-<h2 id="zsh">Zsh</h2>
-
-<p>I am a big fan of Zsh (&ldquo;Z shell&rdquo;), which is an alternative to Bash. Even better is <strong><a href="http://ohmyz.sh/">Oh My Zsh</a></strong>, which is a framework for managing Zsh configuration. I love it. You&rsquo;ll still use Terminal.app, iTerm2, or Hyper to launch your shell, but it will run Zsh in place of Bash.</p>
-
-<p>I will be using Zsh (with Oh My Zsh) in class, but most of what we&rsquo;ll do works just as well in Bash.</p>
+<p>Check to see if you already have an .ssh key configured:</p>
 
 
-  <div class="aside aside-info">
-  
-    <h4>Command Line Power User</h4>
-    
-  
-  <div class="body">
-  <p>If you&rsquo;re not very familiar with UNIX shells, or if you&rsquo;d like to learn some cool tricks, including Oh My ZSH features, sign up for Wes Bos&rsquo;s free <strong><a href="http://commandlinepoweruser.com/">Command Line Power User</a></strong> videos. (They&rsquo;re all on YouTube, but signing up for the email makes it a little easier to find them.)</p>
 
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
   </div>
 </div>
+<div class="shell-body">
 
+  
+<pre>
+<span class="command-line-prompt"><span data-prompt="$"></span>
+</span
+><span class="terminal-commands">ls ~/.ssh/id_rsa
+<span class="output-line">/Users/dstrus/.ssh/id_rsa</span>
+
+</span></pre>
+
+</div>
+</div>
+
+<p>If it prints <code>/Users/yourusername/.ssh/id_rsa</code>, then you already have an SSH key and can skip to the next page. Otherwise, read on.</p>
+
+<h2 id="generate-an-ssh-key">Generate an SSH key</h2>
+
+<p>Type the following command to generate your SSH key, substituting the same email address you used for Git earlier:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>ssh-keygen -t rsa -C &#34;youremail@example.com&#34;
+</span></pre>
+
+</div>
+</div>
+
+<p>It should prompt you for a file name. You can just hit &lsquo;enter&rsquo; to accept the default.</p>
+
+<p>It will then prompt you for a password. You can just hit &lsquo;enter&rsquo; (twice) to not set a passphrase. That compromises your key should anyone gain access to your laptop, but it may be simpler for the sake of this course. It&rsquo;s much safer to use a passphrase when generating a key when you truly want to maximize security.</p>
+
+<p>If all is well, you should see that your identification and your public key have been saved to <code>.ssh/id_rsa</code> and <code>.ssh/id_rsa.pub</code> respectively.</p>
+
+<p>Run the following command to add your new key to the SSH agent on your Mac:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>ssh-add ~/.ssh/id_rsa
+</span></pre>
+
+</div>
+</div>
+
+<p>You&rsquo;ll test your new key shortly, but first you&rsquo;ll need to create a GitHub account and add your public key to the account.</p>
 
 
       
@@ -302,8 +444,8 @@
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="/setup-mac/chrome"> <i class="fa fa-chevron-left"></i></a>
-        <a class="nav nav-next" href="/setup-mac/git" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-prev" href="/setup-mac/editor"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="/setup-mac/github" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
     </div>
 
     </section>
