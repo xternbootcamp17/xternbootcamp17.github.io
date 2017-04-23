@@ -478,7 +478,7 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
 
 &lt;h2 id=&#34;configuring-hyper-to-run-bash&#34;&gt;Configuring Hyper to Run Bash&lt;/h2&gt;
 
-&lt;p&gt;Now we need to configure Hyper to run Git Bash when it starts. Launch Hyper, and open its configuration file by running the following command:&lt;/p&gt;
+&lt;p&gt;Now we need to configure Hyper to run Git Bash when it starts. To do so, let&amp;rsquo;s edit its configuration file. Launch &lt;strong&gt;Git Bash&lt;/strong&gt; (&lt;em&gt;not&lt;/em&gt; Hyper!), and run the following command:&lt;/p&gt;
 
 
 
@@ -543,7 +543,7 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
 
 
 
-&lt;p&gt;Feel free to poke around the preferences file for anything else you&amp;rsquo;d like to tweak, such as font size. When you&amp;rsquo;re finished, save the file, and relaunch Hyper.&lt;/p&gt;
+&lt;p&gt;With that saved, you can quit Git Bash, and run Hyper, which will actually be running the Git Bash shell now. If you want to tweak more settings you can now run the &lt;code&gt;code ~/.hyper.js&lt;/code&gt; command from Hyper. Feel free to poke around the preferences file for anything else you&amp;rsquo;d like to tweak, such as font size.&lt;/p&gt;
 
 &lt;h2 id=&#34;environment-variables&#34;&gt;Environment Variables&lt;/h2&gt;
 
