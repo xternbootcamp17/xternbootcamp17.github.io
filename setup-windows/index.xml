@@ -728,8 +728,11 @@ export EDITOR=code
 
 
 
+  
+  
 
-&lt;div class=&#34;shell macos&#34;&gt;
+
+&lt;div class=&#34;shell windows&#34;&gt;
 &lt;div class=&#34;bar&#34;&gt;
   &lt;div class=&#34;controls&#34;&gt;
     &lt;div class=&#34;windows icon&#34;&gt;
@@ -742,7 +745,7 @@ export EDITOR=code
     &lt;div class=&#34;dot green&#34;&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-  user@localhost ~
+  WINGW64:/c/Users/user
   &lt;div class=&#34;windows-controls&#34;&gt;
     &amp;nbsp;
   &lt;/div&gt;
