@@ -27,7 +27,7 @@ function getScrollBarWidth() {
 
 function setMenuHeight() {
     $('#sidebar .highlightable').height($('#sidebar').innerHeight() - $('#header-wrapper').height() - 40);
-    $('#sidebar .highlightable').perfectScrollbar('update');
+    // $('#sidebar .highlightable').perfectScrollbar('update');
 }
 
 function fallbackMessage(action) {
@@ -84,7 +84,7 @@ $(window).resize(function() {
 
 jQuery(document).ready(function() {
     var sidebarStatus = searchStatus = 'open';
-    $('#sidebar .highlightable').perfectScrollbar();
+    // $('#sidebar .highlightable').perfectScrollbar();
     // set the menu height
     setMenuHeight();
 
@@ -263,11 +263,11 @@ jQuery(window).on('load', function() {
     }
 
     // adjust sidebar for scrollbar
-    adjustForScrollbar();
+    // adjustForScrollbar();
 
-    jQuery(window).smartresize(function() {
-        adjustForScrollbar();
-    });
+    // jQuery(window).smartresize(function() {
+    //     adjustForScrollbar();
+    // });
 
     // store this page in session
     sessionStorage.setItem(jQuery('body').data('url'), 1);

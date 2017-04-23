@@ -12,13 +12,23 @@
   </url>
   
   <url>
+    <loc>http://xternbootcamp17.github.io/setup-windows/chrome/</loc>
+    <lastmod>2016-06-10T22:39:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://xternbootcamp17.github.io/prereqs/html-css/</loc>
     <lastmod>2017-04-10T22:15:59-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://xternbootcamp17.github.io/setup-mac/terminal/</loc>
-    <lastmod>2016-06-10T23:02:52-04:00</lastmod>
+    <loc>http://xternbootcamp17.github.io/setup-mac/editor/</loc>
+    <lastmod>2016-06-10T23:06:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://xternbootcamp17.github.io/setup-windows/editor/</loc>
+    <lastmod>2016-06-10T23:06:12-04:00</lastmod>
   </url>
   
   <url>
@@ -27,8 +37,13 @@
   </url>
   
   <url>
-    <loc>http://xternbootcamp17.github.io/setup-mac/git/</loc>
+    <loc>http://xternbootcamp17.github.io/setup-windows/git/</loc>
     <lastmod>2016-06-10T23:06:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://xternbootcamp17.github.io/setup-mac/terminal/</loc>
+    <lastmod>2016-06-10T23:02:52-04:00</lastmod>
   </url>
   
   <url>
@@ -37,8 +52,18 @@
   </url>
   
   <url>
+    <loc>http://xternbootcamp17.github.io/setup-mac/git/</loc>
+    <lastmod>2016-06-10T23:06:12-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://xternbootcamp17.github.io/setup-mac/node/</loc>
     <lastmod>2016-06-10T23:06:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://xternbootcamp17.github.io/setup-windows/terminal/</loc>
+    <lastmod>2016-06-10T23:02:52-04:00</lastmod>
   </url>
   
   <url>
@@ -47,8 +72,13 @@
   </url>
   
   <url>
-    <loc>http://xternbootcamp17.github.io/setup-mac/editor/</loc>
+    <loc>http://xternbootcamp17.github.io/setup-windows/node/</loc>
     <lastmod>2016-06-10T23:06:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://xternbootcamp17.github.io/setup-windows/ssh/</loc>
+    <lastmod>2016-06-10T23:40:37-04:00</lastmod>
   </url>
   
   <url>
@@ -62,7 +92,17 @@
   </url>
   
   <url>
+    <loc>http://xternbootcamp17.github.io/setup-windows/github/</loc>
+    <lastmod>2016-06-10T23:31:46-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://xternbootcamp17.github.io/setup-mac/</loc>
+    <lastmod>2017-04-11T19:48:50-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://xternbootcamp17.github.io/setup-windows/</loc>
     <lastmod>2017-04-11T19:48:50-04:00</lastmod>
   </url>
   
@@ -79,6 +119,12 @@
   
   <url>
     <loc>http://xternbootcamp17.github.io/setup-mac/</loc>
+    <lastmod>2017-04-11T19:48:50-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://xternbootcamp17.github.io/setup-windows/</loc>
     <lastmod>2017-04-11T19:48:50-04:00</lastmod>
     <priority>0</priority>
   </url>
