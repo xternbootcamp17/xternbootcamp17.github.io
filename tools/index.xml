@@ -152,7 +152,7 @@
 
 &lt;p&gt;For React projects, create the file &lt;code&gt;.vscode/launch.json&lt;/code&gt; in your project with the following configuration (&lt;a href=&#34;https://medium.com/@auchenberg/live-edit-and-debug-your-react-apps-directly-from-vs-code-without-leaving-the-editor-3da489ed905f&#34;&gt;more info&lt;/a&gt;):&lt;/p&gt;
 
-&lt;p&gt;
+
 &lt;pre class=&#34;line-numbers language-json&#34; rel=&#34;json&#34;&gt;
 &lt;code class=&#34;language-json&#34;&gt;
 
@@ -176,7 +176,7 @@
 &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;/p&gt;
+
 
 &lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/debugger-react.gif&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
 
@@ -249,6 +249,12 @@
 &lt;p&gt;Autocomplete filenames as you type. Very handy for module imports.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/path-intellisense.gif&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;view-in-browser-https-marketplace-visualstudio-com-items-itemname-qinjia-view-in-browser&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=qinjia.view-in-browser&#34;&gt;View In Browser&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;ext install view-in-browser&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Opens an HTML page in the default browser. Bound to &lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;F1&lt;/kbd&gt; (Mac) or &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;F1&lt;/kbd&gt; by default.&lt;/p&gt;
 
 
   &lt;div class=&#34;aside aside-tip&#34;&gt;
