@@ -6,8 +6,138 @@
     <description>Recent content on XTERN Bootcamp 2017</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Apr 2017 00:23:58 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 15 May 2017 11:13:46 -0400</lastBuildDate>
     <atom:link href="http://xternbootcamp17.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 1: Introduction</title>
+      <link>http://xternbootcamp17.github.io/week1/day1/</link>
+      <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week1/day1/</guid>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Monday, May 15, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;History of JavaScript and the Web&lt;/li&gt;
+&lt;li&gt;Getting the most out of a coding bootcamp&lt;/li&gt;
+&lt;li&gt;Anatomy of an HTML element (&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&#34;&gt;tags&lt;/a&gt;, &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes&#34;&gt;attributes&lt;/a&gt;, &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent&#34;&gt;text content&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Basic CSS selector syntax
+
+&lt;ul&gt;
+&lt;li&gt;Element name (&lt;code&gt;div&lt;/code&gt;, &lt;code&gt;h1&lt;/code&gt;, &lt;code&gt;p&lt;/code&gt;, etc.)&lt;/li&gt;
+&lt;li&gt;Element ID (&lt;code&gt;#theID&lt;/code&gt;, &lt;code&gt;div#theID&lt;/code&gt;, etc.)&lt;/li&gt;
+&lt;li&gt;Class name (&lt;code&gt;.theClass&lt;/code&gt;, &lt;code&gt;p.theClass&lt;/code&gt;, etc.)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Basic DOM manipulation
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;document.querySelector&lt;/code&gt;/&lt;code&gt;document.querySelectorAll&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.textContent&lt;/code&gt;/&lt;code&gt;.innerHTML&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Developer console
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;console.log&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;console.group/.groupEnd/.groupCollapsed&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Basic &lt;a href=&#34;https://www.w3schools.com/js/js_events.asp&#34;&gt;event&lt;/a&gt; handling
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;onsubmit&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Anonymous functions&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.preventDefault&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.target&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Template strings
+
+&lt;ul&gt;
+&lt;li&gt;String interpolation, &lt;em&gt;e.g.&lt;/em&gt; &lt;code&gt;Hi, ${name}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Multi-line strings&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h2&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;div class=&amp;quot;person&amp;quot;&amp;gt;
+  &amp;lt;h2 id=&amp;quot;firstName&amp;quot;&gt;Han&amp;lt;/h2&amp;gt;
+  &amp;lt;h2 id=&amp;quot;lastName&amp;quot;&gt;Solo&amp;lt;/h2&amp;gt;
+  &amp;lt;p&gt;Made the Kessel Run in less than 12 parsecs&amp;lt;/p&amp;gt;
+  &amp;lt;button&gt;Click here to hire me!&amp;lt;/button&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+// Get all h2 elements with querySelectorAll. Returns a NodeList
+const headings = document.querySelectorAll(&#39;.person h2&#39;)
+console.log(headings) 
+// =&gt; [h2#firstName, h2#lastName]
+
+// Get a single element with querySelector
+const heading = document.querySelector(&#39;.person h2&#39;)
+console.log(heading)
+// =&gt; h2#firstName
+
+// Do something when a click event occurs
+const button = document.querySelector(&#39;button&#39;)
+button.onclick((ev) =&gt; {
+  alert(&#39;clicked!&#39;)
+  console.log(ev.target)
+  // =&gt; button
+})
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://xternbootcamp17.github.io/history-of-the-web.pdf&#34;&gt;JavaScript History&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://xternbootcamp17.github.io/bootcamp-success.pdf&#34;&gt;Bootcamp Expectations and Tips for Success&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://foundation.zurb.com&#34;&gt;Foundation CSS Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;Mozilla Developer Network (MDN)&lt;/a&gt; - An excellent documentation and learning resource for all your HTML/CSS/JS needs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;h3 id=&#34;people-factory&#34;&gt;People Factory&lt;/h3&gt;
+
+&lt;p&gt;Link: &lt;a href=&#34;https://github.com/xtbc17s1/people-factory&#34;&gt;https://github.com/xtbc17s1/people-factory&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;basic-homework&#34;&gt;Basic Homework&lt;/h4&gt;
+
+&lt;p&gt;Add form values to &lt;code&gt;.details&lt;/code&gt; using &lt;code&gt;document.createElement&lt;/code&gt; and &lt;code&gt;appendChild&lt;/code&gt;, instead of &lt;code&gt;innerHTML&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h4&gt;
+
+&lt;p&gt;Break out some of this functionality into a separate function.&lt;/p&gt;
+
+&lt;h4 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h4&gt;
+
+&lt;p&gt;Do not hard-code the names of the fields in your JavaScript. Loop over all the elements in the form.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Codewars</title>
@@ -1801,164 +1931,6 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terminal</title>
-      <link>http://xternbootcamp17.github.io/setup-windows/terminal/</link>
-      <pubDate>Fri, 10 Jun 2016 23:02:52 -0400</pubDate>
-      
-      <guid>http://xternbootcamp17.github.io/setup-windows/terminal/</guid>
-      <description>
-
-&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
-
-
-&lt;p&gt;&lt;i class=&#34;fa fa-terminal&#34;&gt;&lt;/i&gt; terminal&lt;/p&gt;
-
-
-&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You&amp;rsquo;ll be using the command line a fair amount in class. We&amp;rsquo;ll be demonstrating everything on macOS, which is UNIX-based. Now that you&amp;rsquo;ve installed Git Bash, you too have a UNIX-like shell and can run the same commands.&lt;/p&gt;
-
-&lt;p&gt;As noted during setup, Git Bash can run in the default &lt;code&gt;cmd.exe&lt;/code&gt; terminal, but it also comes with MinTTY. If you&amp;rsquo;re on Windows 10, &lt;code&gt;cmd.exe&lt;/code&gt; isn&amp;rsquo;t quite the inexcusable piece of crap that it used to be. At least the dang window is resizable now&amp;mdash;that only took 25 @#$% years! It&amp;rsquo;s still a bit of pain though, and MinTTY has problems of its own. So let&amp;rsquo;s not use either one!&lt;/p&gt;
-
-&lt;h2 id=&#34;hyper&#34;&gt;Hyper&lt;/h2&gt;
-
-&lt;p&gt;Although it isn&amp;rsquo;t strictly required, I highly recommend installing &lt;strong&gt;&lt;a href=&#34;https://hyper.is/&#34;&gt;Hyper&lt;/a&gt;&lt;/strong&gt;. It&amp;rsquo;s a terminal client written in JavaScript, HTML, and CSS&amp;mdash;and it&amp;rsquo;s cross-platform! In fact, I&amp;rsquo;ll be using the Mac version of Hyper in class.&lt;/p&gt;
-
-&lt;p&gt;Aside from being what I use, Hyper is much easier to use and to customize than &lt;code&gt;cmd.exe&lt;/code&gt;, and it doesn&amp;rsquo;t have MinTTY&amp;rsquo;s issues with running native Windows apps.&lt;/p&gt;
-
-&lt;div class=&#34;download&#34;&gt;
-&lt;a href=&#34;https://hyper.is/&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; Download Hyper&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;configuring-hyper-to-run-bash&#34;&gt;Configuring Hyper to Run Bash&lt;/h2&gt;
-
-&lt;p&gt;Now we need to configure Hyper to run Git Bash when it starts. To do so, let&amp;rsquo;s edit its configuration file. Launch &lt;strong&gt;Git Bash&lt;/strong&gt; (&lt;em&gt;not&lt;/em&gt; Hyper!), and run the following command:&lt;/p&gt;
-
-
-
-
-
-
-
-  
-  
-
-
-&lt;div class=&#34;shell windows&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  WINGW64:/c/Users/user
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;code ~/.hyper.js
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We need to change two settings: &lt;em&gt;shell&lt;/em&gt; and &lt;em&gt;shellArgs&lt;/em&gt;. Look for this section of the file, and make the changes shown on the highlighted lines:&lt;/p&gt;
-
-
-  &lt;pre class=&#34;language-js  &#34;
-       
-       
-       data-line=&#34;6,10&#34;
-       rel=&#34;js&#34;
-  &gt;&lt;code class=&#34;language-js&#34;&gt;
-  
-    // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
-    // if left empty, your system&#39;s login shell will be used by default
-    // make sure to use a full path if the binary name doesn&#39;t work
-    // (e.g `C:\\Windows\\System32\\bash.exe` instead of just `bash.exe`)
-    // if you&#39;re using powershell, make sure to remove the `--login` below
-    shell: &#39;C:\\Program Files\\Git\\git-cmd.exe&#39;,
-
-    // for setting shell arguments (i.e. for using interactive shellArgs: [&#39;-i&#39;])
-    // by default [&#39;--login&#39;] will be used
-    shellArgs: [&#39;--command=usr/bin/bash.exe&#39;, &#39;-l&#39;, &#39;-i&#39;],
-
-  &lt;/code&gt;
-  &lt;/pre&gt;
-
-
-
-&lt;p&gt;With that saved, you can quit Git Bash, and run Hyper, which will actually be running the Git Bash shell now. If you want to tweak more settings you can now run the &lt;code&gt;code ~/.hyper.js&lt;/code&gt; command from Hyper. Feel free to poke around the preferences file for anything else you&amp;rsquo;d like to tweak, such as font size.&lt;/p&gt;
-
-&lt;h2 id=&#34;environment-variables&#34;&gt;Environment Variables&lt;/h2&gt;
-
-&lt;p&gt;Things still aren&amp;rsquo;t set up quite the way we want. Certain commands won&amp;rsquo;t work quite right without another tweak, and we&amp;rsquo;d like to set Visual Studio Code as the default editor. Set a couple of environment variables by issuing the following command:&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;echo -e &amp;#34;export TERM=cygwin\nexport EDITOR=code\n&amp;#34; &amp;gt; .bash_profile
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This creates the file &lt;code&gt;.bash_profile&lt;/code&gt; in your home directory, with the following contents:&lt;/p&gt;
-
-
-  &lt;pre class=&#34;language-bash line-numbers &#34;
-       
-       
-       
-       rel=&#34;.bash_profile&#34;
-  &gt;&lt;code class=&#34;language-bash&#34;&gt;
-  
-export TERM=cygwin
-export EDITOR=code
-
-
-  &lt;/code&gt;
-  &lt;/pre&gt;
-
-
 </description>
     </item>
     

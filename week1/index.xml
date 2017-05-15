@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Week1s on XTERN Bootcamp 2017</title>
+    <link>http://xternbootcamp17.github.io/week1/index.xml</link>
+    <description>Recent content in Week1s on XTERN Bootcamp 2017</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 May 2017 11:23:26 -0400</lastBuildDate>
+    <atom:link href="http://xternbootcamp17.github.io/week1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Week One</title>
+      <link>http://xternbootcamp17.github.io/week1/</link>
+      <pubDate>Mon, 15 May 2017 11:23:26 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week1/</guid>
+      <description>
+
+&lt;h1 id=&#34;week-one&#34;&gt;Week One&lt;/h1&gt;
+
+&lt;p&gt;An overview of the course and web technologies, some vanilla JavaScript, and basic DOM manipulation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Day 1: Introduction</title>
+      <link>http://xternbootcamp17.github.io/week1/day1/</link>
+      <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week1/day1/</guid>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Monday, May 15, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;History of JavaScript and the Web&lt;/li&gt;
+&lt;li&gt;Getting the most out of a coding bootcamp&lt;/li&gt;
+&lt;li&gt;Anatomy of an HTML element (&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&#34;&gt;tags&lt;/a&gt;, &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes&#34;&gt;attributes&lt;/a&gt;, &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent&#34;&gt;text content&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Basic CSS selector syntax
+
+&lt;ul&gt;
+&lt;li&gt;Element name (&lt;code&gt;div&lt;/code&gt;, &lt;code&gt;h1&lt;/code&gt;, &lt;code&gt;p&lt;/code&gt;, etc.)&lt;/li&gt;
+&lt;li&gt;Element ID (&lt;code&gt;#theID&lt;/code&gt;, &lt;code&gt;div#theID&lt;/code&gt;, etc.)&lt;/li&gt;
+&lt;li&gt;Class name (&lt;code&gt;.theClass&lt;/code&gt;, &lt;code&gt;p.theClass&lt;/code&gt;, etc.)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Basic DOM manipulation
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;document.querySelector&lt;/code&gt;/&lt;code&gt;document.querySelectorAll&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.textContent&lt;/code&gt;/&lt;code&gt;.innerHTML&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Developer console
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;console.log&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;console.group/.groupEnd/.groupCollapsed&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Basic &lt;a href=&#34;https://www.w3schools.com/js/js_events.asp&#34;&gt;event&lt;/a&gt; handling
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;onsubmit&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Anonymous functions&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.preventDefault&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.target&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Template strings
+
+&lt;ul&gt;
+&lt;li&gt;String interpolation, &lt;em&gt;e.g.&lt;/em&gt; &lt;code&gt;Hi, ${name}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Multi-line strings&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h2&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;div class=&amp;quot;person&amp;quot;&amp;gt;
+  &amp;lt;h2 id=&amp;quot;firstName&amp;quot;&gt;Han&amp;lt;/h2&amp;gt;
+  &amp;lt;h2 id=&amp;quot;lastName&amp;quot;&gt;Solo&amp;lt;/h2&amp;gt;
+  &amp;lt;p&gt;Made the Kessel Run in less than 12 parsecs&amp;lt;/p&amp;gt;
+  &amp;lt;button&gt;Click here to hire me!&amp;lt;/button&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+// Get all h2 elements with querySelectorAll. Returns a NodeList
+const headings = document.querySelectorAll(&#39;.person h2&#39;)
+console.log(headings) 
+// =&gt; [h2#firstName, h2#lastName]
+
+// Get a single element with querySelector
+const heading = document.querySelector(&#39;.person h2&#39;)
+console.log(heading)
+// =&gt; h2#firstName
+
+// Do something when a click event occurs
+const button = document.querySelector(&#39;button&#39;)
+button.onclick((ev) =&gt; {
+  alert(&#39;clicked!&#39;)
+  console.log(ev.target)
+  // =&gt; button
+})
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://xternbootcamp17.github.io/history-of-the-web.pdf&#34;&gt;JavaScript History&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://xternbootcamp17.github.io/bootcamp-success.pdf&#34;&gt;Bootcamp Expectations and Tips for Success&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://foundation.zurb.com&#34;&gt;Foundation CSS Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;Mozilla Developer Network (MDN)&lt;/a&gt; - An excellent documentation and learning resource for all your HTML/CSS/JS needs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;h3 id=&#34;people-factory&#34;&gt;People Factory&lt;/h3&gt;
+
+&lt;p&gt;Link: &lt;a href=&#34;https://github.com/xtbc17s1/people-factory&#34;&gt;https://github.com/xtbc17s1/people-factory&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;basic-homework&#34;&gt;Basic Homework&lt;/h4&gt;
+
+&lt;p&gt;Add form values to &lt;code&gt;.details&lt;/code&gt; using &lt;code&gt;document.createElement&lt;/code&gt; and &lt;code&gt;appendChild&lt;/code&gt;, instead of &lt;code&gt;innerHTML&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h4&gt;
+
+&lt;p&gt;Break out some of this functionality into a separate function.&lt;/p&gt;
+
+&lt;h4 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h4&gt;
+
+&lt;p&gt;Do not hard-code the names of the fields in your JavaScript. Loop over all the elements in the form.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
