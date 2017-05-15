@@ -123,7 +123,7 @@ button.onclick((ev) =&gt; {
 
 &lt;h3 id=&#34;people-factory&#34;&gt;People Factory&lt;/h3&gt;
 
-&lt;p&gt;Link: &lt;a href=&#34;https://github.com/xtbc17s1/people-factory&#34;&gt;https://github.com/xtbc17s1/people-factory&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link: &lt;a href=&#34;https://github.com/xtbc17s1/people-factory&#34;&gt;Morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/people-factory/tree/afternoon&#34;&gt;Afternoon&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;basic-homework&#34;&gt;Basic Homework&lt;/h4&gt;
 
