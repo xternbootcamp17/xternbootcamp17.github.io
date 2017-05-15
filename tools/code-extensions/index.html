@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.19" />
+    <meta name="description" content="">
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>VS Code Extensions</title>
+    <link href="http://xternbootcamp17.github.io//css/nucleus.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href="http://xternbootcamp17.github.io//css/featherlight.min.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/horsey.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/theme.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/hugo-theme.css" rel="stylesheet">
+    <script src="http://xternbootcamp17.github.io//js/jquery-2.x.min.js"></script>
+    <style type="text/css">:root #header + #content > #left > #rlblock_left
+    {display:none !important;}</style>
+    <link href="/css/prism.css" rel="stylesheet">
+<link href="/css/xtern.css" rel="stylesheet">
+  </head>
+  <body class="" data-url="/tools/code-extensions/">
+    
+    <nav id="sidebar">
+  <div id="header-wrapper">
+    <div id="header">
+      <a href="/"><svg role="img" aria-label="XTERN Bootcamp 2017" id="xtbc_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="242.78" height="67.06" viewBox="0 0 242.78 67.06"><title>XTERN Bootcamp 2017</title><defs><style>.cls-1{fill:#fff;}</style></defs><title>xtbc-white</title><path class="cls-1" d="M263.87,407.46H256q-2.07,0-2.07-1.64v-39.1q0-.86-1-.86h-9.73q-2,0-2-1.64v-5.31q0-1.64,2-1.64h34.59q2,0,2,1.64v5.31q0,1.64-2,1.64H267q-1.13,0-1.13.86v39.1Q265.85,407.46,263.87,407.46Zm130.47-11.83V376.29h1.82l11.7,18.26,19-1.17V358.75c0-1.09-.63-1.75-1.95-1.75h-7.81c-1.32,0-2.42.65-2.42,1.75v28.71h.07l-19-29.47c-.44-.73-1.32-1-2.64-1H386c-1.32,0-2.82.65-2.82,1.75v37.74Zm-76.9,28.15V409.3q0-.28.24-.28h5.68a3.54,3.54,0,0,1,2.51.87,3.1,3.1,0,0,1,.93,2.39v1.43a2.62,2.62,0,0,1-2.1,2.74,2.26,2.26,0,0,1,1.59.8,2.77,2.77,0,0,1,.68,1.94v1.64a3.1,3.1,0,0,1-.93,2.39,3.53,3.53,0,0,1-2.51.87h-5.85Q317.44,424.06,317.44,423.78Zm1.46-7.86h4.29a2.48,2.48,0,0,0,1.77-.58,2.17,2.17,0,0,0,.62-1.66v-1.38a2,2,0,0,0-2.32-2.25H318.9q-.24,0-.24.21v5.45Q318.66,415.92,318.9,415.92Zm0,7.11h4.54a2,2,0,0,0,2.32-2.25v-1.61q0-2.22-2.54-2.22H318.9q-.24,0-.24.19v5.69Q318.66,423,318.9,423Zm18.86,1h-3a3.43,3.43,0,0,1-2.5-.89,3.24,3.24,0,0,1-.91-2.43v-8.4a3.24,3.24,0,0,1,.91-2.43,3.44,3.44,0,0,1,2.5-.89h3a3.44,3.44,0,0,1,2.5.89,3.24,3.24,0,0,1,.91,2.43v8.4a3.24,3.24,0,0,1-.91,2.43A3.43,3.43,0,0,1,337.76,424.06Zm-2.9-1.05h2.78a2.09,2.09,0,0,0,2.32-2.32v-8.31a2.09,2.09,0,0,0-2.32-2.32h-2.78a2.26,2.26,0,0,0-1.71.61,2.36,2.36,0,0,0-.59,1.71v8.31a2.36,2.36,0,0,0,.59,1.71A2.26,2.26,0,0,0,334.86,423Zm17.22,1.05h-3a3.43,3.43,0,0,1-2.5-.89,3.24,3.24,0,0,1-.91-2.43v-8.4a3.24,3.24,0,0,1,.91-2.43,3.44,3.44,0,0,1,2.5-.89h3a3.44,3.44,0,0,1,2.5.89,3.24,3.24,0,0,1,.91,2.43v8.4a3.24,3.24,0,0,1-.91,2.43A3.43,3.43,0,0,1,352.08,424.06Zm-2.9-1.05H352a2.09,2.09,0,0,0,2.32-2.32v-8.31a2.09,2.09,0,0,0-2.32-2.32h-2.78a2.26,2.26,0,0,0-1.71.61,2.36,2.36,0,0,0-.59,1.71v8.31a2.36,2.36,0,0,0,.59,1.71A2.26,2.26,0,0,0,349.18,423Zm14.47,1.05h-.71c-.18,0-.27-.09-.27-.28v-13.5c0-.14-.08-.21-.24-.21h-3.54q-.29,0-.29-.26v-.54q0-.26.29-.26h8.78q.29,0,.29.26v.54q0,.26-.29.26h-3.54c-.16,0-.24.07-.24.21v13.5C363.89,424,363.81,424.06,363.64,424.06Zm13.91,0h-3.07a3.43,3.43,0,0,1-2.5-.89,3.24,3.24,0,0,1-.91-2.43v-8.4a3.24,3.24,0,0,1,.91-2.43,3.43,3.43,0,0,1,2.5-.89h3.07a3.43,3.43,0,0,1,2.5.89,3.24,3.24,0,0,1,.91,2.43v1.15q0,.28-.27.28H380q-.27,0-.27-.28v-1.1a2.09,2.09,0,0,0-2.32-2.32h-2.85a2.26,2.26,0,0,0-1.71.61,2.36,2.36,0,0,0-.59,1.71v8.31a2.36,2.36,0,0,0,.59,1.71,2.26,2.26,0,0,0,1.71.61h2.85a2.09,2.09,0,0,0,2.32-2.32v-1.1q0-.28.27-.28h.68q.27,0,.27.28v1.15a3.24,3.24,0,0,1-.91,2.43A3.43,3.43,0,0,1,377.55,424.06Zm7.39,0h-.76q-.27,0-.17-.28l4.85-14.48a.33.33,0,0,1,.34-.28h1.15a.35.35,0,0,1,.34.28l4.85,14.48q.07.28-.17.28h-.78a.32.32,0,0,1-.32-.28L393,420h-6.39l-1.32,3.74Q385.16,424.06,384.94,424.06Zm4.78-13.76L386.92,419h5.73l-2.83-8.68ZM410.46,409h1.32c.16,0,.24.09.24.28v14.48c0,.19-.08.28-.24.28h-.71c-.18,0-.27-.09-.27-.28v-13h-.1l-4.32,9.71a.42.42,0,0,1-.37.26h-.8a.35.35,0,0,1-.34-.26l-4.39-9.73h-.1v13c0,.19-.08.28-.24.28h-.71q-.24,0-.24-.28V409.3q0-.28.24-.28h1.32a.21.21,0,0,1,.22.14l4.59,10.27h.1l4.59-10.27A.21.21,0,0,1,410.46,409Zm7.49,15h-.71q-.24,0-.24-.28V409.3q0-.28.24-.28h5.61a3.48,3.48,0,0,1,2.51.89,3.21,3.21,0,0,1,.93,2.43v2.74a3.21,3.21,0,0,1-.93,2.43,3.48,3.48,0,0,1-2.51.89h-4.39c-.16,0-.24.06-.24.19v5.19Q418.21,424.06,417.95,424.06Zm.51-6.74h4.29a2.29,2.29,0,0,0,1.71-.6A2.32,2.32,0,0,0,425,415v-2.64a2.35,2.35,0,0,0-.59-1.72,2.29,2.29,0,0,0-1.71-.6h-4.29c-.16,0-.24.07-.24.21v6.85C418.21,417.26,418.3,417.32,418.46,417.32Zm-72.85-17.83v-9.84c0-.57,1.41-1.18,2.17-1.18h6.31l5.45,9.93,12.16-.82L365.92,388v-.31C371,385.78,374,381.87,374,376v-6.09c0-4.06-1-7.26-3.81-9.5S364,357,359.08,357H336.67c-1.32,0-3.24.65-3.24,1.75v41.62Zm0-32.94c0-.57,1.38-.41,2.07-.41h9.23c2,0,3,.14,4,.87s1,1.68,1,3.29v6.09c0,1.56,0,3-1,3.66a5.92,5.92,0,0,1-4,1.32h-9.23c-.69,0-2.07-.82-2.07-1.39Zm-22.33,34.71v-.91c0-1.09-.53-1.72-1.79-1.72H301.81c-.75,0-1.88-.2-1.88-.77V387c0-.57,1.13-.56,1.88-.56h16.1c1.32,0,1.3-.85,1.3-1.94v-5.31c0-1.09,0-1.89-1.3-1.89h-16.1c-.75,0-1.88,0-1.88-.61V366.55c0-.57,1.13-.41,1.88-.41h19.68c1.25,0,1.79-1,1.79-2.08v-5.31a1.56,1.56,0,0,0-1.79-1.75H290.7c-1.32,0-3,.65-3,1.75v45Z" transform="translate(-184.05 -357)"/><path class="cls-1" d="M234.25,375.49l-6.89,6.87,6.89,6.87,0,18.24H216.15l-7-7-7,7H184V389.24l6.87-6.88L184,375.49V357.25h18.13l7,7.11,7-7.11h18.13Zm-34.42,26.57,9.32-9.14,9.34,9.14h10.4V391.35l-9.09-9,9.09-9V362.62H218.5l-9.34,9.19-9.32-9.14H189.47v10.72l9.06,9-9.06,9v10.71Z" transform="translate(-184.05 -357)"/><polygon class="cls-1" points="25.96 25.36 36.26 15.06 36.06 14.85 35.63 14.42 35.42 14.22 25.11 24.52 14.81 14.22 14.17 14.85 13.97 15.06 24.28 25.36 13.97 35.67 14.6 36.31 14.81 36.51 25.11 26.21 35.42 36.51 36.06 35.88 36.26 35.67 25.96 25.36"/></svg></a>
+      
+    </div>
+</div>
+
+
+  <div class="highlightable">
+    <ul class="topics">
+      
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/prereqs/">
+        <a href="/prereqs/">
+          <span>
+            
+             Prerequisites
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/codewars/">
+              <a href="/prereqs/codewars/">
+                <span>Codewars     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/html-css/">
+              <a href="/prereqs/html-css/">
+                <span>HTML &amp; CSS     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/javascript/">
+              <a href="/prereqs/javascript/">
+                <span>JavaScript     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/git/">
+              <a href="/prereqs/git/">
+                <span>Git     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/terminal/">
+              <a href="/prereqs/terminal/">
+                <span>Terminal     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/setup-mac/">
+        <a href="/setup-mac/">
+          <span>
+            
+              <i class="fa fa-apple"></i>
+            
+             Setup for Mac
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/chrome/">
+              <a href="/setup-mac/chrome/">
+                <span>Chrome     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/editor/">
+              <a href="/setup-mac/editor/">
+                <span>Editor     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/terminal/">
+              <a href="/setup-mac/terminal/">
+                <span>Terminal     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/git/">
+              <a href="/setup-mac/git/">
+                <span>Git     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/node/">
+              <a href="/setup-mac/node/">
+                <span>Node.js     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/ssh/">
+              <a href="/setup-mac/ssh/">
+                <span>SSH     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/github/">
+              <a href="/setup-mac/github/">
+                <span>GitHub     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/setup-windows/">
+        <a href="/setup-windows/">
+          <span>
+            
+              <i class="fa fa-windows"></i>
+            
+             Setup for Windows
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/chrome/">
+              <a href="/setup-windows/chrome/">
+                <span>Chrome     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/editor/">
+              <a href="/setup-windows/editor/">
+                <span>Editor     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/git/">
+              <a href="/setup-windows/git/">
+                <span>Git     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/terminal/">
+              <a href="/setup-windows/terminal/">
+                <span>Terminal     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/node/">
+              <a href="/setup-windows/node/">
+                <span>Node.js     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/ssh/">
+              <a href="/setup-windows/ssh/">
+                <span>SSH     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/github/">
+              <a href="/setup-windows/github/">
+                <span>GitHub     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+      
+
+      <li class="dd-item  parent" data-nav-id="/tools/">
+        <a href="/tools/">
+          <span>
+            
+             Tools
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item active" data-nav-id="/tools/code-extensions/">
+              <a href="/tools/code-extensions/">
+                <span>VS Code Extensions     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/tools/code-keybindings/">
+              <a href="/tools/code-keybindings/">
+                <span>VS Code Keybindings     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/tools/github-desktop/">
+              <a href="/tools/github-desktop/">
+                <span>GitHub Desktop     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+    </ul>
+    <hr>
+     
+    <section id="footer">
+      <p>from <a href="http://techpoint.org">TechPoint</a> and <a href="http://www.fretless.com">Fretless</a></p>
+    </section>
+  </div>
+</nav>
+
+        <section id="body">
+        <div id="overlay"></div>
+
+        <div class="padding highlightable">
+
+            <div id="top-bar">
+              
+              <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                  <span id="sidebar-toggle-span">
+                      <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                  </span>
+                
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
+                
+                  
+                  
+                  
+                    
+                    
+                <a href="/tools/" itemprop="url"><span itemprop="title">Tools</span></a> <i class="fa fa-angle-right"></i>
+                    
+                  
+                
+                <span itemprop="title"> VS Code Extensions</span>
+              </div>
+              
+                  <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#recommended-extensions-for-vs-code">Recommended Extensions for VS Code</a>
+<ul>
+<li><a href="#vscode-icons-https-marketplace-visualstudio-com-items-itemname-robertohuertasm-vscode-icons"><a href="https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons"><strong>vscode-icons</strong></a></a></li>
+<li><a href="#can-i-use-https-marketplace-visualstudio-com-items-itemname-akamud-vscode-caniuse"><a href="https://marketplace.visualstudio.com/items?itemName=akamud.vscode-caniuse"><strong>Can I Use</strong></a></a></li>
+<li><a href="#color-highlight-https-marketplace-visualstudio-com-items-itemname-naumovs-color-highlight"><a href="https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight"><strong>Color Highlight</strong></a></a></li>
+<li><a href="#debugger-for-chrome-https-marketplace-visualstudio-com-items-itemname-msjsdiag-debugger-for-chrome"><a href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger for Chrome</a></a></li>
+<li><a href="#ecmascript-quotes-transformer-https-marketplace-visualstudio-com-items-itemname-vilicvane-es-quotes"><a href="https://marketplace.visualstudio.com/items?itemName=vilicvane.es-quotes">ECMAScript Quotes Transformer</a></a></li>
+<li><a href="#embrace-https-marketplace-visualstudio-com-items-itemname-mycelo-embrace"><a href="https://marketplace.visualstudio.com/items?itemName=mycelo.embrace">Embrace</a></a></li>
+<li><a href="#eslint-https-marketplace-visualstudio-com-items-itemname-dbaeumer-vscode-eslint"><a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint</a></a></li>
+<li><a href="#html-boilerplate-https-marketplace-visualstudio-com-items-itemname-sidthesloth-html5-boilerplate"><a href="https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate">HTML Boilerplate</a></a></li>
+<li><a href="#path-intellisense-https-marketplace-visualstudio-com-items-itemname-christian-kohler-path-intellisense"><a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense">Path Intellisense</a></a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+              
+
+            </div>
+            
+              <div id="body-inner">
+                
+                <h1>VS Code Extensions</h1>
+                
+
+
+
+<div class="page-heading"><div>
+
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   role="img"
+   viewBox="0 0 500 516.8125"
+   id="vs-logo-svg"
+   aria-labelledby="vs-svg-title"
+   version="1.2">
+  <title id="vs-svg-title">Visual Studio Code</title>
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#2d2c31"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="26.033824"
+     inkscape:cy="342.90908"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(0,-538.375)">
+    <path
+       style="fill:#ffffff;stroke:none"
+       d="M 483.29234,602.44472 372.10411,557.87392 178.02375,746.87661 61.150238,657.90867 l -44.44058,22.35039 -0.04444,233.31307 44.23249,22.18974 116.777852,-88.89395 194.55776,188.82908 111.10146,-44.39718 z"
+       id="path2998"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#373277;stroke:none"
+       d="m 361.0373,713.50273 -111.05802,83.02234 111.10146,83.67329 z"
+       id="path3000"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#373277;stroke:none"
+       d="m 72.191838,746.97093 0.0667,99.85788 55.483402,-50.26641 z"
+       id="path3002"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
+
+
+
+<p>VS Code Extensions</p>
+
+
+</div></div>
+
+<p>We use a number of settings, shortcuts, and extensions to make our lives easier when developing with Visual Studio Code. Here are some of our favorites extensions.</p>
+
+<h2 id="recommended-extensions-for-vs-code">Recommended Extensions for VS Code</h2>
+
+<p>To install an extension, launch VS Code Quick Open (<kbd>⌘</kbd>+<kbd>P</kbd>), paste the command, and press <kbd>enter</kbd>.</p>
+
+<h3 id="vscode-icons-https-marketplace-visualstudio-com-items-itemname-robertohuertasm-vscode-icons"><a href="https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons"><strong>vscode-icons</strong></a></h3>
+
+<p><code>ext install vscode-icons</code></p>
+
+<p>vscode-icons shows icons in the sidebar that correspond to the file type.</p>
+
+<h3 id="can-i-use-https-marketplace-visualstudio-com-items-itemname-akamud-vscode-caniuse"><a href="https://marketplace.visualstudio.com/items?itemName=akamud.vscode-caniuse"><strong>Can I Use</strong></a></h3>
+
+<p><code>ext install vscode-caniuse</code></p>
+
+<p>Can I Use checks HTML/CSS/JS for browser compatibility, based on <a href="http://caniuse.com">caniuse.com</a>. The default keybinding is <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>i</kbd> on Windows/Linux and <kbd>ctrl</kbd>+<kbd>c</kbd> on Mac.</p>
+
+<p><img src="/images/caniuse.png" class='no-margin'></p>
+
+<h3 id="color-highlight-https-marketplace-visualstudio-com-items-itemname-naumovs-color-highlight"><a href="https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight"><strong>Color Highlight</strong></a></h3>
+
+<p><code>ext install color-highlight</code></p>
+
+<p>Color Highlights display web colors in your code <em>in that color</em>.</p>
+
+<p><img src="/images/color-highlight.png" class='no-margin'></p>
+
+<h3 id="debugger-for-chrome-https-marketplace-visualstudio-com-items-itemname-msjsdiag-debugger-for-chrome"><a href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger for Chrome</a></h3>
+
+<p><code>ext install debugger-for-chrome</code></p>
+
+<p>Debug in Chrome from inside VS Code. Pick a launch config from the dropdown on the Debug pane in Code, and press the play button or <kbd>F5</kbd> to start.</p>
+
+<p>For React projects, create the file <code>.vscode/launch.json</code> in your project with the following configuration (<a href="https://medium.com/@auchenberg/live-edit-and-debug-your-react-apps-directly-from-vs-code-without-leaving-the-editor-3da489ed905f">more info</a>):</p>
+
+<p>
+<pre class="line-numbers language-json" rel="json">
+<code class="language-json">
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceRoot}/src",
+      "userDataDir": "${workspaceRoot}/.chrome",
+      "sourceMapPathOverrides": {
+          "webpack:///src/*": "${webRoot}/*"
+      }
+    }
+  ]
+}
+
+</code>
+</pre>
+
+</p>
+
+<p><img src="/images/debugger-react.gif" class='no-margin'></p>
+
+<h3 id="ecmascript-quotes-transformer-https-marketplace-visualstudio-com-items-itemname-vilicvane-es-quotes"><a href="https://marketplace.visualstudio.com/items?itemName=vilicvane.es-quotes">ECMAScript Quotes Transformer</a></h3>
+
+<p><code>ext install es-quotes</code></p>
+
+<p>Switches a string between single and double quotes, and between normal strings and ES6+ template strings.</p>
+
+<p><img src="/images/es-quotes.gif" class='no-margin'></p>
+
+<h3 id="embrace-https-marketplace-visualstudio-com-items-itemname-mycelo-embrace"><a href="https://marketplace.visualstudio.com/items?itemName=mycelo.embrace">Embrace</a></h3>
+
+<p><code>ext install embrace</code></p>
+
+<p>Surround the selection with parentheses, brackets, quotes, etc. The extension does <em>not</em> configure any keybindings for these commands by default.</p>
+
+<h3 id="eslint-https-marketplace-visualstudio-com-items-itemname-dbaeumer-vscode-eslint"><a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint</a></h3>
+
+<p><code>ext install vscode-eslint</code></p>
+
+<p>Check JavaScript for errors and style violations as you edit. Requires ESLint, which you can install with:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>npm install eslint -g
+</span></pre>
+
+</div>
+</div>
+
+<h3 id="html-boilerplate-https-marketplace-visualstudio-com-items-itemname-sidthesloth-html5-boilerplate"><a href="https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate">HTML Boilerplate</a></h3>
+
+<p><code>ext install html5-boilerplate</code></p>
+
+<p>Adds a snippet for HTML 5 boilerplate.</p>
+
+<p><img src="/images/html-boilerplate.gif" class='no-margin'></p>
+
+<h3 id="path-intellisense-https-marketplace-visualstudio-com-items-itemname-christian-kohler-path-intellisense"><a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense">Path Intellisense</a></h3>
+
+<p><code>ext install path-intellisense</code></p>
+
+<p>Autocomplete filenames as you type. Very handy for module imports.</p>
+
+<p><img src="/images/path-intellisense.gif" class='no-margin'></p>
+
+
+  <div class="aside aside-tip">
+  
+    <h4>Theme Info</h4>
+    
+  
+  <div class="body">
+  <p>Since I&rsquo;m always asked, I use the following themes:</p>
+
+<ul>
+<li>Code: <em>Oceanic Next Italic</em></li>
+<li>Atom: <em>Atom Dark</em> UI theme; <em>Kobalt</em> syntax theme (with some personal customizations)</li>
+</ul>
+
+  </div>
+</div>
+
+
+
+      
+      
+      </div>
+    </div>
+
+    
+
+    <div id="navigation">
+        
+        <a class="nav nav-prev" href="/tools"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="/tools/code-keybindings" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+    </div>
+
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="http://xternbootcamp17.github.io//js/clipboard.min.js"></script>
+    
+    <script src="http://xternbootcamp17.github.io//js/jquery.sticky-kit.min.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/featherlight.min.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/html5shiv-printshiv.min.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/prism.js"></script>
+    
+    <script src="http://xternbootcamp17.github.io//js/modernizr.custom.71422.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/learn.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/hugo-learn.js"></script>
+    
+
+  </body>
+</html>
+

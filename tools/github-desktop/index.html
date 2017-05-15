@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.19" />
+    <meta name="description" content="">
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>GitHub Desktop</title>
+    <link href="http://xternbootcamp17.github.io//css/nucleus.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href="http://xternbootcamp17.github.io//css/featherlight.min.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/horsey.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/theme.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/hugo-theme.css" rel="stylesheet">
+    <script src="http://xternbootcamp17.github.io//js/jquery-2.x.min.js"></script>
+    <style type="text/css">:root #header + #content > #left > #rlblock_left
+    {display:none !important;}</style>
+    <link href="/css/prism.css" rel="stylesheet">
+<link href="/css/xtern.css" rel="stylesheet">
+  </head>
+  <body class="" data-url="/tools/github-desktop/">
+    
+    <nav id="sidebar">
+  <div id="header-wrapper">
+    <div id="header">
+      <a href="/"><svg role="img" aria-label="XTERN Bootcamp 2017" id="xtbc_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="242.78" height="67.06" viewBox="0 0 242.78 67.06"><title>XTERN Bootcamp 2017</title><defs><style>.cls-1{fill:#fff;}</style></defs><title>xtbc-white</title><path class="cls-1" d="M263.87,407.46H256q-2.07,0-2.07-1.64v-39.1q0-.86-1-.86h-9.73q-2,0-2-1.64v-5.31q0-1.64,2-1.64h34.59q2,0,2,1.64v5.31q0,1.64-2,1.64H267q-1.13,0-1.13.86v39.1Q265.85,407.46,263.87,407.46Zm130.47-11.83V376.29h1.82l11.7,18.26,19-1.17V358.75c0-1.09-.63-1.75-1.95-1.75h-7.81c-1.32,0-2.42.65-2.42,1.75v28.71h.07l-19-29.47c-.44-.73-1.32-1-2.64-1H386c-1.32,0-2.82.65-2.82,1.75v37.74Zm-76.9,28.15V409.3q0-.28.24-.28h5.68a3.54,3.54,0,0,1,2.51.87,3.1,3.1,0,0,1,.93,2.39v1.43a2.62,2.62,0,0,1-2.1,2.74,2.26,2.26,0,0,1,1.59.8,2.77,2.77,0,0,1,.68,1.94v1.64a3.1,3.1,0,0,1-.93,2.39,3.53,3.53,0,0,1-2.51.87h-5.85Q317.44,424.06,317.44,423.78Zm1.46-7.86h4.29a2.48,2.48,0,0,0,1.77-.58,2.17,2.17,0,0,0,.62-1.66v-1.38a2,2,0,0,0-2.32-2.25H318.9q-.24,0-.24.21v5.45Q318.66,415.92,318.9,415.92Zm0,7.11h4.54a2,2,0,0,0,2.32-2.25v-1.61q0-2.22-2.54-2.22H318.9q-.24,0-.24.19v5.69Q318.66,423,318.9,423Zm18.86,1h-3a3.43,3.43,0,0,1-2.5-.89,3.24,3.24,0,0,1-.91-2.43v-8.4a3.24,3.24,0,0,1,.91-2.43,3.44,3.44,0,0,1,2.5-.89h3a3.44,3.44,0,0,1,2.5.89,3.24,3.24,0,0,1,.91,2.43v8.4a3.24,3.24,0,0,1-.91,2.43A3.43,3.43,0,0,1,337.76,424.06Zm-2.9-1.05h2.78a2.09,2.09,0,0,0,2.32-2.32v-8.31a2.09,2.09,0,0,0-2.32-2.32h-2.78a2.26,2.26,0,0,0-1.71.61,2.36,2.36,0,0,0-.59,1.71v8.31a2.36,2.36,0,0,0,.59,1.71A2.26,2.26,0,0,0,334.86,423Zm17.22,1.05h-3a3.43,3.43,0,0,1-2.5-.89,3.24,3.24,0,0,1-.91-2.43v-8.4a3.24,3.24,0,0,1,.91-2.43,3.44,3.44,0,0,1,2.5-.89h3a3.44,3.44,0,0,1,2.5.89,3.24,3.24,0,0,1,.91,2.43v8.4a3.24,3.24,0,0,1-.91,2.43A3.43,3.43,0,0,1,352.08,424.06Zm-2.9-1.05H352a2.09,2.09,0,0,0,2.32-2.32v-8.31a2.09,2.09,0,0,0-2.32-2.32h-2.78a2.26,2.26,0,0,0-1.71.61,2.36,2.36,0,0,0-.59,1.71v8.31a2.36,2.36,0,0,0,.59,1.71A2.26,2.26,0,0,0,349.18,423Zm14.47,1.05h-.71c-.18,0-.27-.09-.27-.28v-13.5c0-.14-.08-.21-.24-.21h-3.54q-.29,0-.29-.26v-.54q0-.26.29-.26h8.78q.29,0,.29.26v.54q0,.26-.29.26h-3.54c-.16,0-.24.07-.24.21v13.5C363.89,424,363.81,424.06,363.64,424.06Zm13.91,0h-3.07a3.43,3.43,0,0,1-2.5-.89,3.24,3.24,0,0,1-.91-2.43v-8.4a3.24,3.24,0,0,1,.91-2.43,3.43,3.43,0,0,1,2.5-.89h3.07a3.43,3.43,0,0,1,2.5.89,3.24,3.24,0,0,1,.91,2.43v1.15q0,.28-.27.28H380q-.27,0-.27-.28v-1.1a2.09,2.09,0,0,0-2.32-2.32h-2.85a2.26,2.26,0,0,0-1.71.61,2.36,2.36,0,0,0-.59,1.71v8.31a2.36,2.36,0,0,0,.59,1.71,2.26,2.26,0,0,0,1.71.61h2.85a2.09,2.09,0,0,0,2.32-2.32v-1.1q0-.28.27-.28h.68q.27,0,.27.28v1.15a3.24,3.24,0,0,1-.91,2.43A3.43,3.43,0,0,1,377.55,424.06Zm7.39,0h-.76q-.27,0-.17-.28l4.85-14.48a.33.33,0,0,1,.34-.28h1.15a.35.35,0,0,1,.34.28l4.85,14.48q.07.28-.17.28h-.78a.32.32,0,0,1-.32-.28L393,420h-6.39l-1.32,3.74Q385.16,424.06,384.94,424.06Zm4.78-13.76L386.92,419h5.73l-2.83-8.68ZM410.46,409h1.32c.16,0,.24.09.24.28v14.48c0,.19-.08.28-.24.28h-.71c-.18,0-.27-.09-.27-.28v-13h-.1l-4.32,9.71a.42.42,0,0,1-.37.26h-.8a.35.35,0,0,1-.34-.26l-4.39-9.73h-.1v13c0,.19-.08.28-.24.28h-.71q-.24,0-.24-.28V409.3q0-.28.24-.28h1.32a.21.21,0,0,1,.22.14l4.59,10.27h.1l4.59-10.27A.21.21,0,0,1,410.46,409Zm7.49,15h-.71q-.24,0-.24-.28V409.3q0-.28.24-.28h5.61a3.48,3.48,0,0,1,2.51.89,3.21,3.21,0,0,1,.93,2.43v2.74a3.21,3.21,0,0,1-.93,2.43,3.48,3.48,0,0,1-2.51.89h-4.39c-.16,0-.24.06-.24.19v5.19Q418.21,424.06,417.95,424.06Zm.51-6.74h4.29a2.29,2.29,0,0,0,1.71-.6A2.32,2.32,0,0,0,425,415v-2.64a2.35,2.35,0,0,0-.59-1.72,2.29,2.29,0,0,0-1.71-.6h-4.29c-.16,0-.24.07-.24.21v6.85C418.21,417.26,418.3,417.32,418.46,417.32Zm-72.85-17.83v-9.84c0-.57,1.41-1.18,2.17-1.18h6.31l5.45,9.93,12.16-.82L365.92,388v-.31C371,385.78,374,381.87,374,376v-6.09c0-4.06-1-7.26-3.81-9.5S364,357,359.08,357H336.67c-1.32,0-3.24.65-3.24,1.75v41.62Zm0-32.94c0-.57,1.38-.41,2.07-.41h9.23c2,0,3,.14,4,.87s1,1.68,1,3.29v6.09c0,1.56,0,3-1,3.66a5.92,5.92,0,0,1-4,1.32h-9.23c-.69,0-2.07-.82-2.07-1.39Zm-22.33,34.71v-.91c0-1.09-.53-1.72-1.79-1.72H301.81c-.75,0-1.88-.2-1.88-.77V387c0-.57,1.13-.56,1.88-.56h16.1c1.32,0,1.3-.85,1.3-1.94v-5.31c0-1.09,0-1.89-1.3-1.89h-16.1c-.75,0-1.88,0-1.88-.61V366.55c0-.57,1.13-.41,1.88-.41h19.68c1.25,0,1.79-1,1.79-2.08v-5.31a1.56,1.56,0,0,0-1.79-1.75H290.7c-1.32,0-3,.65-3,1.75v45Z" transform="translate(-184.05 -357)"/><path class="cls-1" d="M234.25,375.49l-6.89,6.87,6.89,6.87,0,18.24H216.15l-7-7-7,7H184V389.24l6.87-6.88L184,375.49V357.25h18.13l7,7.11,7-7.11h18.13Zm-34.42,26.57,9.32-9.14,9.34,9.14h10.4V391.35l-9.09-9,9.09-9V362.62H218.5l-9.34,9.19-9.32-9.14H189.47v10.72l9.06,9-9.06,9v10.71Z" transform="translate(-184.05 -357)"/><polygon class="cls-1" points="25.96 25.36 36.26 15.06 36.06 14.85 35.63 14.42 35.42 14.22 25.11 24.52 14.81 14.22 14.17 14.85 13.97 15.06 24.28 25.36 13.97 35.67 14.6 36.31 14.81 36.51 25.11 26.21 35.42 36.51 36.06 35.88 36.26 35.67 25.96 25.36"/></svg></a>
+      
+    </div>
+</div>
+
+
+  <div class="highlightable">
+    <ul class="topics">
+      
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/prereqs/">
+        <a href="/prereqs/">
+          <span>
+            
+             Prerequisites
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/codewars/">
+              <a href="/prereqs/codewars/">
+                <span>Codewars     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/html-css/">
+              <a href="/prereqs/html-css/">
+                <span>HTML &amp; CSS     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/javascript/">
+              <a href="/prereqs/javascript/">
+                <span>JavaScript     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/git/">
+              <a href="/prereqs/git/">
+                <span>Git     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/terminal/">
+              <a href="/prereqs/terminal/">
+                <span>Terminal     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/setup-mac/">
+        <a href="/setup-mac/">
+          <span>
+            
+              <i class="fa fa-apple"></i>
+            
+             Setup for Mac
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/chrome/">
+              <a href="/setup-mac/chrome/">
+                <span>Chrome     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/editor/">
+              <a href="/setup-mac/editor/">
+                <span>Editor     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/terminal/">
+              <a href="/setup-mac/terminal/">
+                <span>Terminal     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/git/">
+              <a href="/setup-mac/git/">
+                <span>Git     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/node/">
+              <a href="/setup-mac/node/">
+                <span>Node.js     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/ssh/">
+              <a href="/setup-mac/ssh/">
+                <span>SSH     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/github/">
+              <a href="/setup-mac/github/">
+                <span>GitHub     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/setup-windows/">
+        <a href="/setup-windows/">
+          <span>
+            
+              <i class="fa fa-windows"></i>
+            
+             Setup for Windows
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/chrome/">
+              <a href="/setup-windows/chrome/">
+                <span>Chrome     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/editor/">
+              <a href="/setup-windows/editor/">
+                <span>Editor     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/git/">
+              <a href="/setup-windows/git/">
+                <span>Git     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/terminal/">
+              <a href="/setup-windows/terminal/">
+                <span>Terminal     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/node/">
+              <a href="/setup-windows/node/">
+                <span>Node.js     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/ssh/">
+              <a href="/setup-windows/ssh/">
+                <span>SSH     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/github/">
+              <a href="/setup-windows/github/">
+                <span>GitHub     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+      
+
+      <li class="dd-item  parent" data-nav-id="/tools/">
+        <a href="/tools/">
+          <span>
+            
+             Tools
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/tools/code-extensions/">
+              <a href="/tools/code-extensions/">
+                <span>VS Code Extensions     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/tools/code-keybindings/">
+              <a href="/tools/code-keybindings/">
+                <span>VS Code Keybindings     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item active" data-nav-id="/tools/github-desktop/">
+              <a href="/tools/github-desktop/">
+                <span>GitHub Desktop     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+    </ul>
+    <hr>
+     
+    <section id="footer">
+      <p>from <a href="http://techpoint.org">TechPoint</a> and <a href="http://www.fretless.com">Fretless</a></p>
+    </section>
+  </div>
+</nav>
+
+        <section id="body">
+        <div id="overlay"></div>
+
+        <div class="padding highlightable">
+
+            <div id="top-bar">
+              
+              <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                  <span id="sidebar-toggle-span">
+                      <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                  </span>
+                
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
+                
+                  
+                  
+                  
+                    
+                    
+                <a href="/tools/" itemprop="url"><span itemprop="title">Tools</span></a> <i class="fa fa-angle-right"></i>
+                    
+                  
+                
+                <span itemprop="title"> GitHub Desktop</span>
+              </div>
+              
+                  <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+              
+
+            </div>
+            
+              <div id="body-inner">
+                
+                <h1>GitHub Desktop</h1>
+                
+
+<div class="page-heading"><div>
+
+
+<svg role="img" aria-labelledby="github-svg-title" id="github-logo" data-name="github-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480.24 129.87"><title id="github-svg-title">GitHub</title><defs><style>.cls-1{fill:#fff;}</style></defs><title>github-logo</title><path class="cls-1" d="M92.5,55.59H52.14a1.89,1.89,0,0,0-1.89,1.89V77.2a1.89,1.89,0,0,0,1.89,1.89H67.88v24.51s-3.54,1.21-13.31,1.21c-11.53,0-27.64-4.21-27.64-39.63S43.71,25.09,59.46,25.09c13.63,0,19.5,2.4,23.24,3.56A1.9,1.9,0,0,0,85,26.8l4.5-19.06a1.76,1.76,0,0,0-.72-1.47C87.22,5.18,78,0,54.58,0,27.63,0,0,11.46,0,66.56s31.64,63.31,58.3,63.31c22.08,0,35.47-9.43,35.47-9.43a1.62,1.62,0,0,0,.61-1.43V57.47A1.89,1.89,0,0,0,92.5,55.59Z"/><path class="cls-1" d="M300.47,6.6a1.88,1.88,0,0,0-1.87-1.9H275.88A1.89,1.89,0,0,0,274,6.6V50.51H238.58V6.6a1.88,1.88,0,0,0-1.87-1.9H214a1.89,1.89,0,0,0-1.88,1.9v118.9a1.89,1.89,0,0,0,1.88,1.9h22.72a1.89,1.89,0,0,0,1.88-1.9V74.65H274l-.06,50.86a1.89,1.89,0,0,0,1.88,1.9H298.6a1.89,1.89,0,0,0,1.88-1.9Z"/><path class="cls-1" d="M135.38,22.2A14.65,14.65,0,1,0,120.72,37,14.72,14.72,0,0,0,135.38,22.2Z"/><path class="cls-1" d="M133.75,100.42V45.54a1.89,1.89,0,0,0-1.88-1.89H109.22a2.17,2.17,0,0,0-2,2.11v78.64c0,2.31,1.44,3,3.3,3H131c2.24,0,2.79-1.1,2.79-3Z"/><path class="cls-1" d="M386.83,43.82H364.28a1.89,1.89,0,0,0-1.88,1.9V104a25.48,25.48,0,0,1-13.86,4.19c-8.13,0-10.29-3.69-10.29-11.65V45.72a1.89,1.89,0,0,0-1.87-1.9H313.5a1.89,1.89,0,0,0-1.88,1.9v54.69c0,23.65,13.18,29.43,31.31,29.43,14.87,0,26.87-8.22,26.87-8.22a47.74,47.74,0,0,0,.83,4.84,2,2,0,0,0,1.66,1l14.56-.06a1.89,1.89,0,0,0,1.88-1.9V45.72A1.89,1.89,0,0,0,386.83,43.82Z"/><path class="cls-1" d="M448.46,41.15a42.4,42.4,0,0,0-21.52,5.71V6.6a1.88,1.88,0,0,0-1.87-1.9H402.28a1.89,1.89,0,0,0-1.88,1.9v118.9a1.89,1.89,0,0,0,1.88,1.9h15.81a1.88,1.88,0,0,0,1.65-1c.39-.64,1-5.48,1-5.48s9.32,8.83,27,8.83c20.71,0,32.58-10.5,32.58-47.15S461.28,41.15,448.46,41.15Zm-8.89,67a27,27,0,0,1-13.13-3.79V66.7a30.05,30.05,0,0,1,11.65-3.78C446.22,62.19,454,64.65,454,84,454,104.44,450.51,108.47,439.57,108.14Z"/><path class="cls-1" d="M199.06,43.63H182l0-22.52c0-.85-.44-1.28-1.42-1.28H157.33c-.9,0-1.39.4-1.39,1.27V44.37s-11.64,2.81-12.43,3a1.89,1.89,0,0,0-1.36,1.81V63.84a1.89,1.89,0,0,0,1.88,1.9h11.91v35.18c0,26.13,18.33,28.7,30.7,28.7a51.86,51.86,0,0,0,13.53-2.23,1.76,1.76,0,0,0,1.07-1.71l0-16.09a1.92,1.92,0,0,0-1.88-1.9c-1,0-3.53.4-6.15.4-8.37,0-11.21-3.89-11.21-8.93s0-33.43,0-33.43h17a1.89,1.89,0,0,0,1.88-1.9V45.53A1.89,1.89,0,0,0,199.06,43.63Z"/></svg>
+
+
+<p>&nbsp;Desktop</p>
+
+
+</div></div>
+
+<p><a href="https://desktop.github.com/">GitHub Desktop</a> is my favorite of the free GUIs for Git. It&rsquo;s made by GitHub, but there&rsquo;s nothing tying it to their service. It&rsquo;s just a Git client, and it will work fine with any host, or just locally. Check out GitHub&rsquo;s guide: <a href="https://guides.github.com/introduction/getting-your-project-on-github/">Getting your project on GitHub</a>.</p>
+
+
+      
+      
+      </div>
+    </div>
+
+    
+
+    <div id="navigation">
+        
+        <a class="nav nav-prev" href="/tools/code-keybindings"> <i class="fa fa-chevron-left"></i></a>
+        
+    </div>
+
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="http://xternbootcamp17.github.io//js/clipboard.min.js"></script>
+    
+    <script src="http://xternbootcamp17.github.io//js/jquery.sticky-kit.min.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/featherlight.min.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/html5shiv-printshiv.min.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/prism.js"></script>
+    
+    <script src="http://xternbootcamp17.github.io//js/modernizr.custom.71422.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/learn.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/hugo-learn.js"></script>
+    
+
+  </body>
+</html>
+

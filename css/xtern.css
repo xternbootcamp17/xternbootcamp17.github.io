@@ -613,8 +613,14 @@ body[data-url="/setup-windows/terminal/"] .page-heading {
   background-color: #590df6;
   background-image: url("/images/y-pattern.png"), linear-gradient(34deg, #010efd 0%, #fe0c00 100%);
 }
+body[data-url="/tools/code-extensions/"] h1,
+body[data-url="/tools/code-keybindings/"] h1 {
+  display: none;
+}
 body[data-url="/setup-mac/editor/"] .page-heading,
-body[data-url="/setup-windows/editor/"] .page-heading {
+body[data-url="/setup-windows/editor/"] .page-heading,
+body[data-url="/tools/code-extensions/"] .page-heading,
+body[data-url="/tools/code-keybindings/"] .page-heading {
   color: #66595c;
   font-family: "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
   font-size: 4rem;
@@ -623,12 +629,16 @@ body[data-url="/setup-windows/editor/"] .page-heading {
   background-image: linear-gradient(to bottom, #92d2c5 0%, #a7c799 100%);
 }
 body[data-url="/setup-mac/editor/"] .page-heading svg,
-body[data-url="/setup-windows/editor/"] .page-heading svg {
+body[data-url="/setup-windows/editor/"] .page-heading svg,
+body[data-url="/tools/code-extensions/"] .page-heading svg,
+body[data-url="/tools/code-keybindings/"] .page-heading svg {
   margin-right: 2rem;
   width: 5rem;
 }
 body[data-url="/setup-mac/editor/"] .page-heading:first-of-type,
-body[data-url="/setup-windows/editor/"] .page-heading:first-of-type {
+body[data-url="/setup-windows/editor/"] .page-heading:first-of-type,
+body[data-url="/tools/code-extensions/"] .page-heading:first-of-type,
+body[data-url="/tools/code-keybindings/"] .page-heading:first-of-type {
   color: #fff;
   font-family: "Segoe UI", "Helvetica Neue", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
   font-size: 4rem;
@@ -636,7 +646,9 @@ body[data-url="/setup-windows/editor/"] .page-heading:first-of-type {
   background: #373277;
 }
 body[data-url="/setup-mac/editor/"] .page-heading:first-of-type svg,
-body[data-url="/setup-windows/editor/"] .page-heading:first-of-type svg {
+body[data-url="/setup-windows/editor/"] .page-heading:first-of-type svg,
+body[data-url="/tools/code-extensions/"] .page-heading:first-of-type svg,
+body[data-url="/tools/code-keybindings/"] .page-heading:first-of-type svg {
   margin-right: 2rem;
   width: 5rem;
 }
@@ -652,18 +664,21 @@ body[data-url="/setup-windows/ssh/"] .page-heading {
   background-image: url("/images/y-pattern.png"), linear-gradient(34deg, #010efd 0%, #fe0c00 100%);
 }
 body[data-url="/setup-mac/github/"] h1,
-body[data-url="/setup-windows/github/"] h1 {
+body[data-url="/setup-windows/github/"] h1,
+body[data-url="/tools/github-desktop/"] h1 {
   display: none;
 }
 body[data-url="/setup-mac/github/"] .page-heading,
-body[data-url="/setup-windows/github/"] .page-heading {
-  font-family: "Operator Mono A", "Operator Mono B", "Fira Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  font-size: 4rem;
+body[data-url="/setup-windows/github/"] .page-heading,
+body[data-url="/tools/github-desktop/"] .page-heading {
+  font-family: "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
+  font-size: 6.2rem;
   background-color: #590df6;
   background-image: url("/images/y-pattern.png"), linear-gradient(34deg, #3e2c56 0%, #2a1c3c 100%);
 }
 body[data-url="/setup-mac/github/"] .page-heading svg,
-body[data-url="/setup-windows/github/"] .page-heading svg {
+body[data-url="/setup-windows/github/"] .page-heading svg,
+body[data-url="/tools/github-desktop/"] .page-heading svg {
   height: 5rem;
 }
 div.img {
@@ -765,5 +780,23 @@ div.img.git-win-05-extras {
 }
 div.img.vscode-setup {
   background-image: url("/images/vscode-setup.png");
+}
+kbd {
+  font-family: arial;
+  display: inline-block;
+  margin: 0 0.1em;
+  padding: 0.1em 0.6em;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #242729;
+  text-shadow: 0 1px 0 #fff;
+  background-color: #e1e3e5;
+  border: 1px solid #adb3b9;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(12,13,14,0.2), 0 0 0 2px #fff inset;
+  white-space: nowrap;
+}
+#body img.no-margin {
+  margin: 0;
 }
 /*# sourceMappingURL=xtern.css.map */

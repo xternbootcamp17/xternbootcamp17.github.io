@@ -7,6 +7,16 @@
   </url>
   
   <url>
+    <loc>http://xternbootcamp17.github.io/tools/code-extensions/</loc>
+    <lastmod>2016-06-10T23:06:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://xternbootcamp17.github.io/tools/code-keybindings/</loc>
+    <lastmod>2016-06-10T23:06:12-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://xternbootcamp17.github.io/setup-mac/chrome/</loc>
     <lastmod>2016-06-10T22:39:00-04:00</lastmod>
   </url>
@@ -97,12 +107,22 @@
   </url>
   
   <url>
+    <loc>http://xternbootcamp17.github.io/tools/github-desktop/</loc>
+    <lastmod>2016-06-10T23:31:46-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://xternbootcamp17.github.io/setup-mac/</loc>
     <lastmod>2017-04-11T19:48:50-04:00</lastmod>
   </url>
   
   <url>
     <loc>http://xternbootcamp17.github.io/setup-windows/</loc>
+    <lastmod>2017-04-11T19:48:50-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://xternbootcamp17.github.io/tools/</loc>
     <lastmod>2017-04-11T19:48:50-04:00</lastmod>
   </url>
   
@@ -125,6 +145,12 @@
   
   <url>
     <loc>http://xternbootcamp17.github.io/setup-windows/</loc>
+    <lastmod>2017-04-11T19:48:50-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://xternbootcamp17.github.io/tools/</loc>
     <lastmod>2017-04-11T19:48:50-04:00</lastmod>
     <priority>0</priority>
   </url>

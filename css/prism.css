@@ -1,4 +1,4 @@
-/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+applescript+bash+c+coffeescript+ruby+css-extras+elixir+gherkin+git+haml+handlebars+http+java+json+markdown+objectivec+perl+php+php-extras+python+jsx+crystal+sass+scss+sql+swift+typescript+vim+yaml&plugins=line-highlight+line-numbers+command-line+normalize-whitespace */
+/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+applescript+bash+ruby+css-extras+git+http+json+markdown+jsx+sass+scss+typescript&plugins=line-highlight+line-numbers+unescaped-markup+command-line+normalize-whitespace */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -222,6 +222,17 @@ pre.line-numbers > code {
 			padding-right: 0.8em;
 			text-align: right;
 		}
+/* Fallback, in case JS does not run, to ensure the code is at least visible */
+.lang-markup script[type='text/plain'],
+.language-markup script[type='text/plain'],
+script[type='text/plain'].lang-markup,
+script[type='text/plain'].language-markup {
+	display: block;
+	font: 100% Consolas, Monaco, monospace;
+	white-space: pre;
+	overflow: auto;
+}
+
 .command-line-prompt {
 	border-right: 1px solid #999;
 	display: block;
