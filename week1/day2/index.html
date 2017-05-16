@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>GitHub Desktop</title>
+    <title>Day 2: Functions and Objects</title>
     <link href="http://xternbootcamp17.github.io//css/nucleus.css" rel="stylesheet">
     <link href="http://xternbootcamp17.github.io//css/font-awesome.min.css" rel="stylesheet">
     
@@ -25,7 +25,7 @@
     <link href="/css/prism.css" rel="stylesheet">
 <link href="/css/xtern.css" rel="stylesheet">
   </head>
-  <body class="" data-url="/tools/github-desktop/">
+  <body class="" data-url="/week1/day2/">
     
     <nav id="sidebar">
   <div id="header-wrapper">
@@ -262,7 +262,7 @@
       
       
 
-      <li class="dd-item  parent" data-nav-id="/tools/">
+      <li class="dd-item  " data-nav-id="/tools/">
         <a href="/tools/">
           <span>
             
@@ -292,7 +292,7 @@
           
           
           
-            <li class="dd-item active" data-nav-id="/tools/github-desktop/">
+            <li class="dd-item " data-nav-id="/tools/github-desktop/">
               <a href="/tools/github-desktop/">
                 <span>GitHub Desktop     </i></span>
               </a>
@@ -307,7 +307,7 @@
       
       
 
-      <li class="dd-item  " data-nav-id="/week1/">
+      <li class="dd-item  parent" data-nav-id="/week1/">
         <a href="/week1/">
           <span>
             
@@ -329,7 +329,7 @@
           
           
           
-            <li class="dd-item " data-nav-id="/week1/day2/">
+            <li class="dd-item active" data-nav-id="/week1/day2/">
               <a href="/week1/day2/">
                 <span>Day 2: Functions and Objects     </i></span>
               </a>
@@ -372,16 +372,54 @@
                   
                     
                     
-                <a href="/tools/" itemprop="url"><span itemprop="title">Tools</span></a> <i class="fa fa-angle-right"></i>
+                <a href="/week1/" itemprop="url"><span itemprop="title">Week One</span></a> <i class="fa fa-angle-right"></i>
                     
                   
                 
-                <span itemprop="title"> GitHub Desktop</span>
+                <span itemprop="title"> Day 2: Functions and Objects</span>
               </div>
               
                   <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#lecture-videos">Lecture Videos</a></li>
+<li><a href="#topics">Topics</a>
+<ul>
+<li><a href="#functions">Functions</a></li>
+<li><a href="#objects">Objects</a></li>
+<li><a href="#arrays">Arrays</a></li>
+<li><a href="#dom">DOM</a></li>
+<li><a href="#git-and-github">Git and GitHub</a></li>
+</ul></li>
+<li><a href="#examples">Examples</a>
+<ul>
+<li><a href="#functions-1">Functions</a></li>
+<li><a href="#variable-scope">Variable Scope</a></li>
+<li><a href="#objects-1">Objects</a></li>
+<li><a href="#arrays-1">Arrays</a></li>
+<li><a href="#dom-1">DOM</a></li>
+</ul></li>
+<li><a href="#projects">Projects</a>
+<ul>
+<li><a href="#people-factory">People Factory</a></li>
+</ul></li>
+<li><a href="#homework">Homework</a>
+<ul>
+<li><a href="#megaroster">Megaroster</a>
+<ul>
+<li><a href="#baseline-goal">Baseline Goal</a></li>
+<li><a href="#bonus-credit">Bonus Credit</a></li>
+<li><a href="#mega-bonus-credit">Mega Bonus Credit</a></li>
+<li><a href="#super-mega-bonus-credit">Super Mega Bonus Credit</a></li>
+<li><a href="#super-mega-bonus-credit-hyper-fighting">Super Mega Bonus Credit Hyper Fighting</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -391,21 +429,339 @@
             
               <div id="body-inner">
                 
-                <h1>GitHub Desktop</h1>
+                <h1>Day 2: Functions and Objects</h1>
                 
 
-<div class="page-heading"><div>
 
 
-<svg role="img" aria-labelledby="github-svg-title" id="github-logo" data-name="github-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480.24 129.87"><title id="github-svg-title">GitHub</title><defs><style>.cls-1{fill:#fff;}</style></defs><title>github-logo</title><path class="cls-1" d="M92.5,55.59H52.14a1.89,1.89,0,0,0-1.89,1.89V77.2a1.89,1.89,0,0,0,1.89,1.89H67.88v24.51s-3.54,1.21-13.31,1.21c-11.53,0-27.64-4.21-27.64-39.63S43.71,25.09,59.46,25.09c13.63,0,19.5,2.4,23.24,3.56A1.9,1.9,0,0,0,85,26.8l4.5-19.06a1.76,1.76,0,0,0-.72-1.47C87.22,5.18,78,0,54.58,0,27.63,0,0,11.46,0,66.56s31.64,63.31,58.3,63.31c22.08,0,35.47-9.43,35.47-9.43a1.62,1.62,0,0,0,.61-1.43V57.47A1.89,1.89,0,0,0,92.5,55.59Z"/><path class="cls-1" d="M300.47,6.6a1.88,1.88,0,0,0-1.87-1.9H275.88A1.89,1.89,0,0,0,274,6.6V50.51H238.58V6.6a1.88,1.88,0,0,0-1.87-1.9H214a1.89,1.89,0,0,0-1.88,1.9v118.9a1.89,1.89,0,0,0,1.88,1.9h22.72a1.89,1.89,0,0,0,1.88-1.9V74.65H274l-.06,50.86a1.89,1.89,0,0,0,1.88,1.9H298.6a1.89,1.89,0,0,0,1.88-1.9Z"/><path class="cls-1" d="M135.38,22.2A14.65,14.65,0,1,0,120.72,37,14.72,14.72,0,0,0,135.38,22.2Z"/><path class="cls-1" d="M133.75,100.42V45.54a1.89,1.89,0,0,0-1.88-1.89H109.22a2.17,2.17,0,0,0-2,2.11v78.64c0,2.31,1.44,3,3.3,3H131c2.24,0,2.79-1.1,2.79-3Z"/><path class="cls-1" d="M386.83,43.82H364.28a1.89,1.89,0,0,0-1.88,1.9V104a25.48,25.48,0,0,1-13.86,4.19c-8.13,0-10.29-3.69-10.29-11.65V45.72a1.89,1.89,0,0,0-1.87-1.9H313.5a1.89,1.89,0,0,0-1.88,1.9v54.69c0,23.65,13.18,29.43,31.31,29.43,14.87,0,26.87-8.22,26.87-8.22a47.74,47.74,0,0,0,.83,4.84,2,2,0,0,0,1.66,1l14.56-.06a1.89,1.89,0,0,0,1.88-1.9V45.72A1.89,1.89,0,0,0,386.83,43.82Z"/><path class="cls-1" d="M448.46,41.15a42.4,42.4,0,0,0-21.52,5.71V6.6a1.88,1.88,0,0,0-1.87-1.9H402.28a1.89,1.89,0,0,0-1.88,1.9v118.9a1.89,1.89,0,0,0,1.88,1.9h15.81a1.88,1.88,0,0,0,1.65-1c.39-.64,1-5.48,1-5.48s9.32,8.83,27,8.83c20.71,0,32.58-10.5,32.58-47.15S461.28,41.15,448.46,41.15Zm-8.89,67a27,27,0,0,1-13.13-3.79V66.7a30.05,30.05,0,0,1,11.65-3.78C446.22,62.19,454,64.65,454,84,454,104.44,450.51,108.47,439.57,108.14Z"/><path class="cls-1" d="M199.06,43.63H182l0-22.52c0-.85-.44-1.28-1.42-1.28H157.33c-.9,0-1.39.4-1.39,1.27V44.37s-11.64,2.81-12.43,3a1.89,1.89,0,0,0-1.36,1.81V63.84a1.89,1.89,0,0,0,1.88,1.9h11.91v35.18c0,26.13,18.33,28.7,30.7,28.7a51.86,51.86,0,0,0,13.53-2.23,1.76,1.76,0,0,0,1.07-1.71l0-16.09a1.92,1.92,0,0,0-1.88-1.9c-1,0-3.53.4-6.15.4-8.37,0-11.21-3.89-11.21-8.93s0-33.43,0-33.43h17a1.89,1.89,0,0,0,1.88-1.9V45.53A1.89,1.89,0,0,0,199.06,43.63Z"/></svg>
+<h2 id="lecture-videos">Lecture Videos</h2>
+
+<p>Morning:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Full Playlist</a></li>
+<li><a href="https://www.youtube.com/watch?v=wISoJ_P7aNs&amp;t=10s&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;index=1">Part One</a></li>
+<li><a href="https://www.youtube.com/watch?v=6JkRe4ZLhGQ&amp;index=2&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Part Two</a></li>
+<li><a href="https://www.youtube.com/watch?v=YQrKjzVOuxs&amp;index=3&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Part Three</a></li>
+</ul>
+
+<h2 id="topics">Topics</h2>
+
+<h3 id="functions">Functions</h3>
+
+<ul>
+<li>Function Expressions</li>
+<li>Function Declarations</li>
+<li>Functions as Object properties (methods)</li>
+<li>Variable Scope (<code>var</code>, <code>const</code>, <code>let</code>)</li>
+</ul>
+
+<h3 id="objects">Objects</h3>
+
+<ul>
+<li>Object literals</li>
+<li>Property Naming</li>
+<li>Retrieving property values</li>
+<li>Setting property values</li>
+</ul>
+
+<h3 id="arrays">Arrays</h3>
+
+<ul>
+<li><code>Array.from</code> - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control">Docs on MDN</a></li>
+<li><code>Array.map</code> - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map?v=control">Docs on MDN</a> | <a href="https://www.discovermeteor.com/blog/understanding-javascript-map/">Understanding JavaScript&rsquo;s <code>map()</code></a> blog post</li>
+</ul>
+
+<h3 id="dom">DOM</h3>
+
+<ul>
+<li>Creating elements with <code>document.createElement</code></li>
+<li>Setting style properties with <code>someElement.style.stylePropertyName</code></li>
+<li>Appending child elements with <code>someElement.appendChild</code></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/elements">Form.elements</a></li>
+</ul>
+
+<h3 id="git-and-github">Git and GitHub</h3>
+
+<ul>
+<li><a href="http://rogerdudler.github.io/git-guide/">Git - The Simple Guide</a></li>
+<li><a href="https://guides.github.com/introduction/getting-your-project-on-github/">Getting your project on GitHub</a></li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<h3 id="functions-1">Functions</h3>
 
 
-<p>&nbsp;Desktop</p>
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+  // function declaration - use 'function' keyword
+  function aMostExcellentFunction() {
+    console.log('This function is great!')
+  }
+
+  aMostExcellentFunction() // => 'This function is great!'
+
+  // function expression - defines a function as part of a larger expression syntax
+  // (usually assignment to a variable)
+  const anotherExcellentFunction = () => {
+    console.log('This function is also great!')
+  }
+
+  anotherExcellentFunction() // => 'This function is also great!'
+
+  // functions as object properties (also known as 'methods')
+  const myObject = {
+    myMethod() {
+      console.log('I am a method!')
+    }
+  }
+
+  myObject.myMethod() // => 'I am a method!'
+
+</code>
+</pre>
 
 
-</div></div>
 
-<p><a href="https://desktop.github.com/">GitHub Desktop</a> is my favorite of the free GUIs for Git. It&rsquo;s made by GitHub, but there&rsquo;s nothing tying it to their service. It&rsquo;s just a Git client, and it will work fine with any host, or just locally. Check out GitHub&rsquo;s guide: <a href="https://guides.github.com/introduction/getting-your-project-on-github/">Getting your project on GitHub</a>.</p>
+<h3 id="variable-scope">Variable Scope</h3>
+
+<p>The biggest difference between <code>var</code> and <code>let</code> is that <code>var</code> variables are scoped to the <em>function</em> in which they are declared, while <code>let</code> variables are scoped to the <em>block</em> in which they are declared.  One of the easiest examples to see this behavior is in a simple <code>for</code> loop.</p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+function loopStuff() {
+  for (var i = 0; i < 5; i++) {
+    // do stuff in the loop
+  }
+  console.log(i)
+}
+
+loopStuff() // => 5
+
+function loopMoreStuff() {
+  for (let i = 0; i < 5; i++) {
+    // do stuff in the loop
+  }
+  console.log(i)
+}
+
+loopMoreStuff() // => Uncaught ReferenceError: i is not defined
+
+</code>
+</pre>
+
+
+
+<p>In the function <code>loopStuff</code>, <code>var i</code> is still available outside the <code>for</code> loop so it can be logged to the console.  It is scoped to the function itself.</p>
+
+<p>In the function <code>loopMoreStuff</code>, <code>let i</code> is not available outside the block it is scoped to (the <code>for</code> loop).</p>
+
+<p>The main difference between <code>const</code> and <code>var</code>/<code>let</code> is that <code>const</code> cannot be reassigned.
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+let variableOne = 4
+variableOne = 5
+
+var variableTwo = 4
+variableTwo = 5
+
+const variableThree = 4
+variableThree = 5 // => Uncaught TypeError: Assignment to constant variable
+
+</code>
+</pre>
+
+</p>
+
+
+  <div class="aside aside-tip">
+  
+    <h4>Default to using const</h4>
+    
+  
+  <div class="body">
+  <p>Always use <code>const</code> as your default way to declare variables, unless you know specifically that you will need to reassign it, in which case use <code>let</code>.  You should rarely, if ever, use <code>var</code>.  For further reading, check out <a href="https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75">this article</a></p>
+
+  </div>
+</div>
+
+
+<h3 id="objects-1">Objects</h3>
+
+<p>Almost everything in JavaScript is an Object.  The easiest way to create new Objects is with the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer">object initializer</a>, more commonly known as &lsquo;object literal&rsquo; syntax.  Basically, use curly braces to make an object <code>{}</code> and fill in the properties that you want.</p>
+
+<p>Objects contain <code>key</code>/<code>value</code> pairs that allow you to set and retrieve values from them.</p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+// create a new object and assign some properties
+const myObject = {
+  prop1: 'Hello there',
+  prop2: 42
+}
+
+// access the values in several ways, usually 'dot' or 'square bracket' notation
+myObject.prop1 // => 'Hello there'
+myObject['prop1'] //=> 'Hello there'
+
+// new key/value pairs can also be assigned with these notations
+myObject.prop3 = 'New Value!'
+myObject['prop4'] = 'Newest Value!'
+
+console.log(myObject)
+// { 
+//   prop1: 'Hello there',
+//   prop2: 42,
+//   prop3: 'New Value!',
+//   prop4: 'Newest Value!'
+// }
+
+</code>
+</pre>
+
+
+
+<h3 id="arrays-1">Arrays</h3>
+
+<p>Arrays are extremely useful data structures in JavaScript, as they can be easily iterated and transformed through methods like <code>map</code>, <code>filter</code>, and <code>reduce</code>.  Sometimes, you may have an &lsquo;array-like&rsquo; collection (like a <code>NodeList</code> or function arguments) that you would need to convert to an actual Array before you could use these methods.  This can be done using <code>Array.from</code></p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+let paragraphs = document.querySelectorAll('p')
+paragraphs.map((paragraph) => {
+  p.textContent = "This won't work because paragraphs is a NodeList, not Array!"
+})
+// => Uncaught TypeError: paragraphs.map is not a function
+
+let actualArrayOfParagraphs = Array.from(paragraphs)
+actualArrayOfParagraphs.map((paragraph) => {
+  p.textContent = "This totally does work because we created an Array from our NodeList!"
+})
+
+</code>
+</pre>
+
+
+
+
+  <div class="aside aside-info">
+  
+    <h4>Requirements for &#39;Array.from&#39;</h4>
+    
+  
+  <div class="body">
+  <p>What objects can you convert to an Array using &lsquo;Array.from&rsquo;?</p>
+
+<ul>
+<li>Any array-like object with a &lsquo;length&rsquo; property and indexed elements</li>
+<li>Iterable objects (like Map or Set)</li>
+</ul>
+
+<p>For more info, check out <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control">this article</a> on MDN.</p>
+
+  </div>
+</div>
+
+
+<h3 id="dom-1">DOM</h3>
+
+<p>If we start with the following markup:
+
+<pre class="line-numbers language-html" rel="html">
+<code class="language-html">
+
+&lt;div id=&quot;my-div&quot;&gt;&lt;/div&gt;
+
+</code>
+</pre>
+
+
+We can add additional markup to it programmatically using JavaScript.  One way is to create new HTMl elements using <code>document.createElement</code>, and adding them by using <code>appendChild</code>.  Styling of the element can even be changed by manipulating the element&rsquo;s <code>style</code> property.</p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+// create an h1 and modify text content and color
+const heading = document.createElement('h1')
+heading.textContent = "This is the best heading I've ever seen"
+heading.style.color = "red"
+
+// get a reference to the existing div and add the heading as a child element
+const div = document.querySelector('#my-div')
+div.appendChild(heading)
+
+</code>
+</pre>
+
+
+
+<p>This will produce the following markup:
+
+<pre class="line-numbers language-html" rel="html">
+<code class="language-html">
+
+&lt;div id=&quot;my-div&quot;&gt;
+  &lt;h1 style=&quot;color: red;&quot;&gt;This is the best heading I've ever seen&lt;/h1&gt;
+&lt;/div&gt;
+
+</code>
+</pre>
+
+</p>
+
+<h2 id="projects">Projects</h2>
+
+<h3 id="people-factory">People Factory</h3>
+
+<p>Link: <a href="https://github.com/xtbc17s1/people-factory">Morning</a> | <a href="https://github.com/xtbc17s1/people-factory/tree/afternoon">Afternoon</a></p>
+
+<h2 id="homework">Homework</h2>
+
+<h3 id="megaroster">Megaroster</h3>
+
+<p>Create a new project from scratch that adds students to a class roster and meets the following requirements:</p>
+
+<h4 id="baseline-goal">Baseline Goal</h4>
+
+<ul>
+<li>User can enter a name to be added to the roster.</li>
+<li>Name will be added to the end of a list.</li>
+</ul>
+
+<h4 id="bonus-credit">Bonus Credit</h4>
+
+<ul>
+<li>Create <em>at most</em> one global variable.</li>
+</ul>
+
+<h4 id="mega-bonus-credit">Mega Bonus Credit</h4>
+
+<ul>
+<li>Add names to the top of the list instead of the bottom.</li>
+</ul>
+
+<h4 id="super-mega-bonus-credit">Super Mega Bonus Credit</h4>
+
+<ul>
+<li>Add a <em>delete</em> button to every list item that removes the name from the list when clicked.</li>
+</ul>
+
+<h4 id="super-mega-bonus-credit-hyper-fighting">Super Mega Bonus Credit Hyper Fighting</h4>
+
+<ul>
+<li>Add a <em>promote</em> button to every list item that changes the appearance(<em>e.g.</em> changes the background color, adds a border, etc.) of that item when clicked.</li>
+</ul>
 
 
       
@@ -417,8 +773,8 @@
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="/tools/code-keybindings"> <i class="fa fa-chevron-left"></i></a>
-        
+        <a class="nav nav-prev" href="/week1/day1"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="/week1/day2" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
     </div>
 
     </section>
