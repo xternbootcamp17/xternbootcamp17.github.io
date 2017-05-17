@@ -702,6 +702,12 @@ div.img.github-create-account {
   width: 567px;
   height: 502px;
 }
+div.img.github-fork-repo {
+  background-image: url("/images/github-fork-repo.png");
+  background-size: 567px 400px;
+  width: 567px;
+  height: 450px;
+}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
   div.img.github-create-account {
     background-image: url("/images/github-01-create-account@2x.png");

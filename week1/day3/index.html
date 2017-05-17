@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
   <head>
@@ -13,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>Week One</title>
+    <title>Day 3: Megaroster</title>
     <link href="http://xternbootcamp17.github.io//css/nucleus.css" rel="stylesheet">
     <link href="http://xternbootcamp17.github.io//css/font-awesome.min.css" rel="stylesheet">
     
@@ -28,7 +25,7 @@
     <link href="/css/prism.css" rel="stylesheet">
 <link href="/css/xtern.css" rel="stylesheet">
   </head>
-  <body class="" data-url="/week1/">
+  <body class="" data-url="/week1/day3/">
     
     <nav id="sidebar">
   <div id="header-wrapper">
@@ -310,7 +307,7 @@
       
       
 
-      <li class="dd-item active parent" data-nav-id="/week1/">
+      <li class="dd-item  parent" data-nav-id="/week1/">
         <a href="/week1/">
           <span>
             
@@ -340,7 +337,7 @@
           
           
           
-            <li class="dd-item " data-nav-id="/week1/day3/">
+            <li class="dd-item active" data-nav-id="/week1/day3/">
               <a href="/week1/day3/">
                 <span>Day 3: Megaroster     </i></span>
               </a>
@@ -375,22 +372,56 @@
                       </a>
                   </span>
                 
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
                 
                   
                   
                   
                     
                     
+                <a href="/week1/" itemprop="url"><span itemprop="title">Week One</span></a> <i class="fa fa-angle-right"></i>
+                    
                   
                 
-                <span itemprop="title"> Week One</span>
+                <span itemprop="title"> Day 3: Megaroster</span>
               </div>
               
                   <div class="progress">
     <div class="wrapper">
 <nav id="TableOfContents">
 <ul>
-<li><a href="#week-one">Week One</a></li>
+<li>
+<ul>
+<li><a href="#lecture-videos">Lecture Videos</a></li>
+<li><a href="#topics">Topics</a>
+<ul>
+<li><a href="#git">Git</a></li>
+<li><a href="#foundation">Foundation</a></li>
+<li><a href="#functions-as-methods">Functions as methods</a></li>
+<li><a href="#dom-manipulation">DOM Manipulation</a></li>
+</ul></li>
+<li><a href="#examples">Examples</a>
+<ul>
+<li><a href="#git-1">Git</a>
+<ul>
+<li><a href="#starting-a-new-project-with-a-git-repository">Starting a new project with a git repository</a></li>
+<li><a href="#forking-a-repo">Forking a Repo</a></li>
+</ul></li>
+<li><a href="#foundation-1">Foundation</a></li>
+<li><a href="#manually-setting-this-with-bind">Manually setting <code>this</code> with <code>bind</code></a></li>
+</ul></li>
+<li><a href="#projects">Projects</a>
+<ul>
+<li><a href="#megaroster">Megaroster</a></li>
+</ul></li>
+<li><a href="#homework">Homework</a>
+<ul>
+<li><a href="#bonus-credit">Bonus Credit</a></li>
+<li><a href="#mega-bonus-credit">Mega Bonus Credit</a></li>
+<li><a href="#super-mega-bonus-credit">Super Mega Bonus Credit</a></li>
+</ul></li>
+</ul></li>
 </ul>
 </nav>
     </div>
@@ -400,21 +431,276 @@
 
             </div>
             
-              <div id="chapter">
-            
               <div id="body-inner">
+                
+                <h1>Day 3: Megaroster</h1>
                 
 
 
 
-<h1 id="week-one">Week One</h1>
+<h2 id="lecture-videos">Lecture Videos</h2>
 
-<p>An overview of the course and web technologies, some vanilla JavaScript, and basic DOM manipulation.</p>
+<p>We&rsquo;ll only be linking to the playlists themselves and to the first video for each day/session. They are broken into many parts, all of which will be in the playlists.</p>
+
+<p>Morning:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Full Playlist</a> | <a href="https://www.youtube.com/watch?v=FpmyQ-Cet6o&amp;index=4&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Day 3, part 1</a></li>
+</ul>
+
+<p>Afternoon:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">Full Playlist</a> | Day 3 still uploading</li>
+</ul>
+
+<h2 id="topics">Topics</h2>
+
+<h3 id="git">Git</h3>
+
+<ul>
+<li>Starting a new repository</li>
+<li>Adding a remote repository (like Github)</li>
+<li>Seeing what changed with <code>git diff</code></li>
+<li>Forking and cloning repositories</li>
+</ul>
+
+<h3 id="foundation">Foundation</h3>
+
+<ul>
+<li>The grid system</li>
+<li>Responsive design (adjusting style based on window size)</li>
+<li><a href="http://foundation.zurb.com/sites/docs/">Foundation Docs</a></li>
+</ul>
+
+<h3 id="functions-as-methods">Functions as methods</h3>
+
+<ul>
+<li>Methods calling methods (<em>e.g.</em> <code>megaRoster.addChild</code> calls <code>this.buildListItem</code>)</li>
+<li>Binding: Manually setting the value of <code>this</code> with <code>.bind</code></li>
+</ul>
+
+<h3 id="dom-manipulation">DOM Manipulation</h3>
+
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement">parentElement</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes">childNodes</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild">firstChild</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/firstElementChild">firstElementChild</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore">insertBefore</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/closest">closest</a> (experimental)</li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<h3 id="git-1">Git</h3>
+
+<h4 id="starting-a-new-project-with-a-git-repository">Starting a new project with a git repository</h4>
+
+<p>First make a new directory and then navigate into the new directory.  Then start a new repository with <code>git init</code>.</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span><span data-prompt="$"></span><span data-prompt="$"></span></span>mkdir my_new_project
+cd my_new_project
+git init
+</span></pre>
+
+</div>
+</div>
+
+<p>To be able to make our first commit, we need to first add something to our empty project folder.  A common first choice is a <code>README.md</code> file, which is a document written in <a href="https://guides.github.com/features/mastering-markdown/">markdown</a> that provides information about the project.</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span><span data-prompt="$"></span><span data-prompt="$"></span></span>echo &#34;# My New Project&#34; &gt;&gt; README.md
+git add .
+git commit -m &#34;Initial commit&#34;
+</span></pre>
+
+</div>
+</div>
+
+<p>Once we have our first commit, we can add a &lsquo;remote&rsquo; for our repository, like <a href="https://github.com">github</a> or <a href="https://bitbucket.org/">bitbucket</a>.  For github, log in to github.com, then hit the &lsquo;+&rsquo; button in the top right of the screen to add a new repository.  Then, it will give you the following commands to run from the command line.</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span><span data-prompt="$"></span></span>git remote add origin git@github.com:myusername/my_new_project.git
+git push -u origin master
+</span></pre>
+
+</div>
+</div>
+
+<p>This adds the github remote as &lsquo;origin&rsquo; and sets it as the default for when you push your changes.  From this point forward, just type <code>git push</code> to push your changes to the remote.</p>
+
+<h4 id="forking-a-repo">Forking a Repo</h4>
+
+<p>Making your own copy of an existing repo is called <a href="https://guides.github.com/activities/forking/">forking</a>.  Unlike a cloned copy, which retains the permissions set by the original owner, a forked copy now belongs to you (meaning you can make any changes you want to it).</p>
+
+<p>Just hit the &lsquo;Fork&rsquo; button in the upper right of the repo page, and this will add a copy to your personal github.</p>
+
+<div class="img github-fork-repo"><span>Hit the 'Fork' button in the upper right of the repo page, and this will add a copy to your personal github.</span></div>
+
+<h3 id="foundation-1">Foundation</h3>
+
+<p>Foundation is a CSS (and JS) framework that makes it easy to create stylish, responsive web pages.  The foundation (get it?) of it is the <a href="http://foundation.zurb.com/grid.html">grid system</a>.  The grid splits the page into 12 equally-sized columns, making it easy to set the alignment of elements on the page by specifying how many columns they span.</p>
+
+<p>In addition, you can add sizes of &lsquo;small&rsquo;, &lsquo;medium&rsquo;, &lsquo;large&rsquo;, etc, to specify different behavior at different screen sizes.  In the following example, the two child divs will be full screen width at small screen sizes (stacked on top of each other), and half of the screen width at medium and larger screen sizes (appearing next to each other).</p>
+
+
+<pre class="line-numbers language-html" rel="html">
+<code class="language-html">
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-12 medium-6 columns&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;small-12 medium-6 columns&quot;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</code>
+</pre>
+
+
+
+<h3 id="manually-setting-this-with-bind">Manually setting <code>this</code> with <code>bind</code></h3>
+
+<p>In JavaScript, the value of <code>this</code> in any function depends on the context in which the method was called.  For example, if a function is an event listener callback, <code>this</code> will be set to the target that caused the event to fire.  Sometimes, this is not the <code>this</code> we want. Luckily, JavaScript also has the <code>.bind</code> method, which allows a function to be &lsquo;bound&rsquo; to a particular value of <code>this</code>.</p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+this.x = 9        // here, 'this' is the global window object
+
+const module = {
+  x: 81,
+  getX: function() {
+    return this.x
+  }
+}
+
+module.getX()     // 81
+// getX was called on module, so 'this' is module and this.x is 81
+
+const retrieveX = module.getX
+retrieveX()       // 9
+// retrieveX is a const declared in the global scope, so 'this' is window
+
+const boundGetX = retrieveX.bind(module)
+boundGetX()       // 81
+// by binding to module, 'this' will always be set to module for boundGetX
+
+</code>
+</pre>
+
+
+
+<h2 id="projects">Projects</h2>
+
+<h3 id="megaroster">Megaroster</h3>
+
+<p><a href="https://github.com/xtbc17s1/megaroster/tree/d733ad2186e75deb8331b0c2d39736595379d1bd">Morning</a> | <a href="https://github.com/xtbc17s1/megaroster/tree/a725906dec243ea053d75822cfd1621a8d555909">Afternoon</a></p>
+
+<p>These are links directly to the repo as of the commits where we left off today. Even after we add more commits tomorrow, these links will still point to this point in time.</p>
+
+<h2 id="homework">Homework</h2>
+
+<p>Finish yesterday&rsquo;s homework, using my Megaroster (<a href="https://github.com/xtbc17s1/megaroster/tree/d733ad2186e75deb8331b0c2d39736595379d1bd">morning</a> | <a href="https://github.com/xtbc17s1/megaroster/tree/a725906dec243ea053d75822cfd1621a8d555909">afternoon</a>) as a base. Don&rsquo;t forget to keep the <code>students</code> array in sync with the DOM.</p>
+
+<h3 id="bonus-credit">Bonus Credit</h3>
+
+<p>Fool around with Foundation and/or CSS to make it look nicer.</p>
+
+<h3 id="mega-bonus-credit">Mega Bonus Credit</h3>
+
+<p>Add buttons to change the position of the student within the list. In other words, add &ldquo;Move Up&rdquo; and &ldquo;Move Down&rdquo; buttons.</p>
+
+<h3 id="super-mega-bonus-credit">Super Mega Bonus Credit</h3>
+
+<p>Persist the student data using <code>window.localStorage</code>.</p>
 
 
       
-      
-        </div> 
       
       </div>
     </div>
@@ -423,8 +709,8 @@
 
     <div id="navigation">
         
-        
-        <a class="nav nav-next" href="/week1/day1" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-prev" href="/week1/day2"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="/week1/day3" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
     </div>
 
     </section>
@@ -445,7 +731,4 @@
 
   </body>
 </html>
-
-
-
 

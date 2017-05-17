@@ -496,5 +496,276 @@ div.appendChild(heading)
 </description>
     </item>
     
+    <item>
+      <title>Day 3: Megaroster</title>
+      <link>http://xternbootcamp17.github.io/week1/day3/</link>
+      <pubDate>Wed, 17 May 2017 13:54:51 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week1/day3/</guid>
+      <description>
+
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+
+&lt;p&gt;We&amp;rsquo;ll only be linking to the playlists themselves and to the first video for each day/session. They are broken into many parts, all of which will be in the playlists.&lt;/p&gt;
+
+&lt;p&gt;Morning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=FpmyQ-Cet6o&amp;amp;index=4&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Day 3, part 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afternoon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | Day 3 still uploading&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;git&#34;&gt;Git&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Starting a new repository&lt;/li&gt;
+&lt;li&gt;Adding a remote repository (like Github)&lt;/li&gt;
+&lt;li&gt;Seeing what changed with &lt;code&gt;git diff&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Forking and cloning repositories&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;foundation&#34;&gt;Foundation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The grid system&lt;/li&gt;
+&lt;li&gt;Responsive design (adjusting style based on window size)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://foundation.zurb.com/sites/docs/&#34;&gt;Foundation Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;functions-as-methods&#34;&gt;Functions as methods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Methods calling methods (&lt;em&gt;e.g.&lt;/em&gt; &lt;code&gt;megaRoster.addChild&lt;/code&gt; calls &lt;code&gt;this.buildListItem&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Binding: Manually setting the value of &lt;code&gt;this&lt;/code&gt; with &lt;code&gt;.bind&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement&#34;&gt;parentElement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes&#34;&gt;childNodes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild&#34;&gt;firstChild&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/firstElementChild&#34;&gt;firstElementChild&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore&#34;&gt;insertBefore&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Element/closest&#34;&gt;closest&lt;/a&gt; (experimental)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;git-1&#34;&gt;Git&lt;/h3&gt;
+
+&lt;h4 id=&#34;starting-a-new-project-with-a-git-repository&#34;&gt;Starting a new project with a git repository&lt;/h4&gt;
+
+&lt;p&gt;First make a new directory and then navigate into the new directory.  Then start a new repository with &lt;code&gt;git init&lt;/code&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;mkdir my_new_project
+cd my_new_project
+git init
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To be able to make our first commit, we need to first add something to our empty project folder.  A common first choice is a &lt;code&gt;README.md&lt;/code&gt; file, which is a document written in &lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34;&gt;markdown&lt;/a&gt; that provides information about the project.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;echo &amp;#34;# My New Project&amp;#34; &amp;gt;&amp;gt; README.md
+git add .
+git commit -m &amp;#34;Initial commit&amp;#34;
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once we have our first commit, we can add a &amp;lsquo;remote&amp;rsquo; for our repository, like &lt;a href=&#34;https://github.com&#34;&gt;github&lt;/a&gt; or &lt;a href=&#34;https://bitbucket.org/&#34;&gt;bitbucket&lt;/a&gt;.  For github, log in to github.com, then hit the &amp;lsquo;+&amp;rsquo; button in the top right of the screen to add a new repository.  Then, it will give you the following commands to run from the command line.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;git remote add origin git@github.com:myusername/my_new_project.git
+git push -u origin master
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This adds the github remote as &amp;lsquo;origin&amp;rsquo; and sets it as the default for when you push your changes.  From this point forward, just type &lt;code&gt;git push&lt;/code&gt; to push your changes to the remote.&lt;/p&gt;
+
+&lt;h4 id=&#34;forking-a-repo&#34;&gt;Forking a Repo&lt;/h4&gt;
+
+&lt;p&gt;Making your own copy of an existing repo is called &lt;a href=&#34;https://guides.github.com/activities/forking/&#34;&gt;forking&lt;/a&gt;.  Unlike a cloned copy, which retains the permissions set by the original owner, a forked copy now belongs to you (meaning you can make any changes you want to it).&lt;/p&gt;
+
+&lt;p&gt;Just hit the &amp;lsquo;Fork&amp;rsquo; button in the upper right of the repo page, and this will add a copy to your personal github.&lt;/p&gt;
+
+&lt;div class=&#34;img github-fork-repo&#34;&gt;&lt;span&gt;Hit the &#39;Fork&#39; button in the upper right of the repo page, and this will add a copy to your personal github.&lt;/span&gt;&lt;/div&gt;
+
+&lt;h3 id=&#34;foundation-1&#34;&gt;Foundation&lt;/h3&gt;
+
+&lt;p&gt;Foundation is a CSS (and JS) framework that makes it easy to create stylish, responsive web pages.  The foundation (get it?) of it is the &lt;a href=&#34;http://foundation.zurb.com/grid.html&#34;&gt;grid system&lt;/a&gt;.  The grid splits the page into 12 equally-sized columns, making it easy to set the alignment of elements on the page by specifying how many columns they span.&lt;/p&gt;
+
+&lt;p&gt;In addition, you can add sizes of &amp;lsquo;small&amp;rsquo;, &amp;lsquo;medium&amp;rsquo;, &amp;lsquo;large&amp;rsquo;, etc, to specify different behavior at different screen sizes.  In the following example, the two child divs will be full screen width at small screen sizes (stacked on top of each other), and half of the screen width at medium and larger screen sizes (appearing next to each other).&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;small-12 medium-6 columns&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;small-12 medium-6 columns&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;manually-setting-this-with-bind&#34;&gt;Manually setting &lt;code&gt;this&lt;/code&gt; with &lt;code&gt;bind&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;In JavaScript, the value of &lt;code&gt;this&lt;/code&gt; in any function depends on the context in which the method was called.  For example, if a function is an event listener callback, &lt;code&gt;this&lt;/code&gt; will be set to the target that caused the event to fire.  Sometimes, this is not the &lt;code&gt;this&lt;/code&gt; we want. Luckily, JavaScript also has the &lt;code&gt;.bind&lt;/code&gt; method, which allows a function to be &amp;lsquo;bound&amp;rsquo; to a particular value of &lt;code&gt;this&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+this.x = 9        // here, &#39;this&#39; is the global window object
+
+const module = {
+  x: 81,
+  getX: function() {
+    return this.x
+  }
+}
+
+module.getX()     // 81
+// getX was called on module, so &#39;this&#39; is module and this.x is 81
+
+const retrieveX = module.getX
+retrieveX()       // 9
+// retrieveX is a const declared in the global scope, so &#39;this&#39; is window
+
+const boundGetX = retrieveX.bind(module)
+boundGetX()       // 81
+// by binding to module, &#39;this&#39; will always be set to module for boundGetX
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;h3 id=&#34;megaroster&#34;&gt;Megaroster&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/d733ad2186e75deb8331b0c2d39736595379d1bd&#34;&gt;Morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/a725906dec243ea053d75822cfd1621a8d555909&#34;&gt;Afternoon&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;These are links directly to the repo as of the commits where we left off today. Even after we add more commits tomorrow, these links will still point to this point in time.&lt;/p&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;p&gt;Finish yesterday&amp;rsquo;s homework, using my Megaroster (&lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/d733ad2186e75deb8331b0c2d39736595379d1bd&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/a725906dec243ea053d75822cfd1621a8d555909&#34;&gt;afternoon&lt;/a&gt;) as a base. Don&amp;rsquo;t forget to keep the &lt;code&gt;students&lt;/code&gt; array in sync with the DOM.&lt;/p&gt;
+
+&lt;h3 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h3&gt;
+
+&lt;p&gt;Fool around with Foundation and/or CSS to make it look nicer.&lt;/p&gt;
+
+&lt;h3 id=&#34;mega-bonus-credit&#34;&gt;Mega Bonus Credit&lt;/h3&gt;
+
+&lt;p&gt;Add buttons to change the position of the student within the list. In other words, add &amp;ldquo;Move Up&amp;rdquo; and &amp;ldquo;Move Down&amp;rdquo; buttons.&lt;/p&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
+
+&lt;p&gt;Persist the student data using &lt;code&gt;window.localStorage&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1595,6 +1595,277 @@ div.appendChild(heading)
     </item>
     
     <item>
+      <title>Day 3: Megaroster</title>
+      <link>http://xternbootcamp17.github.io/week1/day3/</link>
+      <pubDate>Wed, 17 May 2017 13:54:51 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week1/day3/</guid>
+      <description>
+
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+
+&lt;p&gt;We&amp;rsquo;ll only be linking to the playlists themselves and to the first video for each day/session. They are broken into many parts, all of which will be in the playlists.&lt;/p&gt;
+
+&lt;p&gt;Morning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=FpmyQ-Cet6o&amp;amp;index=4&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Day 3, part 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afternoon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | Day 3 still uploading&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;git&#34;&gt;Git&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Starting a new repository&lt;/li&gt;
+&lt;li&gt;Adding a remote repository (like Github)&lt;/li&gt;
+&lt;li&gt;Seeing what changed with &lt;code&gt;git diff&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Forking and cloning repositories&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;foundation&#34;&gt;Foundation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The grid system&lt;/li&gt;
+&lt;li&gt;Responsive design (adjusting style based on window size)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://foundation.zurb.com/sites/docs/&#34;&gt;Foundation Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;functions-as-methods&#34;&gt;Functions as methods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Methods calling methods (&lt;em&gt;e.g.&lt;/em&gt; &lt;code&gt;megaRoster.addChild&lt;/code&gt; calls &lt;code&gt;this.buildListItem&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Binding: Manually setting the value of &lt;code&gt;this&lt;/code&gt; with &lt;code&gt;.bind&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement&#34;&gt;parentElement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes&#34;&gt;childNodes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild&#34;&gt;firstChild&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/firstElementChild&#34;&gt;firstElementChild&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore&#34;&gt;insertBefore&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Element/closest&#34;&gt;closest&lt;/a&gt; (experimental)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;git-1&#34;&gt;Git&lt;/h3&gt;
+
+&lt;h4 id=&#34;starting-a-new-project-with-a-git-repository&#34;&gt;Starting a new project with a git repository&lt;/h4&gt;
+
+&lt;p&gt;First make a new directory and then navigate into the new directory.  Then start a new repository with &lt;code&gt;git init&lt;/code&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;mkdir my_new_project
+cd my_new_project
+git init
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To be able to make our first commit, we need to first add something to our empty project folder.  A common first choice is a &lt;code&gt;README.md&lt;/code&gt; file, which is a document written in &lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34;&gt;markdown&lt;/a&gt; that provides information about the project.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;echo &amp;#34;# My New Project&amp;#34; &amp;gt;&amp;gt; README.md
+git add .
+git commit -m &amp;#34;Initial commit&amp;#34;
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once we have our first commit, we can add a &amp;lsquo;remote&amp;rsquo; for our repository, like &lt;a href=&#34;https://github.com&#34;&gt;github&lt;/a&gt; or &lt;a href=&#34;https://bitbucket.org/&#34;&gt;bitbucket&lt;/a&gt;.  For github, log in to github.com, then hit the &amp;lsquo;+&amp;rsquo; button in the top right of the screen to add a new repository.  Then, it will give you the following commands to run from the command line.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;git remote add origin git@github.com:myusername/my_new_project.git
+git push -u origin master
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This adds the github remote as &amp;lsquo;origin&amp;rsquo; and sets it as the default for when you push your changes.  From this point forward, just type &lt;code&gt;git push&lt;/code&gt; to push your changes to the remote.&lt;/p&gt;
+
+&lt;h4 id=&#34;forking-a-repo&#34;&gt;Forking a Repo&lt;/h4&gt;
+
+&lt;p&gt;Making your own copy of an existing repo is called &lt;a href=&#34;https://guides.github.com/activities/forking/&#34;&gt;forking&lt;/a&gt;.  Unlike a cloned copy, which retains the permissions set by the original owner, a forked copy now belongs to you (meaning you can make any changes you want to it).&lt;/p&gt;
+
+&lt;p&gt;Just hit the &amp;lsquo;Fork&amp;rsquo; button in the upper right of the repo page, and this will add a copy to your personal github.&lt;/p&gt;
+
+&lt;div class=&#34;img github-fork-repo&#34;&gt;&lt;span&gt;Hit the &#39;Fork&#39; button in the upper right of the repo page, and this will add a copy to your personal github.&lt;/span&gt;&lt;/div&gt;
+
+&lt;h3 id=&#34;foundation-1&#34;&gt;Foundation&lt;/h3&gt;
+
+&lt;p&gt;Foundation is a CSS (and JS) framework that makes it easy to create stylish, responsive web pages.  The foundation (get it?) of it is the &lt;a href=&#34;http://foundation.zurb.com/grid.html&#34;&gt;grid system&lt;/a&gt;.  The grid splits the page into 12 equally-sized columns, making it easy to set the alignment of elements on the page by specifying how many columns they span.&lt;/p&gt;
+
+&lt;p&gt;In addition, you can add sizes of &amp;lsquo;small&amp;rsquo;, &amp;lsquo;medium&amp;rsquo;, &amp;lsquo;large&amp;rsquo;, etc, to specify different behavior at different screen sizes.  In the following example, the two child divs will be full screen width at small screen sizes (stacked on top of each other), and half of the screen width at medium and larger screen sizes (appearing next to each other).&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;small-12 medium-6 columns&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;small-12 medium-6 columns&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;manually-setting-this-with-bind&#34;&gt;Manually setting &lt;code&gt;this&lt;/code&gt; with &lt;code&gt;bind&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;In JavaScript, the value of &lt;code&gt;this&lt;/code&gt; in any function depends on the context in which the method was called.  For example, if a function is an event listener callback, &lt;code&gt;this&lt;/code&gt; will be set to the target that caused the event to fire.  Sometimes, this is not the &lt;code&gt;this&lt;/code&gt; we want. Luckily, JavaScript also has the &lt;code&gt;.bind&lt;/code&gt; method, which allows a function to be &amp;lsquo;bound&amp;rsquo; to a particular value of &lt;code&gt;this&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+this.x = 9        // here, &#39;this&#39; is the global window object
+
+const module = {
+  x: 81,
+  getX: function() {
+    return this.x
+  }
+}
+
+module.getX()     // 81
+// getX was called on module, so &#39;this&#39; is module and this.x is 81
+
+const retrieveX = module.getX
+retrieveX()       // 9
+// retrieveX is a const declared in the global scope, so &#39;this&#39; is window
+
+const boundGetX = retrieveX.bind(module)
+boundGetX()       // 81
+// by binding to module, &#39;this&#39; will always be set to module for boundGetX
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;h3 id=&#34;megaroster&#34;&gt;Megaroster&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/d733ad2186e75deb8331b0c2d39736595379d1bd&#34;&gt;Morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/a725906dec243ea053d75822cfd1621a8d555909&#34;&gt;Afternoon&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;These are links directly to the repo as of the commits where we left off today. Even after we add more commits tomorrow, these links will still point to this point in time.&lt;/p&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;p&gt;Finish yesterday&amp;rsquo;s homework, using my Megaroster (&lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/d733ad2186e75deb8331b0c2d39736595379d1bd&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/a725906dec243ea053d75822cfd1621a8d555909&#34;&gt;afternoon&lt;/a&gt;) as a base. Don&amp;rsquo;t forget to keep the &lt;code&gt;students&lt;/code&gt; array in sync with the DOM.&lt;/p&gt;
+
+&lt;h3 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h3&gt;
+
+&lt;p&gt;Fool around with Foundation and/or CSS to make it look nicer.&lt;/p&gt;
+
+&lt;h3 id=&#34;mega-bonus-credit&#34;&gt;Mega Bonus Credit&lt;/h3&gt;
+
+&lt;p&gt;Add buttons to change the position of the student within the list. In other words, add &amp;ldquo;Move Up&amp;rdquo; and &amp;ldquo;Move Down&amp;rdquo; buttons.&lt;/p&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
+
+&lt;p&gt;Persist the student data using &lt;code&gt;window.localStorage&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>JavaScript</title>
       <link>http://xternbootcamp17.github.io/prereqs/javascript/</link>
       <pubDate>Tue, 11 Apr 2017 00:02:46 -0400</pubDate>
@@ -1866,294 +2137,6 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
 &lt;h3 id=&#34;try-git-from-code-school&#34;&gt;Try Git from Code School&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://try.github.io/&#34;&gt;Try Git&lt;/a&gt;, created by Code School in partnership with GitHub, is another good intro to Git. It doesn&amp;rsquo;t have you do quite as much yourself as the Codecademy course, so I don&amp;rsquo;t like it quite as well. It does not, however, require you to sign up for anything&amp;mdash;not even a free account.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>http://xternbootcamp17.github.io/setup-mac/git/</link>
-      <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
-      
-      <guid>http://xternbootcamp17.github.io/setup-mac/git/</guid>
-      <description>
-
-&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
-
-
-&lt;svg role=&#34;img&#34; aria-labelledby=&#34;git-svg-title&#34; id=&#34;git-logo-svg&#34; data-name=&#34;git-logo-svg&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;218.37&#34; height=&#34;91.21&#34; viewBox=&#34;0 0 218.37 91.21&#34;&gt;
-  &lt;title id=&#34;git-svg-title&#34;&gt;Git&lt;/title&gt;
-  &lt;defs&gt;
-    &lt;style&gt;
-      .cls-1 {
-        fill: #fff;
-      }
-    &lt;/style&gt;
-  &lt;/defs&gt;
-  &lt;title&gt;git&lt;/title&gt;
-  &lt;path class=&#34;cls-1&#34; d=&#34;M147.06,31.31a13.8,13.8,0,0,1,3.22,8.79c0,9.66-7.57,15.32-18.54,15.32a27.68,27.68,0,0,1-6.88-.78L122,59.25l8.53.52c15.06,1,23.93,1.4,23.93,13,0,10-8.79,15.67-23.93,15.67-15.75,0-21.76-4-21.76-10.88,0-3.92,1.74-6,4.79-8.88a5.8,5.8,0,0,1-3.83-5.74,7.8,7.8,0,0,1,2.53-5.31c1.57-1.65,3.31-3.31,5.39-5.22-4.26-2.09-7.48-6.61-7.48-13.06,0-10,6.61-16.88,19.93-16.88a29.86,29.86,0,0,1,8,.87h17v7.4ZM121.3,71c-1.13,1.39-2.26,2.87-2.26,4.61,0,3.48,4.44,4.53,10.53,4.53,5,0,11.92-.35,11.92-5,0-2.79-3.31-3-7.49-3.22Zm9.57-40c-4.79,0-8.35,2.35-8.35,8,0,4.26,2.35,7.22,8.1,7.22,4.87,0,8.18-2.87,8.18-7.4C138.79,33.75,135.83,31,130.87,31Z&#34;/&gt;
-  &lt;path class=&#34;cls-1&#34; d=&#34;M159.15,67.79V60.92l4.44-.61c1.22-.18,1.39-.44,1.39-1.74V33c0-1-.26-1.57-1.13-1.83l-4.7-1.66,1-7h18V58.57c0,1.39.08,1.57,1.39,1.74l4.44.61v6.87Zm11.23-52.3c-5,0-7.83-2.87-7.83-7.84S165.42,0,170.38,0s7.92,2.7,7.92,7.66S175.43,15.49,170.38,15.49Z&#34;/&gt;
-  &lt;path class=&#34;cls-1&#34; d=&#34;M218.37,64.42a34.81,34.81,0,0,1-14.19,3.48c-10.36,0-14.27-4.17-14.27-14V31.09c0-.52,0-.87-.7-.87h-6.09V22.47c7.66-.87,10.71-4.7,11.66-14.19h8.27V20.64c0,.61,0,.87.7.87H216v8.7h-13V51c0,5.14,1.22,7.14,5.92,7.14a20.72,20.72,0,0,0,7-1.39Z&#34;/&gt;
-  &lt;path class=&#34;cls-1&#34; d=&#34;M89.42,41.58,49.63,1.79a5.87,5.87,0,0,0-8.3,0l-8.26,8.26L43.55,20.54a7,7,0,0,1,8.83,8.89l10.1,10.1a7,7,0,1,1-4.18,3.94L48.87,34V58.83a7,7,0,1,1-5.74-.2v-25a6.91,6.91,0,0,1-2.29-1.52,7,7,0,0,1-1.5-7.64L29,14.11,1.72,41.4a5.87,5.87,0,0,0,0,8.3L41.51,89.49a5.87,5.87,0,0,0,8.3,0L89.42,49.88A5.87,5.87,0,0,0,89.42,41.58Z&#34;/&gt;
-&lt;/svg&gt;
-
-
-
-&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Git is a distributed version control system. (But you knew that already, because you totally completed a &lt;a href=&#34;http://xternbootcamp17.github.io/prereqs/git/&#34;&gt;Git tutorial&lt;/a&gt;&amp;mdash;&lt;em&gt;right&lt;/em&gt;?) If you have previously installed Xcode and its command-line tools, you may already have Git installed. Find out by entering the following command:&lt;/p&gt;
-
-&lt;p&gt;
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-  
-&lt;pre&gt;
-&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;
-&lt;/span
-&gt;&lt;span class=&#34;terminal-commands&#34;&gt;git --version
-&lt;span class=&#34;output-line&#34;&gt;git version 2.12.2&lt;/span&gt;
-
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;If you see something like &lt;code&gt;git version 2.12.2&lt;/code&gt;, then you already have Git. If not, skip to the next section to install Homebrew. If you have Git, but the version number is lower than 2.12.2 (as of April 11, 2017), then your version of Git is out of date. Continue to the next step to install Homebrew.&lt;/p&gt;
-
-&lt;p&gt;If your Git version is up-to-date, skip to the &lt;a href=&#34;#configuring-git&#34;&gt;Git Configuration&lt;/a&gt; section.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;GitHub Desktop&lt;/h4&gt;
-    
-      &lt;div class=&#34;emoji&#34;&gt;
-        &lt;i class=&#34;fa fa-github-alt&#34;&gt;&lt;/i&gt;
-      &lt;/div&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://desktop.github.com/&#34;&gt;GitHub Desktop&lt;/a&gt;&lt;/strong&gt; is a very nice, free graphical interface for Git. Although we&amp;rsquo;ll use Git from the command-line a great deal, we&amp;rsquo;ll also look at how GitHub Desktop can make certain tasks easier.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;homebrew&#34;&gt;Homebrew&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://brew.sh&#34;&gt;Homebrew&lt;/a&gt;&lt;/strong&gt; is a package manager for macOS. That is, it manages the installation of certain software&amp;mdash;especially UNIX tools&amp;mdash;and the installed versions of that software.&lt;/p&gt;
-
-&lt;p&gt;Install Homebrew with the following command:&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;ruby -e &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;#34;
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;installing-git-with-homebrew&#34;&gt;Installing Git with Homebrew&lt;/h2&gt;
-
-&lt;p&gt;If you do not have Git installed at all, or if your version is out of date, run the following command to install the latest version:&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;brew install git
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Now check your Git version again.&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;git --version
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;You should see an up-to-date version number.&lt;/p&gt;
-
-&lt;p&gt;The next time a new version of Git is released, just type the following commands:&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;brew update           # This updates Homebrew so it knows about the latest versions.
-brew upgrade git      # This upgrades Git itself.
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;configuring-git&#34;&gt;Configuring Git&lt;/h2&gt;
-
-&lt;p&gt;Next, tell Git what name and email address it should use to sign code that you&amp;rsquo;ve authored. While you&amp;rsquo;re at it, tell it to use Code as the editor. Enter the following commands, substituting your actual name and email address:&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;git config --global user.name &amp;#34;Your Full Name&amp;#34;
-git config --global user.email &amp;#34;youremailaddress@example.com&amp;#34;
-git config --global core.editor &amp;#34;code --wait&amp;#34;
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     
