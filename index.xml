@@ -2181,7 +2181,8 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.w3schools.com/cssref/sel_firstchild.asp&#34;&gt;&lt;code&gt;:first-child&lt;/code&gt; pseudo-selector&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.w3schools.com/cssref/sel_last-child.asp&#34;&gt;&lt;code&gt;:last-child&lt;/code&gt; pseudo-selector&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.w3schools.com/cssref/sel_element_gt.asp&#34;&gt;&lt;code&gt;&amp;gt;&lt;/code&gt; selector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3schools.com/cssref/sel_element_gt.asp&#34;&gt;&lt;code&gt;&amp;gt;&lt;/code&gt; child selector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/almanac/selectors/a/adjacent-sibling/&#34;&gt;&lt;code&gt;+&lt;/code&gt; adjacent sibling selector&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;javascript-classes&#34;&gt;JavaScript Classes&lt;/h3&gt;
