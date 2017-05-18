@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>VS Code Keybindings</title>
+    <title>Day 4: LocalStorage and JavaScript Classes</title>
     <link href="http://xternbootcamp17.github.io//css/nucleus.css" rel="stylesheet">
     <link href="http://xternbootcamp17.github.io//css/font-awesome.min.css" rel="stylesheet">
     
@@ -25,7 +25,7 @@
     <link href="/css/prism.css" rel="stylesheet">
 <link href="/css/xtern.css" rel="stylesheet">
   </head>
-  <body class="" data-url="/tools/code-keybindings/">
+  <body class="" data-url="/week1/day4/">
     
     <nav id="sidebar">
   <div id="header-wrapper">
@@ -262,7 +262,7 @@
       
       
 
-      <li class="dd-item  parent" data-nav-id="/tools/">
+      <li class="dd-item  " data-nav-id="/tools/">
         <a href="/tools/">
           <span>
             
@@ -284,7 +284,7 @@
           
           
           
-            <li class="dd-item active" data-nav-id="/tools/code-keybindings/">
+            <li class="dd-item " data-nav-id="/tools/code-keybindings/">
               <a href="/tools/code-keybindings/">
                 <span>VS Code Keybindings     </i></span>
               </a>
@@ -307,7 +307,7 @@
       
       
 
-      <li class="dd-item  " data-nav-id="/week1/">
+      <li class="dd-item  parent" data-nav-id="/week1/">
         <a href="/week1/">
           <span>
             
@@ -345,7 +345,7 @@
           
           
           
-            <li class="dd-item " data-nav-id="/week1/day4/">
+            <li class="dd-item active" data-nav-id="/week1/day4/">
               <a href="/week1/day4/">
                 <span>Day 4: LocalStorage and JavaScript Classes     </i></span>
               </a>
@@ -388,11 +388,11 @@
                   
                     
                     
-                <a href="/tools/" itemprop="url"><span itemprop="title">Tools</span></a> <i class="fa fa-angle-right"></i>
+                <a href="/week1/" itemprop="url"><span itemprop="title">Week One</span></a> <i class="fa fa-angle-right"></i>
                     
                   
                 
-                <span itemprop="title"> VS Code Keybindings</span>
+                <span itemprop="title"> Day 4: LocalStorage and JavaScript Classes</span>
               </div>
               
                   <div class="progress">
@@ -401,11 +401,31 @@
 <ul>
 <li>
 <ul>
-<li><a href="#custom-keybindings-for-vs-code">Custom Keybindings for VS Code</a>
+<li><a href="#lecture-videos">Lecture Videos</a></li>
+<li><a href="#topics">Topics</a>
 <ul>
-<li><a href="#emmet">Emmet</a></li>
-<li><a href="#esquotes">ESQuotes</a></li>
-<li><a href="#embrace">Embrace</a></li>
+<li><a href="#localstorage"><code>localStorage</code></a></li>
+<li><a href="#font-awesome">Font Awesome</a></li>
+<li><a href="#foundation">Foundation</a></li>
+<li><a href="#css-selectors">CSS Selectors</a></li>
+<li><a href="#javascript-classes">JavaScript Classes</a></li>
+<li><a href="#chrome-developer-tools">Chrome Developer Tools</a></li>
+</ul></li>
+<li><a href="#examples">Examples</a>
+<ul>
+<li><a href="#localstorage-1">localStorage</a></li>
+<li><a href="#font-awesome-1">Font Awesome</a></li>
+<li><a href="#css-selectors-1">CSS Selectors</a></li>
+<li><a href="#javascript-classes-1">JavaScript Classes</a></li>
+</ul></li>
+<li><a href="#presentations">Presentations</a></li>
+<li><a href="#projects">Projects</a>
+<ul>
+<li><a href="#megaroster">Megaroster</a></li>
+</ul></li>
+<li><a href="#homework">Homework</a>
+<ul>
+<li><a href="#super-mega-bonus-credit-hyper-fighting">Super Mega Bonus Credit Hyper Fighting</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -419,198 +439,268 @@
             
               <div id="body-inner">
                 
-                <h1>VS Code Keybindings</h1>
+                <h1>Day 4: LocalStorage and JavaScript Classes</h1>
                 
 
 
 
-<div class="page-heading"><div>
+<h2 id="lecture-videos">Lecture Videos</h2>
+
+<p>Morning:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Full Playlist</a> | <a href="https://www.youtube.com/watch?v=YGj8J6MceYg&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;index=11">Day 4, part 1</a> | <a href="https://www.youtube.com/watch?v=zvYmxL1ojaI&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;index=12">2</a> | <a href="https://www.youtube.com/watch?v=MALqYKxz9-Y&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;index=13">3</a> | <a href="https://www.youtube.com/watch?v=8wfKQnitrmY&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;index=14">4</a> | <a href="https://www.youtube.com/watch?v=2l7bv4a3S-s&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;index=15">5</a> | <a href="https://www.youtube.com/watch?v=59thZz_yFgE&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;index=16">6</a> | <a href="https://www.youtube.com/watch?v=w-bqy6n8Gco&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;index=17">7</a></li>
+</ul>
+
+<p>Afternoon:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">Full Playlist</a> | <a href="https://www.youtube.com/watch?v=mpEFSr8eXEY&amp;index=16&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">Day 4, part 1</a> | <a href="https://www.youtube.com/watch?v=IkNAVmWuPDU&amp;index=17&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">2</a> | <a href="https://www.youtube.com/watch?v=i2XL0mV1qmU&amp;index=18&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">3</a> | <a href="https://www.youtube.com/watch?v=3KIvEuhPJag&amp;index=19&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">4</a> | <a href="https://www.youtube.com/watch?v=gTiMSnn-4nU&amp;index=20&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">5</a> | <a href="https://www.youtube.com/watch?v=xd2ewpDX_yE&amp;index=21&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">6</a> | [7]() | [8]() | [9]() | [10]() | [11]()</li>
+</ul>
+
+<h2 id="topics">Topics</h2>
+
+<h3 id="localstorage"><code>localStorage</code></h3>
+
+<ul>
+<li><a href="(https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/)">Using <code>localStorage</code></a></li>
+<li><code>JSON.stringify</code>
+
+<ul>
+<li><a href="http://www.dyn-web.com/tutorials/php-js/json/stringify.php">Using <code>JSON.stringify</code></a></li>
+<li><a href="http://jsfiddle.net/queryj/hLkUz/">Live example</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify">API reference</a>, including optional arguments for whitelisting properties and transforming the data as it&rsquo;s stringified</li>
+</ul></li>
+<li><code>JSON.parse</code>
+
+<ul>
+<li><a href="http://www.dyn-web.com/tutorials/php-js/json/parse.php">Using <code>JSON.parse</code></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse">API reference</a>, including optional argument for transforming the data as it&rsquo;s parsed</li>
+</ul></li>
+</ul>
+
+<h3 id="font-awesome">Font Awesome</h3>
+
+<ul>
+<li><a href="http://fontawesome.io/">Docs</a></li>
+<li><a href="http://fontawesome.io/examples/">Examples</a></li>
+<li><a href="http://fontawesome.io/icons/">Icon list</a></li>
+<li><a href="http://www.w3schools.com/icons/fontawesome_icons_intro.asp">Font Awesome intro</a> on w3schools, including a live editor</li>
+<li><a href="http://fontawesome.io/accessibility/">Icon Fonts &amp; Accessibility</a></li>
+</ul>
+
+<h3 id="foundation">Foundation</h3>
+
+<ul>
+<li><a href="http://foundation.zurb.com/sites/docs/v/5.5.3/components/buttons.html">Button styles</a></li>
+</ul>
+
+<h3 id="css-selectors">CSS Selectors</h3>
+
+<ul>
+<li><a href="http://www.w3schools.com/cssref/sel_firstchild.asp"><code>:first-child</code> pseudo-selector</a></li>
+<li><a href="http://www.w3schools.com/cssref/sel_last-child.asp"><code>:last-child</code> pseudo-selector</a></li>
+<li><a href="https://www.w3schools.com/cssref/sel_element_gt.asp"><code>&gt;</code> selector</a></li>
+</ul>
+
+<h3 id="javascript-classes">JavaScript Classes</h3>
+
+<ul>
+<li>Class declarations</li>
+<li>The <code>constructor</code> function</li>
+<li>Methods</li>
+<li>Instantiating objects from a class</li>
+</ul>
+
+<h3 id="chrome-developer-tools">Chrome Developer Tools</h3>
+
+<ul>
+<li>Accessing selected elements with <code>$</code></li>
+<li>Read <a href="https://willd.me/posts/0-in-chrome-dev-tools">this article</a> for more details</li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<h3 id="localstorage-1">localStorage</h3>
+
+<p><code>localStorage</code> is storage in your web browser that conforms to Web Storage API.  It is scoped by domain, meaning other websites cannot access data stored by your website and vice versa.  The data in <code>localStorage</code> persists in the browser until removed, even if the browser is closed and re-opened.</p>
+
+<p>To set an item, use <code>localStorage.setItem</code>, and retrieve data using <code>localStorage.getItem</code>.  It is important to remember that values stored will always be strings, so it may be use necessary to use the <code>JSON.stringify</code> and <code>JSON.parse</code> methods to set and retrieve non-string data.  JSON stands for <strong>J</strong>ava<strong>S</strong>cript <strong>O</strong>bject <strong>N</strong>otation.  To learn more about JSON, click <a href="https://www.w3schools.com/js/js_json_intro.asp">here</a>.</p>
 
 
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   role="img"
-   viewBox="0 0 500 516.8125"
-   id="vs-logo-svg"
-   aria-labelledby="vs-svg-title"
-   version="1.2">
-  <title id="vs-svg-title">Visual Studio Code</title>
-  <defs
-     id="defs4" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#2d2c31"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="26.033824"
-     inkscape:cy="342.90908"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1018"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Ebene 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     style="display:inline"
-     transform="translate(0,-538.375)">
-    <path
-       style="fill:#ffffff;stroke:none"
-       d="M 483.29234,602.44472 372.10411,557.87392 178.02375,746.87661 61.150238,657.90867 l -44.44058,22.35039 -0.04444,233.31307 44.23249,22.18974 116.777852,-88.89395 194.55776,188.82908 111.10146,-44.39718 z"
-       id="path2998"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#373277;stroke:none"
-       d="m 361.0373,713.50273 -111.05802,83.02234 111.10146,83.67329 z"
-       id="path3000"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#373277;stroke:none"
-       d="m 72.191838,746.97093 0.0667,99.85788 55.483402,-50.26641 z"
-       id="path3002"
-       inkscape:connector-curvature="0" />
-  </g>
-</svg>
-
-
-
-<p>VS Code Keybindings</p>
-
-
-</div></div>
-
-<p>It&rsquo;s worth your time to get to know the keyboard shortcuts for whatever editor you use. We&rsquo;ve gone a step further and added some custom keybindings for some of the commands we use most.</p>
-
-<h2 id="custom-keybindings-for-vs-code">Custom Keybindings for VS Code</h2>
-
-<p>Open your Keyboard Shortcuts from the menu (<kbd>Code &gt; Preferences &gt; Keyboard Shortcuts</kbd>) or by using (what else?) the keyboard shortcut (<kbd>⌘</kbd>+<kbd>K</kbd>, <kbd>⌘</kbd>+<kbd>S</kbd>). From there, you can see all of the current keyboard shortcuts and customize them.</p>
-
-<p>For serious customization, click the link to open <em>keybindings.js</em>. That opens two panes: the default keybindings, and your custom bindings. My keybindings appear below. I&rsquo;ll talk about a few of them.</p>
-
-<p>
 <pre class="line-numbers language-js" rel="js">
 <code class="language-js">
 
-// Place your key bindings in this file to overwrite the defaults
-[
-  {
-    "key": "alt+cmd+.",
-    "command": "editor.emmet.action.matchingPair"
-  },
+const myObject = {
+  thisIsCool: true
+}
 
-  {
-    "key": "shift+cmd+a",
-    "command": "editor.emmet.action.wrapWithAbbreviation"
-  },
+localStorage.setItem('myObject', myObject)
+localStorage.getItem('myObject') // => "[object Object]"
+// localStorage saves the result of the implicit myObject.toString() call
 
-  {
-    "key": "cmd+'",
-    "command": "esQuotes.transformBetweenSingleDoubleQuotes"
-  },
+localStorage.setItem('myObject', JSON.stringify(myObject))
+// calling JSON.stringify converts the object to a JSON string representation
+// so it can be stored in localStorage without loss of data
 
-  {
-    "key": "ctrl+space",
-    "command": "editor.emmet.action.expandAbbreviation",
-    "when": "editorTextFocus && !editorHasMultipleSelections && !editorHasSelection && !editorReadonly"
-  },
-
-  {
-        "key": "ctrl+k ctrl+e",
-        "command": "extension.embraceParenthesis",
-        "when": "editorHasSelection && editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+[",
-        "command": "extension.embraceSquareBrackets",
-        "when": "editorHasSelection && editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+l",
-        "command": "extension.embraceCurlyBrackets",
-        "when": "editorHasSelection && editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+a",
-        "command": "extension.embraceAngleBrackets",
-        "when": "editorHasSelection && editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+'",
-        "command": "extension.embraceSingleQuotes",
-        "when": "editorHasSelection && editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+o",
-        "command": "extension.embraceDoubleQuotes",
-        "when": "editorHasSelection && editorTextFocus"
-    }
-]
+const retrievedObject = localStorage.getItem('myObject') // => "{"thisIsCool":true}"
+JSON.parse(retrievedObject) // => {thisIsCool: true}
+// JSON.parse converts the retrieved JSON string back into a JavaScript object
 
 </code>
 </pre>
 
-</p>
 
-<h3 id="emmet">Emmet</h3>
 
-<p><a href="https://emmet.io/">Emmet</a> is a wonderful tool for expanding CSS selector-like snippets into HTML elements. For example, type <code>.container&gt;.row&gt;.col-xs-12&gt;p</code>, and Emmet will expand it into this:</p>
+<h3 id="font-awesome-1">Font Awesome</h3>
+
+<p>Font Awesome provides hundreds of vectorized, professional-looking icons for free.  Once you have the Font Awesome stylesheet downloaded and included in your project, use <code>&lt;i&gt;</code> tags with appropriate classes to render the icons you want.</p>
 
 
 <pre class="line-numbers language-html" rel="html">
 <code class="language-html">
 
-&lt;div class=&quot;container&quot;&gt;
-  &lt;div class=&quot;row&quot;&gt;
-    &lt;div class=&quot;col-xs-12&quot;&gt;
-      &lt;p&gt;&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;-- Sample link tag to include Font Awesome in HTML --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/font-awesome.min.css&quot;&gt;&lt;i&gt;
+
+&lt;-- Renders a sweet camera icon --&gt;
+&lt;i class=&quot;fa fa-camera-retro&quot;&gt;&lt;/i&gt;
 
 </code>
 </pre>
 
 
 
-<p>It will even put your cursor inside the <code>&lt;p&gt;&lt;/p&gt;</code> tags. And if you use it within JSX, it will use <code>className</code> instead of class, just as it should.</p>
+<h3 id="css-selectors-1">CSS Selectors</h3>
 
-<p>By default, IntelliSense will suggest Emmet expansion just like any other autocompletion. Sometimes that&rsquo;s fine, but other times it can be a real pain in the neck. Thus, I prefer to set a custom shortcut: <kbd>ctrl</kbd>+<kbd>space</kbd>.</p>
 
-<p>There&rsquo;s another really handy Emmet feature to which I&rsquo;ve assigned a shortcut: <em>wrap with abbreviation</em>. It allows you to wrap a selection inside an HTML element identified by an Emmet abbreviation. Select the text you want to wrap and hit the shortcut. You&rsquo;ll be presented with a box to type the abbreviation into. Magic! I&rsquo;ve assigned this command to <kbd>shift</kbd>+<kbd>⌘</kbd>+<kbd>A</kbd>.</p>
+<pre class="line-numbers language-html" rel="html">
+<code class="language-html">
 
-<h3 id="esquotes">ESQuotes</h3>
+&lt;div&gt;
+  &lt;p&gt;paragraph one&lt;/p&gt;
+  &lt;p&gt;paragraph two&lt;/p&gt;
+  &lt;p&gt;paragraph three&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;paragraph four&lt;/p&gt;
 
-<p>I mentioned the ECMAScript Quotes Transformer extension earlier. This begs for a keyboard shortcut to quickly switch between single and double quotes: <kbd>⌘</kbd>+<kbd>&lsquo;</kbd>.</p>
+</code>
+</pre>
 
-<h3 id="embrace">Embrace</h3>
 
-<p>As mentioned on the previous page, the Embrace extension does not assign any keybindings by default, so I configured some. My shortcuts vary slightly from the recommended shortcuts on the extension&rsquo;s page (in particular, I prefer <kbd>ctrl</kbd>+<kbd>K</kbd>, <kbd>ctrl</kbd>+<kbd>[</kbd> for wrapping with square brackets).</p>
+
+
+<pre class="line-numbers language-css" rel="css">
+<code class="language-css">
+
+p:first-child {
+  /* selects any paragraph that is the first child of its parent (paragraph one) */
+}
+
+p:last-child {
+  /* selects any paragraph that is the last child of its parent (paragraph three) */
+}
+
+div > p {
+  /* selects any paragraph that is a child of a div (paragraphs one, two, and three) */
+}
+
+</code>
+</pre>
+
+
+
+<h3 id="javascript-classes-1">JavaScript Classes</h3>
+
+<p>JavaScript is not a class-based language like C++, Java, or Ruby.  It uses <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain">prototypal inheritance</a> instead.  However, as of ES2015, the <code>class</code> keyword was added to the language to provide a more concise syntax and similarity to popular class-based languages.</p>
+
+<p>A class is essentially a constructor of Objects.  Methods and properties in the class will be inherited by each object that is constructed by the class.  Object instances are created by using the <code>new</code> keyword.  Classes have a <code>constructor</code> method, which is called when instances are created and allows for configuration of the object.</p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+class Dog {
+  constructor() {
+    this.furColor = 'brown'
+  }
+
+  bark() {
+    console.log('WOOF')
+  }
+}
+
+const bowser = new Dog();
+bowser.furColor // => 'brown'
+bowser.bark()   // => 'WOOF'
+
+</code>
+</pre>
+
+
+
+<p>Classes can also inherit from another class.  Inheritance is specified using the <code>extends</code> keyword.  When a class inherits from another, it has access to the methods and properties of <em>both</em> classes, although if both classes implement the <em>same</em> property or method, the child class will take precedence.</p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+class Animal {
+  constructor() {
+    this.furColor = 'brown'
+  }
+
+  speak() {
+    console.log('Some sort of noise')
+  }
+}
+
+class Dog extends Animal {
+  constructor() {
+    this.furColor = 'black'
+  }
+
+  bark() {
+    console.log('WOOF')
+  }
+}
+
+const bowser = new Dog()
+bowser.furColor // => 'black'
+bowser.speak()  // => 'Some sort of noise'
+bowser.bark()   // => 'WOOF'
+
+const rodent = new Animal()
+rodent.furColor // => 'brown'
+rodent.speak()  // => 'Some sort of noise'
+rodent.bark()   // => Uncaught TypeError: rodent.bark is not a function
+
+</code>
+</pre>
+
+
+
+<h2 id="presentations">Presentations</h2>
+
+<ul>
+<li><a href="/04-local-storage.pdf">Intro to localStorage</a></li>
+</ul>
+
+<h2 id="projects">Projects</h2>
+
+<h3 id="megaroster">Megaroster</h3>
+
+<p><a href="https://github.com/xtbc17s1/megaroster/tree/b3f42521a8c764fc7c956cb8a01ee322dc2b9e2b">Morning</a> | <a href="https://github.com/xtbc17s1/megaroster/tree/443b3c889e4b7592bc842570c3a6c681b2900977">Afternoon</a></p>
+
+<h2 id="homework">Homework</h2>
+
+<p>Make &ldquo;move down&rdquo; work if you haven&rsquo;t already.</p>
+
+<p>Allow the editing of student names after they&rsquo;re already in the list. (Gee, it would be nice if I could make that span&rsquo;s <em>content editable</em>!)</p>
+
+<h3 id="super-mega-bonus-credit-hyper-fighting">Super Mega Bonus Credit Hyper Fighting</h3>
+
+<p>Have a nice weekend.</p>
 
 
       
@@ -622,8 +712,8 @@
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="/tools/code-extensions"> <i class="fa fa-chevron-left"></i></a>
-        <a class="nav nav-next" href="/tools/github-desktop" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-prev" href="/week1/day3"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="/week1/day4" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
     </div>
 
     </section>
