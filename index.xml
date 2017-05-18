@@ -1230,6 +1230,12 @@ div.appendChild(heading)
 
 &lt;/p&gt;
 
+&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://xternbootcamp17.github.io/02-html-dom.pdf&#34;&gt;Review: HTML and the DOM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
 
 &lt;h3 id=&#34;people-factory&#34;&gt;People Factory&lt;/h3&gt;
@@ -1836,6 +1842,12 @@ boundGetX()       // 81
 &lt;/pre&gt;
 
 
+
+&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://xternbootcamp17.github.io/03-review-objects-and-functions.pdf&#34;&gt;Review: Objects and Functions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
 
