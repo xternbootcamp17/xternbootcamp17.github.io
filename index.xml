@@ -55,7 +55,7 @@
 &lt;li&gt;Template strings
 
 &lt;ul&gt;
-&lt;li&gt;String interpolation, &lt;em&gt;e.g.&lt;/em&gt; &lt;code&gt;Hi, ${name}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;String interpolation, &lt;em&gt;e.g.&lt;/em&gt; &lt;code&gt;`Hi, ${name}`&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Multi-line strings&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Emmet abbreviations for code editors (&lt;a href=&#34;https://docs.emmet.io/abbreviations/syntax/&#34;&gt;syntax reference&lt;/a&gt;)&lt;/li&gt;
