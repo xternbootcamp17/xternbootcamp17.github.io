@@ -2141,7 +2141,7 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
 
 &lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
 
-&lt;h3 id=&#34;localstorage&#34;&gt;&lt;code&gt;localStorage&lt;/code&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;localstorage-localstorage&#34;&gt;&lt;code&gt;localStorage&lt;/code&gt; &lt;a href=&#34;#localstorage&#34;&gt;↓&lt;/a&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;(https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/)&#34;&gt;Using &lt;code&gt;localStorage&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
@@ -2160,7 +2160,7 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;font-awesome&#34;&gt;Font Awesome&lt;/h3&gt;
+&lt;h3 id=&#34;font-awesome-font-awesome&#34;&gt;Font Awesome &lt;a href=&#34;#font-awesome&#34;&gt;↓&lt;/a&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://fontawesome.io/&#34;&gt;Docs&lt;/a&gt;&lt;/li&gt;
@@ -2173,19 +2173,33 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
 &lt;h3 id=&#34;foundation&#34;&gt;Foundation&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://foundation.zurb.com/sites/docs/v/5.5.3/components/buttons.html&#34;&gt;Button styles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://foundation.zurb.com/sites/docs/button.html&#34;&gt;Button&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://foundation.zurb.com/sites/docs/button-group.html&#34;&gt;Button Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://foundation.zurb.com/sites/docs/forms.html&#34;&gt;Forms&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;css-selectors&#34;&gt;CSS Selectors&lt;/h3&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://css-tricks.com/child-and-sibling-selectors/&#34;&gt;Child and sibling selectors&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.w3schools.com/cssref/sel_firstchild.asp&#34;&gt;&lt;code&gt;:first-child&lt;/code&gt; pseudo-selector&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.w3schools.com/cssref/sel_last-child.asp&#34;&gt;&lt;code&gt;:last-child&lt;/code&gt; pseudo-selector&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.w3schools.com/cssref/sel_element_gt.asp&#34;&gt;&lt;code&gt;&amp;gt;&lt;/code&gt; child selector&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/almanac/selectors/a/adjacent-sibling/&#34;&gt;&lt;code&gt;+&lt;/code&gt; adjacent sibling selector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/almanac/selectors/d/descendant/&#34;&gt;Descendant selector (&lt;em&gt;space&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/almanac/selectors/c/child/&#34;&gt;&lt;code&gt;&amp;gt;&lt;/code&gt; combinator - child selector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/almanac/selectors/a/adjacent-sibling/&#34;&gt;&lt;code&gt;+&lt;/code&gt; combinator - adjacent sibling selector)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/almanac/selectors/f/first-child/&#34;&gt;&lt;code&gt;:first-child&lt;/code&gt; pseudo-class selector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/almanac/selectors/l/last-child/&#34;&gt;&lt;code&gt;:last-child&lt;/code&gt; pseudo-class selector&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;javascript-classes&#34;&gt;JavaScript Classes&lt;/h3&gt;
+&lt;h3 id=&#34;array-methods&#34;&gt;Array methods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype?v=control&#34;&gt;&lt;code&gt;Array.prototype&lt;/code&gt; documentation on MDN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse?v=control&#34;&gt;&lt;code&gt;reverse()&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;find()&lt;/code&gt; - &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find?v=control&#34;&gt;MDN&lt;/a&gt; | &lt;a href=&#34;https://www.w3schools.com/jsref/jsref_find.asp&#34;&gt;w3schools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;findIndex()&lt;/code&gt; - &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex?v=control&#34;&gt;MDN&lt;/a&gt; | &lt;a href=&#34;https://www.w3schools.com/jsref/jsref_findindex.asp&#34;&gt;w3schools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;javascript-classes-javascript-classes&#34;&gt;JavaScript Classes &lt;a href=&#34;#javascript-classes&#34;&gt;↓&lt;/a&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Class declarations&lt;/li&gt;
@@ -2197,13 +2211,13 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
 &lt;h3 id=&#34;chrome-developer-tools&#34;&gt;Chrome Developer Tools&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Accessing selected elements with &lt;code&gt;$&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Read &lt;a href=&#34;https://willd.me/posts/0-in-chrome-dev-tools&#34;&gt;this article&lt;/a&gt; for more details&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://willd.me/posts/0-in-chrome-dev-tools&#34;&gt;Accessing recently inspected elements with &lt;code&gt;$0&lt;/code&gt;-&lt;code&gt;$4&lt;/code&gt;&lt;/a&gt; (&lt;a href=&#34;https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference#0_-_4&#34;&gt;official docs&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/web/tools/chrome-devtools/manage-data/local-storage&#34;&gt;Inspecting storage from the &lt;em&gt;Application&lt;/em&gt; panel&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
 
-&lt;h3 id=&#34;localstorage-1&#34;&gt;localStorage&lt;/h3&gt;
+&lt;h3 id=&#34;localstorage&#34;&gt;localStorage&lt;/h3&gt;
 
 &lt;p&gt;&lt;code&gt;localStorage&lt;/code&gt; is storage in your web browser that conforms to Web Storage API.  It is scoped by domain, meaning other websites cannot access data stored by your website and vice versa.  The data in &lt;code&gt;localStorage&lt;/code&gt; persists in the browser until removed, even if the browser is closed and re-opened.&lt;/p&gt;
 
@@ -2234,7 +2248,7 @@ JSON.parse(retrievedObject) // =&gt; {thisIsCool: true}
 
 
 
-&lt;h3 id=&#34;font-awesome-1&#34;&gt;Font Awesome&lt;/h3&gt;
+&lt;h3 id=&#34;font-awesome&#34;&gt;Font Awesome&lt;/h3&gt;
 
 &lt;p&gt;Font Awesome provides hundreds of vectorized, professional-looking icons for free.  Once you have the Font Awesome stylesheet downloaded and included in your project, use &lt;code&gt;&amp;lt;i&amp;gt;&lt;/code&gt; tags with appropriate classes to render the icons you want.&lt;/p&gt;
 
@@ -2292,7 +2306,7 @@ div &gt; p {
 
 
 
-&lt;h3 id=&#34;javascript-classes-1&#34;&gt;JavaScript Classes&lt;/h3&gt;
+&lt;h3 id=&#34;javascript-classes&#34;&gt;JavaScript Classes&lt;/h3&gt;
 
 &lt;p&gt;JavaScript is not a class-based language like C++, Java, or Ruby.  It uses &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain&#34;&gt;prototypal inheritance&lt;/a&gt; instead.  However, as of ES2015, the &lt;code&gt;class&lt;/code&gt; keyword was added to the language to provide a more concise syntax and similarity to popular class-based languages.&lt;/p&gt;
 
@@ -2376,13 +2390,14 @@ rodent.bark()   // =&gt; Uncaught TypeError: rodent.bark is not a function
 
 &lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
 
-&lt;p&gt;Make &amp;ldquo;move down&amp;rdquo; work if you haven&amp;rsquo;t already.&lt;/p&gt;
-
-&lt;p&gt;Allow the editing of student names after they&amp;rsquo;re already in the list. (Gee, it would be nice if I could make that span&amp;rsquo;s &lt;em&gt;content editable&lt;/em&gt;!)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make &amp;ldquo;move down&amp;rdquo; work if you haven&amp;rsquo;t already.&lt;/li&gt;
+&lt;li&gt;Allow the editing of student names after they&amp;rsquo;re already in the list. (Gee, it would be nice if I could make that span&amp;rsquo;s &lt;em&gt;content editable&lt;/em&gt;!)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;super-mega-bonus-credit-hyper-fighting&#34;&gt;Super Mega Bonus Credit Hyper Fighting&lt;/h3&gt;
 
-&lt;p&gt;Have a nice weekend.&lt;/p&gt;
+&lt;p&gt;Have a nice weekend!&lt;/p&gt;
 </description>
     </item>
     
