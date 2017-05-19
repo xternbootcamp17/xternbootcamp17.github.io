@@ -134,13 +134,13 @@ button.onclick((ev) =&gt; {
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;Mozilla Developer Network (MDN)&lt;/a&gt; - An excellent documentation and learning resource for all your HTML/CSS/JS needs&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
 
 &lt;h3 id=&#34;people-factory&#34;&gt;People Factory&lt;/h3&gt;
 
-&lt;p&gt;Link: &lt;a href=&#34;https://github.com/xtbc17s1/people-factory&#34;&gt;Morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/people-factory/tree/afternoon&#34;&gt;Afternoon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/xtbc17s1/people-factory/tree/3a7d947fa8b62fe6516a801db89bd2e0899a5385&#34;&gt;Morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/people-factory/tree/9d9e368d4125a2a3a1af549eb299ac9ebfdfad88&#34;&gt;Afternoon&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;basic-homework&#34;&gt;Basic Homework&lt;/h4&gt;
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
 
 &lt;p&gt;Add form values to &lt;code&gt;.details&lt;/code&gt; using &lt;code&gt;document.createElement&lt;/code&gt; and &lt;code&gt;appendChild&lt;/code&gt;, instead of &lt;code&gt;innerHTML&lt;/code&gt;.&lt;/p&gt;
 
@@ -461,7 +461,7 @@ div.appendChild(heading)
 
 &lt;h3 id=&#34;people-factory&#34;&gt;People Factory&lt;/h3&gt;
 
-&lt;p&gt;Link: &lt;a href=&#34;https://github.com/xtbc17s1/people-factory&#34;&gt;Morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/people-factory/tree/afternoon&#34;&gt;Afternoon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/xtbc17s1/people-factory&#34;&gt;Morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/people-factory/tree/afternoon&#34;&gt;Afternoon&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
 
