@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Week2s on XTERN Bootcamp 2017</title>
+    <link>http://xternbootcamp17.github.io/week2/index.xml</link>
+    <description>Recent content in Week2s on XTERN Bootcamp 2017</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 May 2017 11:23:26 -0400</lastBuildDate>
+    <atom:link href="http://xternbootcamp17.github.io/week2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Week Two</title>
+      <link>http://xternbootcamp17.github.io/week2/</link>
+      <pubDate>Mon, 15 May 2017 11:23:26 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week2/</guid>
+      <description>
+
+&lt;h1 id=&#34;week-two&#34;&gt;Week Two&lt;/h1&gt;
+
+&lt;p&gt;React!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Day 5: Intro to React</title>
+      <link>http://xternbootcamp17.github.io/week2/day5/</link>
+      <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week2/day5/</guid>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Monday, May 22, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+
+&lt;p&gt;Morning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=jiLLHIpYyQw&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=18&#34;&gt;Day 5, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=dVfHMRBT4jE&amp;amp;index=23&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=mYbMOp9mYZ0&amp;amp;index=19&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=w6mIoGmGg34&amp;amp;index=20&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=7ZkYasspRVU&amp;amp;index=21&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=gwiGjyfGz1Y&amp;amp;index=22&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=IJA_qlN7BFc&amp;amp;index=25&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=xCSjpBUHqI4&amp;amp;index=26&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afternoon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=sPn2ED9hZ1I&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=27&#34;&gt;Day 5, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=a7eaK1Z5M5c&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=28&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=9xKX0Tb6Yzk&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=29&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=une1or5LnVM&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=30&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=e4AaZu2vLKs&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=31&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=F1bnQNnkOnE&amp;amp;index=32&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=A0H3Th9WA7k&amp;amp;index=33&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=slJzlsbhxDE&amp;amp;index=34&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;contenteditable&lt;/code&gt; - &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable&#34;&gt;MDN documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;keypress&lt;/code&gt; events&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;es2015-es6&#34;&gt;ES2015+ (ES6+)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inheritance (with the ES2015 &lt;code&gt;class&lt;/code&gt; syntax; it&amp;rsquo;s still &lt;em&gt;prototypal&lt;/em&gt; inheritance though) - &lt;a href=&#34;https://babeljs.io/learn-es2015/#ecmascript-2015-features-classes&#34;&gt;ES2015 classes on Babel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modules (import/export) - &lt;a href=&#34;https://babeljs.io/learn-es2015/#ecmascript-2015-features-modules&#34;&gt;ES2015 modules on Babel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;react-https-facebook-github-io-react&#34;&gt;&lt;a href=&#34;https://facebook.github.io/react/&#34;&gt;React&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tylermcginnis.com/imperative-vs-declarative-programming/&#34;&gt;Imperative vs. Declarative&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Components
+
+&lt;ul&gt;
+&lt;li&gt;JSX - &lt;a href=&#34;https://facebook.github.io/react/docs/introducing-jsx.html&#34;&gt;Docs: Introducing JSX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Props - &lt;a href=&#34;https://facebook.github.io/react/docs/components-and-props.html&#34;&gt;Docs: Components and Props&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;State - &lt;a href=&#34;https://facebook.github.io/react/docs/state-and-lifecycle.html&#34;&gt;Docs: State and Lifecycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/facebookincubator/create-react-app&#34;&gt;create-react-app&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;dom-manipulation-1&#34;&gt;DOM Manipulation&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;contentEditable&lt;/code&gt; is a property that, like the name suggests, allows the content of an HTML element to be edited through user interaction with the DOM (similar to a text input field).&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;div class=&amp;quot;person-name&amp;quot;&amp;gt;Mark&amp;lt;/div&amp;gt;
+&amp;lt;button&amp;gt;Click to Edit Name&amp;lt;/button&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+const nameDiv = document.querySelector(&#39;.person-name&#39;)
+console.log(nameDiv.isContentEditable) // =&gt; false
+
+const button = document.querySelector(&#39;button&#39;)
+button.addEventListener(&#39;click&#39;, (ev) =&gt; {
+  nameDiv.contentEditable = true
+  console.log(nameDiv.isContentEditable)
+})
+
+button.click() // =&gt; true (and div content will be editable)
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;react&#34;&gt;React&lt;/h3&gt;
+
+&lt;h4 id=&#34;basic-app&#34;&gt;Basic App&lt;/h4&gt;
+
+&lt;p&gt;A basic React application requires a minimum of four things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;An HTML file with at least one empty element&lt;/li&gt;
+&lt;li&gt;The React library&lt;/li&gt;
+&lt;li&gt;One or more React Component(s)&lt;/li&gt;
+&lt;li&gt;A JavaScript call to attach the React Component to the empty element in step one&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A minimal example:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;-- index.html --&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;Basic React App&amp;lt;/title&amp;gt;
+    &amp;lt;script src=&amp;quot;App.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+// App.js
+class App extends React.Component {
+  render() {
+    return (
+      &amp;lt;h1&amp;gt;Hello, world!&amp;lt;/h1&amp;gt;
+    )
+  }
+}
+
+ReactDOM.render(&amp;lt;App /&amp;gt;, document.querySelector(&#39;#app&#39;))
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;The body of the HTML above contains only an empty &lt;code&gt;div&lt;/code&gt; with an id of &amp;lsquo;app&amp;rsquo;.  This is where we will tell React to render our app. The &lt;code&gt;App.js&lt;/code&gt; file defines the &lt;code&gt;App&lt;/code&gt; component, and also makes the call to &lt;code&gt;ReactDOM.render&lt;/code&gt;, which attaches &lt;code&gt;&amp;lt;App /&amp;gt;&lt;/code&gt; to the &lt;code&gt;div#app&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;p&gt;React will &amp;lsquo;fill in&amp;rsquo; the div with the return result of the &lt;code&gt;App&lt;/code&gt; component&amp;rsquo;s &lt;code&gt;render&lt;/code&gt; method, in this case, the markup &lt;code&gt;&amp;lt;h1&amp;gt;Hello, world!&amp;lt;/h1&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;props&#34;&gt;Props&lt;/h4&gt;
+
+&lt;p&gt;React components can be thought of as JavaScript functions.  They take in arguments, called &lt;code&gt;props&lt;/code&gt;, and return markup that gets rendered to the page. Props can be just about anything, including strings, booleans, functions, objects, etc&amp;hellip;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class App extends React.Component {
+  render() {
+    return (
+      &amp;lt;h1&amp;gt;Hello, {this.props.name}!&amp;lt;/h1&amp;gt;
+    )
+  }
+}
+
+&amp;lt;App name=&amp;quot;Bob&amp;quot; /&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;By passing in the string &lt;code&gt;&amp;quot;Bob&amp;quot;&lt;/code&gt; to the &lt;code&gt;App&lt;/code&gt; component, we can access that value from within the &lt;code&gt;App&lt;/code&gt; class as a property on &lt;code&gt;this.props&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our rendered output would then be:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;h1&amp;gt;Hello, Bob!&amp;lt;/h1&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;state&#34;&gt;State&lt;/h4&gt;
+
+&lt;p&gt;Components receive &lt;em&gt;props&lt;/em&gt; as arguments and cannot change their values. Data that needs to change belongs in &lt;em&gt;state&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;State should be initialized in the constructor and updated via &lt;code&gt;setState&lt;/code&gt;.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-danger&#34;&gt;
+  
+    &lt;h4&gt;Do&lt;/h4&gt;
+    
+      &lt;div class=&#34;emoji&#34;&gt;
+        &lt;i class=&#34;fa fa-Not&#34;&gt;&lt;/i&gt;
+      &lt;/div&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;Always use &lt;code&gt;setState&lt;/code&gt; to modify a component&amp;rsquo;s state. The only time you should set state directly is in the constructor.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      count: 0
+    }
+  }
+
+  increment(ev) {
+    count = this.state.count + 1
+    this.setState({ count })
+  }
+
+  render() {
+    return (
+      &amp;lt;button type=&#34;button&#34; onClick={this.increment.bind(this)}&amp;gt;
+        Click to Increment
+      &amp;lt;/button&amp;gt;
+      &amp;lt;p&amp;gt;
+        Button has been clicked {this.state.count} times
+      &amp;lt;p&amp;gt;
+    )
+  }
+}
+
+&amp;lt;App /&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;modules&#34;&gt;Modules&lt;/h4&gt;
+
+&lt;p&gt;With &lt;a href=&#34;https://babeljs.io/learn-es2015/#ecmascript-2015-features-modules&#34;&gt;modules&lt;/a&gt;, you can define each component in separate files, importing them as needed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Header.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class Header extends React.Component {
+  render() {
+    return (
+      &amp;lt;h1&amp;gt;Hello, {this.props.name}!&amp;lt;/h1&amp;gt;
+    )
+  }
+}
+
+export default Header
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;App.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import Header from &#39;./Header&#39;
+
+class App extends React.Component {
+  render() {
+    return (
+      &amp;lt;Header name=&amp;quot;Bob&amp;quot; /&amp;gt;
+    )
+  }
+}
+
+export default App
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://xternbootcamp17.github.io/05-intro-to-react.pdf&#34;&gt;Intro to React&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Megaroster (final): &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/3ccd25f25db46ecff45a5b86ba32affcfb730f2d&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/commit/fc97404dada2d594970f64e9e4fbd3e9b3f6a271&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reactrobats on CodePen: &lt;a href=&#34;https://codepen.io/dstrus/pen/BRvLNg/&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://codepen.io/dstrus/pen/XRoMmR/&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xtbc17s1/dwarf-underground&#34;&gt;Dwarf Underground&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Split the page into at least 6 total components&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Split the page into at least 10 total components, including components &lt;em&gt;in&lt;/em&gt; components&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-bonus-credit&#34;&gt;Super Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Render the four article links at the bottom of the screen using &lt;code&gt;map&lt;/code&gt; and passing in the props they need&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make a component that contains a text field for leaving a comment&lt;/li&gt;
+&lt;li&gt;Have the text field appear only when the &amp;lsquo;comments&amp;rsquo; link at the bottom of the article is clicked&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit-hyper-fighting&#34;&gt;Super Mega Bonus Credit Hyper Fighting&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Actually display comments that are entered and submitted&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

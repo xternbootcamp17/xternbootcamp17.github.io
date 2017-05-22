@@ -6,8 +6,22 @@
     <description>Recent content on XTERN Bootcamp 2017</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 May 2017 11:13:46 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 15 May 2017 11:23:26 -0400</lastBuildDate>
     <atom:link href="http://xternbootcamp17.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Week Two</title>
+      <link>http://xternbootcamp17.github.io/week2/</link>
+      <pubDate>Mon, 15 May 2017 11:23:26 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week2/</guid>
+      <description>
+
+&lt;h1 id=&#34;week-two&#34;&gt;Week Two&lt;/h1&gt;
+
+&lt;p&gt;React!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Day 1: Introduction</title>
@@ -137,6 +151,349 @@ button.onclick((ev) =&gt; {
 &lt;h4 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h4&gt;
 
 &lt;p&gt;Do not hard-code the names of the fields in your JavaScript. Loop over all the elements in the form.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Day 5: Intro to React</title>
+      <link>http://xternbootcamp17.github.io/week2/day5/</link>
+      <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week2/day5/</guid>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Monday, May 22, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+
+&lt;p&gt;Morning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=jiLLHIpYyQw&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=18&#34;&gt;Day 5, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=dVfHMRBT4jE&amp;amp;index=23&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=mYbMOp9mYZ0&amp;amp;index=19&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=w6mIoGmGg34&amp;amp;index=20&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=7ZkYasspRVU&amp;amp;index=21&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=gwiGjyfGz1Y&amp;amp;index=22&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=IJA_qlN7BFc&amp;amp;index=25&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=xCSjpBUHqI4&amp;amp;index=26&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afternoon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=sPn2ED9hZ1I&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=27&#34;&gt;Day 5, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=a7eaK1Z5M5c&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=28&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=9xKX0Tb6Yzk&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=29&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=une1or5LnVM&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=30&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=e4AaZu2vLKs&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=31&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=F1bnQNnkOnE&amp;amp;index=32&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=A0H3Th9WA7k&amp;amp;index=33&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=slJzlsbhxDE&amp;amp;index=34&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;contenteditable&lt;/code&gt; - &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable&#34;&gt;MDN documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;keypress&lt;/code&gt; events&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;es2015-es6&#34;&gt;ES2015+ (ES6+)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inheritance (with the ES2015 &lt;code&gt;class&lt;/code&gt; syntax; it&amp;rsquo;s still &lt;em&gt;prototypal&lt;/em&gt; inheritance though) - &lt;a href=&#34;https://babeljs.io/learn-es2015/#ecmascript-2015-features-classes&#34;&gt;ES2015 classes on Babel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modules (import/export) - &lt;a href=&#34;https://babeljs.io/learn-es2015/#ecmascript-2015-features-modules&#34;&gt;ES2015 modules on Babel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;react-https-facebook-github-io-react&#34;&gt;&lt;a href=&#34;https://facebook.github.io/react/&#34;&gt;React&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tylermcginnis.com/imperative-vs-declarative-programming/&#34;&gt;Imperative vs. Declarative&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Components
+
+&lt;ul&gt;
+&lt;li&gt;JSX - &lt;a href=&#34;https://facebook.github.io/react/docs/introducing-jsx.html&#34;&gt;Docs: Introducing JSX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Props - &lt;a href=&#34;https://facebook.github.io/react/docs/components-and-props.html&#34;&gt;Docs: Components and Props&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;State - &lt;a href=&#34;https://facebook.github.io/react/docs/state-and-lifecycle.html&#34;&gt;Docs: State and Lifecycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/facebookincubator/create-react-app&#34;&gt;create-react-app&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;dom-manipulation-1&#34;&gt;DOM Manipulation&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;contentEditable&lt;/code&gt; is a property that, like the name suggests, allows the content of an HTML element to be edited through user interaction with the DOM (similar to a text input field).&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;div class=&amp;quot;person-name&amp;quot;&amp;gt;Mark&amp;lt;/div&amp;gt;
+&amp;lt;button&amp;gt;Click to Edit Name&amp;lt;/button&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+const nameDiv = document.querySelector(&#39;.person-name&#39;)
+console.log(nameDiv.isContentEditable) // =&gt; false
+
+const button = document.querySelector(&#39;button&#39;)
+button.addEventListener(&#39;click&#39;, (ev) =&gt; {
+  nameDiv.contentEditable = true
+  console.log(nameDiv.isContentEditable)
+})
+
+button.click() // =&gt; true (and div content will be editable)
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;react&#34;&gt;React&lt;/h3&gt;
+
+&lt;h4 id=&#34;basic-app&#34;&gt;Basic App&lt;/h4&gt;
+
+&lt;p&gt;A basic React application requires a minimum of four things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;An HTML file with at least one empty element&lt;/li&gt;
+&lt;li&gt;The React library&lt;/li&gt;
+&lt;li&gt;One or more React Component(s)&lt;/li&gt;
+&lt;li&gt;A JavaScript call to attach the React Component to the empty element in step one&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A minimal example:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;-- index.html --&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;Basic React App&amp;lt;/title&amp;gt;
+    &amp;lt;script src=&amp;quot;App.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+// App.js
+class App extends React.Component {
+  render() {
+    return (
+      &amp;lt;h1&amp;gt;Hello, world!&amp;lt;/h1&amp;gt;
+    )
+  }
+}
+
+ReactDOM.render(&amp;lt;App /&amp;gt;, document.querySelector(&#39;#app&#39;))
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;The body of the HTML above contains only an empty &lt;code&gt;div&lt;/code&gt; with an id of &amp;lsquo;app&amp;rsquo;.  This is where we will tell React to render our app. The &lt;code&gt;App.js&lt;/code&gt; file defines the &lt;code&gt;App&lt;/code&gt; component, and also makes the call to &lt;code&gt;ReactDOM.render&lt;/code&gt;, which attaches &lt;code&gt;&amp;lt;App /&amp;gt;&lt;/code&gt; to the &lt;code&gt;div#app&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;p&gt;React will &amp;lsquo;fill in&amp;rsquo; the div with the return result of the &lt;code&gt;App&lt;/code&gt; component&amp;rsquo;s &lt;code&gt;render&lt;/code&gt; method, in this case, the markup &lt;code&gt;&amp;lt;h1&amp;gt;Hello, world!&amp;lt;/h1&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;props&#34;&gt;Props&lt;/h4&gt;
+
+&lt;p&gt;React components can be thought of as JavaScript functions.  They take in arguments, called &lt;code&gt;props&lt;/code&gt;, and return markup that gets rendered to the page. Props can be just about anything, including strings, booleans, functions, objects, etc&amp;hellip;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class App extends React.Component {
+  render() {
+    return (
+      &amp;lt;h1&amp;gt;Hello, {this.props.name}!&amp;lt;/h1&amp;gt;
+    )
+  }
+}
+
+&amp;lt;App name=&amp;quot;Bob&amp;quot; /&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;By passing in the string &lt;code&gt;&amp;quot;Bob&amp;quot;&lt;/code&gt; to the &lt;code&gt;App&lt;/code&gt; component, we can access that value from within the &lt;code&gt;App&lt;/code&gt; class as a property on &lt;code&gt;this.props&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our rendered output would then be:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;h1&amp;gt;Hello, Bob!&amp;lt;/h1&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;state&#34;&gt;State&lt;/h4&gt;
+
+&lt;p&gt;Components receive &lt;em&gt;props&lt;/em&gt; as arguments and cannot change their values. Data that needs to change belongs in &lt;em&gt;state&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;State should be initialized in the constructor and updated via &lt;code&gt;setState&lt;/code&gt;.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-danger&#34;&gt;
+  
+    &lt;h4&gt;Do&lt;/h4&gt;
+    
+      &lt;div class=&#34;emoji&#34;&gt;
+        &lt;i class=&#34;fa fa-Not&#34;&gt;&lt;/i&gt;
+      &lt;/div&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;Always use &lt;code&gt;setState&lt;/code&gt; to modify a component&amp;rsquo;s state. The only time you should set state directly is in the constructor.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      count: 0
+    }
+  }
+
+  increment(ev) {
+    count = this.state.count + 1
+    this.setState({ count })
+  }
+
+  render() {
+    return (
+      &amp;lt;button type=&#34;button&#34; onClick={this.increment.bind(this)}&amp;gt;
+        Click to Increment
+      &amp;lt;/button&amp;gt;
+      &amp;lt;p&amp;gt;
+        Button has been clicked {this.state.count} times
+      &amp;lt;p&amp;gt;
+    )
+  }
+}
+
+&amp;lt;App /&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;modules&#34;&gt;Modules&lt;/h4&gt;
+
+&lt;p&gt;With &lt;a href=&#34;https://babeljs.io/learn-es2015/#ecmascript-2015-features-modules&#34;&gt;modules&lt;/a&gt;, you can define each component in separate files, importing them as needed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Header.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class Header extends React.Component {
+  render() {
+    return (
+      &amp;lt;h1&amp;gt;Hello, {this.props.name}!&amp;lt;/h1&amp;gt;
+    )
+  }
+}
+
+export default Header
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;App.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import Header from &#39;./Header&#39;
+
+class App extends React.Component {
+  render() {
+    return (
+      &amp;lt;Header name=&amp;quot;Bob&amp;quot; /&amp;gt;
+    )
+  }
+}
+
+export default App
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://xternbootcamp17.github.io/05-intro-to-react.pdf&#34;&gt;Intro to React&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Megaroster (final): &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/3ccd25f25db46ecff45a5b86ba32affcfb730f2d&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/commit/fc97404dada2d594970f64e9e4fbd3e9b3f6a271&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reactrobats on CodePen: &lt;a href=&#34;https://codepen.io/dstrus/pen/BRvLNg/&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://codepen.io/dstrus/pen/XRoMmR/&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xtbc17s1/dwarf-underground&#34;&gt;Dwarf Underground&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Split the page into at least 6 total components&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Split the page into at least 10 total components, including components &lt;em&gt;in&lt;/em&gt; components&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-bonus-credit&#34;&gt;Super Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Render the four article links at the bottom of the screen using &lt;code&gt;map&lt;/code&gt; and passing in the props they need&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make a component that contains a text field for leaving a comment&lt;/li&gt;
+&lt;li&gt;Have the text field appear only when the &amp;lsquo;comments&amp;rsquo; link at the bottom of the article is clicked&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit-hyper-fighting&#34;&gt;Super Mega Bonus Credit Hyper Fighting&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Actually display comments that are entered and submitted&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -2054,350 +2411,6 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
   &lt;/div&gt;
 &lt;/div&gt;
 
-</description>
-    </item>
-    
-    <item>
-      <title>Terminal</title>
-      <link>http://xternbootcamp17.github.io/setup-mac/terminal/</link>
-      <pubDate>Fri, 10 Jun 2016 23:02:52 -0400</pubDate>
-      
-      <guid>http://xternbootcamp17.github.io/setup-mac/terminal/</guid>
-      <description>
-
-&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
-
-
-&lt;p&gt;&lt;i class=&#34;fa fa-terminal&#34;&gt;&lt;/i&gt; terminal&lt;/p&gt;
-
-
-&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You&amp;rsquo;ll be using a terminal app throughout the setup process, as well as in class.&lt;/p&gt;
-
-&lt;p&gt;macOS comes with &lt;strong&gt;Terminal.app&lt;/strong&gt;, which you can find at &lt;code&gt;/Applications/Utilities/Terminal.app&lt;/code&gt; or by searching for &lt;em&gt;Terminal&lt;/em&gt; in Spotlight. It will do the job just fine, but if you&amp;rsquo;re interesting in dressing it up or exploring other shells, read on.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/terminal-icon.png&#34; alt=&#34;Terminal.app&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.iterm2.com/index.html&#34;&gt;iTerm2&lt;/a&gt;&lt;/strong&gt; is a popular alternative to Terminal.app. It&amp;rsquo;s free and includes some advanced features that the built-in Terminal lacks. Personally, I&amp;rsquo;ve been using &lt;strong&gt;&lt;a href=&#34;https://hyper.is/&#34;&gt;Hyper&lt;/a&gt;&lt;/strong&gt; for about a month. Hyper is written in JavaScript, HTML, and CSS and is cross-platform, which is particularly appealing for class.&lt;/p&gt;
-
-&lt;p&gt;Whichever you choose, you&amp;rsquo;ll use it frequently enough that I recommend keeping it in your Dock.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;$ _&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;When you launch your terminal, it will (by default) run a UNIX shell called Bash. Bash will present a command prompt, indicated by &lt;code&gt;$&lt;/code&gt;. We&amp;rsquo;ll generally prefix terminal commands with that symbol in our documentation. You&amp;rsquo;re not meant to type the &lt;code&gt;$&lt;/code&gt; character, and it won&amp;rsquo;t be included if you copy and paste the commands from this site.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;zsh&#34;&gt;Zsh&lt;/h2&gt;
-
-&lt;p&gt;I am a big fan of Zsh (&amp;ldquo;Z shell&amp;rdquo;), which is an alternative to Bash. Even better is &lt;strong&gt;&lt;a href=&#34;http://ohmyz.sh/&#34;&gt;Oh My Zsh&lt;/a&gt;&lt;/strong&gt;, which is a framework for managing Zsh configuration. I love it. You&amp;rsquo;ll still use Terminal.app, iTerm2, or Hyper to launch your shell, but it will run Zsh in place of Bash.&lt;/p&gt;
-
-&lt;p&gt;I will be using Zsh (with Oh My Zsh) in class, but most of what we&amp;rsquo;ll do works just as well in Bash.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;Command Line Power User&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;If you&amp;rsquo;re not very familiar with UNIX shells, or if you&amp;rsquo;d like to learn some cool tricks, including Oh My ZSH features, sign up for Wes Bos&amp;rsquo;s free &lt;strong&gt;&lt;a href=&#34;http://commandlinepoweruser.com/&#34;&gt;Command Line Power User&lt;/a&gt;&lt;/strong&gt; videos. (They&amp;rsquo;re all on YouTube, but signing up for the email makes it a little easier to find them.)&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Day 4: LocalStorage and JavaScript Classes</title>
-      <link>http://xternbootcamp17.github.io/week1/day4/</link>
-      <pubDate>Thu, 18 May 2017 11:29:27 -0400</pubDate>
-      
-      <guid>http://xternbootcamp17.github.io/week1/day4/</guid>
-      <description>
-
-&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
-
-&lt;p&gt;Morning:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=YGj8J6MceYg&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=11&#34;&gt;Day 4, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=zvYmxL1ojaI&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=12&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=MALqYKxz9-Y&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=13&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=8wfKQnitrmY&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=14&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=2l7bv4a3S-s&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=15&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=59thZz_yFgE&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=16&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=w-bqy6n8Gco&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=17&#34;&gt;7&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Afternoon:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=mpEFSr8eXEY&amp;amp;index=16&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Day 4, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=IkNAVmWuPDU&amp;amp;index=17&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=i2XL0mV1qmU&amp;amp;index=18&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=3KIvEuhPJag&amp;amp;index=19&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=gTiMSnn-4nU&amp;amp;index=20&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=xd2ewpDX_yE&amp;amp;index=21&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=NixaLyI35HU&amp;amp;index=22&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=0U5F5qO9cv4&amp;amp;index=23&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;8&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=YrEgnscYuO4&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=24&#34;&gt;9&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=KS47lxLSYvc&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=25&#34;&gt;10&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=VSDpPnlZ3ig&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=26&#34;&gt;11&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
-
-&lt;h3 id=&#34;localstorage-localstorage&#34;&gt;&lt;code&gt;localStorage&lt;/code&gt; &lt;a href=&#34;#localstorage&#34;&gt;↓&lt;/a&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;(https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/)&#34;&gt;Using &lt;code&gt;localStorage&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;JSON.stringify&lt;/code&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.dyn-web.com/tutorials/php-js/json/stringify.php&#34;&gt;Using &lt;code&gt;JSON.stringify&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://jsfiddle.net/queryj/hLkUz/&#34;&gt;Live example&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify&#34;&gt;API reference&lt;/a&gt;, including optional arguments for whitelisting properties and transforming the data as it&amp;rsquo;s stringified&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;JSON.parse&lt;/code&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.dyn-web.com/tutorials/php-js/json/parse.php&#34;&gt;Using &lt;code&gt;JSON.parse&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse&#34;&gt;API reference&lt;/a&gt;, including optional argument for transforming the data as it&amp;rsquo;s parsed&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;font-awesome-font-awesome&#34;&gt;Font Awesome &lt;a href=&#34;#font-awesome&#34;&gt;↓&lt;/a&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://fontawesome.io/&#34;&gt;Docs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://fontawesome.io/examples/&#34;&gt;Examples&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://fontawesome.io/icons/&#34;&gt;Icon list&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.w3schools.com/icons/fontawesome_icons_intro.asp&#34;&gt;Font Awesome intro&lt;/a&gt; on w3schools, including a live editor&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://fontawesome.io/accessibility/&#34;&gt;Icon Fonts &amp;amp; Accessibility&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;foundation&#34;&gt;Foundation&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://foundation.zurb.com/sites/docs/button.html&#34;&gt;Button&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://foundation.zurb.com/sites/docs/button-group.html&#34;&gt;Button Group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://foundation.zurb.com/sites/docs/forms.html&#34;&gt;Forms&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;css-selectors&#34;&gt;CSS Selectors&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://css-tricks.com/child-and-sibling-selectors/&#34;&gt;Child and sibling selectors&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/almanac/selectors/d/descendant/&#34;&gt;Descendant selector (&lt;em&gt;space&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/almanac/selectors/c/child/&#34;&gt;&lt;code&gt;&amp;gt;&lt;/code&gt; combinator - child selector&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/almanac/selectors/a/adjacent-sibling/&#34;&gt;&lt;code&gt;+&lt;/code&gt; combinator - adjacent sibling selector)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/almanac/selectors/f/first-child/&#34;&gt;&lt;code&gt;:first-child&lt;/code&gt; pseudo-class selector&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/almanac/selectors/l/last-child/&#34;&gt;&lt;code&gt;:last-child&lt;/code&gt; pseudo-class selector&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;array-methods&#34;&gt;Array methods&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype?v=control&#34;&gt;&lt;code&gt;Array.prototype&lt;/code&gt; documentation on MDN&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse?v=control&#34;&gt;&lt;code&gt;reverse()&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;find()&lt;/code&gt; - &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find?v=control&#34;&gt;MDN&lt;/a&gt; | &lt;a href=&#34;https://www.w3schools.com/jsref/jsref_find.asp&#34;&gt;w3schools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;findIndex()&lt;/code&gt; - &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex?v=control&#34;&gt;MDN&lt;/a&gt; | &lt;a href=&#34;https://www.w3schools.com/jsref/jsref_findindex.asp&#34;&gt;w3schools&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;javascript-classes-javascript-classes&#34;&gt;JavaScript Classes &lt;a href=&#34;#javascript-classes&#34;&gt;↓&lt;/a&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Class declarations&lt;/li&gt;
-&lt;li&gt;The &lt;code&gt;constructor&lt;/code&gt; function&lt;/li&gt;
-&lt;li&gt;Methods&lt;/li&gt;
-&lt;li&gt;Instantiating objects from a class&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chrome-developer-tools&#34;&gt;Chrome Developer Tools&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://willd.me/posts/0-in-chrome-dev-tools&#34;&gt;Accessing recently inspected elements with &lt;code&gt;$0&lt;/code&gt;-&lt;code&gt;$4&lt;/code&gt;&lt;/a&gt; (&lt;a href=&#34;https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference#0_-_4&#34;&gt;official docs&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developers.google.com/web/tools/chrome-devtools/manage-data/local-storage&#34;&gt;Inspecting storage from the &lt;em&gt;Application&lt;/em&gt; panel&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-
-&lt;h3 id=&#34;localstorage&#34;&gt;localStorage&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;localStorage&lt;/code&gt; is storage in your web browser that conforms to Web Storage API.  It is scoped by domain, meaning other websites cannot access data stored by your website and vice versa.  The data in &lt;code&gt;localStorage&lt;/code&gt; persists in the browser until removed, even if the browser is closed and re-opened.&lt;/p&gt;
-
-&lt;p&gt;To set an item, use &lt;code&gt;localStorage.setItem&lt;/code&gt;, and retrieve data using &lt;code&gt;localStorage.getItem&lt;/code&gt;.  It is important to remember that values stored will always be strings, so it may be use necessary to use the &lt;code&gt;JSON.stringify&lt;/code&gt; and &lt;code&gt;JSON.parse&lt;/code&gt; methods to set and retrieve non-string data.  JSON stands for &lt;strong&gt;J&lt;/strong&gt;ava&lt;strong&gt;S&lt;/strong&gt;cript &lt;strong&gt;O&lt;/strong&gt;bject &lt;strong&gt;N&lt;/strong&gt;otation.  To learn more about JSON, click &lt;a href=&#34;https://www.w3schools.com/js/js_json_intro.asp&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-const myObject = {
-  thisIsCool: true
-}
-
-localStorage.setItem(&#39;myObject&#39;, myObject)
-localStorage.getItem(&#39;myObject&#39;) // =&gt; &#34;[object Object]&#34;
-// localStorage saves the result of the implicit myObject.toString() call
-
-localStorage.setItem(&#39;myObject&#39;, JSON.stringify(myObject))
-// calling JSON.stringify converts the object to a JSON string representation
-// so it can be stored in localStorage without loss of data
-
-const retrievedObject = localStorage.getItem(&#39;myObject&#39;) // =&gt; &#34;{&#34;thisIsCool&#34;:true}&#34;
-JSON.parse(retrievedObject) // =&gt; {thisIsCool: true}
-// JSON.parse converts the retrieved JSON string back into a JavaScript object
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h3 id=&#34;font-awesome&#34;&gt;Font Awesome&lt;/h3&gt;
-
-&lt;p&gt;Font Awesome provides hundreds of vectorized, professional-looking icons for free.  Once you have the Font Awesome stylesheet downloaded and included in your project, use &lt;code&gt;&amp;lt;i&amp;gt;&lt;/code&gt; tags with appropriate classes to render the icons you want.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
-&lt;code class=&#34;language-html&#34;&gt;
-
-&amp;lt;-- Sample link tag to include Font Awesome in HTML --&amp;gt;
-&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/font-awesome.min.css&amp;quot;&amp;gt;&amp;lt;i&amp;gt;
-
-&amp;lt;-- Renders a sweet camera icon --&amp;gt;
-&amp;lt;i class=&amp;quot;fa fa-camera-retro&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h3 id=&#34;css-selectors-1&#34;&gt;CSS Selectors&lt;/h3&gt;
-
-
-&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
-&lt;code class=&#34;language-html&#34;&gt;
-
-&amp;lt;div&amp;gt;
-  &amp;lt;p&amp;gt;paragraph one&amp;lt;/p&amp;gt;
-  &amp;lt;p&amp;gt;paragraph two&amp;lt;/p&amp;gt;
-  &amp;lt;p&amp;gt;paragraph three&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&amp;lt;p&amp;gt;paragraph four&amp;lt;/p&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-
-&lt;pre class=&#34;line-numbers language-css&#34; rel=&#34;css&#34;&gt;
-&lt;code class=&#34;language-css&#34;&gt;
-
-p:first-child {
-  /* selects any paragraph that is the first child of its parent (paragraph one) */
-}
-
-p:last-child {
-  /* selects any paragraph that is the last child of its parent (paragraph three) */
-}
-
-div &gt; p {
-  /* selects any paragraph that is a child of a div (paragraphs one, two, and three) */
-}
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h3 id=&#34;javascript-classes&#34;&gt;JavaScript Classes&lt;/h3&gt;
-
-&lt;p&gt;JavaScript is not a class-based language like C++, Java, or Ruby.  It uses &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain&#34;&gt;prototypal inheritance&lt;/a&gt; instead.  However, as of ES2015, the &lt;code&gt;class&lt;/code&gt; keyword was added to the language to provide a more concise syntax and similarity to popular class-based languages.&lt;/p&gt;
-
-&lt;p&gt;A class is essentially a constructor of Objects.  Methods and properties in the class will be inherited by each object that is constructed by the class.  Object instances are created by using the &lt;code&gt;new&lt;/code&gt; keyword.  Classes have a &lt;code&gt;constructor&lt;/code&gt; method, which is called when instances are created and allows for configuration of the object.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-class Dog {
-  constructor() {
-    this.furColor = &#39;brown&#39;
-  }
-
-  bark() {
-    console.log(&#39;WOOF&#39;)
-  }
-}
-
-const bowser = new Dog();
-bowser.furColor // =&gt; &#39;brown&#39;
-bowser.bark()   // =&gt; &#39;WOOF&#39;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;Classes can also inherit from another class.  Inheritance is specified using the &lt;code&gt;extends&lt;/code&gt; keyword.  When a class inherits from another, it has access to the methods and properties of &lt;em&gt;both&lt;/em&gt; classes, although if both classes implement the &lt;em&gt;same&lt;/em&gt; property or method, the child class will take precedence.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-class Animal {
-  constructor() {
-    this.furColor = &#39;brown&#39;
-  }
-
-  speak() {
-    console.log(&#39;Some sort of noise&#39;)
-  }
-}
-
-class Dog extends Animal {
-  constructor() {
-    this.furColor = &#39;black&#39;
-  }
-
-  bark() {
-    console.log(&#39;WOOF&#39;)
-  }
-}
-
-const bowser = new Dog()
-bowser.furColor // =&gt; &#39;black&#39;
-bowser.speak()  // =&gt; &#39;Some sort of noise&#39;
-bowser.bark()   // =&gt; &#39;WOOF&#39;
-
-const rodent = new Animal()
-rodent.furColor // =&gt; &#39;brown&#39;
-rodent.speak()  // =&gt; &#39;Some sort of noise&#39;
-rodent.bark()   // =&gt; Uncaught TypeError: rodent.bark is not a function
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://xternbootcamp17.github.io/04-local-storage.pdf&#34;&gt;Intro to localStorage&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-
-&lt;h3 id=&#34;megaroster&#34;&gt;Megaroster&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/b3f42521a8c764fc7c956cb8a01ee322dc2b9e2b&#34;&gt;Morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/443b3c889e4b7592bc842570c3a6c681b2900977&#34;&gt;Afternoon&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Make &amp;ldquo;move down&amp;rdquo; work if you haven&amp;rsquo;t already.&lt;/li&gt;
-&lt;li&gt;Allow the editing of student names after they&amp;rsquo;re already in the list. (Gee, it would be nice if I could make that span&amp;rsquo;s &lt;em&gt;content editable&lt;/em&gt;!)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;super-mega-bonus-credit-hyper-fighting&#34;&gt;Super Mega Bonus Credit Hyper Fighting&lt;/h3&gt;
-
-&lt;p&gt;Have a nice weekend!&lt;/p&gt;
 </description>
     </item>
     
