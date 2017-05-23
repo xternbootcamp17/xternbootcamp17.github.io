@@ -461,7 +461,7 @@ export default App
 &lt;ul&gt;
 &lt;li&gt;Megaroster (final): &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/3ccd25f25db46ecff45a5b86ba32affcfb730f2d&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/commit/fc97404dada2d594970f64e9e4fbd3e9b3f6a271&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Reactrobats on CodePen: &lt;a href=&#34;https://codepen.io/dstrus/pen/BRvLNg/&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://codepen.io/dstrus/pen/XRoMmR/&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/xtbc17s1/dwarf-underground&#34;&gt;Dwarf Underground&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xtbc17s1/dwarf-underground/tree/3da6c4b4447d32404a141344867a457fdb9c3e60&#34;&gt;Dwarf Underground&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
@@ -1639,6 +1639,394 @@ div.appendChild(heading)
     </item>
     
     <item>
+      <title>Day 6: React</title>
+      <link>http://xternbootcamp17.github.io/week2/day6/</link>
+      <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week2/day6/</guid>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Tuesday, May 23, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+
+&lt;p&gt;Morning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=oWb1IdhOl7A&amp;amp;index=26&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Day 6, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=SsBUeaku12g&amp;amp;index=27&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=IlUoLPsrHrE&amp;amp;index=28&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=E01j6AcMSF4&amp;amp;index=29&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=xytTTrggEyc&amp;amp;index=30&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=9Dn6aMJMEHc&amp;amp;index=31&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Smzb6gGyz3w&amp;amp;index=32&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afternoon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | [Day 6, part 1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]()&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;react-https-facebook-github-io-react&#34;&gt;&lt;a href=&#34;https://facebook.github.io/react/&#34;&gt;React&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using &lt;code&gt;map&lt;/code&gt; with components&lt;/li&gt;
+&lt;li&gt;Stateless Functional Components&lt;/li&gt;
+&lt;li&gt;Conditional rendering&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;javascript&#34;&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Named and default exports&lt;/li&gt;
+&lt;li&gt;Named and default imports&lt;/li&gt;
+&lt;li&gt;Property initializers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;react&#34;&gt;React&lt;/h3&gt;
+
+&lt;h4 id=&#34;using-map-with-components&#34;&gt;Using &lt;code&gt;map&lt;/code&gt; with Components&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://codepen.io/dstrus/pen/gWZVOQ?editors=0010#0&#34;&gt;See this example live on CodePen →&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Person.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class Person extends React.Component {
+  render() {
+    return (
+      &amp;lt;li&amp;gt;Hello, {this.props.person.name}!&amp;lt;/li&amp;gt;
+    )
+  }
+}
+
+export default Person
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;PersonList.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import Person from &#39;./Person&#39;
+
+class PersonList extends React.Component {
+  render() {
+    const people = [
+      { name: &#39;Seth&#39;, hair: &#39;blonde&#39; },
+      { name: &#39;Nichole&#39;, hair: &#39;long&#39; },
+      { name: &#39;Davey&#39;, hair: &#39;long gone&#39; }
+    ]
+    return (
+      &amp;lt;div&amp;gt;
+        &amp;lt;h2&amp;gt;People&amp;lt;/h2&amp;gt;
+        {
+          people.map((person =&gt; &amp;lt;Person person={person} /&amp;gt;))
+        }
+      &amp;lt;/div&amp;gt;
+    )
+  }
+}
+
+export default PersonList
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;stateless-functional-components&#34;&gt;Stateless Functional Components&lt;/h4&gt;
+
+&lt;p&gt;Not every React Component needs to have state.  Many simply render a bit of &lt;code&gt;props&lt;/code&gt; and UI.  For such components, we don&amp;rsquo;t need to instantiate a whole class that inherits from &lt;code&gt;React.Component&lt;/code&gt;, we can simply write a function that accepts &lt;code&gt;props&lt;/code&gt; as an argument and returns the markup we need.&lt;/p&gt;
+
+&lt;p&gt;For instance, in the previous example, the &lt;code&gt;Person&lt;/code&gt; component can easily be re-written as a Stateless Functional Component.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+function Person (props) {
+  return (
+    &amp;lt;li&amp;gt;Hello, {props.person.name}!&amp;lt;/li&amp;gt;
+  )
+}
+
+// Or...
+
+const Person = (props) =&gt; &amp;lt;li&amp;gt;Hello, {props.person.name}!&amp;lt;/li&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;conditional-rendering&#34;&gt;Conditional Rendering&lt;/h4&gt;
+
+&lt;p&gt;There are many instances where you may want to render different UI depending on the state of the application.  One example would be a button that shows &amp;ldquo;Log in&amp;rdquo; or &amp;ldquo;Log out&amp;rdquo;, depending on whether there is a currently logged-in user.&lt;/p&gt;
+
+&lt;p&gt;Since React is just JavaScript, we can conditionally render using &lt;code&gt;if&lt;/code&gt;/&lt;code&gt;else&lt;/code&gt; statements, or we also learned about the &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator&#34;&gt;&lt;em&gt;ternary operator&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+const condition = true
+
+if (condition) {
+  console.log(&#39;true!&#39;)
+} else {
+  console.log(&#39;false!&#39;)
+}
+// =&gt; &#39;true!&#39;
+
+condition ? console.log(&#39;true!&#39;) : console.log(&#39;false!&#39;)
+// =&gt; &#39;true!&#39;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;An example in React:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+function UserButton (props) {
+  return (
+    {props.loggedInUser ? &amp;lt;button&amp;gt;Log out&amp;lt;/button&amp;gt; : &amp;lt;button&amp;gt;Log in&amp;lt;/button&amp;gt;}
+  )
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;javascript-es6&#34;&gt;JavaScript (ES6+)&lt;/h3&gt;
+
+&lt;h4 id=&#34;named-and-default-exports-and-imports&#34;&gt;Named and default exports and imports&lt;/h4&gt;
+
+&lt;p&gt;Prior to ES6, there were many competing ways to export and import JavaScript modules.  The most common were &lt;a href=&#34;https://webpack.github.io/docs/commonjs.html&#34;&gt;CommonJS&lt;/a&gt; and &lt;a href=&#34;http://requirejs.org/docs/whyamd.html&#34;&gt;AMD&lt;/a&gt;.  Luckily ES6 defined a specification for standardizing module export and import.&lt;/p&gt;
+
+&lt;p&gt;There are two types of exports from any JS file - &lt;em&gt;named&lt;/em&gt; and &lt;em&gt;default&lt;/em&gt;.  The important thing to remember is that there can only be &lt;em&gt;one&lt;/em&gt; default export per module, but there can be as many named exports as you want.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;myModule.js&lt;/strong&gt;
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+export const myNumber = 8
+
+export function sayHi () {
+  console.log(&#39;hello&#39;)
+}
+
+export default class MyClass {
+  add (a, b) {
+    return a + b
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;The main difference is how they are imported.  Default exports get the most concise syntax:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+import MyClass from &#39;myModule&#39;
+
+const classInstance = new MyClass()
+classInstance.add(1, 2) // =&gt; 3
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;Default import naming&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;Since there can be only one default export per module, the name by which you import the default export is not important - you can name it whatever you want.  For instance, instead of importing as &lt;code&gt;MyClass&lt;/code&gt;, we could have said &lt;code&gt;import LuftBallons from &#39;myModule&#39;&lt;/code&gt;, and it would have worked just fine.  To read more about default and named exports, click &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Named exports get a slightly more verbose syntax for importing, and the names &lt;em&gt;are&lt;/em&gt; important (otherwise it can&amp;rsquo;t determine what you want to import).&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+import { myNumber, sayHi } from &#39;myModule&#39;
+
+console.log(myNumber) // =&gt; 8
+
+sayHi() // =&gt; &#39;hello&#39;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;If you need to import a named export under a different name&amp;mdash;if, for example, you have another import or local variable with the same name&amp;mdash;you can specifiy a different name using &lt;em&gt;as&lt;/em&gt;.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+import { myNumber as num, sayHi as yo } from &#39;myModule&#39;
+
+console.log(num) // =&gt; 8
+
+yo() // =&gt; &#39;hello&#39;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;You can also combine default and named imports in the same line.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+import MyClass, { myNumber, sayHi } from &#39;myModule&#39;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;property-initializers&#34;&gt;Property initializers&lt;/h4&gt;
+
+&lt;p&gt;From the proposal:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Class instance fields&amp;rdquo; describe properties intended to exist on instances of a class (and may optionally include initializer expressions for said properties).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We can take advantage of this in React.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://babeljs.io/blog/2015/06/07/react-on-es6-plus&#34;&gt;&lt;strong&gt;Read more: Using ES7 property initializers in React&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We can use a property initializer to set the initial value of state without writing a constructor:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class Song extends React.Component {
+  state = {
+    versesRemaining: 5,
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;We can even set default props and use those in the initial state:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class Song extends React.Component {
+  static defaultProps = {
+    autoPlay: false,
+    verseCount: 10,
+  }
+  state = {
+    versesRemaining: this.props.verseCount,
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;We&amp;rsquo;ll learn another use of property initializers tomorrow.&lt;/p&gt;
+
+&lt;p&gt;Combining property initializers and arrow functions also gives us a convenient way to auto-bind &lt;code&gt;this&lt;/code&gt;:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class Something extends React.Component {
+  handleButtonClick = (ev) =&gt; {
+    // `this` is bound correctly!
+    this.setState({ buttonWasClicked: true });
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+  &lt;div class=&#34;aside aside-danger&#34;&gt;
+  
+    &lt;h4&gt;Subject to  minor changes&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;https://github.com/tc39/proposal-class-public-fields&#34;&gt;Property initializers&lt;/a&gt; are a &lt;a href=&#34;https://tc39.github.io/process-document/&#34;&gt;Stage 2 proposal&lt;/a&gt; for ECMAScript, meaning that it&amp;rsquo;s still a &lt;em&gt;draft&lt;/em&gt; and is subject to minor changes before becoming standardized. Facebook itself is already using these techniques in production, however.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dwarf Underground: &lt;a href=&#34;https://github.com/sbaughman/dwarf-underground/&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/dwarf-underground/&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Static HTML/CSS for Thing List: &lt;a href=&#34;https://github.com/xtbc17s1/thing-list-static&#34;&gt;thing-list-static&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ThingList: &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/3f7652d667e3c46342e6f7e90b9ca54d0951d6a3&#34;&gt;morning&lt;/a&gt; | afternoon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;p&gt;Add the &lt;em&gt;Add Thing&lt;/em&gt; button, including the corresponding CSS.&lt;/p&gt;
+
+&lt;h3 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h3&gt;
+
+&lt;p&gt;Make that button work!&lt;/p&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
+
+&lt;p&gt;Stop hard-coding &lt;em&gt;things&lt;/em&gt; altogether. Use only the things that were added via the &lt;em&gt;Add Thing&lt;/em&gt; button.&lt;/p&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit-hyper-fighting&#34;&gt;Super Mega Bonus Credit Hyper Fighting&lt;/h3&gt;
+
+&lt;p&gt;Make the &lt;em&gt;remove&lt;/em&gt; button work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>HTML &amp; CSS</title>
       <link>http://xternbootcamp17.github.io/prereqs/html-css/</link>
       <pubDate>Mon, 10 Apr 2017 22:15:59 -0400</pubDate>
@@ -2253,164 +2641,6 @@ boundGetX()       // 81
 &lt;h3 id=&#34;javascript-30-by-wes-bos&#34;&gt;JavaScript 30 by Wes Bos&lt;/h3&gt;
 
 &lt;p&gt;I highly recommend completing &lt;a href=&#34;https://javascript30.com/&#34;&gt;JavaScript 30&lt;/a&gt; by Wes Bos. It&amp;rsquo;s a series of thirty 20-minute videos, meant to be completed over the course of 30 days. That will take some planning on your part, obviously; you can&amp;rsquo;t wait until the last second to dive into this stuff. But it&amp;rsquo;s not a huge daily time commitment, and it will help a great deal.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>http://xternbootcamp17.github.io/setup-windows/git/</link>
-      <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
-      
-      <guid>http://xternbootcamp17.github.io/setup-windows/git/</guid>
-      <description>
-
-&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
-
-
-&lt;svg role=&#34;img&#34; aria-labelledby=&#34;git-svg-title&#34; id=&#34;git-logo-svg&#34; data-name=&#34;git-logo-svg&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;218.37&#34; height=&#34;91.21&#34; viewBox=&#34;0 0 218.37 91.21&#34;&gt;
-  &lt;title id=&#34;git-svg-title&#34;&gt;Git&lt;/title&gt;
-  &lt;defs&gt;
-    &lt;style&gt;
-      .cls-1 {
-        fill: #fff;
-      }
-    &lt;/style&gt;
-  &lt;/defs&gt;
-  &lt;title&gt;git&lt;/title&gt;
-  &lt;path class=&#34;cls-1&#34; d=&#34;M147.06,31.31a13.8,13.8,0,0,1,3.22,8.79c0,9.66-7.57,15.32-18.54,15.32a27.68,27.68,0,0,1-6.88-.78L122,59.25l8.53.52c15.06,1,23.93,1.4,23.93,13,0,10-8.79,15.67-23.93,15.67-15.75,0-21.76-4-21.76-10.88,0-3.92,1.74-6,4.79-8.88a5.8,5.8,0,0,1-3.83-5.74,7.8,7.8,0,0,1,2.53-5.31c1.57-1.65,3.31-3.31,5.39-5.22-4.26-2.09-7.48-6.61-7.48-13.06,0-10,6.61-16.88,19.93-16.88a29.86,29.86,0,0,1,8,.87h17v7.4ZM121.3,71c-1.13,1.39-2.26,2.87-2.26,4.61,0,3.48,4.44,4.53,10.53,4.53,5,0,11.92-.35,11.92-5,0-2.79-3.31-3-7.49-3.22Zm9.57-40c-4.79,0-8.35,2.35-8.35,8,0,4.26,2.35,7.22,8.1,7.22,4.87,0,8.18-2.87,8.18-7.4C138.79,33.75,135.83,31,130.87,31Z&#34;/&gt;
-  &lt;path class=&#34;cls-1&#34; d=&#34;M159.15,67.79V60.92l4.44-.61c1.22-.18,1.39-.44,1.39-1.74V33c0-1-.26-1.57-1.13-1.83l-4.7-1.66,1-7h18V58.57c0,1.39.08,1.57,1.39,1.74l4.44.61v6.87Zm11.23-52.3c-5,0-7.83-2.87-7.83-7.84S165.42,0,170.38,0s7.92,2.7,7.92,7.66S175.43,15.49,170.38,15.49Z&#34;/&gt;
-  &lt;path class=&#34;cls-1&#34; d=&#34;M218.37,64.42a34.81,34.81,0,0,1-14.19,3.48c-10.36,0-14.27-4.17-14.27-14V31.09c0-.52,0-.87-.7-.87h-6.09V22.47c7.66-.87,10.71-4.7,11.66-14.19h8.27V20.64c0,.61,0,.87.7.87H216v8.7h-13V51c0,5.14,1.22,7.14,5.92,7.14a20.72,20.72,0,0,0,7-1.39Z&#34;/&gt;
-  &lt;path class=&#34;cls-1&#34; d=&#34;M89.42,41.58,49.63,1.79a5.87,5.87,0,0,0-8.3,0l-8.26,8.26L43.55,20.54a7,7,0,0,1,8.83,8.89l10.1,10.1a7,7,0,1,1-4.18,3.94L48.87,34V58.83a7,7,0,1,1-5.74-.2v-25a6.91,6.91,0,0,1-2.29-1.52,7,7,0,0,1-1.5-7.64L29,14.11,1.72,41.4a5.87,5.87,0,0,0,0,8.3L41.51,89.49a5.87,5.87,0,0,0,8.3,0L89.42,49.88A5.87,5.87,0,0,0,89.42,41.58Z&#34;/&gt;
-&lt;/svg&gt;
-
-
-
-for Windows
-
-&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Git is a distributed version control system. (But you knew that already, because you totally completed a &lt;a href=&#34;http://xternbootcamp17.github.io/prereqs/git/&#34;&gt;Git tutorial&lt;/a&gt;&amp;mdash;&lt;em&gt;right&lt;/em&gt;?)&lt;/p&gt;
-
-&lt;p&gt;There are several ways to go about making Git usable on Windows, but my favorite is to install the aptly-named &lt;strong&gt;&lt;a href=&#34;https://git-for-windows.github.io/&#34;&gt;Git for Windows&lt;/a&gt;&lt;/strong&gt;. The great thing about Git for Windows is that it comes with &lt;strong&gt;Git Bash&lt;/strong&gt;&amp;mdash;a UNIX-style shell.&lt;/p&gt;
-
-&lt;div class=&#34;download&#34;&gt;
-&lt;a href=&#34;https://git-for-windows.github.io/&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; Download Git for Windows&lt;/a&gt;
-&lt;/div&gt;
-
-
-  &lt;div class=&#34;aside aside-danger&#34;&gt;
-  
-    &lt;h4&gt;Get the right Git&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;Please note that this is &lt;strong&gt;not&lt;/strong&gt; the same Git for Windows that you&amp;rsquo;ll find on git-scm.com.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;GitHub Desktop&lt;/h4&gt;
-    
-      &lt;div class=&#34;emoji&#34;&gt;
-        &lt;i class=&#34;fa fa-github-alt&#34;&gt;&lt;/i&gt;
-      &lt;/div&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://desktop.github.com/&#34;&gt;GitHub Desktop&lt;/a&gt;&lt;/strong&gt; is a very nice, free graphical interface for Git. Although we&amp;rsquo;ll use Git from the command-line a great deal, we&amp;rsquo;ll also look at how GitHub Desktop can make certain tasks easier.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;git-setup-options&#34;&gt;Git Setup Options&lt;/h2&gt;
-
-&lt;p&gt;You&amp;rsquo;ll have a few choices to make during the setup process.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Adjusting your PATH environment&lt;/strong&gt;:
-The second option is probably best: &lt;em&gt;Use Git from the Windows Command Prompt&lt;/em&gt;. With this option, you&amp;rsquo;ll be able to use Git commands from the regular Windows command line, should you choose to.&lt;/p&gt;
-
-&lt;div class=&#34;img git-win-01-path&#34;&gt;&lt;span&gt;Choose &lt;strong&gt;Use Git from the Windows Command Prompt&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Choosing HTTPS transport backend&lt;/strong&gt;:
-Select the first option: &lt;em&gt;Use the OpenSSL library&lt;/em&gt;.&lt;/p&gt;
-
-&lt;div class=&#34;img git-win-02-https&#34;&gt;&lt;span&gt;Choose &lt;strong&gt;Use the OpenSSL library&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Configuring the line ending conversions&lt;/strong&gt;:
-Select the second option: &lt;em&gt;Checkout as-is, commit Unix-style line endings&lt;/em&gt;.&lt;/p&gt;
-
-&lt;div class=&#34;img git-win-03-line-endings&#34;&gt;&lt;span&gt;Choose &lt;strong&gt;Checkout as-is, commit Unix-style line endings&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Configuring the terminal emulator to use with Git Bash&lt;/strong&gt;:
-You&amp;rsquo;ll install a different terminal emulator shortly, so your choice here is inconsequential. Just go with the first option: &lt;em&gt;Use MinTTY (the default terminal of MSYS2)&lt;/em&gt;.&lt;/p&gt;
-
-&lt;div class=&#34;img git-win-04-terminal&#34;&gt;&lt;span&gt;Choose &lt;strong&gt;Use MinTTY (the default terminal of MSYS2)&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Configuring extra options&lt;/strong&gt;:
-The defaults here are fine.&lt;/p&gt;
-
-&lt;div class=&#34;img git-win-05-extras&#34;&gt;&lt;span&gt;Leave the default selections on.&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&#34;configuring-git&#34;&gt;Configuring Git&lt;/h2&gt;
-
-&lt;p&gt;Next, tell Git what name and email address it should use to sign code that you&amp;rsquo;ve authored. While you&amp;rsquo;re at it, tell it to use Code as the editor. Setup should have created a &lt;strong&gt;Git Bash&lt;/strong&gt; shortcut. Launch Git Bash, and enter the following commands, substituting your actual name and email address:&lt;/p&gt;
-
-
-
-
-
-
-
-  
-  
-
-
-&lt;div class=&#34;shell windows&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  WINGW64:/c/Users/user
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;git config --global user.name &amp;#34;Your Full Name&amp;#34;
-git config --global user.email &amp;#34;youremailaddress@example.com&amp;#34;
-git config --global core.editor &amp;#34;code --wait&amp;#34;
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;$ _&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;Git Bash will present a command prompt, indicated by &lt;code&gt;$&lt;/code&gt;. We&amp;rsquo;ll generally prefix terminal commands with that symbol in our documentation. You&amp;rsquo;re not meant to type the &lt;code&gt;$&lt;/code&gt; character, and it won&amp;rsquo;t be included if you copy and paste the commands from this site.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
 </description>
     </item>
     
