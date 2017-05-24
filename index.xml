@@ -1298,6 +1298,8 @@ export default App
       <guid>http://xternbootcamp17.github.io/week1/day2/</guid>
       <description>
 
+&lt;p&gt;&lt;date&gt;Tuesday, May 16, 2017&lt;/date&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
 
 &lt;p&gt;Morning:&lt;/p&gt;
@@ -1978,26 +1980,6 @@ class Song extends React.Component {
 
 
 
-&lt;p&gt;We&amp;rsquo;ll learn another use of property initializers tomorrow.&lt;/p&gt;
-
-&lt;p&gt;Combining property initializers and arrow functions also gives us a convenient way to auto-bind &lt;code&gt;this&lt;/code&gt;:&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-class Something extends React.Component {
-  handleButtonClick = (ev) =&gt; {
-    // `this` is bound correctly!
-    this.setState({ buttonWasClicked: true });
-  }
-}
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
 
   &lt;div class=&#34;aside aside-danger&#34;&gt;
   
@@ -2570,6 +2552,8 @@ yarn start
       <guid>http://xternbootcamp17.github.io/week1/day3/</guid>
       <description>
 
+&lt;p&gt;&lt;date&gt;Wednesday, May 17, 2017&lt;/date&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
 
 &lt;p&gt;Morning:&lt;/p&gt;
@@ -2838,26 +2822,382 @@ boundGetX()       // 81
     </item>
     
     <item>
-      <title>JavaScript</title>
-      <link>http://xternbootcamp17.github.io/prereqs/javascript/</link>
-      <pubDate>Tue, 11 Apr 2017 00:02:46 -0400</pubDate>
+      <title>Day 7: Firebase</title>
+      <link>http://xternbootcamp17.github.io/week2/day7/</link>
+      <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
       
-      <guid>http://xternbootcamp17.github.io/prereqs/javascript/</guid>
+      <guid>http://xternbootcamp17.github.io/week2/day7/</guid>
       <description>
 
-&lt;p&gt;React is a JavaScript library, so it&amp;rsquo;s fair to say that we&amp;rsquo;ll be using a whole heck of a lot of JavaScript in this bootcamp. You ought to be familiar with the fundamentals of JavaScript before class begins.&lt;/p&gt;
+&lt;p&gt;&lt;date&gt;Wednesday, May 24, 2017&lt;/date&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;basic&#34;&gt;Basic&lt;/h2&gt;
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
 
-&lt;h3 id=&#34;learn-javascript-by-codecademy&#34;&gt;Learn JavaScript by Codecademy&lt;/h3&gt;
+&lt;p&gt;Morning:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.codecademy.com/learn/learn-javascript&#34;&gt;Lean JavaScript&lt;/a&gt; is another brand-new, free interactive tutorial that replaced an older Codecademy course.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=yjyMHL0o6o0&amp;amp;index=33&amp;amp;t=2s&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Day 7, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Rl715WP0bA8&amp;amp;index=34&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=bCCBdrIW9pc&amp;amp;index=35&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=T-7Nxpxzi6A&amp;amp;index=36&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=vHJS4yLPXKY&amp;amp;index=37&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=XCCHobIBzZ8&amp;amp;index=38&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=JuerIuH0F5A&amp;amp;index=39&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=1iVZskxFbl4&amp;amp;index=40&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;8&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=M_wdst2C6Wc&amp;amp;index=41&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;9&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=CSm_vhwvpQg&amp;amp;index=42&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;10&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Ckgd-cQ7-74&amp;amp;index=43&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;11&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=pq3ykdFCfOE&amp;amp;index=44&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;12&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=jBPwpbnK2IE&amp;amp;index=45&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;intermediate&#34;&gt;Intermediate&lt;/h2&gt;
+&lt;p&gt;Afternoon:&lt;/p&gt;
 
-&lt;h3 id=&#34;javascript-30-by-wes-bos&#34;&gt;JavaScript 30 by Wes Bos&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=lc5tFOkT2IE&amp;amp;index=45&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Day 7, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=9o6iLoiSLio&amp;amp;index=46&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Oa18SuRjTn0&amp;amp;index=47&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;3&lt;/a&gt; | [4]() | [5]() | [6]() | [7]()&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;I highly recommend completing &lt;a href=&#34;https://javascript30.com/&#34;&gt;JavaScript 30&lt;/a&gt; by Wes Bos. It&amp;rsquo;s a series of thirty 20-minute videos, meant to be completed over the course of 30 days. That will take some planning on your part, obviously; you can&amp;rsquo;t wait until the last second to dive into this stuff. But it&amp;rsquo;s not a huge daily time commitment, and it will help a great deal.&lt;/p&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;react&#34;&gt;React&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Methods as props&lt;/li&gt;
+&lt;li&gt;Component lifecycle methods (&lt;a href=&#34;https://facebook.github.io/react/docs/react-component.html&#34;&gt;Docs&lt;/a&gt;)
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://facebook.github.io/react/docs/react-component.html#componentdidmount&#34;&gt;&lt;code&gt;componentDidMount()&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;react-contenteditable&lt;/code&gt; package (&lt;a href=&#34;https://github.com/lovasoa/react-contenteditable&#34;&gt;on GitHub&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;javascript&#34;&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Property initializers + arrow functions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;firebase&#34;&gt;Firebase&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Getting started&lt;/li&gt;
+&lt;li&gt;Database rules&lt;/li&gt;
+&lt;li&gt;Re-base for syncing React state with Firebase&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;react-1&#34;&gt;React&lt;/h3&gt;
+
+&lt;h4 id=&#34;methods-as-props&#34;&gt;Methods as props&lt;/h4&gt;
+
+&lt;p&gt;Sometimes one component needs to update another component&amp;rsquo;s state. It can&amp;rsquo;t do that directly, but it can call a method from that other component if it&amp;rsquo;s available via a prop.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://codepen.io/dstrus/pen/bWzWew?editors=1010&#34;&gt;&lt;strong&gt;Try this example live on CodePen&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+  &lt;pre class=&#34;language-jsx line-numbers &#34;
+       
+       
+       data-line=&#34;5,23&#34;
+       rel=&#34;jsx&#34;
+  &gt;&lt;code class=&#34;language-jsx&#34;&gt;
+  
+import React from &#39;react&#39;
+import ReactDOM from &#39;react-dom&#39;
+
+const PartyButton = ({ celebrate, celebrations }) =&amp;gt; {
+  return &amp;lt;button onClick={celebrate}&amp;gt;Party! {celebrations}&amp;lt;/button&amp;gt;
+}
+
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      celebrations: 0,
+    }
+    this.celebrate = this.celebrate.bind(this)
+  }
+
+  celebrate() {
+    const celebrations = this.state.celebrations + 1
+    this.setState({ celebrations })
+  }
+
+  render() {
+    return &amp;lt;PartyButton celebrate={this.celebrate} celebrations={this.state.celebrations} /&amp;gt;
+  }
+}
+
+ReactDOM.render(&amp;lt;App /&amp;gt;, document.querySelector(&#39;main&#39;))
+
+  &lt;/code&gt;
+  &lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;component-lifecycle-methods&#34;&gt;Component lifecycle methods&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;componentDidMount()&lt;/code&gt;&lt;/strong&gt; is invoked immediately after a component is mounted. Initialization that requires DOM nodes should go here.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import React, { Component } from &#39;react&#39;
+
+class MyComponent extends Component {
+  componentDidMount() {
+    this.nameInput.focus()
+  }
+
+  render() {
+    return (
+      &amp;lt;input 
+        ref={(input) =&amp;gt; { this.nameInput = input; }} 
+        defaultValue=&#34;will focus&#34;
+      /&amp;gt;
+    )
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;react-contenteditable-package&#34;&gt;&lt;code&gt;react-contenteditable&lt;/code&gt; package&lt;/h4&gt;
+
+&lt;p&gt;This package provides a React component for a div with editable contents, handling all the messy stuff (like &lt;code&gt;dangerouslySetInnerHTML&lt;/code&gt;).&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import React from &#39;react&#39;
+import ContentEditable from &#39;react-contenteditable&#39;
+
+class MyComponent extends React.Component {
+  constructor() {
+    this.state = {
+      html: &amp;quot;&amp;lt;strong&amp;gt;Hello, &amp;lt;em&amp;gt;World&amp;lt;/em&amp;gt;!&amp;lt;/strong&amp;gt;&amp;quot;
+    }
+    this.handleChange = this.handleChange.bind(this)
+  }
+
+  handleChange(ev) {
+    this.setState({ html: evt.target.value })
+  }
+
+  render() {
+    return (
+      &amp;lt;ContentEditable
+        html={this.state.html}       // innerHTML of the editable div
+        disabled={false}             // use true to disable
+        onChange={this.handleChange} // handle innerHTML change
+      /&amp;gt;
+    )
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;javascript-es6&#34;&gt;JavaScript (ES6+)&lt;/h3&gt;
+
+&lt;h4 id=&#34;property-initializers&#34;&gt;Property initializers&lt;/h4&gt;
+
+&lt;p&gt;Yesterday, we used property initializers to set a component&amp;rsquo;s initial state without adding a constructor. Combining property initializers and arrow functions also gives us a convenient way to auto-bind &lt;code&gt;this&lt;/code&gt;:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class Something extends React.Component {
+  handleButtonClick = (ev) =&gt; {
+    // `this` is bound correctly!
+    this.setState({ buttonWasClicked: true });
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;firebase-1&#34;&gt;Firebase&lt;/h3&gt;
+
+&lt;h4 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://firebase.google.com/&#34;&gt;Firebase&lt;/a&gt; is a real-time database hosted by Google.  In addition to the database, it also provides features of authentication, analytics, cloud storage, and hosting.  For &lt;em&gt;Thing List&lt;/em&gt;, we synced the &lt;code&gt;state&lt;/code&gt; of our app to our database on Firebase.  This allowed all of our data to be persisted, even after page refreshes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/tylermcginnis/re-base&#34;&gt;Re-base&lt;/a&gt; is an open source package that allows easy syncing of local state with a Firebase database. Add rebase to your project with one of the following commands:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn add re-base               # add package using yarn
+npm install --save re-base     # add package using npm
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once you have re-base installed, setup is easy!  First, create a new project on Firebase, then click on &amp;ldquo;Add to a web app&amp;rdquo; to see your JavaScript config object.  Next, initialize a Firebase app and database in your project using the config object, and provide the database to re-base.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+import Rebase from &#39;re-base&#39;
+import firebase from &#39;firebase/app&#39;
+import database from &#39;firebase/database&#39;
+
+const app = firebase.initializeApp({
+  apiKey: &#34;YOURAPIKEY&#34;,
+  authDomain: &#34;YOURAUTHDOMAIN&#34;,
+  databaseURL: &#34;YOURDATABASEURL&#34;,
+  projectId: &#34;YOURPROJECTID&#34;,
+  storageBucket: &#34;YOURSTORAGEBUCKET&#34;,
+  messagingSenderId: &#34;YOURSENDERID&#34;
+})
+
+const db = database(app)
+const base = Rebase.createClass(db)
+
+export default base
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;Finally, call &lt;code&gt;base.syncState&lt;/code&gt; to sync your app&amp;rsquo;s local state with Firebase.  The first argument to &lt;code&gt;syncState&lt;/code&gt; is the name of the Firebase endpoint you want to sync, and the second is a configuration object.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+base.syncState(&#39;myFavoriteEndpoint&#39;, {
+  context: this,
+  state: &#39;items&#39;
+})
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;Now, any time we update the state of our app, the changes will sync with Firebase in real time.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;More Re-base Options&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;Re-base can do much more than just syncing state.  There are methods for &lt;code&gt;fetch&lt;/code&gt;, &lt;code&gt;push&lt;/code&gt;, &lt;code&gt;post&lt;/code&gt;, etc.  To find out more about what all you can do with re-base, check out the &lt;a href=&#34;https://github.com/tylermcginnis/re-base#re-base&#34;&gt;README&lt;/a&gt;&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h4 id=&#34;rules&#34;&gt;Rules&lt;/h4&gt;
+
+&lt;p&gt;For your Firebase database, you can set up rules (written in JSON) that specify the conditions under which data is allowed to be read or written.  By default, a newly generated project will require that a user be authenticated to read or write &lt;em&gt;any&lt;/em&gt; data.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+{
+  &#34;rules&#34;: {
+    &#34;.read&#34;: &#34;auth != null&#34;,
+    &#34;.write&#34;: &#34;auth != null&#34;
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;If you do not have authentication set up yet, these values can be set to &lt;code&gt;true&lt;/code&gt;.  This allows &lt;em&gt;anyone&lt;/em&gt; to read or write any data in the database.  This can be convenient, but probably not a good idea long-term (and you &lt;em&gt;will&lt;/em&gt; get a warning if you do that).&lt;/p&gt;
+
+&lt;p&gt;Additional rules can be applied per endpoint:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+{
+  &#34;rules&#34;: {
+    &#34;emails&#34;: {
+      &#34;.read&#34;: true,
+      &#34;.write&#34;: &#34;auth != null&#34;
+    },
+    &#34;texts&#34;: {
+      &#34;.read&#34;: true,
+      &#34;.write&#34;: &#34;auth != null&#34;
+    },
+    &#34;users&#34;: {
+      &#34;$userId&#34;: {
+        &#34;.read&#34;: &#34;auth != null &amp;&amp; auth.uid == $userId&#34;,
+        &#34;.write&#34;: &#34;auth != null &amp;&amp; auth.uid == $userId&#34;
+      }
+    }
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;The above rules translate to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;texts and emails can be read by anyone, but only written by authenticated users&lt;/li&gt;
+&lt;li&gt;users data can be read and written only by an authenticated user whose &lt;code&gt;uid&lt;/code&gt; matches the &lt;code&gt;$userId&lt;/code&gt; of that item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ThingList &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/23bd5cd351313500c971d4fbded85a0fbc656c0f&#34;&gt;morning&lt;/a&gt; | [afternoon]()&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;When the checkbox is checked, mark the corresponding Thing as &lt;em&gt;completed&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Be sure this gets synced to Firebase and persists across page refreshes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add a due date to each thing.&lt;/li&gt;
+&lt;li&gt;Make sure it persists&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Hint&lt;/strong&gt;: HTML 5 includes an input type &lt;strong&gt;date&lt;/strong&gt;, &lt;em&gt;i.e.&lt;/em&gt; &lt;code&gt;&amp;lt;input type=&amp;quot;date&amp;quot; /&amp;gt;&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
     

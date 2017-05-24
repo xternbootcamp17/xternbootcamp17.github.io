@@ -162,6 +162,8 @@ button.onclick((ev) =&gt; {
       <guid>http://xternbootcamp17.github.io/week1/day2/</guid>
       <description>
 
+&lt;p&gt;&lt;date&gt;Tuesday, May 16, 2017&lt;/date&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
 
 &lt;p&gt;Morning:&lt;/p&gt;
@@ -510,6 +512,8 @@ div.appendChild(heading)
       <guid>http://xternbootcamp17.github.io/week1/day3/</guid>
       <description>
 
+&lt;p&gt;&lt;date&gt;Wednesday, May 17, 2017&lt;/date&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
 
 &lt;p&gt;Morning:&lt;/p&gt;
@@ -784,6 +788,8 @@ boundGetX()       // 81
       
       <guid>http://xternbootcamp17.github.io/week1/day4/</guid>
       <description>
+
+&lt;p&gt;&lt;date&gt;Thursday, May 18, 2017&lt;/date&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
 

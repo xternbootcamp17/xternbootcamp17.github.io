@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>Day 1: Introduction</title>
+    <title>Day 7: Firebase</title>
     <link href="http://xternbootcamp17.github.io//css/nucleus.css" rel="stylesheet">
     <link href="http://xternbootcamp17.github.io//css/font-awesome.min.css" rel="stylesheet">
     
@@ -25,7 +25,7 @@
     <link href="/css/prism.css" rel="stylesheet">
 <link href="/css/xtern.css" rel="stylesheet">
   </head>
-  <body class="" data-url="/week1/day1/">
+  <body class="" data-url="/week2/day7/">
     
     <nav id="sidebar">
   <div id="header-wrapper">
@@ -307,7 +307,7 @@
       
       
 
-      <li class="dd-item  parent" data-nav-id="/week1/">
+      <li class="dd-item  " data-nav-id="/week1/">
         <a href="/week1/">
           <span>
             
@@ -321,7 +321,7 @@
           
           
           
-            <li class="dd-item active" data-nav-id="/week1/day1/">
+            <li class="dd-item " data-nav-id="/week1/day1/">
               <a href="/week1/day1/">
                 <span>Day 1: Introduction     </i></span>
               </a>
@@ -360,7 +360,7 @@
       
       
 
-      <li class="dd-item  " data-nav-id="/week2/">
+      <li class="dd-item  parent" data-nav-id="/week2/">
         <a href="/week2/">
           <span>
             
@@ -390,7 +390,7 @@
           
           
           
-            <li class="dd-item " data-nav-id="/week2/day7/">
+            <li class="dd-item active" data-nav-id="/week2/day7/">
               <a href="/week2/day7/">
                 <span>Day 7: Firebase     </i></span>
               </a>
@@ -433,11 +433,11 @@
                   
                     
                     
-                <a href="/week1/" itemprop="url"><span itemprop="title">Week One</span></a> <i class="fa fa-angle-right"></i>
+                <a href="/week2/" itemprop="url"><span itemprop="title">Week Two</span></a> <i class="fa fa-angle-right"></i>
                     
                   
                 
-                <span itemprop="title"> Day 1: Introduction</span>
+                <span itemprop="title"> Day 7: Firebase</span>
               </div>
               
                   <div class="progress">
@@ -446,21 +446,35 @@
 <ul>
 <li>
 <ul>
-<li><a href="#topics">Topics</a></li>
-<li><a href="#dom-manipulation">DOM Manipulation</a></li>
-<li><a href="#presentations">Presentations</a></li>
-<li><a href="#links">Links</a></li>
-<li><a href="#projects">Projects</a>
+<li><a href="#lecture-videos">Lecture Videos</a></li>
+<li><a href="#topics">Topics</a>
 <ul>
-<li><a href="#people-factory">People Factory</a></li>
+<li><a href="#react">React</a></li>
+<li><a href="#javascript">JavaScript</a></li>
+<li><a href="#firebase">Firebase</a></li>
 </ul></li>
+<li><a href="#examples">Examples</a>
+<ul>
+<li><a href="#react-1">React</a>
+<ul>
+<li><a href="#methods-as-props">Methods as props</a></li>
+<li><a href="#component-lifecycle-methods">Component lifecycle methods</a></li>
+<li><a href="#react-contenteditable-package"><code>react-contenteditable</code> package</a></li>
+</ul></li>
+<li><a href="#javascript-es6">JavaScript (ES6+)</a>
+<ul>
+<li><a href="#property-initializers">Property initializers</a></li>
+</ul></li>
+<li><a href="#firebase-1">Firebase</a>
+<ul>
+<li><a href="#getting-started">Getting Started</a></li>
+<li><a href="#rules">Rules</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#projects">Projects</a></li>
 <li><a href="#homework">Homework</a>
 <ul>
-<li>
-<ul>
-<li><a href="#bonus-credit">Bonus Credit</a></li>
 <li><a href="#super-mega-bonus-credit">Super Mega Bonus Credit</a></li>
-</ul></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -474,93 +488,278 @@
             
               <div id="body-inner">
                 
-                <h1>Day 1: Introduction</h1>
+                <h1>Day 7: Firebase</h1>
                 
 
 
 
-<p><date>Monday, May 15, 2017</date></p>
+<p><date>Wednesday, May 24, 2017</date></p>
+
+<h2 id="lecture-videos">Lecture Videos</h2>
+
+<p>Morning:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Full Playlist</a> | <a href="https://www.youtube.com/watch?v=yjyMHL0o6o0&amp;index=33&amp;t=2s&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Day 7, part 1</a> | <a href="https://www.youtube.com/watch?v=Rl715WP0bA8&amp;index=34&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">2</a> | <a href="https://www.youtube.com/watch?v=bCCBdrIW9pc&amp;index=35&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">3</a> | <a href="https://www.youtube.com/watch?v=T-7Nxpxzi6A&amp;index=36&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">4</a> | <a href="https://www.youtube.com/watch?v=vHJS4yLPXKY&amp;index=37&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">5</a> | <a href="https://www.youtube.com/watch?v=XCCHobIBzZ8&amp;index=38&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">6</a> | <a href="https://www.youtube.com/watch?v=JuerIuH0F5A&amp;index=39&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">7</a> | <a href="https://www.youtube.com/watch?v=1iVZskxFbl4&amp;index=40&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">8</a> | <a href="https://www.youtube.com/watch?v=M_wdst2C6Wc&amp;index=41&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">9</a> | <a href="https://www.youtube.com/watch?v=CSm_vhwvpQg&amp;index=42&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">10</a> | <a href="https://www.youtube.com/watch?v=Ckgd-cQ7-74&amp;index=43&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">11</a> | <a href="https://www.youtube.com/watch?v=pq3ykdFCfOE&amp;index=44&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">12</a> | <a href="https://www.youtube.com/watch?v=jBPwpbnK2IE&amp;index=45&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">13</a></li>
+</ul>
+
+<p>Afternoon:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">Full Playlist</a> | <a href="https://www.youtube.com/watch?v=lc5tFOkT2IE&amp;index=45&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">Day 7, part 1</a> | <a href="https://www.youtube.com/watch?v=9o6iLoiSLio&amp;index=46&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">2</a> | <a href="https://www.youtube.com/watch?v=Oa18SuRjTn0&amp;index=47&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">3</a> | [4]() | [5]() | [6]() | [7]()</li>
+</ul>
 
 <h2 id="topics">Topics</h2>
 
-<ul>
-<li>History of JavaScript and the Web</li>
-<li>Getting the most out of a coding bootcamp</li>
-<li>Anatomy of an HTML element (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">tags</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">attributes</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent">text content</a>)</li>
-<li>Basic CSS selector syntax
+<h3 id="react">React</h3>
 
 <ul>
-<li>Element name (<code>div</code>, <code>h1</code>, <code>p</code>, etc.)</li>
-<li>Element ID (<code>#theID</code>, <code>div#theID</code>, etc.)</li>
-<li>Class name (<code>.theClass</code>, <code>p.theClass</code>, etc.)</li>
-</ul></li>
-<li>Basic DOM manipulation
+<li>Methods as props</li>
+<li>Component lifecycle methods (<a href="https://facebook.github.io/react/docs/react-component.html">Docs</a>)
 
 <ul>
-<li><code>document.querySelector</code>/<code>document.querySelectorAll</code></li>
-<li><code>.textContent</code>/<code>.innerHTML</code></li>
+<li><a href="https://facebook.github.io/react/docs/react-component.html#componentdidmount"><code>componentDidMount()</code></a></li>
 </ul></li>
-<li>Developer console
-
-<ul>
-<li><code>console.log</code></li>
-<li><code>console.group/.groupEnd/.groupCollapsed</code></li>
-</ul></li>
-<li>Basic <a href="https://www.w3schools.com/js/js_events.asp">event</a> handling
-
-<ul>
-<li><code>onsubmit</code></li>
-<li>Anonymous functions</li>
-<li><code>.preventDefault</code></li>
-<li><code>.target</code></li>
-</ul></li>
-<li>Template strings
-
-<ul>
-<li>String interpolation, <em>e.g.</em> <code>`Hi, ${name}`</code></li>
-<li>Multi-line strings</li>
-</ul></li>
-<li>Emmet abbreviations for code editors (<a href="https://docs.emmet.io/abbreviations/syntax/">syntax reference</a>)</li>
+<li><code>react-contenteditable</code> package (<a href="https://github.com/lovasoa/react-contenteditable">on GitHub</a>)</li>
 </ul>
 
-<h2 id="dom-manipulation">DOM Manipulation</h2>
+<h3 id="javascript">JavaScript</h3>
+
+<ul>
+<li>Property initializers + arrow functions</li>
+</ul>
+
+<h3 id="firebase">Firebase</h3>
+
+<ul>
+<li>Getting started</li>
+<li>Database rules</li>
+<li>Re-base for syncing React state with Firebase</li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<h3 id="react-1">React</h3>
+
+<h4 id="methods-as-props">Methods as props</h4>
+
+<p>Sometimes one component needs to update another component&rsquo;s state. It can&rsquo;t do that directly, but it can call a method from that other component if it&rsquo;s available via a prop.</p>
+
+<p><a href="https://codepen.io/dstrus/pen/bWzWew?editors=1010"><strong>Try this example live on CodePen</strong></a></p>
 
 
-<pre class="line-numbers language-html" rel="html">
-<code class="language-html">
+  <pre class="language-jsx line-numbers "
+       
+       
+       data-line="5,23"
+       rel="jsx"
+  ><code class="language-jsx">
+  
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-&lt;div class=&quot;person&quot;&gt;
-  &lt;h2 id=&quot;firstName&quot;>Han&lt;/h2&gt;
-  &lt;h2 id=&quot;lastName&quot;>Solo&lt;/h2&gt;
-  &lt;p>Made the Kessel Run in less than 12 parsecs&lt;/p&gt;
-  &lt;button>Click here to hire me!&lt;/button&gt;
-&lt;/div&gt;
+const PartyButton = ({ celebrate, celebrations }) =&gt; {
+  return &lt;button onClick={celebrate}&gt;Party! {celebrations}&lt;/button&gt;
+}
+
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      celebrations: 0,
+    }
+    this.celebrate = this.celebrate.bind(this)
+  }
+
+  celebrate() {
+    const celebrations = this.state.celebrations + 1
+    this.setState({ celebrations })
+  }
+
+  render() {
+    return &lt;PartyButton celebrate={this.celebrate} celebrations={this.state.celebrations} /&gt;
+  }
+}
+
+ReactDOM.render(&lt;App /&gt;, document.querySelector('main'))
+
+  </code>
+  </pre>
+
+
+
+<h4 id="component-lifecycle-methods">Component lifecycle methods</h4>
+
+<p><strong><code>componentDidMount()</code></strong> is invoked immediately after a component is mounted. Initialization that requires DOM nodes should go here.</p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+import React, { Component } from 'react'
+
+class MyComponent extends Component {
+  componentDidMount() {
+    this.nameInput.focus()
+  }
+
+  render() {
+    return (
+      &lt;input 
+        ref={(input) =&gt; { this.nameInput = input; }} 
+        defaultValue="will focus"
+      /&gt;
+    )
+  }
+}
 
 </code>
 </pre>
 
 
 
+<h4 id="react-contenteditable-package"><code>react-contenteditable</code> package</h4>
+
+<p>This package provides a React component for a div with editable contents, handling all the messy stuff (like <code>dangerouslySetInnerHTML</code>).</p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+import React from 'react'
+import ContentEditable from 'react-contenteditable'
+
+class MyComponent extends React.Component {
+  constructor() {
+    this.state = {
+      html: &quot;&lt;strong&gt;Hello, &lt;em&gt;World&lt;/em&gt;!&lt;/strong&gt;&quot;
+    }
+    this.handleChange = this.handleChange.bind(this)
+  }
+
+  handleChange(ev) {
+    this.setState({ html: evt.target.value })
+  }
+
+  render() {
+    return (
+      &lt;ContentEditable
+        html={this.state.html}       // innerHTML of the editable div
+        disabled={false}             // use true to disable
+        onChange={this.handleChange} // handle innerHTML change
+      /&gt;
+    )
+  }
+}
+
+</code>
+</pre>
+
+
+
+<h3 id="javascript-es6">JavaScript (ES6+)</h3>
+
+<h4 id="property-initializers">Property initializers</h4>
+
+<p>Yesterday, we used property initializers to set a component&rsquo;s initial state without adding a constructor. Combining property initializers and arrow functions also gives us a convenient way to auto-bind <code>this</code>:</p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+class Something extends React.Component {
+  handleButtonClick = (ev) => {
+    // `this` is bound correctly!
+    this.setState({ buttonWasClicked: true });
+  }
+}
+
+</code>
+</pre>
+
+
+
+<h3 id="firebase-1">Firebase</h3>
+
+<h4 id="getting-started">Getting Started</h4>
+
+<p><a href="https://firebase.google.com/">Firebase</a> is a real-time database hosted by Google.  In addition to the database, it also provides features of authentication, analytics, cloud storage, and hosting.  For <em>Thing List</em>, we synced the <code>state</code> of our app to our database on Firebase.  This allowed all of our data to be persisted, even after page refreshes.</p>
+
+<p><a href="https://github.com/tylermcginnis/re-base">Re-base</a> is an open source package that allows easy syncing of local state with a Firebase database. Add rebase to your project with one of the following commands:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span><span data-prompt="$"></span></span>yarn add re-base               # add package using yarn
+npm install --save re-base     # add package using npm
+</span></pre>
+
+</div>
+</div>
+
+<p>Once you have re-base installed, setup is easy!  First, create a new project on Firebase, then click on &ldquo;Add to a web app&rdquo; to see your JavaScript config object.  Next, initialize a Firebase app and database in your project using the config object, and provide the database to re-base.</p>
+
 
 <pre class="line-numbers language-js" rel="js">
 <code class="language-js">
 
-// Get all h2 elements with querySelectorAll. Returns a NodeList
-const headings = document.querySelectorAll('.person h2')
-console.log(headings) 
-// => [h2#firstName, h2#lastName]
+import Rebase from 're-base'
+import firebase from 'firebase/app'
+import database from 'firebase/database'
 
-// Get a single element with querySelector
-const heading = document.querySelector('.person h2')
-console.log(heading)
-// => h2#firstName
+const app = firebase.initializeApp({
+  apiKey: "YOURAPIKEY",
+  authDomain: "YOURAUTHDOMAIN",
+  databaseURL: "YOURDATABASEURL",
+  projectId: "YOURPROJECTID",
+  storageBucket: "YOURSTORAGEBUCKET",
+  messagingSenderId: "YOURSENDERID"
+})
 
-// Do something when a click event occurs
-const button = document.querySelector('button')
-button.onclick((ev) => {
-  alert('clicked!')
-  console.log(ev.target)
-  // => button
+const db = database(app)
+const base = Rebase.createClass(db)
+
+export default base
+
+</code>
+</pre>
+
+
+
+<p>Finally, call <code>base.syncState</code> to sync your app&rsquo;s local state with Firebase.  The first argument to <code>syncState</code> is the name of the Firebase endpoint you want to sync, and the second is a configuration object.</p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+base.syncState('myFavoriteEndpoint', {
+  context: this,
+  state: 'items'
 })
 
 </code>
@@ -568,37 +767,101 @@ button.onclick((ev) => {
 
 
 
-<h2 id="presentations">Presentations</h2>
+<p>Now, any time we update the state of our app, the changes will sync with Firebase in real time.</p>
+
+
+  <div class="aside aside-info">
+  
+    <h4>More Re-base Options</h4>
+    
+  
+  <div class="body">
+  <p>Re-base can do much more than just syncing state.  There are methods for <code>fetch</code>, <code>push</code>, <code>post</code>, etc.  To find out more about what all you can do with re-base, check out the <a href="https://github.com/tylermcginnis/re-base#re-base">README</a></p>
+
+  </div>
+</div>
+
+
+<h4 id="rules">Rules</h4>
+
+<p>For your Firebase database, you can set up rules (written in JSON) that specify the conditions under which data is allowed to be read or written.  By default, a newly generated project will require that a user be authenticated to read or write <em>any</em> data.</p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+
+</code>
+</pre>
+
+
+
+<p>If you do not have authentication set up yet, these values can be set to <code>true</code>.  This allows <em>anyone</em> to read or write any data in the database.  This can be convenient, but probably not a good idea long-term (and you <em>will</em> get a warning if you do that).</p>
+
+<p>Additional rules can be applied per endpoint:</p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+{
+  "rules": {
+    "emails": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "texts": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "users": {
+      "$userId": {
+        ".read": "auth != null && auth.uid == $userId",
+        ".write": "auth != null && auth.uid == $userId"
+      }
+    }
+  }
+}
+
+</code>
+</pre>
+
+
+
+<p>The above rules translate to:</p>
 
 <ul>
-<li><a target="_blank" href="/history-of-the-web.pdf">JavaScript History</a></li>
-<li><a target="_blank" href="/bootcamp-success.pdf">Bootcamp Expectations and Tips for Success</a></li>
-</ul>
-
-<h2 id="links">Links</h2>
-
-<ul>
-<li><a href="http://foundation.zurb.com">Foundation CSS Framework</a></li>
-<li><a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network (MDN)</a> - An excellent documentation and learning resource for all your HTML/CSS/JS needs</li>
+<li>texts and emails can be read by anyone, but only written by authenticated users</li>
+<li>users data can be read and written only by an authenticated user whose <code>uid</code> matches the <code>$userId</code> of that item</li>
 </ul>
 
 <h2 id="projects">Projects</h2>
 
-<h3 id="people-factory">People Factory</h3>
-
-<p><a href="https://github.com/xtbc17s1/people-factory/tree/3a7d947fa8b62fe6516a801db89bd2e0899a5385">Morning</a> | <a href="https://github.com/xtbc17s1/people-factory/tree/9d9e368d4125a2a3a1af549eb299ac9ebfdfad88">Afternoon</a></p>
+<ul>
+<li>ThingList <a href="https://github.com/xtbc17s1/thing-list/tree/23bd5cd351313500c971d4fbded85a0fbc656c0f">morning</a> | [afternoon]()</li>
+</ul>
 
 <h2 id="homework">Homework</h2>
 
-<p>Add form values to <code>.details</code> using <code>document.createElement</code> and <code>appendChild</code>, instead of <code>innerHTML</code>.</p>
+<ul>
+<li>When the checkbox is checked, mark the corresponding Thing as <em>completed</em>.</li>
+<li>Be sure this gets synced to Firebase and persists across page refreshes.</li>
+</ul>
 
-<h4 id="bonus-credit">Bonus Credit</h4>
+<h3 id="super-mega-bonus-credit">Super Mega Bonus Credit</h3>
 
-<p>Break out some of this functionality into a separate function.</p>
+<ul>
+<li>Add a due date to each thing.</li>
+<li>Make sure it persists</li>
+</ul>
 
-<h4 id="super-mega-bonus-credit">Super Mega Bonus Credit</h4>
-
-<p>Do not hard-code the names of the fields in your JavaScript. Loop over all the elements in the form.</p>
+<p><strong>Hint</strong>: HTML 5 includes an input type <strong>date</strong>, <em>i.e.</em> <code>&lt;input type=&quot;date&quot; /&gt;</code></p>
 
 
       
@@ -610,8 +873,8 @@ button.onclick((ev) => {
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="/week1"> <i class="fa fa-chevron-left"></i></a>
-        <a class="nav nav-next" href="/week1/day2" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-prev" href="/week2/day6/"> <i class="fa fa-chevron-left"></i></a>
+        
     </div>
 
     </section>
