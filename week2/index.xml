@@ -387,7 +387,7 @@ export default App
 &lt;p&gt;Afternoon:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | [Day 6, part 1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]()&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=1VOesxJNbIA&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=35&#34;&gt;Day 6, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=yIiWHmuks1E&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=36&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=rxXsCqzzi7A&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=37&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=cGkv37JcAcM&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=38&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=iz8oJX49tLA&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=39&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=a1eQtVlx1Js&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=40&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=xEBCLL8YYE0&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=41&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=UjDVy0Qis4A&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=42&#34;&gt;8&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=ZuI0o8A-2nM&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=43&#34;&gt;9&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=e7UhOY48S7Q&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=44&#34;&gt;10&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
@@ -406,7 +406,18 @@ export default App
 &lt;li&gt;Named and default exports&lt;/li&gt;
 &lt;li&gt;Named and default imports&lt;/li&gt;
 &lt;li&gt;Property initializers&lt;/li&gt;
+&lt;li&gt;Spread operator&lt;/li&gt;
+&lt;li&gt;Destructuring assignment&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&#34;package-managers&#34;&gt;Package Managers&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/&#34;&gt;NPM&lt;/a&gt; - Node Package Manager&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;Yarn&lt;/a&gt; - Facebook&amp;rsquo;s version of npm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;css-specifity-https-specificity-keegan-st&#34;&gt;&lt;a href=&#34;https://specificity.keegan.st/&#34;&gt;CSS Specifity&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
 
@@ -728,10 +739,216 @@ class Something extends React.Component {
 &lt;/div&gt;
 
 
+&lt;h4 id=&#34;spread-operator&#34;&gt;Spread operator&lt;/h4&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator&#34;&gt;&lt;em&gt;spread operator&lt;/em&gt;&lt;/a&gt; was added in ES6 to allow an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) or multiple variables (for destructuring assignment) are expected.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+function myFunc (x, y, z) {
+  console.log(x)
+  console.log(y)
+  console.log(z)
+}
+const args = [1, 2, 3]
+
+myFunc(...args) // the spread &#39;...args&#39; applies the items in args to the three arguments in myFunc
+// =&gt; 1
+// =&gt; 2
+// =&gt; 3
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;It is also an easy way to make copies of iterable objects&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+const ary = [1, 2, 3]
+const aryCopy = [...ary] // makes a copy of ary
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;If you are in a project using Babel (like a React project created with &lt;code&gt;create-react-app&lt;/code&gt;), you can also use the &lt;code&gt;object-rest-spread-transform&lt;/code&gt; to apply this same method to objects.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+this.state = {&#39;a&#39;: true, party: &#39;hard&#39;}
+const stateCopy = {...this.state} // makes a copy of this.state
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;destructuring-assignment&#34;&gt;Destructuring assignment&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment&#34;&gt;Destructuring assignment&lt;/a&gt; syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+const myObj = {
+  a: true,
+  b: &#39;Destructuring!&#39;
+}
+
+let { a, b } = myObj
+
+console.log(a) // =&gt; true
+console.log(b) // =&gt; &#39;Destructuring!&#39;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;package-managers-1&#34;&gt;Package Managers&lt;/h3&gt;
+
+&lt;h4 id=&#34;node-package-manager-npm&#34;&gt;Node Package Manager (npm)&lt;/h4&gt;
+
+&lt;p&gt;Node Package Manager hosts almost half a million packages of free, reusable JavaScript code and is the largest software registry in the world. It allows you to easily add any module to your project, and it will install the requested package, as well as any required dependencies of that package.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install react
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;yarn&#34;&gt;Yarn&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;Yarn&lt;/a&gt; is Facebook&amp;rsquo;s version of npm, designed to improve performance and resolve several important issues.  The key differences are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Deterministic installation - packages will always install in the same order on every machine&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;yarn.lock&lt;/code&gt; - this lockfile locks dependency versions for consistency and security&lt;/li&gt;
+&lt;li&gt;Local cache of downloaded packages - faster and can still work with no internet connection after initial installation&lt;/li&gt;
+&lt;li&gt;Parallel installation - Dependency installation can happen in parallel, greatly increasing speed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To install yarn (npm was already installed as part of setup instructions), type the following command:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install -g yarn
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once installed, you can use yarn with following commands:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn
+# installs all packages and dependencies listed in your project&amp;#39;s package.json
+
+yarn add {package_name}
+# installs a new package and adds it to package.json
+
+yarn start
+# starts your local development web server (in project from create-react-app)
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Dwarf Underground: &lt;a href=&#34;https://github.com/sbaughman/dwarf-underground/&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/dwarf-underground/&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dwarf Underground: &lt;a href=&#34;https://github.com/sbaughman/dwarf-underground/tree/2330778425ae10658dadcd974b93aefd361c0bef&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/dwarf-underground/tree/599b3a3ac93da57e55aa898333b97d23c8169efb&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Static HTML/CSS for Thing List: &lt;a href=&#34;https://github.com/xtbc17s1/thing-list-static&#34;&gt;thing-list-static&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;ThingList: &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/3f7652d667e3c46342e6f7e90b9ca54d0951d6a3&#34;&gt;morning&lt;/a&gt; | afternoon&lt;/li&gt;
 &lt;/ul&gt;
