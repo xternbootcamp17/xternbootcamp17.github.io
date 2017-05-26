@@ -708,6 +708,30 @@ div.img.github-fork-repo {
   width: 567px;
   height: 450px;
 }
+div.img.firebase-enable-github {
+  background-image: url("/images/firebase-enable-github.png");
+  background-size: 567px 400px;
+  width: 567px;
+  height: 450px;
+}
+div.img.github-oauth-new-registration {
+  background-image: url("/images/github-oauth-new-registration.png");
+  background-size: 567px 400px;
+  width: 567px;
+  height: 450px;
+}
+div.img.github-oauth-secrets {
+  background-image: url("/images/github-oauth-secrets.png");
+  background-size: 567px 400px;
+  width: 567px;
+  height: 450px;
+}
+div.img.firebase-github-secrets {
+  background-image: url("/images/firebase-github-secrets.png");
+  background-size: 567px 400px;
+  width: 567px;
+  height: 450px;
+}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
   div.img.github-create-account {
     background-image: url("/images/github-01-create-account@2x.png");

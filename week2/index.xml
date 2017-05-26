@@ -1310,7 +1310,7 @@ base.syncState(&#39;myFavoriteEndpoint&#39;, {
 &lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;ThingList &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/23bd5cd351313500c971d4fbded85a0fbc656c0f&#34;&gt;morning&lt;/a&gt; | [afternoon]()&lt;/li&gt;
+&lt;li&gt;ThingList &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/23bd5cd351313500c971d4fbded85a0fbc656c0f&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/899e37a64952ec96d3b8756bd6077499764851b3&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
@@ -1328,6 +1328,237 @@ base.syncState(&#39;myFavoriteEndpoint&#39;, {
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Hint&lt;/strong&gt;: HTML 5 includes an input type &lt;strong&gt;date&lt;/strong&gt;, &lt;em&gt;i.e.&lt;/em&gt; &lt;code&gt;&amp;lt;input type=&amp;quot;date&amp;quot; /&amp;gt;&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Day 8: Authentication</title>
+      <link>http://xternbootcamp17.github.io/week2/day8/</link>
+      <pubDate>Thu, 25 May 2017 09:34:51 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week2/day8/</guid>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Thursday, May 25, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+
+&lt;p&gt;Morning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=KcKRs6EF2aQ&amp;amp;index=46&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Day 8, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=PqBGnicbwBo&amp;amp;index=47&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Qgb9slE1Vy8&amp;amp;index=48&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Y4flcs43y2I&amp;amp;index=49&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Rs5qHdIcJdg&amp;amp;index=50&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Nqln3z3Qm3A&amp;amp;index=51&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=w4Hm_YkP7O8&amp;amp;index=52&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=NNhIOZ7scH8&amp;amp;index=53&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afternoon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=MPwdC4keEa8&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=62&#34;&gt;Day 8, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=fV4Nj-qyrCs&amp;amp;t=2s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=63&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=pyV2ch1Z6kc&amp;amp;t=1s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=64&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=hrUmU-Xe-5k&amp;amp;t=4s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=65&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=J60k6tSosfs&amp;amp;t=6s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=66&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=KQQqja3IlYg&amp;amp;t=3s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=67&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=zJgYth64v7U&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=68&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=qDYMyPwjmCk&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=69&#34;&gt;8&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=CqLtfW4fdbc&amp;amp;t=655s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=70&#34;&gt;9&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=9wrGqsY15ds&amp;amp;t=5s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=71&#34;&gt;10&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=dfztTfau9qo&amp;amp;t=394s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=72&#34;&gt;11&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=HkWNB-GCUPI&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=73&#34;&gt;12&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=yak0SVTJ9Zc&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=74&#34;&gt;13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;firebase-authentication&#34;&gt;Firebase Authentication&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;lsquo;firebase/auth&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authWithPopup&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;signing in and out&lt;/li&gt;
+&lt;li&gt;handling auth state changes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;firebase-authentication-1&#34;&gt;Firebase Authentication&lt;/h3&gt;
+
+&lt;p&gt;Firebase isn&amp;rsquo;t just a real-time database.  It can also provide authentication services via email/password, phone, or common third-party services like Github, Facebook, and Google. For ThingList, we set up authentication via Github OAuth.&lt;/p&gt;
+
+&lt;h4 id=&#34;step-1-get-your-authorization-callback-url-from-firebase&#34;&gt;Step 1: Get your authorization callback URL from Firebase&lt;/h4&gt;
+
+&lt;p&gt;Navigate to your project in Firebase console.  Click on the &amp;lsquo;Authenticate&amp;rsquo; tab on the left and then on the Github logo.  Copy the authorization callback URL.&lt;/p&gt;
+
+&lt;div class=&#34;img firebase-enable-github&#34;&gt;&lt;span&gt;The data for the Client ID and Client Secret will be generated in the next step.&lt;/span&gt;&lt;/div&gt;
+
+&lt;h4 id=&#34;step-2-register-your-app-in-github&#34;&gt;Step 2: Register your app in Github&lt;/h4&gt;
+
+&lt;p&gt;Log in to Github and click on &amp;lsquo;Settings&amp;rsquo;.  On the left hand side, click on &amp;lsquo;OAuth Applications&amp;rsquo; under the &amp;lsquo;Developer settings&amp;rsquo; menu.  Register a new app and fill out the form.&lt;/p&gt;
+
+&lt;div class=&#34;img github-oauth-new-registration&#34;&gt;&lt;span&gt;Use the Authorization callback URL from step 1&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;After successfully registering the app, you&amp;rsquo;ll be taken to your new app&amp;rsquo;s settings page.&lt;/p&gt;
+
+&lt;div class=&#34;img github-oauth-secrets&#34;&gt;&lt;span&gt;Seeeeecrets...  (Don&#39;t worry, this app has been deleted. Never post your app secrets publicly.)&lt;/span&gt;&lt;/div&gt;
+
+&lt;h4 id=&#34;step-3-enable-github-authentication-in-firebase&#34;&gt;Step 3: Enable Github authentication in Firebase&lt;/h4&gt;
+
+&lt;p&gt;Go back to the Github authentication tab in Firebase and fill in the Client ID and Client Secret that you got from registering your app with Github.&lt;/p&gt;
+
+&lt;div class=&#34;img firebase-github-secrets&#34;&gt;&lt;span&gt;More Seeeeecrets...  (But seriously, don&#39;t share your secrets)&lt;/span&gt;&lt;/div&gt;
+
+&lt;h4 id=&#34;step-4-add-firebase-auth-to-your-app&#34;&gt;Step 4: Add Firebase auth to your app&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Note: This step assumes you already have your Firebase database added to your app.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Import &lt;code&gt;firebase/auth&lt;/code&gt; into your app&amp;rsquo;s firebase setup.  Enable firebase auth and also create an instance of &lt;code&gt;GithubAuthProvider&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;base.js&lt;/strong&gt;&lt;/p&gt;
+
+
+  &lt;pre class=&#34;language-js line-numbers &#34;
+       
+       
+       data-line=&#34;4,17,18&#34;
+       rel=&#34;js&#34;
+  &gt;&lt;code class=&#34;language-js&#34;&gt;
+  
+import Rebase from &#39;re-base&#39;
+import firebase from &#39;firebase/app&#39;
+import database from &#39;firebase/database&#39;
+import &#39;firebase/auth&#39;
+
+const app = firebase.initializeApp({
+  apiKey: &#34;&#34;,
+  authDomain: &#34;&#34;,
+  databaseURL: &#34;&#34;,
+  projectId: &#34;&#34;,
+  storageBucket: &#34;&#34;,
+  messagingSenderId: &#34;&#34;
+})
+
+const db = database(app)
+
+export const auth = app.auth()
+export const githubProvider = new firebase.auth.GithubAuthProvider()
+
+export default Rebase.createClass(db)
+
+  &lt;/code&gt;
+  &lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;step-5-set-up-the-signin-component&#34;&gt;Step 5: Set up the SignIn Component&lt;/h4&gt;
+
+&lt;p&gt;Import &lt;code&gt;auth&lt;/code&gt; and the &lt;code&gt;githubProvider&lt;/code&gt; into whatever component handles the sign-in process.  Call &lt;code&gt;signInWithPopup&lt;/code&gt; on the &lt;code&gt;auth&lt;/code&gt; object, passing the provider as a parameter.  Then call an &lt;code&gt;authHandler&lt;/code&gt; function when the promise resolves to handle whatever you want to do after authorization is successful.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SignIn.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import React from &#39;react&#39;
+import { auth, githubProvider } from &#39;./base&#39;
+
+const SignIn = ({ authHandler }) =&gt; {
+  const authenticate = (provider) =&gt; {
+    auth
+      .signInWithPopup(provider)
+      .then(authHandler)
+  }
+
+  return (
+    &amp;lt;button className=&#34;SignIn&#34; onClick={() =&gt; authenticate(githubProvider)}&amp;gt;
+      Sign In With GitHub
+    &amp;lt;/button&amp;gt;
+  )
+}
+
+export default SignIn
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;step-6-finishing-sign-in&#34;&gt;Step 6: Finishing sign-in&lt;/h4&gt;
+
+&lt;p&gt;What the &lt;code&gt;authHandler&lt;/code&gt; callback does is up to you, but for &lt;em&gt;ThingList&lt;/em&gt;, we had it do pretty typical things - save the user ID to state, and initialize syncing our local state for &amp;lsquo;things&amp;rsquo; with the data stored on Firebase.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;App.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+// ...
+
+authHandler = (authData) =&gt; {
+  this.setState(
+    { uid: authData.user.uid },
+    this.syncThings
+  )
+}
+
+// ...
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;step-7-handling-auth-state-changes-and-page-refreshes&#34;&gt;Step 7: Handling auth state changes (and page refreshes)&lt;/h4&gt;
+
+&lt;p&gt;What happens if auth state changes?  Or the user refreshes the page?  We should probably set up something to listen for that.  In the &lt;code&gt;componentWillMount&lt;/code&gt; lifecycle hook that runs when the Component is first getting loaded, we can call the &lt;code&gt;onAuthStateChanged&lt;/code&gt; method to set up such a listener.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;App.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+// ...
+
+componentWillMount() {
+  auth.onAuthStateChanged(
+    (user) =&gt; {
+      if (user) {
+        this.authHandler({ user })
+      }
+    }
+  )
+}
+
+// ...
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;step-8-signing-out&#34;&gt;Step 8: Signing out&lt;/h4&gt;
+
+&lt;p&gt;Signing out when using Firebase for authentication is quite simple - just call &lt;code&gt;auth.signOut()&lt;/code&gt;!  Once the promise returned by &lt;code&gt;signOut&lt;/code&gt; has resolved, you can handle any additional cleanup.  In &lt;em&gt;ThingList&lt;/em&gt;, we just set &lt;code&gt;state.uid&lt;/code&gt; back to &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;App.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+// ...
+
+signOut = () =&gt; {
+  auth
+    .signOut()
+    .then(() =&gt; this.setState({ uid: null }))
+}
+
+// ...
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ThingList &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/bb66ddd5b3a562f2dd3a20c1b284fe23b9f71b59&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/040e15b7cbcb0d4c06c36940c2c12759b495fc73&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;PRACTICE!&lt;/strong&gt;  Extend a project from class.  Write a new project.  Add a different type of authentication.  You know enough to start building things on your own, and it&amp;rsquo;s definitely the best way to learn once you have the basics down.&lt;/p&gt;
 </description>
     </item>
     

@@ -3180,7 +3180,7 @@ base.syncState(&#39;myFavoriteEndpoint&#39;, {
 &lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;ThingList &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/23bd5cd351313500c971d4fbded85a0fbc656c0f&#34;&gt;morning&lt;/a&gt; | [afternoon]()&lt;/li&gt;
+&lt;li&gt;ThingList &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/23bd5cd351313500c971d4fbded85a0fbc656c0f&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/899e37a64952ec96d3b8756bd6077499764851b3&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;

@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>Day 6: React</title>
+    <title>Day 8: Authentication</title>
     <link href="http://xternbootcamp17.github.io//css/nucleus.css" rel="stylesheet">
     <link href="http://xternbootcamp17.github.io//css/font-awesome.min.css" rel="stylesheet">
     
@@ -25,7 +25,7 @@
     <link href="/css/prism.css" rel="stylesheet">
 <link href="/css/xtern.css" rel="stylesheet">
   </head>
-  <body class="" data-url="/week2/day6/">
+  <body class="" data-url="/week2/day8/">
     
     <nav id="sidebar">
   <div id="header-wrapper">
@@ -382,7 +382,7 @@
           
           
           
-            <li class="dd-item active" data-nav-id="/week2/day6/">
+            <li class="dd-item " data-nav-id="/week2/day6/">
               <a href="/week2/day6/">
                 <span>Day 6: React     </i></span>
               </a>
@@ -398,7 +398,7 @@
           
           
           
-            <li class="dd-item " data-nav-id="/week2/day8/">
+            <li class="dd-item active" data-nav-id="/week2/day8/">
               <a href="/week2/day8/">
                 <span>Day 8: Authentication     </i></span>
               </a>
@@ -445,7 +445,7 @@
                     
                   
                 
-                <span itemprop="title"> Day 6: React</span>
+                <span itemprop="title"> Day 8: Authentication</span>
               </div>
               
                   <div class="progress">
@@ -457,39 +457,24 @@
 <li><a href="#lecture-videos">Lecture Videos</a></li>
 <li><a href="#topics">Topics</a>
 <ul>
-<li><a href="#react-https-facebook-github-io-react"><a href="https://facebook.github.io/react/">React</a></a></li>
-<li><a href="#javascript">JavaScript</a></li>
-<li><a href="#package-managers">Package Managers</a></li>
-<li><a href="#css-specifity-https-specificity-keegan-st"><a href="https://specificity.keegan.st/">CSS Specifity</a></a></li>
+<li><a href="#firebase-authentication">Firebase Authentication</a></li>
 </ul></li>
 <li><a href="#examples">Examples</a>
 <ul>
-<li><a href="#react">React</a>
+<li><a href="#firebase-authentication-1">Firebase Authentication</a>
 <ul>
-<li><a href="#using-map-with-components">Using <code>map</code> with Components</a></li>
-<li><a href="#stateless-functional-components">Stateless Functional Components</a></li>
-<li><a href="#conditional-rendering">Conditional Rendering</a></li>
-</ul></li>
-<li><a href="#javascript-es6">JavaScript (ES6+)</a>
-<ul>
-<li><a href="#named-and-default-exports-and-imports">Named and default exports and imports</a></li>
-<li><a href="#property-initializers">Property initializers</a></li>
-<li><a href="#spread-operator">Spread operator</a></li>
-<li><a href="#destructuring-assignment">Destructuring assignment</a></li>
-</ul></li>
-<li><a href="#package-managers-1">Package Managers</a>
-<ul>
-<li><a href="#node-package-manager-npm">Node Package Manager (npm)</a></li>
-<li><a href="#yarn">Yarn</a></li>
+<li><a href="#step-1-get-your-authorization-callback-url-from-firebase">Step 1: Get your authorization callback URL from Firebase</a></li>
+<li><a href="#step-2-register-your-app-in-github">Step 2: Register your app in Github</a></li>
+<li><a href="#step-3-enable-github-authentication-in-firebase">Step 3: Enable Github authentication in Firebase</a></li>
+<li><a href="#step-4-add-firebase-auth-to-your-app">Step 4: Add Firebase auth to your app</a></li>
+<li><a href="#step-5-set-up-the-signin-component">Step 5: Set up the SignIn Component</a></li>
+<li><a href="#step-6-finishing-sign-in">Step 6: Finishing sign-in</a></li>
+<li><a href="#step-7-handling-auth-state-changes-and-page-refreshes">Step 7: Handling auth state changes (and page refreshes)</a></li>
+<li><a href="#step-8-signing-out">Step 8: Signing out</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#projects">Projects</a></li>
-<li><a href="#homework">Homework</a>
-<ul>
-<li><a href="#bonus-credit">Bonus Credit</a></li>
-<li><a href="#super-mega-bonus-credit">Super Mega Bonus Credit</a></li>
-<li><a href="#super-mega-bonus-credit-hyper-fighting">Super Mega Bonus Credit Hyper Fighting</a></li>
-</ul></li>
+<li><a href="#homework">Homework</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -502,585 +487,231 @@
             
               <div id="body-inner">
                 
-                <h1>Day 6: React</h1>
+                <h1>Day 8: Authentication</h1>
                 
 
 
 
-<p><date>Tuesday, May 23, 2017</date></p>
+<p><date>Thursday, May 25, 2017</date></p>
 
 <h2 id="lecture-videos">Lecture Videos</h2>
 
 <p>Morning:</p>
 
 <ul>
-<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Full Playlist</a> | <a href="https://www.youtube.com/watch?v=oWb1IdhOl7A&amp;index=26&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Day 6, part 1</a> | <a href="https://www.youtube.com/watch?v=SsBUeaku12g&amp;index=27&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">2</a> | <a href="https://www.youtube.com/watch?v=IlUoLPsrHrE&amp;index=28&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">3</a> | <a href="https://www.youtube.com/watch?v=E01j6AcMSF4&amp;index=29&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">4</a> | <a href="https://www.youtube.com/watch?v=xytTTrggEyc&amp;index=30&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">5</a> | <a href="https://www.youtube.com/watch?v=9Dn6aMJMEHc&amp;index=31&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">6</a> | <a href="https://www.youtube.com/watch?v=Smzb6gGyz3w&amp;index=32&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">7</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Full Playlist</a> | <a href="https://www.youtube.com/watch?v=KcKRs6EF2aQ&amp;index=46&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Day 8, part 1</a> | <a href="https://www.youtube.com/watch?v=PqBGnicbwBo&amp;index=47&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">2</a> | <a href="https://www.youtube.com/watch?v=Qgb9slE1Vy8&amp;index=48&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">3</a> | <a href="https://www.youtube.com/watch?v=Y4flcs43y2I&amp;index=49&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">4</a> | <a href="https://www.youtube.com/watch?v=Rs5qHdIcJdg&amp;index=50&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">5</a> | <a href="https://www.youtube.com/watch?v=Nqln3z3Qm3A&amp;index=51&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">6</a> | <a href="https://www.youtube.com/watch?v=w4Hm_YkP7O8&amp;index=52&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">7</a> | <a href="https://www.youtube.com/watch?v=NNhIOZ7scH8&amp;index=53&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">8</a></li>
 </ul>
 
 <p>Afternoon:</p>
 
 <ul>
-<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">Full Playlist</a> | <a href="https://www.youtube.com/watch?v=1VOesxJNbIA&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=35">Day 6, part 1</a> | <a href="https://www.youtube.com/watch?v=yIiWHmuks1E&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=36">2</a> | <a href="https://www.youtube.com/watch?v=rxXsCqzzi7A&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=37">3</a> | <a href="https://www.youtube.com/watch?v=cGkv37JcAcM&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=38">4</a> | <a href="https://www.youtube.com/watch?v=iz8oJX49tLA&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=39">5</a> | <a href="https://www.youtube.com/watch?v=a1eQtVlx1Js&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=40">6</a> | <a href="https://www.youtube.com/watch?v=xEBCLL8YYE0&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=41">7</a> | <a href="https://www.youtube.com/watch?v=UjDVy0Qis4A&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=42">8</a> | <a href="https://www.youtube.com/watch?v=ZuI0o8A-2nM&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=43">9</a> | <a href="https://www.youtube.com/watch?v=e7UhOY48S7Q&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=44">10</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">Full Playlist</a> | <a href="https://www.youtube.com/watch?v=MPwdC4keEa8&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=62">Day 8, part 1</a> | <a href="https://www.youtube.com/watch?v=fV4Nj-qyrCs&amp;t=2s&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=63">2</a> | <a href="https://www.youtube.com/watch?v=pyV2ch1Z6kc&amp;t=1s&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=64">3</a> | <a href="https://www.youtube.com/watch?v=hrUmU-Xe-5k&amp;t=4s&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=65">4</a> | <a href="https://www.youtube.com/watch?v=J60k6tSosfs&amp;t=6s&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=66">5</a> | <a href="https://www.youtube.com/watch?v=KQQqja3IlYg&amp;t=3s&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=67">6</a> | <a href="https://www.youtube.com/watch?v=zJgYth64v7U&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=68">7</a> | <a href="https://www.youtube.com/watch?v=qDYMyPwjmCk&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=69">8</a> | <a href="https://www.youtube.com/watch?v=CqLtfW4fdbc&amp;t=655s&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=70">9</a> | <a href="https://www.youtube.com/watch?v=9wrGqsY15ds&amp;t=5s&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=71">10</a> | <a href="https://www.youtube.com/watch?v=dfztTfau9qo&amp;t=394s&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=72">11</a> | <a href="https://www.youtube.com/watch?v=HkWNB-GCUPI&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=73">12</a> | <a href="https://www.youtube.com/watch?v=yak0SVTJ9Zc&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;index=74">13</a></li>
 </ul>
 
 <h2 id="topics">Topics</h2>
 
-<h3 id="react-https-facebook-github-io-react"><a href="https://facebook.github.io/react/">React</a></h3>
+<h3 id="firebase-authentication">Firebase Authentication</h3>
 
 <ul>
-<li>Using <code>map</code> with components</li>
-<li>Stateless Functional Components</li>
-<li>Conditional rendering</li>
+<li>&lsquo;firebase/auth&rsquo;</li>
+<li><code>authWithPopup</code></li>
+<li>signing in and out</li>
+<li>handling auth state changes</li>
 </ul>
-
-<h3 id="javascript">JavaScript</h3>
-
-<ul>
-<li>Named and default exports</li>
-<li>Named and default imports</li>
-<li>Property initializers</li>
-<li>Spread operator</li>
-<li>Destructuring assignment</li>
-</ul>
-
-<h3 id="package-managers">Package Managers</h3>
-
-<ul>
-<li><a href="https://www.npmjs.com/">NPM</a> - Node Package Manager</li>
-<li><a href="https://code.facebook.com/posts/1840075619545360">Yarn</a> - Facebook&rsquo;s version of npm</li>
-</ul>
-
-<h3 id="css-specifity-https-specificity-keegan-st"><a href="https://specificity.keegan.st/">CSS Specifity</a></h3>
 
 <h2 id="examples">Examples</h2>
 
-<h3 id="react">React</h3>
+<h3 id="firebase-authentication-1">Firebase Authentication</h3>
 
-<h4 id="using-map-with-components">Using <code>map</code> with Components</h4>
+<p>Firebase isn&rsquo;t just a real-time database.  It can also provide authentication services via email/password, phone, or common third-party services like Github, Facebook, and Google. For ThingList, we set up authentication via Github OAuth.</p>
 
-<p><strong><a href="https://codepen.io/dstrus/pen/gWZVOQ?editors=0010#0">See this example live on CodePen →</a></strong></p>
+<h4 id="step-1-get-your-authorization-callback-url-from-firebase">Step 1: Get your authorization callback URL from Firebase</h4>
 
-<p><strong>Person.js</strong></p>
+<p>Navigate to your project in Firebase console.  Click on the &lsquo;Authenticate&rsquo; tab on the left and then on the Github logo.  Copy the authorization callback URL.</p>
+
+<div class="img firebase-enable-github"><span>The data for the Client ID and Client Secret will be generated in the next step.</span></div>
+
+<h4 id="step-2-register-your-app-in-github">Step 2: Register your app in Github</h4>
+
+<p>Log in to Github and click on &lsquo;Settings&rsquo;.  On the left hand side, click on &lsquo;OAuth Applications&rsquo; under the &lsquo;Developer settings&rsquo; menu.  Register a new app and fill out the form.</p>
+
+<div class="img github-oauth-new-registration"><span>Use the Authorization callback URL from step 1</span></div>
+
+<p>After successfully registering the app, you&rsquo;ll be taken to your new app&rsquo;s settings page.</p>
+
+<div class="img github-oauth-secrets"><span>Seeeeecrets...  (Don't worry, this app has been deleted. Never post your app secrets publicly.)</span></div>
+
+<h4 id="step-3-enable-github-authentication-in-firebase">Step 3: Enable Github authentication in Firebase</h4>
+
+<p>Go back to the Github authentication tab in Firebase and fill in the Client ID and Client Secret that you got from registering your app with Github.</p>
+
+<div class="img firebase-github-secrets"><span>More Seeeeecrets...  (But seriously, don't share your secrets)</span></div>
+
+<h4 id="step-4-add-firebase-auth-to-your-app">Step 4: Add Firebase auth to your app</h4>
+
+<p><em>Note: This step assumes you already have your Firebase database added to your app.</em></p>
+
+<p>Import <code>firebase/auth</code> into your app&rsquo;s firebase setup.  Enable firebase auth and also create an instance of <code>GithubAuthProvider</code>.</p>
+
+<p><strong>base.js</strong></p>
+
+
+  <pre class="language-js line-numbers "
+       
+       
+       data-line="4,17,18"
+       rel="js"
+  ><code class="language-js">
+  
+import Rebase from 're-base'
+import firebase from 'firebase/app'
+import database from 'firebase/database'
+import 'firebase/auth'
+
+const app = firebase.initializeApp({
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: ""
+})
+
+const db = database(app)
+
+export const auth = app.auth()
+export const githubProvider = new firebase.auth.GithubAuthProvider()
+
+export default Rebase.createClass(db)
+
+  </code>
+  </pre>
+
+
+
+<h4 id="step-5-set-up-the-signin-component">Step 5: Set up the SignIn Component</h4>
+
+<p>Import <code>auth</code> and the <code>githubProvider</code> into whatever component handles the sign-in process.  Call <code>signInWithPopup</code> on the <code>auth</code> object, passing the provider as a parameter.  Then call an <code>authHandler</code> function when the promise resolves to handle whatever you want to do after authorization is successful.</p>
+
+<p><strong>SignIn.js</strong></p>
 
 
 <pre class="line-numbers language-jsx" rel="jsx">
 <code class="language-jsx">
 
-class Person extends React.Component {
-  render() {
-    return (
-      &lt;li&gt;Hello, {this.props.person.name}!&lt;/li&gt;
-    )
+import React from 'react'
+import { auth, githubProvider } from './base'
+
+const SignIn = ({ authHandler }) => {
+  const authenticate = (provider) => {
+    auth
+      .signInWithPopup(provider)
+      .then(authHandler)
   }
-}
 
-export default Person
-
-</code>
-</pre>
-
-
-
-<p><strong>PersonList.js</strong></p>
-
-
-<pre class="line-numbers language-jsx" rel="jsx">
-<code class="language-jsx">
-
-import Person from './Person'
-
-class PersonList extends React.Component {
-  render() {
-    const people = [
-      { name: 'Seth', hair: 'blonde' },
-      { name: 'Nichole', hair: 'long' },
-      { name: 'Davey', hair: 'long gone' }
-    ]
-    return (
-      &lt;div&gt;
-        &lt;h2&gt;People&lt;/h2&gt;
-        {
-          people.map((person => &lt;Person person={person} /&gt;))
-        }
-      &lt;/div&gt;
-    )
-  }
-}
-
-export default PersonList
-
-</code>
-</pre>
-
-
-
-<h4 id="stateless-functional-components">Stateless Functional Components</h4>
-
-<p>Not every React Component needs to have state.  Many simply render a bit of <code>props</code> and UI.  For such components, we don&rsquo;t need to instantiate a whole class that inherits from <code>React.Component</code>, we can simply write a function that accepts <code>props</code> as an argument and returns the markup we need.</p>
-
-<p>For instance, in the previous example, the <code>Person</code> component can easily be re-written as a Stateless Functional Component.</p>
-
-
-<pre class="line-numbers language-jsx" rel="jsx">
-<code class="language-jsx">
-
-function Person (props) {
   return (
-    &lt;li&gt;Hello, {props.person.name}!&lt;/li&gt;
+    &lt;button className="SignIn" onClick={() => authenticate(githubProvider)}&gt;
+      Sign In With GitHub
+    &lt;/button&gt;
   )
 }
 
-// Or...
-
-const Person = (props) => &lt;li&gt;Hello, {props.person.name}!&lt;/li&gt;
+export default SignIn
 
 </code>
 </pre>
 
 
 
-<h4 id="conditional-rendering">Conditional Rendering</h4>
+<h4 id="step-6-finishing-sign-in">Step 6: Finishing sign-in</h4>
 
-<p>There are many instances where you may want to render different UI depending on the state of the application.  One example would be a button that shows &ldquo;Log in&rdquo; or &ldquo;Log out&rdquo;, depending on whether there is a currently logged-in user.</p>
+<p>What the <code>authHandler</code> callback does is up to you, but for <em>ThingList</em>, we had it do pretty typical things - save the user ID to state, and initialize syncing our local state for &lsquo;things&rsquo; with the data stored on Firebase.</p>
 
-<p>Since React is just JavaScript, we can conditionally render using <code>if</code>/<code>else</code> statements, or we also learned about the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator"><em>ternary operator</em></a>.</p>
+<p><strong>App.js</strong></p>
 
 
 <pre class="line-numbers language-js" rel="js">
 <code class="language-js">
 
-const condition = true
+// ...
 
-if (condition) {
-  console.log('true!')
-} else {
-  console.log('false!')
-}
-// => 'true!'
-
-condition ? console.log('true!') : console.log('false!')
-// => 'true!'
-
-</code>
-</pre>
-
-
-
-<p>An example in React:</p>
-
-
-<pre class="line-numbers language-jsx" rel="jsx">
-<code class="language-jsx">
-
-function UserButton (props) {
-  return (
-    {props.loggedInUser ? &lt;button&gt;Log out&lt;/button&gt; : &lt;button&gt;Log in&lt;/button&gt;}
+authHandler = (authData) => {
+  this.setState(
+    { uid: authData.user.uid },
+    this.syncThings
   )
 }
 
+// ...
+
 </code>
 </pre>
 
 
 
-<h3 id="javascript-es6">JavaScript (ES6+)</h3>
+<h4 id="step-7-handling-auth-state-changes-and-page-refreshes">Step 7: Handling auth state changes (and page refreshes)</h4>
 
-<h4 id="named-and-default-exports-and-imports">Named and default exports and imports</h4>
+<p>What happens if auth state changes?  Or the user refreshes the page?  We should probably set up something to listen for that.  In the <code>componentWillMount</code> lifecycle hook that runs when the Component is first getting loaded, we can call the <code>onAuthStateChanged</code> method to set up such a listener.</p>
 
-<p>Prior to ES6, there were many competing ways to export and import JavaScript modules.  The most common were <a href="https://webpack.github.io/docs/commonjs.html">CommonJS</a> and <a href="http://requirejs.org/docs/whyamd.html">AMD</a>.  Luckily ES6 defined a specification for standardizing module export and import.</p>
+<p><strong>App.js</strong></p>
 
-<p>There are two types of exports from any JS file - <em>named</em> and <em>default</em>.  The important thing to remember is that there can only be <em>one</em> default export per module, but there can be as many named exports as you want.</p>
-
-<p><strong>myModule.js</strong>
 
 <pre class="line-numbers language-js" rel="js">
 <code class="language-js">
 
-export const myNumber = 8
+// ...
 
-export function sayHi () {
-  console.log('hello')
+componentWillMount() {
+  auth.onAuthStateChanged(
+    (user) => {
+      if (user) {
+        this.authHandler({ user })
+      }
+    }
+  )
 }
 
-export default class MyClass {
-  add (a, b) {
-    return a + b
-  }
+// ...
+
+</code>
+</pre>
+
+
+
+<h4 id="step-8-signing-out">Step 8: Signing out</h4>
+
+<p>Signing out when using Firebase for authentication is quite simple - just call <code>auth.signOut()</code>!  Once the promise returned by <code>signOut</code> has resolved, you can handle any additional cleanup.  In <em>ThingList</em>, we just set <code>state.uid</code> back to <code>null</code>.</p>
+
+<p><strong>App.js</strong></p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+// ...
+
+signOut = () => {
+  auth
+    .signOut()
+    .then(() => this.setState({ uid: null }))
 }
 
-</code>
-</pre>
-
-</p>
-
-<p>The main difference is how they are imported.  Default exports get the most concise syntax:</p>
-
-
-<pre class="line-numbers language-js" rel="js">
-<code class="language-js">
-
-import MyClass from 'myModule'
-
-const classInstance = new MyClass()
-classInstance.add(1, 2) // => 3
+// ...
 
 </code>
 </pre>
 
 
-
-
-  <div class="aside aside-info">
-  
-    <h4>Default import naming</h4>
-    
-  
-  <div class="body">
-  <p>Since there can be only one default export per module, the name by which you import the default export is not important - you can name it whatever you want.  For instance, instead of importing as <code>MyClass</code>, we could have said <code>import LuftBallons from 'myModule'</code>, and it would have worked just fine.  To read more about default and named exports, click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export">here</a>.</p>
-
-  </div>
-</div>
-
-
-<p>Named exports get a slightly more verbose syntax for importing, and the names <em>are</em> important (otherwise it can&rsquo;t determine what you want to import).</p>
-
-
-<pre class="line-numbers language-js" rel="js">
-<code class="language-js">
-
-import { myNumber, sayHi } from 'myModule'
-
-console.log(myNumber) // => 8
-
-sayHi() // => 'hello'
-
-</code>
-</pre>
-
-
-
-<p>If you need to import a named export under a different name&mdash;if, for example, you have another import or local variable with the same name&mdash;you can specifiy a different name using <em>as</em>.</p>
-
-
-<pre class="line-numbers language-js" rel="js">
-<code class="language-js">
-
-import { myNumber as num, sayHi as yo } from 'myModule'
-
-console.log(num) // => 8
-
-yo() // => 'hello'
-
-</code>
-</pre>
-
-
-
-<p>You can also combine default and named imports in the same line.</p>
-
-
-<pre class="line-numbers language-js" rel="js">
-<code class="language-js">
-
-import MyClass, { myNumber, sayHi } from 'myModule'
-
-</code>
-</pre>
-
-
-
-<h4 id="property-initializers">Property initializers</h4>
-
-<p>From the proposal:</p>
-
-<blockquote>
-<p>&ldquo;Class instance fields&rdquo; describe properties intended to exist on instances of a class (and may optionally include initializer expressions for said properties).</p>
-</blockquote>
-
-<p>We can take advantage of this in React.</p>
-
-<p><a href="https://babeljs.io/blog/2015/06/07/react-on-es6-plus"><strong>Read more: Using ES7 property initializers in React</strong></a></p>
-
-<p>We can use a property initializer to set the initial value of state without writing a constructor:</p>
-
-
-<pre class="line-numbers language-jsx" rel="jsx">
-<code class="language-jsx">
-
-class Song extends React.Component {
-  state = {
-    versesRemaining: 5,
-  }
-}
-
-</code>
-</pre>
-
-
-
-<p>We can even set default props and use those in the initial state:</p>
-
-
-<pre class="line-numbers language-jsx" rel="jsx">
-<code class="language-jsx">
-
-class Song extends React.Component {
-  static defaultProps = {
-    autoPlay: false,
-    verseCount: 10,
-  }
-  state = {
-    versesRemaining: this.props.verseCount,
-  }
-}
-
-</code>
-</pre>
-
-
-
-
-  <div class="aside aside-danger">
-  
-    <h4>Subject to  minor changes</h4>
-    
-  
-  <div class="body">
-  <p><a href="https://github.com/tc39/proposal-class-public-fields">Property initializers</a> are a <a href="https://tc39.github.io/process-document/">Stage 2 proposal</a> for ECMAScript, meaning that it&rsquo;s still a <em>draft</em> and is subject to minor changes before becoming standardized. Facebook itself is already using these techniques in production, however.</p>
-
-  </div>
-</div>
-
-
-<h4 id="spread-operator">Spread operator</h4>
-
-<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator"><em>spread operator</em></a> was added in ES6 to allow an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) or multiple variables (for destructuring assignment) are expected.</p>
-
-
-<pre class="line-numbers language-js" rel="js">
-<code class="language-js">
-
-function myFunc (x, y, z) {
-  console.log(x)
-  console.log(y)
-  console.log(z)
-}
-const args = [1, 2, 3]
-
-myFunc(...args) // the spread '...args' applies the items in args to the three arguments in myFunc
-// => 1
-// => 2
-// => 3
-
-</code>
-</pre>
-
-
-
-<p>It is also an easy way to make copies of iterable objects</p>
-
-
-<pre class="line-numbers language-js" rel="js">
-<code class="language-js">
-
-const ary = [1, 2, 3]
-const aryCopy = [...ary] // makes a copy of ary
-
-</code>
-</pre>
-
-
-
-<p>If you are in a project using Babel (like a React project created with <code>create-react-app</code>), you can also use the <code>object-rest-spread-transform</code> to apply this same method to objects.</p>
-
-
-<pre class="line-numbers language-js" rel="js">
-<code class="language-js">
-
-this.state = {'a': true, party: 'hard'}
-const stateCopy = {...this.state} // makes a copy of this.state
-
-</code>
-</pre>
-
-
-
-<h4 id="destructuring-assignment">Destructuring assignment</h4>
-
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">Destructuring assignment</a> syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.</p>
-
-
-<pre class="line-numbers language-js" rel="js">
-<code class="language-js">
-
-const myObj = {
-  a: true,
-  b: 'Destructuring!'
-}
-
-let { a, b } = myObj
-
-console.log(a) // => true
-console.log(b) // => 'Destructuring!'
-
-</code>
-</pre>
-
-
-
-<h3 id="package-managers-1">Package Managers</h3>
-
-<h4 id="node-package-manager-npm">Node Package Manager (npm)</h4>
-
-<p>Node Package Manager hosts almost half a million packages of free, reusable JavaScript code and is the largest software registry in the world. It allows you to easily add any module to your project, and it will install the requested package, as well as any required dependencies of that package.</p>
-
-
-
-
-
-
-
-
-<div class="shell macos">
-<div class="bar">
-  <div class="controls">
-    <div class="windows icon">
-      <img src="/images/git-bash.png" alt="">
-    </div>
-    <div class="dot red">
-    </div>
-    <div class="dot yellow">
-    </div>
-    <div class="dot green">
-    </div>
-  </div>
-  user@localhost ~
-  <div class="windows-controls">
-    &nbsp;
-  </div>
-</div>
-<div class="shell-body">
-
-<pre><span class="terminal-commands"
-><span class="command-line-prompt"><span data-prompt="$"></span></span>npm install react
-</span></pre>
-
-</div>
-</div>
-
-<h4 id="yarn">Yarn</h4>
-
-<p><a href="https://code.facebook.com/posts/1840075619545360">Yarn</a> is Facebook&rsquo;s version of npm, designed to improve performance and resolve several important issues.  The key differences are:</p>
-
-<ul>
-<li>Deterministic installation - packages will always install in the same order on every machine</li>
-<li><code>yarn.lock</code> - this lockfile locks dependency versions for consistency and security</li>
-<li>Local cache of downloaded packages - faster and can still work with no internet connection after initial installation</li>
-<li>Parallel installation - Dependency installation can happen in parallel, greatly increasing speed</li>
-</ul>
-
-<p>To install yarn (npm was already installed as part of setup instructions), type the following command:</p>
-
-
-
-
-
-
-
-
-<div class="shell macos">
-<div class="bar">
-  <div class="controls">
-    <div class="windows icon">
-      <img src="/images/git-bash.png" alt="">
-    </div>
-    <div class="dot red">
-    </div>
-    <div class="dot yellow">
-    </div>
-    <div class="dot green">
-    </div>
-  </div>
-  user@localhost ~
-  <div class="windows-controls">
-    &nbsp;
-  </div>
-</div>
-<div class="shell-body">
-
-<pre><span class="terminal-commands"
-><span class="command-line-prompt"><span data-prompt="$"></span></span>npm install -g yarn
-</span></pre>
-
-</div>
-</div>
-
-<p>Once installed, you can use yarn with following commands:</p>
-
-
-
-
-
-
-
-
-<div class="shell macos">
-<div class="bar">
-  <div class="controls">
-    <div class="windows icon">
-      <img src="/images/git-bash.png" alt="">
-    </div>
-    <div class="dot red">
-    </div>
-    <div class="dot yellow">
-    </div>
-    <div class="dot green">
-    </div>
-  </div>
-  user@localhost ~
-  <div class="windows-controls">
-    &nbsp;
-  </div>
-</div>
-<div class="shell-body">
-
-<pre><span class="terminal-commands"
-><span class="command-line-prompt"><span data-prompt="$"></span><span data-prompt="$"></span><span data-prompt="$"></span><span data-prompt="$"></span><span data-prompt="$"></span><span data-prompt="$"></span><span data-prompt="$"></span><span data-prompt="$"></span></span>yarn
-# installs all packages and dependencies listed in your project&#39;s package.json
-
-yarn add {package_name}
-# installs a new package and adds it to package.json
-
-yarn start
-# starts your local development web server (in project from create-react-app)
-</span></pre>
-
-</div>
-</div>
 
 <h2 id="projects">Projects</h2>
 
 <ul>
-<li>Dwarf Underground: <a href="https://github.com/sbaughman/dwarf-underground/tree/2330778425ae10658dadcd974b93aefd361c0bef">morning</a> | <a href="https://github.com/xtbc17s1/dwarf-underground/tree/599b3a3ac93da57e55aa898333b97d23c8169efb">afternoon</a></li>
-<li>Static HTML/CSS for Thing List: <a href="https://github.com/xtbc17s1/thing-list-static">thing-list-static</a></li>
-<li>ThingList: <a href="https://github.com/xtbc17s1/thing-list/tree/3f7652d667e3c46342e6f7e90b9ca54d0951d6a3">morning</a> | afternoon</li>
+<li>ThingList <a href="https://github.com/xtbc17s1/thing-list/tree/bb66ddd5b3a562f2dd3a20c1b284fe23b9f71b59">morning</a> | <a href="https://github.com/xtbc17s1/thing-list/tree/040e15b7cbcb0d4c06c36940c2c12759b495fc73">afternoon</a></li>
 </ul>
 
 <h2 id="homework">Homework</h2>
 
-<p>Add the <em>Add Thing</em> button, including the corresponding CSS.</p>
-
-<h3 id="bonus-credit">Bonus Credit</h3>
-
-<p>Make that button work!</p>
-
-<h3 id="super-mega-bonus-credit">Super Mega Bonus Credit</h3>
-
-<p>Stop hard-coding <em>things</em> altogether. Use only the things that were added via the <em>Add Thing</em> button.</p>
-
-<h3 id="super-mega-bonus-credit-hyper-fighting">Super Mega Bonus Credit Hyper Fighting</h3>
-
-<p>Make the <em>remove</em> button work.</p>
+<p><strong>PRACTICE!</strong>  Extend a project from class.  Write a new project.  Add a different type of authentication.  You know enough to start building things on your own, and it&rsquo;s definitely the best way to learn once you have the basics down.</p>
 
 
       
@@ -1092,8 +723,8 @@ yarn start
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="/week2/day5/"> <i class="fa fa-chevron-left"></i></a>
-        <a class="nav nav-next" href="/week2/day7" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-prev" href="/week2/day7"> <i class="fa fa-chevron-left"></i></a>
+        
     </div>
 
     </section>
