@@ -684,6 +684,53 @@ export EDITOR=code
 &lt;/div&gt;
 
 &lt;p&gt;You should see a progress bar of sorts while packages download and, eventually, a tree structure of various package names and version numbers. As you may have guessed, aside from testing your Node installation, this has the side effect of installing &lt;code&gt;create-react-app&lt;/code&gt;, which we&amp;rsquo;ll later use to do exactly what its name suggests.&lt;/p&gt;
+
+&lt;h2 id=&#34;yarn&#34;&gt;Yarn&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn&lt;/a&gt; is an alternative to NPM that offers several advantages&amp;mdash;not the least of which is speed.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://yarnpkg.com/en/docs/install#windows-tab&#34;&gt;Download the installer&lt;/a&gt; from the Yarn site, and run it.&lt;/p&gt;
+
+&lt;h2 id=&#34;testing-yarn&#34;&gt;Testing Yarn&lt;/h2&gt;
+
+&lt;p&gt;Once Yarn is installed, run this command to test it:&lt;/p&gt;
+
+&lt;p&gt;
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;shell windows&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  WINGW64:/c/Users/user
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn global add eslint
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     

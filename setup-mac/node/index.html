@@ -455,6 +455,8 @@
 <li>
 <ul>
 <li><a href="#testing-your-installation">Testing your installation</a></li>
+<li><a href="#yarn">Yarn</a></li>
+<li><a href="#testing-yarn">Testing Yarn</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -538,7 +540,7 @@
 
 <h2 id="testing-your-installation">Testing your installation</h2>
 
-<p>After Node is installed, test your installation by running the following command:</p>
+<p>After Node is installed, test your installation by running NPM, a JavaScript package manager that&rsquo;s included with Node. Run the following command:</p>
 
 
 
@@ -576,7 +578,7 @@
 
 <p>You should see a progress bar of sorts while packages download and, eventually, a tree structure of various package names and version numbers. As you may have guessed, aside from testing your Node installation, this has the side effect of installing <code>create-react-app</code>, which we&rsquo;ll later use to do exactly what its name suggests.</p>
 
-<p>
+
   <div class="aside aside-tip">
   
     <h4>tip</h4>
@@ -586,7 +588,87 @@
 
   </div>
 </div>
-</p>
+
+
+<h2 id="yarn">Yarn</h2>
+
+<p><a href="https://yarnpkg.com/">Yarn</a> is an alternative to NPM that offers several advantages&mdash;not the least of which is speed.</p>
+
+<p>If you&rsquo;ve installed Homebrew, run the following command to install Yarn:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>brew install yarn
+</span></pre>
+
+</div>
+</div>
+
+<p>Otherwise, follow the insructions on the Yarn site to <a href="https://yarnpkg.com/en/docs/install">Install Yarn</a>.</p>
+
+<h2 id="testing-yarn">Testing Yarn</h2>
+
+<p>Once Yarn is installed, run this command to test it:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>yarn global add eslint
+</span></pre>
+
+</div>
+</div>
 
 
       

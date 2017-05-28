@@ -723,7 +723,7 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
 
 &lt;h2 id=&#34;testing-your-installation&#34;&gt;Testing your installation&lt;/h2&gt;
 
-&lt;p&gt;After Node is installed, test your installation by running the following command:&lt;/p&gt;
+&lt;p&gt;After Node is installed, test your installation by running NPM, a JavaScript package manager that&amp;rsquo;s included with Node. Run the following command:&lt;/p&gt;
 
 
 
@@ -761,7 +761,7 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
 
 &lt;p&gt;You should see a progress bar of sorts while packages download and, eventually, a tree structure of various package names and version numbers. As you may have guessed, aside from testing your Node installation, this has the side effect of installing &lt;code&gt;create-react-app&lt;/code&gt;, which we&amp;rsquo;ll later use to do exactly what its name suggests.&lt;/p&gt;
 
-&lt;p&gt;
+
   &lt;div class=&#34;aside aside-tip&#34;&gt;
   
     &lt;h4&gt;tip&lt;/h4&gt;
@@ -771,7 +771,87 @@ git config --global core.editor &amp;#34;code --wait&amp;#34;
 
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
+
+&lt;h2 id=&#34;yarn&#34;&gt;Yarn&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn&lt;/a&gt; is an alternative to NPM that offers several advantages&amp;mdash;not the least of which is speed.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;ve installed Homebrew, run the following command to install Yarn:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;brew install yarn
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Otherwise, follow the insructions on the Yarn site to &lt;a href=&#34;https://yarnpkg.com/en/docs/install&#34;&gt;Install Yarn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;testing-yarn&#34;&gt;Testing Yarn&lt;/h2&gt;
+
+&lt;p&gt;Once Yarn is installed, run this command to test it:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn global add eslint
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
