@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Week3s on XTERN Bootcamp 2017</title>
+    <link>http://xternbootcamp17.github.io/week3/index.xml</link>
+    <description>Recent content in Week3s on XTERN Bootcamp 2017</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 May 2017 11:23:26 -0400</lastBuildDate>
+    <atom:link href="http://xternbootcamp17.github.io/week3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Week Three</title>
+      <link>http://xternbootcamp17.github.io/week3/</link>
+      <pubDate>Mon, 15 May 2017 11:23:26 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week3/</guid>
+      <description>
+
+&lt;h1 id=&#34;week-three&#34;&gt;Week Three&lt;/h1&gt;
+
+&lt;p&gt;More React&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Routing and Fetching</title>
+      <link>http://xternbootcamp17.github.io/week3/day9/</link>
+      <pubDate>Tue, 30 May 2017 09:40:47 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week3/day9/</guid>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Tuesday, May 30, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+
+&lt;p&gt;Morning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=uijEhxd85mY&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=54&#34;&gt;1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afternoon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1ZYirXVMKmc&amp;amp;index=77&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=VE69OzrcMB0&amp;amp;index=75&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=UOzQqU9NqYw&amp;amp;index=76&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=1ZYirXVMKmc&amp;amp;index=77&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;deployment&#34;&gt;Deployment&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GitHub Pages &lt;a href=&#34;#deployment-github-pages&#34;&gt;↓&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Firebase &lt;a href=&#34;#deployment-firebase&#34;&gt;↓&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;routing&#34;&gt;Routing&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;React Router v4
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;Router /&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Links and NavLinks&lt;/li&gt;
+&lt;li&gt;Routes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;history&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fetching-data&#34;&gt;Fetching Data&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Fetch API&lt;/li&gt;
+&lt;li&gt;Promises&lt;/li&gt;
+&lt;li&gt;Parsing the response&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;deployment-github-pages&#34;&gt;Deployment: GitHub Pages&lt;/h3&gt;
+
+&lt;p&gt;Deploying an app like Thing List is fairly simple, as it runs entirely on the client side (the browser). &lt;em&gt;create-react-app&lt;/em&gt; makes it even easier.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;Note&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;&lt;em&gt;create-react-app&lt;/em&gt; includes detailed instructions for &lt;a href=&#34;https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages&#34;&gt;deploying with GitHub Pages&lt;/a&gt; in the README.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Start by running the included &lt;em&gt;build&lt;/em&gt; script.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn build
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm run build
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This builds the browser-ready version of our app in a &lt;code&gt;build&lt;/code&gt; directory. (There are several aspects of our &lt;code&gt;src&lt;/code&gt; directory that make it less than ideal for production use. For example, recall that our app is written using JSX, which browsers don&amp;rsquo;t understand.)&lt;/p&gt;
+
+&lt;p&gt;It also prints out these instructions:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+  
+&lt;pre&gt;
+&lt;span class=&#34;command-line-prompt&#34;&gt;
+
+
+
+
+&lt;/span
+&gt;&lt;span class=&#34;terminal-commands&#34;&gt;
+&lt;span class=&#34;output-line&#34;&gt;The project was built assuming it is hosted at the server root.&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;To override this, specify the homepage in your package.json.&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;For example, add this to build it for GitHub Pages:&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;  &amp;#34;homepage&amp;#34; : &amp;#34;http://myname.github.io/myapp&amp;#34;,&lt;/span&gt;
+
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To host the app on GitHub Pages (&lt;a href=&#34;https://pages.github.com/&#34;&gt;learn more about GitHub Pages&lt;/a&gt;), add the line to &lt;code&gt;package.json&lt;/code&gt;, just like it says, substituting your GitHub user name and repository name. In my case:&lt;/p&gt;
+
+
+  &lt;pre class=&#34;language-json line-numbers &#34;
+       
+       
+       data-line=&#34;3&#34;
+       rel=&#34;json&#34;
+  &gt;&lt;code class=&#34;language-json&#34;&gt;
+  
+  &#34;name&#34;: &#34;thing-list&#34;,
+  &#34;version&#34;: &#34;0.1.0&#34;,
+  &#34;homepage&#34;: &#34;http://xtbc17s1.github.io/thing-list&#34;,
+
+  &lt;/code&gt;
+  &lt;/pre&gt;
+
+
+
+&lt;p&gt;Now run &lt;code&gt;yarn build&lt;/code&gt; again.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn build
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This time, the output will include some more specific instructions.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+  
+&lt;pre&gt;
+&lt;span class=&#34;command-line-prompt&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/span
+&gt;&lt;span class=&#34;terminal-commands&#34;&gt;
+&lt;span class=&#34;output-line&#34;&gt;The build folder is ready to be deployed.&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;To publish it at http://xtbc17s1.github.io/thing-list, run:&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;  yarn add --dev gh-pages&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;Add the following script in your package.json.&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;    // ...&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;    &amp;#34;scripts&amp;#34;: {&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;      // ...&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;      &amp;#34;predeploy&amp;#34;: &amp;#34;npm run build&amp;#34;,&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;      &amp;#34;deploy&amp;#34;: &amp;#34;gh-pages -d build&amp;#34;&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;    }&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;Then run:&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;  yarn run deploy&lt;/span&gt;
+
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Cool! Let&amp;rsquo;s add the &lt;code&gt;gh-pages&lt;/code&gt; package.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn add --dev gh-pages
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install --save-dev gh-pages
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now let&amp;rsquo;s add those two scripts to &lt;code&gt;package.json&lt;/code&gt;.&lt;/p&gt;
+
+
+  &lt;pre class=&#34;language-json line-numbers &#34;
+       
+       
+       data-line=&#34;6-7&#34;
+       rel=&#34;json&#34;
+  &gt;&lt;code class=&#34;language-json&#34;&gt;
+  
+  &#34;scripts&#34;: {
+    &#34;start&#34;: &#34;react-scripts start&#34;,
+    &#34;build&#34;: &#34;react-scripts build&#34;,
+    &#34;test&#34;: &#34;react-scripts test --env=jsdom&#34;,
+    &#34;eject&#34;: &#34;react-scripts eject&#34;,
+    &#34;predeploy&#34;: &#34;npm run build&#34;,
+    &#34;deploy&#34;: &#34;gh-pages -d build&#34;
+  }
+
+  &lt;/code&gt;
+  &lt;/pre&gt;
+
+
+
+&lt;p&gt;Now whenever you&amp;rsquo;re ready to deploy, you can just run &lt;code&gt;yarn deploy&lt;/code&gt;!&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn deploy
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm run deploy
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And your app will be available at the homepage listed in your &lt;code&gt;package.json&lt;/code&gt;&amp;mdash;in my case, &lt;a href=&#34;http://xtbc17s1.github.io/thing-list&#34;&gt;http://xtbc17s1.github.io/thing-list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;deployment-firebase&#34;&gt;Deployment: Firebase&lt;/h3&gt;
+
+&lt;p&gt;Firebase offers free hosting in addition to the database and authentication solutions that we&amp;rsquo;re already using. This again works quite well with &lt;em&gt;create-react-app&lt;/em&gt;.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;Note&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;&lt;em&gt;create-react-app&lt;/em&gt; includes detailed instructions for &lt;a href=&#34;https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#firebase&#34;&gt;deploying with Firebase&lt;/a&gt; in the README.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;First, install the command-line interface (CLI) for Firebase.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn global add firebase-tools
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install -g firebase-tools
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now initialize Firebase in your project directory&amp;hellip;&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;firebase init
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;hellip; and follow the &lt;a href=&#34;https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#firebase&#34;&gt;instructions from the &lt;em&gt;create-react-app&lt;/em&gt; README&lt;/a&gt;.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-danger&#34;&gt;
+  
+    &lt;h4&gt;Warning&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;If you&amp;rsquo;ve already configured your app to deploy to GitHub Pages, you need to remove the &lt;code&gt;homepage&lt;/code&gt; line from &lt;code&gt;package.json&lt;/code&gt; before deploying to Firebase.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;routing-1&#34;&gt;Routing&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ReactTraining/react-router&#34;&gt;React Router&lt;/a&gt; provides a routing solution that allows us to change what UI we render based on the current URL.  The router is a &lt;em&gt;Higher Order Component&lt;/em&gt; that wraps a React app and allows us to navigate without additional requests and responses to and from the server.&lt;/p&gt;
+
+&lt;h4 id=&#34;router-setup&#34;&gt;Router Setup&lt;/h4&gt;
+
+&lt;p&gt;Setting up React Router is easy.  For web projects, install &lt;code&gt;react-router-dom&lt;/code&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn add react-router-dom  # install react router with yarn
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install --save react-router-dom  # install react router with npm
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then, in your &lt;code&gt;ReactDOM.render&lt;/code&gt; call, attach the Router as your base element, wrapping the root-level &lt;code&gt;&amp;lt;App /&amp;gt;&lt;/code&gt; component.  The whole app is now contained within the Router component, so we can take advantage of it anywhere.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;index.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import React from &#39;react&#39;
+import ReactDOM from &#39;react-dom&#39;
+import { BrowserRouter as Router } from &#39;react-router-dom&#39;
+import App from &#39;./App&#39;
+
+ReactDOM.render(
+  &amp;lt;Router&amp;gt;
+    &amp;lt;App /&amp;gt;
+  &amp;lt;/Router&amp;gt;,
+  document.getElementById(&#39;root&#39;)
+)
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;routes&#34;&gt;Routes&lt;/h4&gt;
+
+&lt;p&gt;The core of React Router is the &lt;code&gt;&amp;lt;Route /&amp;gt;&lt;/code&gt; component.  It allows you to specify what UI to render when a particular URL is matched.  For instance, if we wanted to render a &lt;code&gt;&amp;lt;Users /&amp;gt;&lt;/code&gt; component when we matched a &lt;code&gt;/users&lt;/code&gt; URL, we could make the following Route:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+&amp;lt;Route path=&#39;/users&#39; component={Users} /&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;If you don&amp;rsquo;t want to render a whole component, a Route can alternatively accept a &lt;code&gt;render&lt;/code&gt; prop, which accepts a function that returns JSX:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+&amp;lt;Route path=&#39;/users&#39; render={() =&gt; &amp;lt;h1&amp;gt;Users Path!&amp;lt;/h1&amp;gt;} /&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;One important thing to keep in mind is that if we define a Route&amp;rsquo;s path as &lt;code&gt;/users&lt;/code&gt;, that will match both &lt;code&gt;/users&lt;/code&gt; &lt;em&gt;and&lt;/em&gt; &lt;code&gt;/users/123&lt;/code&gt;, because both begin with &lt;code&gt;/users&lt;/code&gt;.  If we want the Route to match only when the path is &lt;em&gt;exactly&lt;/em&gt; &lt;code&gt;/users&lt;/code&gt;, we can add the prop &lt;code&gt;exact&lt;/code&gt; to our Route component.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+&amp;lt;Route exact path=&#39;/users&#39; component={Users} /&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+
+&lt;p&gt;React Router also provides &lt;code&gt;&amp;lt;Link /&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;NavLink /&amp;gt;&lt;/code&gt; components to make it easy to generate links to Routes. If we want to generate a Link that goes to &lt;code&gt;/about&lt;/code&gt;, we can do the following:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+&amp;lt;Link to=&#39;/about&#39;&amp;gt;About&amp;lt;/Link&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;NavLinks are similar, but provide some additional functionality.  The main difference is that they will add an &lt;code&gt;activeClassName&lt;/code&gt; to the rendered link if the current URL matches the &lt;code&gt;to&lt;/code&gt; property of the NavLink.  This allows active links to be styled differently than inactive links.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+&amp;lt;NavLink to=&#39;/&#39;&amp;gt;Home&amp;lt;/NavLink&amp;gt;    // rendered link tag will have &#39;.active&#39; class when URL is &#39;/&#39;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;history&#34;&gt;History&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code&gt;history&lt;/code&gt; object is maintained and updated by the Router to keep track of where the user has navigated within the app.  It is passed to every component contained within the Router as part of the component&amp;rsquo;s &lt;code&gt;props&lt;/code&gt;.  It has a variety of helpful properties and methods that provide information and navigation. Here are just a few:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+history.length             // number of history entries
+history.location           // provides the current location
+history.push(path)         // navigates to a new path
+history.go(n)              // navigates n steps through history stack
+history.goBack()           // go back one step (history.go(-1))
+history.goForward()        // go forward one step (history.go(1))
+history.block(prompt)      // block navigation
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;fetch&#34;&gt;Fetch&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.  It also provides a global &lt;code&gt;fetch()&lt;/code&gt; method that provides an easy, logical way to fetch resources asynchronously across the network.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch&#34;&gt;&lt;em&gt;MDN - Using Fetch&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If we need to get data from a remote server (or send some to one), there are several ways to do it.  In vanilla JS, there is &lt;code&gt;XMLHttpRequest&lt;/code&gt;, jQuery provides &lt;code&gt;$.ajax&lt;/code&gt;, and there are a variety of other packages and libraries that provide their own version.  Luckily, there is a new kid in vanilla JS town - the &lt;em&gt;Fetch API&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;fetch()&lt;/code&gt; is a globally available, easy to use way to asynchronously send and receive data.  The simplest usage of fetch is to simply provide it with the URL of the request, and it will perform a &lt;code&gt;GET&lt;/code&gt; request by default.  The &lt;code&gt;fetch()&lt;/code&gt; function returns a promise that resolves when the data is received.  Once it is received, we can process and use the data with functions provided to the promise&amp;rsquo;s &lt;code&gt;.then()&lt;/code&gt; callbacks.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+fetch(&#39;https://api.mywebsite.com/users&#39;)    // fetch users data from &#39;mywebsite&#39; api
+  .then(response =&gt; response.json())        // parse the response json into JavaScript object(s)
+  .then(users =&gt; console.log(users))        // log the parsed users to the console
+  .catch(error =&gt; console.warn(error))      // if any errors occur, log them to the console
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;Fetch does more than just fetch&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;If no second argument is provided to &lt;code&gt;fetch()&lt;/code&gt;, it defaults to a standard &lt;code&gt;GET&lt;/code&gt; request.  However, the second argument can be a configuration object, allowing it to use different HTTP methods, set Headers, include Credentials, etc.  To find out more, check out &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API&#34;&gt;the docs&lt;/a&gt;&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;p&gt;API Party &lt;a href=&#34;https://www.youtube.com/watch?v=1ZYirXVMKmc&amp;amp;index=77&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;morning&lt;/a&gt; | [afternoon] ()&lt;/p&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;p&gt;Extend the API-Party app by adding at least one additional route that gets data from a public API.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A link to the route should appear in the header along with the &amp;lsquo;Github&amp;rsquo; and &amp;lsquo;NASA&amp;rsquo; links&lt;/li&gt;
+&lt;li&gt;When the link is clicked, it should be styled to show that it is active&lt;/li&gt;
+&lt;li&gt;The new component should fetch data from a public API&lt;/li&gt;
+&lt;li&gt;Some interesting data from the API should be presented&lt;/li&gt;
+&lt;li&gt;The data should look pretty (style it with CSS)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Accept user input to refine the data you request from the API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add additional routes and APIs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit-hyper-fighting&#34;&gt;Super Mega Bonus Credit Hyper Fighting&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Figure out something interesting to do with the data on your own.  Make a graph, render a map, add child routes, go nuts!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

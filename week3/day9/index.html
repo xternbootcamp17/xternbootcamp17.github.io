@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.19" />
+    <meta name="description" content="">
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Routing and Fetching</title>
+    <link href="http://xternbootcamp17.github.io//css/nucleus.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href="http://xternbootcamp17.github.io//css/featherlight.min.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/horsey.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/theme.css" rel="stylesheet">
+    <link href="http://xternbootcamp17.github.io//css/hugo-theme.css" rel="stylesheet">
+    <script src="http://xternbootcamp17.github.io//js/jquery-2.x.min.js"></script>
+    <style type="text/css">:root #header + #content > #left > #rlblock_left
+    {display:none !important;}</style>
+    <link href="/css/prism.css" rel="stylesheet">
+<link href="/css/xtern.css" rel="stylesheet">
+  </head>
+  <body class="" data-url="/week3/day9/">
+    
+    <nav id="sidebar">
+  <div id="header-wrapper">
+    <div id="header">
+      <a href="/"><svg role="img" aria-label="XTERN Bootcamp 2017" id="xtbc_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="242.78" height="67.06" viewBox="0 0 242.78 67.06"><title>XTERN Bootcamp 2017</title><defs><style>.cls-1{fill:#fff;}</style></defs><title>xtbc-white</title><path class="cls-1" d="M263.87,407.46H256q-2.07,0-2.07-1.64v-39.1q0-.86-1-.86h-9.73q-2,0-2-1.64v-5.31q0-1.64,2-1.64h34.59q2,0,2,1.64v5.31q0,1.64-2,1.64H267q-1.13,0-1.13.86v39.1Q265.85,407.46,263.87,407.46Zm130.47-11.83V376.29h1.82l11.7,18.26,19-1.17V358.75c0-1.09-.63-1.75-1.95-1.75h-7.81c-1.32,0-2.42.65-2.42,1.75v28.71h.07l-19-29.47c-.44-.73-1.32-1-2.64-1H386c-1.32,0-2.82.65-2.82,1.75v37.74Zm-76.9,28.15V409.3q0-.28.24-.28h5.68a3.54,3.54,0,0,1,2.51.87,3.1,3.1,0,0,1,.93,2.39v1.43a2.62,2.62,0,0,1-2.1,2.74,2.26,2.26,0,0,1,1.59.8,2.77,2.77,0,0,1,.68,1.94v1.64a3.1,3.1,0,0,1-.93,2.39,3.53,3.53,0,0,1-2.51.87h-5.85Q317.44,424.06,317.44,423.78Zm1.46-7.86h4.29a2.48,2.48,0,0,0,1.77-.58,2.17,2.17,0,0,0,.62-1.66v-1.38a2,2,0,0,0-2.32-2.25H318.9q-.24,0-.24.21v5.45Q318.66,415.92,318.9,415.92Zm0,7.11h4.54a2,2,0,0,0,2.32-2.25v-1.61q0-2.22-2.54-2.22H318.9q-.24,0-.24.19v5.69Q318.66,423,318.9,423Zm18.86,1h-3a3.43,3.43,0,0,1-2.5-.89,3.24,3.24,0,0,1-.91-2.43v-8.4a3.24,3.24,0,0,1,.91-2.43,3.44,3.44,0,0,1,2.5-.89h3a3.44,3.44,0,0,1,2.5.89,3.24,3.24,0,0,1,.91,2.43v8.4a3.24,3.24,0,0,1-.91,2.43A3.43,3.43,0,0,1,337.76,424.06Zm-2.9-1.05h2.78a2.09,2.09,0,0,0,2.32-2.32v-8.31a2.09,2.09,0,0,0-2.32-2.32h-2.78a2.26,2.26,0,0,0-1.71.61,2.36,2.36,0,0,0-.59,1.71v8.31a2.36,2.36,0,0,0,.59,1.71A2.26,2.26,0,0,0,334.86,423Zm17.22,1.05h-3a3.43,3.43,0,0,1-2.5-.89,3.24,3.24,0,0,1-.91-2.43v-8.4a3.24,3.24,0,0,1,.91-2.43,3.44,3.44,0,0,1,2.5-.89h3a3.44,3.44,0,0,1,2.5.89,3.24,3.24,0,0,1,.91,2.43v8.4a3.24,3.24,0,0,1-.91,2.43A3.43,3.43,0,0,1,352.08,424.06Zm-2.9-1.05H352a2.09,2.09,0,0,0,2.32-2.32v-8.31a2.09,2.09,0,0,0-2.32-2.32h-2.78a2.26,2.26,0,0,0-1.71.61,2.36,2.36,0,0,0-.59,1.71v8.31a2.36,2.36,0,0,0,.59,1.71A2.26,2.26,0,0,0,349.18,423Zm14.47,1.05h-.71c-.18,0-.27-.09-.27-.28v-13.5c0-.14-.08-.21-.24-.21h-3.54q-.29,0-.29-.26v-.54q0-.26.29-.26h8.78q.29,0,.29.26v.54q0,.26-.29.26h-3.54c-.16,0-.24.07-.24.21v13.5C363.89,424,363.81,424.06,363.64,424.06Zm13.91,0h-3.07a3.43,3.43,0,0,1-2.5-.89,3.24,3.24,0,0,1-.91-2.43v-8.4a3.24,3.24,0,0,1,.91-2.43,3.43,3.43,0,0,1,2.5-.89h3.07a3.43,3.43,0,0,1,2.5.89,3.24,3.24,0,0,1,.91,2.43v1.15q0,.28-.27.28H380q-.27,0-.27-.28v-1.1a2.09,2.09,0,0,0-2.32-2.32h-2.85a2.26,2.26,0,0,0-1.71.61,2.36,2.36,0,0,0-.59,1.71v8.31a2.36,2.36,0,0,0,.59,1.71,2.26,2.26,0,0,0,1.71.61h2.85a2.09,2.09,0,0,0,2.32-2.32v-1.1q0-.28.27-.28h.68q.27,0,.27.28v1.15a3.24,3.24,0,0,1-.91,2.43A3.43,3.43,0,0,1,377.55,424.06Zm7.39,0h-.76q-.27,0-.17-.28l4.85-14.48a.33.33,0,0,1,.34-.28h1.15a.35.35,0,0,1,.34.28l4.85,14.48q.07.28-.17.28h-.78a.32.32,0,0,1-.32-.28L393,420h-6.39l-1.32,3.74Q385.16,424.06,384.94,424.06Zm4.78-13.76L386.92,419h5.73l-2.83-8.68ZM410.46,409h1.32c.16,0,.24.09.24.28v14.48c0,.19-.08.28-.24.28h-.71c-.18,0-.27-.09-.27-.28v-13h-.1l-4.32,9.71a.42.42,0,0,1-.37.26h-.8a.35.35,0,0,1-.34-.26l-4.39-9.73h-.1v13c0,.19-.08.28-.24.28h-.71q-.24,0-.24-.28V409.3q0-.28.24-.28h1.32a.21.21,0,0,1,.22.14l4.59,10.27h.1l4.59-10.27A.21.21,0,0,1,410.46,409Zm7.49,15h-.71q-.24,0-.24-.28V409.3q0-.28.24-.28h5.61a3.48,3.48,0,0,1,2.51.89,3.21,3.21,0,0,1,.93,2.43v2.74a3.21,3.21,0,0,1-.93,2.43,3.48,3.48,0,0,1-2.51.89h-4.39c-.16,0-.24.06-.24.19v5.19Q418.21,424.06,417.95,424.06Zm.51-6.74h4.29a2.29,2.29,0,0,0,1.71-.6A2.32,2.32,0,0,0,425,415v-2.64a2.35,2.35,0,0,0-.59-1.72,2.29,2.29,0,0,0-1.71-.6h-4.29c-.16,0-.24.07-.24.21v6.85C418.21,417.26,418.3,417.32,418.46,417.32Zm-72.85-17.83v-9.84c0-.57,1.41-1.18,2.17-1.18h6.31l5.45,9.93,12.16-.82L365.92,388v-.31C371,385.78,374,381.87,374,376v-6.09c0-4.06-1-7.26-3.81-9.5S364,357,359.08,357H336.67c-1.32,0-3.24.65-3.24,1.75v41.62Zm0-32.94c0-.57,1.38-.41,2.07-.41h9.23c2,0,3,.14,4,.87s1,1.68,1,3.29v6.09c0,1.56,0,3-1,3.66a5.92,5.92,0,0,1-4,1.32h-9.23c-.69,0-2.07-.82-2.07-1.39Zm-22.33,34.71v-.91c0-1.09-.53-1.72-1.79-1.72H301.81c-.75,0-1.88-.2-1.88-.77V387c0-.57,1.13-.56,1.88-.56h16.1c1.32,0,1.3-.85,1.3-1.94v-5.31c0-1.09,0-1.89-1.3-1.89h-16.1c-.75,0-1.88,0-1.88-.61V366.55c0-.57,1.13-.41,1.88-.41h19.68c1.25,0,1.79-1,1.79-2.08v-5.31a1.56,1.56,0,0,0-1.79-1.75H290.7c-1.32,0-3,.65-3,1.75v45Z" transform="translate(-184.05 -357)"/><path class="cls-1" d="M234.25,375.49l-6.89,6.87,6.89,6.87,0,18.24H216.15l-7-7-7,7H184V389.24l6.87-6.88L184,375.49V357.25h18.13l7,7.11,7-7.11h18.13Zm-34.42,26.57,9.32-9.14,9.34,9.14h10.4V391.35l-9.09-9,9.09-9V362.62H218.5l-9.34,9.19-9.32-9.14H189.47v10.72l9.06,9-9.06,9v10.71Z" transform="translate(-184.05 -357)"/><polygon class="cls-1" points="25.96 25.36 36.26 15.06 36.06 14.85 35.63 14.42 35.42 14.22 25.11 24.52 14.81 14.22 14.17 14.85 13.97 15.06 24.28 25.36 13.97 35.67 14.6 36.31 14.81 36.51 25.11 26.21 35.42 36.51 36.06 35.88 36.26 35.67 25.96 25.36"/></svg></a>
+      
+    </div>
+</div>
+
+
+  <div class="highlightable">
+    <ul class="topics">
+      
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/prereqs/">
+        <a href="/prereqs/">
+          <span>
+            
+             Prerequisites
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/codewars/">
+              <a href="/prereqs/codewars/">
+                <span>Codewars     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/html-css/">
+              <a href="/prereqs/html-css/">
+                <span>HTML &amp; CSS     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/javascript/">
+              <a href="/prereqs/javascript/">
+                <span>JavaScript     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/git/">
+              <a href="/prereqs/git/">
+                <span>Git     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/prereqs/terminal/">
+              <a href="/prereqs/terminal/">
+                <span>Terminal     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/setup-mac/">
+        <a href="/setup-mac/">
+          <span>
+            
+              <i class="fa fa-apple"></i>
+            
+             Setup for Mac
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/chrome/">
+              <a href="/setup-mac/chrome/">
+                <span>Chrome     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/editor/">
+              <a href="/setup-mac/editor/">
+                <span>Editor     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/terminal/">
+              <a href="/setup-mac/terminal/">
+                <span>Terminal     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/git/">
+              <a href="/setup-mac/git/">
+                <span>Git     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/node/">
+              <a href="/setup-mac/node/">
+                <span>Node.js     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/ssh/">
+              <a href="/setup-mac/ssh/">
+                <span>SSH     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-mac/github/">
+              <a href="/setup-mac/github/">
+                <span>GitHub     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/setup-windows/">
+        <a href="/setup-windows/">
+          <span>
+            
+              <i class="fa fa-windows"></i>
+            
+             Setup for Windows
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/chrome/">
+              <a href="/setup-windows/chrome/">
+                <span>Chrome     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/editor/">
+              <a href="/setup-windows/editor/">
+                <span>Editor     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/git/">
+              <a href="/setup-windows/git/">
+                <span>Git     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/terminal/">
+              <a href="/setup-windows/terminal/">
+                <span>Terminal     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/node/">
+              <a href="/setup-windows/node/">
+                <span>Node.js     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/ssh/">
+              <a href="/setup-windows/ssh/">
+                <span>SSH     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/setup-windows/github/">
+              <a href="/setup-windows/github/">
+                <span>GitHub     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/tools/">
+        <a href="/tools/">
+          <span>
+            
+             Tools
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/tools/code-extensions/">
+              <a href="/tools/code-extensions/">
+                <span>VS Code Extensions     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/tools/code-keybindings/">
+              <a href="/tools/code-keybindings/">
+                <span>VS Code Keybindings     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/tools/github-desktop/">
+              <a href="/tools/github-desktop/">
+                <span>GitHub Desktop     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/week1/">
+        <a href="/week1/">
+          <span>
+            
+             Week One
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/week1/day1/">
+              <a href="/week1/day1/">
+                <span>Day 1: Introduction     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/week1/day2/">
+              <a href="/week1/day2/">
+                <span>Day 2: Functions and Objects     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/week1/day3/">
+              <a href="/week1/day3/">
+                <span>Day 3: Megaroster     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/week1/day4/">
+              <a href="/week1/day4/">
+                <span>Day 4: LocalStorage and JavaScript Classes     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/week2/">
+        <a href="/week2/">
+          <span>
+            
+             Week Two
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/week2/day5/">
+              <a href="/week2/day5/">
+                <span>Day 5: Intro to React     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/week2/day6/">
+              <a href="/week2/day6/">
+                <span>Day 6: React     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/week2/day7/">
+              <a href="/week2/day7/">
+                <span>Day 7: Firebase     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/week2/day8/">
+              <a href="/week2/day8/">
+                <span>Day 8: Authentication     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+      
+
+      <li class="dd-item  parent" data-nav-id="/week3/">
+        <a href="/week3/">
+          <span>
+            
+             Week Three
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item active" data-nav-id="/week3/day9/">
+              <a href="/week3/day9/">
+                <span>Routing and Fetching     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+    </ul>
+    <hr>
+     
+    <section id="footer">
+      <p>from <a href="http://techpoint.org">TechPoint</a> and <a href="http://www.fretless.com">Fretless</a></p>
+    </section>
+  </div>
+</nav>
+
+        <section id="body">
+        <div id="overlay"></div>
+
+        <div class="padding highlightable">
+
+            <div id="top-bar">
+              
+              <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                  <span id="sidebar-toggle-span">
+                      <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                  </span>
+                
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
+                
+                  
+                  
+                  
+                    
+                    
+                <a href="/week3/" itemprop="url"><span itemprop="title">Week Three</span></a> <i class="fa fa-angle-right"></i>
+                    
+                  
+                
+                <span itemprop="title"> Routing and Fetching</span>
+              </div>
+              
+                  <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#lecture-videos">Lecture Videos</a></li>
+<li><a href="#topics">Topics</a>
+<ul>
+<li><a href="#deployment">Deployment</a></li>
+<li><a href="#routing">Routing</a></li>
+<li><a href="#fetching-data">Fetching Data</a></li>
+</ul></li>
+<li><a href="#examples">Examples</a>
+<ul>
+<li><a href="#deployment-github-pages">Deployment: GitHub Pages</a></li>
+<li><a href="#deployment-firebase">Deployment: Firebase</a></li>
+<li><a href="#routing-1">Routing</a>
+<ul>
+<li><a href="#router-setup">Router Setup</a></li>
+<li><a href="#routes">Routes</a></li>
+<li><a href="#links">Links</a></li>
+<li><a href="#history">History</a></li>
+</ul></li>
+<li><a href="#fetch">Fetch</a></li>
+</ul></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#homework">Homework</a>
+<ul>
+<li><a href="#bonus-credit">Bonus Credit</a></li>
+<li><a href="#super-mega-bonus-credit">Super Mega Bonus Credit</a></li>
+<li><a href="#super-mega-bonus-credit-hyper-fighting">Super Mega Bonus Credit Hyper Fighting</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+              
+
+            </div>
+            
+              <div id="body-inner">
+                
+                <h1>Routing and Fetching</h1>
+                
+
+
+
+<p><date>Tuesday, May 30, 2017</date></p>
+
+<h2 id="lecture-videos">Lecture Videos</h2>
+
+<p>Morning:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F">Playlist</a> | <a href="https://www.youtube.com/watch?v=uijEhxd85mY&amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;index=54">1</a></li>
+</ul>
+
+<p>Afternoon:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=1ZYirXVMKmc&amp;index=77&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">Playlist</a> | <a href="https://www.youtube.com/watch?v=VE69OzrcMB0&amp;index=75&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">1</a> | <a href="https://www.youtube.com/watch?v=UOzQqU9NqYw&amp;index=76&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">2</a> | <a href="https://www.youtube.com/watch?v=1ZYirXVMKmc&amp;index=77&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">3</a></li>
+</ul>
+
+<h2 id="topics">Topics</h2>
+
+<h3 id="deployment">Deployment</h3>
+
+<ul>
+<li>GitHub Pages <a href="#deployment-github-pages">↓</a></li>
+<li>Firebase <a href="#deployment-firebase">↓</a></li>
+</ul>
+
+<h3 id="routing">Routing</h3>
+
+<ul>
+<li>React Router v4
+
+<ul>
+<li><code>&lt;Router /&gt;</code></li>
+<li>Links and NavLinks</li>
+<li>Routes</li>
+<li><code>history</code></li>
+</ul></li>
+</ul>
+
+<h3 id="fetching-data">Fetching Data</h3>
+
+<ul>
+<li>The Fetch API</li>
+<li>Promises</li>
+<li>Parsing the response</li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<h3 id="deployment-github-pages">Deployment: GitHub Pages</h3>
+
+<p>Deploying an app like Thing List is fairly simple, as it runs entirely on the client side (the browser). <em>create-react-app</em> makes it even easier.</p>
+
+
+  <div class="aside aside-info">
+  
+    <h4>Note</h4>
+    
+  
+  <div class="body">
+  <p><em>create-react-app</em> includes detailed instructions for <a href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages">deploying with GitHub Pages</a> in the README.</p>
+
+  </div>
+</div>
+
+
+<p>Start by running the included <em>build</em> script.</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>yarn build
+</span></pre>
+
+</div>
+</div>
+
+<p>or</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>npm run build
+</span></pre>
+
+</div>
+</div>
+
+<p>This builds the browser-ready version of our app in a <code>build</code> directory. (There are several aspects of our <code>src</code> directory that make it less than ideal for production use. For example, recall that our app is written using JSX, which browsers don&rsquo;t understand.)</p>
+
+<p>It also prints out these instructions:</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+  
+<pre>
+<span class="command-line-prompt">
+
+
+
+
+</span
+><span class="terminal-commands">
+<span class="output-line">The project was built assuming it is hosted at the server root.</span>
+
+<span class="output-line">To override this, specify the homepage in your package.json.</span>
+
+<span class="output-line">For example, add this to build it for GitHub Pages:</span>
+
+<span class="output-line"></span>
+
+<span class="output-line">  &#34;homepage&#34; : &#34;http://myname.github.io/myapp&#34;,</span>
+
+</span></pre>
+
+</div>
+</div>
+
+<p>To host the app on GitHub Pages (<a href="https://pages.github.com/">learn more about GitHub Pages</a>), add the line to <code>package.json</code>, just like it says, substituting your GitHub user name and repository name. In my case:</p>
+
+
+  <pre class="language-json line-numbers "
+       
+       
+       data-line="3"
+       rel="json"
+  ><code class="language-json">
+  
+  "name": "thing-list",
+  "version": "0.1.0",
+  "homepage": "http://xtbc17s1.github.io/thing-list",
+
+  </code>
+  </pre>
+
+
+
+<p>Now run <code>yarn build</code> again.</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>yarn build
+</span></pre>
+
+</div>
+</div>
+
+<p>This time, the output will include some more specific instructions.</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+  
+<pre>
+<span class="command-line-prompt">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span
+><span class="terminal-commands">
+<span class="output-line">The build folder is ready to be deployed.</span>
+
+<span class="output-line">To publish it at http://xtbc17s1.github.io/thing-list, run:</span>
+
+<span class="output-line"></span>
+
+<span class="output-line">  yarn add --dev gh-pages</span>
+
+<span class="output-line"></span>
+
+<span class="output-line">Add the following script in your package.json.</span>
+
+<span class="output-line"></span>
+
+<span class="output-line">    // ...</span>
+
+<span class="output-line">    &#34;scripts&#34;: {</span>
+
+<span class="output-line">      // ...</span>
+
+<span class="output-line">      &#34;predeploy&#34;: &#34;npm run build&#34;,</span>
+
+<span class="output-line">      &#34;deploy&#34;: &#34;gh-pages -d build&#34;</span>
+
+<span class="output-line">    }</span>
+
+<span class="output-line"></span>
+
+<span class="output-line">Then run:</span>
+
+<span class="output-line"></span>
+
+<span class="output-line">  yarn run deploy</span>
+
+</span></pre>
+
+</div>
+</div>
+
+<p>Cool! Let&rsquo;s add the <code>gh-pages</code> package.</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>yarn add --dev gh-pages
+</span></pre>
+
+</div>
+</div>
+
+<p>or</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>npm install --save-dev gh-pages
+</span></pre>
+
+</div>
+</div>
+
+<p>Now let&rsquo;s add those two scripts to <code>package.json</code>.</p>
+
+
+  <pre class="language-json line-numbers "
+       
+       
+       data-line="6-7"
+       rel="json"
+  ><code class="language-json">
+  
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+
+  </code>
+  </pre>
+
+
+
+<p>Now whenever you&rsquo;re ready to deploy, you can just run <code>yarn deploy</code>!</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>yarn deploy
+</span></pre>
+
+</div>
+</div>
+
+<p>or</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>npm run deploy
+</span></pre>
+
+</div>
+</div>
+
+<p>And your app will be available at the homepage listed in your <code>package.json</code>&mdash;in my case, <a href="http://xtbc17s1.github.io/thing-list">http://xtbc17s1.github.io/thing-list</a>.</p>
+
+<h3 id="deployment-firebase">Deployment: Firebase</h3>
+
+<p>Firebase offers free hosting in addition to the database and authentication solutions that we&rsquo;re already using. This again works quite well with <em>create-react-app</em>.</p>
+
+
+  <div class="aside aside-info">
+  
+    <h4>Note</h4>
+    
+  
+  <div class="body">
+  <p><em>create-react-app</em> includes detailed instructions for <a href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#firebase">deploying with Firebase</a> in the README.</p>
+
+  </div>
+</div>
+
+
+<p>First, install the command-line interface (CLI) for Firebase.</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>yarn global add firebase-tools
+</span></pre>
+
+</div>
+</div>
+
+<p>or</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>npm install -g firebase-tools
+</span></pre>
+
+</div>
+</div>
+
+<p>Now initialize Firebase in your project directory&hellip;</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>firebase init
+</span></pre>
+
+</div>
+</div>
+
+<p>&hellip; and follow the <a href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#firebase">instructions from the <em>create-react-app</em> README</a>.</p>
+
+
+  <div class="aside aside-danger">
+  
+    <h4>Warning</h4>
+    
+  
+  <div class="body">
+  <p>If you&rsquo;ve already configured your app to deploy to GitHub Pages, you need to remove the <code>homepage</code> line from <code>package.json</code> before deploying to Firebase.</p>
+
+  </div>
+</div>
+
+
+<h3 id="routing-1">Routing</h3>
+
+<p><a href="https://github.com/ReactTraining/react-router">React Router</a> provides a routing solution that allows us to change what UI we render based on the current URL.  The router is a <em>Higher Order Component</em> that wraps a React app and allows us to navigate without additional requests and responses to and from the server.</p>
+
+<h4 id="router-setup">Router Setup</h4>
+
+<p>Setting up React Router is easy.  For web projects, install <code>react-router-dom</code></p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>yarn add react-router-dom  # install react router with yarn
+</span></pre>
+
+</div>
+</div>
+
+<p>or</p>
+
+
+
+
+
+
+
+
+<div class="shell macos">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/git-bash.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  user@localhost ~
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+
+<pre><span class="terminal-commands"
+><span class="command-line-prompt"><span data-prompt="$"></span></span>npm install --save react-router-dom  # install react router with npm
+</span></pre>
+
+</div>
+</div>
+
+<p>Then, in your <code>ReactDOM.render</code> call, attach the Router as your base element, wrapping the root-level <code>&lt;App /&gt;</code> component.  The whole app is now contained within the Router component, so we can take advantage of it anywhere.</p>
+
+<p><strong>index.js</strong></p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
+import App from './App'
+
+ReactDOM.render(
+  &lt;Router&gt;
+    &lt;App /&gt;
+  &lt;/Router&gt;,
+  document.getElementById('root')
+)
+
+</code>
+</pre>
+
+
+
+<h4 id="routes">Routes</h4>
+
+<p>The core of React Router is the <code>&lt;Route /&gt;</code> component.  It allows you to specify what UI to render when a particular URL is matched.  For instance, if we wanted to render a <code>&lt;Users /&gt;</code> component when we matched a <code>/users</code> URL, we could make the following Route:</p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+&lt;Route path='/users' component={Users} /&gt;
+
+</code>
+</pre>
+
+
+
+<p>If you don&rsquo;t want to render a whole component, a Route can alternatively accept a <code>render</code> prop, which accepts a function that returns JSX:</p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+&lt;Route path='/users' render={() => &lt;h1&gt;Users Path!&lt;/h1&gt;} /&gt;
+
+</code>
+</pre>
+
+
+
+<p>One important thing to keep in mind is that if we define a Route&rsquo;s path as <code>/users</code>, that will match both <code>/users</code> <em>and</em> <code>/users/123</code>, because both begin with <code>/users</code>.  If we want the Route to match only when the path is <em>exactly</em> <code>/users</code>, we can add the prop <code>exact</code> to our Route component.</p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+&lt;Route exact path='/users' component={Users} /&gt;
+
+</code>
+</pre>
+
+
+
+<h4 id="links">Links</h4>
+
+<p>React Router also provides <code>&lt;Link /&gt;</code> and <code>&lt;NavLink /&gt;</code> components to make it easy to generate links to Routes. If we want to generate a Link that goes to <code>/about</code>, we can do the following:</p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+&lt;Link to='/about'&gt;About&lt;/Link&gt;
+
+</code>
+</pre>
+
+
+
+<p>NavLinks are similar, but provide some additional functionality.  The main difference is that they will add an <code>activeClassName</code> to the rendered link if the current URL matches the <code>to</code> property of the NavLink.  This allows active links to be styled differently than inactive links.</p>
+
+
+<pre class="line-numbers language-jsx" rel="jsx">
+<code class="language-jsx">
+
+&lt;NavLink to='/'&gt;Home&lt;/NavLink&gt;    // rendered link tag will have '.active' class when URL is '/'
+
+</code>
+</pre>
+
+
+
+<h4 id="history">History</h4>
+
+<p>The <code>history</code> object is maintained and updated by the Router to keep track of where the user has navigated within the app.  It is passed to every component contained within the Router as part of the component&rsquo;s <code>props</code>.  It has a variety of helpful properties and methods that provide information and navigation. Here are just a few:</p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+history.length             // number of history entries
+history.location           // provides the current location
+history.push(path)         // navigates to a new path
+history.go(n)              // navigates n steps through history stack
+history.goBack()           // go back one step (history.go(-1))
+history.goForward()        // go forward one step (history.go(1))
+history.block(prompt)      // block navigation
+
+</code>
+</pre>
+
+
+
+<h3 id="fetch">Fetch</h3>
+
+<blockquote>
+<p>The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.  It also provides a global <code>fetch()</code> method that provides an easy, logical way to fetch resources asynchronously across the network.</p>
+</blockquote>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"><em>MDN - Using Fetch</em></a></p>
+
+<p>If we need to get data from a remote server (or send some to one), there are several ways to do it.  In vanilla JS, there is <code>XMLHttpRequest</code>, jQuery provides <code>$.ajax</code>, and there are a variety of other packages and libraries that provide their own version.  Luckily, there is a new kid in vanilla JS town - the <em>Fetch API</em>.</p>
+
+<p><code>fetch()</code> is a globally available, easy to use way to asynchronously send and receive data.  The simplest usage of fetch is to simply provide it with the URL of the request, and it will perform a <code>GET</code> request by default.  The <code>fetch()</code> function returns a promise that resolves when the data is received.  Once it is received, we can process and use the data with functions provided to the promise&rsquo;s <code>.then()</code> callbacks.</p>
+
+
+<pre class="line-numbers language-js" rel="js">
+<code class="language-js">
+
+fetch('https://api.mywebsite.com/users')    // fetch users data from 'mywebsite' api
+  .then(response => response.json())        // parse the response json into JavaScript object(s)
+  .then(users => console.log(users))        // log the parsed users to the console
+  .catch(error => console.warn(error))      // if any errors occur, log them to the console
+
+</code>
+</pre>
+
+
+
+
+  <div class="aside aside-info">
+  
+    <h4>Fetch does more than just fetch</h4>
+    
+  
+  <div class="body">
+  <p>If no second argument is provided to <code>fetch()</code>, it defaults to a standard <code>GET</code> request.  However, the second argument can be a configuration object, allowing it to use different HTTP methods, set Headers, include Credentials, etc.  To find out more, check out <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">the docs</a></p>
+
+  </div>
+</div>
+
+
+<h2 id="projects">Projects</h2>
+
+<p>API Party <a href="https://www.youtube.com/watch?v=1ZYirXVMKmc&amp;index=77&amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG">morning</a> | [afternoon] ()</p>
+
+<h2 id="homework">Homework</h2>
+
+<p>Extend the API-Party app by adding at least one additional route that gets data from a public API.</p>
+
+<ul>
+<li>A link to the route should appear in the header along with the &lsquo;Github&rsquo; and &lsquo;NASA&rsquo; links</li>
+<li>When the link is clicked, it should be styled to show that it is active</li>
+<li>The new component should fetch data from a public API</li>
+<li>Some interesting data from the API should be presented</li>
+<li>The data should look pretty (style it with CSS)</li>
+</ul>
+
+<h3 id="bonus-credit">Bonus Credit</h3>
+
+<ul>
+<li>Accept user input to refine the data you request from the API</li>
+</ul>
+
+<h3 id="super-mega-bonus-credit">Super Mega Bonus Credit</h3>
+
+<ul>
+<li>Add additional routes and APIs</li>
+</ul>
+
+<h3 id="super-mega-bonus-credit-hyper-fighting">Super Mega Bonus Credit Hyper Fighting</h3>
+
+<ul>
+<li>Figure out something interesting to do with the data on your own.  Make a graph, render a map, add child routes, go nuts!</li>
+</ul>
+
+
+      
+      
+      </div>
+    </div>
+
+    
+
+    <div id="navigation">
+        
+        <a class="nav nav-prev" href="/week3"> <i class="fa fa-chevron-left"></i></a>
+        
+    </div>
+
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="http://xternbootcamp17.github.io//js/clipboard.min.js"></script>
+    
+    <script src="http://xternbootcamp17.github.io//js/jquery.sticky-kit.min.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/featherlight.min.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/html5shiv-printshiv.min.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/prism.js"></script>
+    
+    <script src="http://xternbootcamp17.github.io//js/modernizr.custom.71422.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/learn.js"></script>
+    <script src="http://xternbootcamp17.github.io//js/hugo-learn.js"></script>
+    
+
+  </body>
+</html>
+
