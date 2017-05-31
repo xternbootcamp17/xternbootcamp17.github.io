@@ -887,9 +887,9 @@ history.block(prompt)      // block navigation
 &lt;code class=&#34;language-js&#34;&gt;
 
 fetch(&#39;https://api.mywebsite.com/users&#39;)    // fetch users data from &#39;mywebsite&#39; api
-  .then(response =&gt; response.json())        // parse the response json into JavaScript object(s)
-  .then(users =&gt; console.log(users))        // log the parsed users to the console
-  .catch(error =&gt; console.warn(error))      // if any errors occur, log them to the console
+  .then(response =&amp;gt; response.json())        // parse the response json into JavaScript object(s)
+  .then(users =&amp;gt; console.log(users))        // log the parsed users to the console
+  .catch(error =&amp;gt; console.warn(error))      // if any errors occur, log them to the console
 
 &lt;/code&gt;
 &lt;/pre&gt;
