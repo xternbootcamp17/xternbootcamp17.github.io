@@ -911,7 +911,7 @@ fetch(&#39;https://api.mywebsite.com/users&#39;)    // fetch users data from &#3
 
 &lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
 
-&lt;p&gt;API Party &lt;a href=&#34;https://www.youtube.com/watch?v=1ZYirXVMKmc&amp;amp;index=77&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;morning&lt;/a&gt; | [afternoon] ()&lt;/p&gt;
+&lt;p&gt;API Party &lt;a href=&#34;https://github.com/xtbc17s1/api-party/tree/c12abeed027a082be958a989ca33c0464c302eef&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/api-party/tree/09fb4270aac75af196a47d9a695df4d921085a09&#34;&gt;afternoon&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
 
@@ -942,6 +942,199 @@ fetch(&#39;https://api.mywebsite.com/users&#39;)    // fetch users data from &#3
 &lt;ul&gt;
 &lt;li&gt;Figure out something interesting to do with the data on your own.  Make a graph, render a map, add child routes, go nuts!&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Review and NoteHerder</title>
+      <link>http://xternbootcamp17.github.io/week3/day10/</link>
+      <pubDate>Wed, 31 May 2017 09:54:15 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week3/day10/</guid>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Wednesday, May 31, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+
+&lt;p&gt;Morning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=LbXfZTiTeIk&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=55&#34;&gt;1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=FJkPBapdxa4&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=56&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=MBdNv10wMiw&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=57&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=hI1qt26ZAc0&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=58&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=N-XYDqyKvf0&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=59&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=V9XID50VYi8&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=60&#34;&gt;6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afternoon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1ZYirXVMKmc&amp;amp;index=77&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Playlist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;homework-showcase&#34;&gt;Homework Showcase&lt;/h3&gt;
+
+&lt;h4 id=&#34;morning&#34;&gt;Morning&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yodasodabob/api-party&#34;&gt;Laurence&amp;rsquo;s Project&lt;/a&gt; - New NASA route that gets pictures from the &lt;a href=&#34;https://api.nasa.gov/api.html#EPIC&#34;&gt;&lt;em&gt;EPIC API&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/izanger/api-party&#34;&gt;Ian&amp;rsquo;s Project&lt;/a&gt; - Gets historical events from &lt;a href=&#34;http://history.muffinlabs.com/#api&#34;&gt;&lt;em&gt;This Day In History API&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MohakC/api-party&#34;&gt;Mohak&amp;rsquo;s Project&lt;/a&gt; - Pokemon data from &lt;a href=&#34;https://pokeapi.co/&#34;&gt;&lt;em&gt;The PokeAPI&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sbenchik/api-party&#34;&gt;Steve&amp;rsquo;s Project&lt;/a&gt; - Today&amp;rsquo;s weather forecast by location from &lt;a href=&#34;https://openweathermap.org/api&#34;&gt;&lt;em&gt;OpenWeatherMap API&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;afternoon&#34;&gt;Afternoon&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/charleydrewwolak/api-party&#34;&gt;Charley&amp;rsquo;s Project&lt;/a&gt; - Pokemon data from &lt;a href=&#34;https://pokeapi.co/&#34;&gt;&lt;em&gt;The PokeAPI&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/trentspi/api-party&#34;&gt;Trent&amp;rsquo;s Project&lt;/a&gt; - Find and display videos from &lt;a href=&#34;https://developers.google.com/youtube/iframe_api_reference&#34;&gt;&lt;em&gt;YouTube API&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nfordyc/api-party&#34;&gt;Nicholas&amp;rsquo;s Project&lt;/a&gt; - Run mathematical calculations using the &lt;a href=&#34;https://github.com/aunyks/newton-api&#34;&gt;&lt;em&gt;Newton API&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/EricChavarria/api-party&#34;&gt;Eric&amp;rsquo;s Project&lt;/a&gt; - Pokemon data from &lt;a href=&#34;https://pokeapi.co/&#34;&gt;&lt;em&gt;The PokeAPI&lt;/em&gt;&lt;/a&gt; (with tables of stats!)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/winderscm/api-party&#34;&gt;Clayton&amp;rsquo;s Project&lt;/a&gt; - Compare crypto-currency values with data from the &lt;a href=&#34;https://www.cryptocompare.com/api/&#34;&gt;&lt;em&gt;CryptoCompare API&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;noteherder&#34;&gt;Noteherder&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/xtbc17s1/noteherder&#34;&gt;Noteherder&lt;/a&gt; is a note-taking app built with a React front-end.  It utilizes Firebase as back-end for authentication and data storage.  Much of the basic functionality is similar to &lt;em&gt;ThingList&lt;/em&gt; - it renders a list of notes (aka things), with the ability to create, read, update, and delete notes.  Also, like &lt;em&gt;ThingList&lt;/em&gt;, it uses Github OAuth authentication for user sign-in and allowing for scoping of notes to users.&lt;/p&gt;
+
+&lt;p&gt;However, there are many new concepts as well. We&amp;rsquo;ll go over some of those here.&lt;/p&gt;
+
+&lt;h4 id=&#34;private-and-public-routes&#34;&gt;Private and Public Routes&lt;/h4&gt;
+
+&lt;p&gt;We are already familiar with the &lt;code&gt;&amp;lt;Route /&amp;gt;&lt;/code&gt; component provided by React Router, but what if we want to create specialized routes that only allow access based on the presence of an authorized user?  We can use the concept of &lt;a href=&#34;https://facebook.github.io/react/docs/composition-vs-inheritance.html&#34;&gt;&lt;em&gt;composition&lt;/em&gt;&lt;/a&gt; to create specialized versions of &lt;code&gt;&amp;lt;Route /&amp;gt;&lt;/code&gt; that we&amp;rsquo;ll call &lt;code&gt;&amp;lt;PrivateRoute /&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;PublicRoute /&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RouteHelpers.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+export function PrivateRoute({component: Component, render, authed, ...rest}) {
+  return (
+    &amp;lt;Route
+      {...rest}
+      render={(props) =&gt; authed
+        ? (render &amp;&amp; render()) || &amp;lt;Component {...props} /&amp;gt;
+        : &amp;lt;Redirect to={{pathname: &#39;/sign-in&#39;, state: {from: props.location}}} /&amp;gt;}
+    /&gt;
+  )
+}
+
+export function PublicRoute({component: Component, render, authed, ...rest}) {
+  return (
+    &amp;lt;Route
+      {...rest}
+      render={(props) =&gt; !authed
+        ? (render &amp;&amp; render()) || &amp;lt;Component {...props} /&amp;gt;
+        : &amp;lt;Redirect to=&#39;/notes&#39; /&amp;gt;}
+    /&gt;
+  )
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;Let&amp;rsquo;s talk through the code for &lt;code&gt;PrivateRoute&lt;/code&gt;.  As you can see, it is essentially a stateless functional component that is a wrapper around a &lt;code&gt;Route&lt;/code&gt; component.  In the &lt;code&gt;Route&lt;/code&gt;&amp;rsquo;s render method is a ternary statement that checks whether there is a valid user passed to it (the &lt;code&gt;authed&lt;/code&gt; prop).&lt;/p&gt;
+
+&lt;p&gt;If there is an &lt;code&gt;authed&lt;/code&gt; user, the &lt;code&gt;Route&lt;/code&gt; does one of two things - run the &lt;code&gt;render&lt;/code&gt; method passed in as a prop (if there is one), or render a &lt;code&gt;Component&lt;/code&gt; passed in as a prop.&lt;/p&gt;
+
+&lt;p&gt;If there is not an &lt;code&gt;authed&lt;/code&gt; user, the &lt;code&gt;Route&lt;/code&gt; renders a &lt;code&gt;&amp;lt;Redirect /&amp;gt;&lt;/code&gt; component (part of React Router) that redirects the user to the &lt;code&gt;&#39;/sign-in&#39;&lt;/code&gt; path.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;PublicRoute&lt;/code&gt; is very similar, except it checks to make sure that there is &lt;em&gt;not&lt;/em&gt; an &lt;code&gt;authed&lt;/code&gt; user.  If there is not a user, it runs the &lt;code&gt;render&lt;/code&gt; method or renders a &lt;code&gt;Component&lt;/code&gt;.  If there &lt;em&gt;is&lt;/em&gt; an &lt;code&gt;authed&lt;/code&gt; user, it redirects to &lt;code&gt;&#39;/notes&#39;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;rich-text-editor&#34;&gt;Rich Text Editor&lt;/h4&gt;
+
+&lt;p&gt;In &lt;em&gt;ThingList&lt;/em&gt;, we used &lt;code&gt;contenteditable&lt;/code&gt; to allow us to input new text into a &lt;em&gt;Thing&lt;/em&gt;, but the user has no control over how the text looks.  For a more fully-featured app, wouldn&amp;rsquo;t it be nice to have the ability to do bold text, italics, change font size, etc&amp;hellip;?  Well good news, you can totally do that thing.  There are a variety of &lt;em&gt;WYSIWYG&lt;/em&gt; editors that can be added to your application to give the user far more formatting options for their text input.  The editor used in Noteherder is called, appropriately, &lt;a href=&#34;https://github.com/sstur/react-rte&#34;&gt;React Rich Text Editor&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn add react-rte                # install using yarn
+
+npm install --save react-rte      # install using npm
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once the package is added to your project, we can import and use the &lt;code&gt;&amp;lt;RichTextEditor /&amp;gt;&lt;/code&gt; component anywhere we need a rich text editor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NoteForm.js (simplified)&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import RichTextEditor from &#39;react-rte&#39;
+
+class NoteForm extends Component {
+  state = {
+    editorValue: RichTextEditor.createEmptyValue()
+    note: {
+      title: &#39;&#39;,
+      body: &#39;&#39;
+    }
+  }
+
+  handleEditorChange = (editorValue) =&gt; {
+    const note = {...this.state.note}
+    note.body = editorValue.toString(&#39;html&#39;)
+    this.setState({ note, editorValue })
+  }
+
+  render() {
+    return (
+      &amp;lt;form&amp;gt;
+        &amp;lt;RichTextEditor
+          name=&#34;body&#34;
+          value={this.state.editorValue}
+          onChange={this.handleEditorChange}
+        /&amp;gt;
+      &amp;lt;/form&amp;gt;
+    )
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/xtbc17s1/noteherder&#34;&gt;Noteherder&lt;/a&gt; - source code&lt;/p&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;p&gt;Read through the code for Noteherder and make sure you understand how the app works.  Reading other people&amp;rsquo;s code is an extremely valuable skill to have.&lt;/p&gt;
+
+&lt;p&gt;Finish your API-party homework if it is not yet complete and functional.&lt;/p&gt;
 </description>
     </item>
     

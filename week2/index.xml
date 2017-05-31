@@ -876,7 +876,7 @@ console.log(b) // =&gt; &#39;Destructuring!&#39;
 &lt;div class=&#34;shell-body&#34;&gt;
 
 &lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install -g yarn
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;brew install yarn
 &lt;/span&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
