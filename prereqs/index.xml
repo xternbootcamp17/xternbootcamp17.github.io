@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prereqs on XTERN Bootcamp 2017</title>
-    <link>http://xternbootcamp17.github.io/prereqs/index.xml</link>
+    <link>http://xternbootcamp17.github.io/prereqs/</link>
     <description>Recent content in Prereqs on XTERN Bootcamp 2017</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Apr 2017 11:10:36 -0400</lastBuildDate>
-    <atom:link href="http://xternbootcamp17.github.io/prereqs/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://xternbootcamp17.github.io/prereqs/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Prerequisites</title>
@@ -15,14 +17,7 @@
       <pubDate>Mon, 10 Apr 2017 11:10:36 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/prereqs/</guid>
-      <description>
-
-&lt;h3 id=&#34;before-you-start&#34;&gt;Before you start&lt;/h3&gt;
-
-&lt;h1 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h1&gt;
-
-&lt;p&gt;Three weeks is not a whole lot of time, so the more you know about the fundamentals of the Web&amp;mdash;HTML, CSS, and JavaScript&amp;mdash;the better prepared we&amp;rsquo;ll be to jump right into React.&lt;/p&gt;
-</description>
+      <description>Before you start Prerequisites Three weeks is not a whole lot of time, so the more you know about the fundamentals of the Web&amp;mdash;HTML, CSS, and JavaScript&amp;mdash;the better prepared we&amp;rsquo;ll be to jump right into React.</description>
     </item>
     
     <item>
@@ -31,95 +26,7 @@
       <pubDate>Tue, 11 Apr 2017 00:23:58 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/prereqs/codewars/</guid>
-      <description>
-
-&lt;h3 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Sign up at &lt;a href=&#34;https://codewars.com&#34;&gt;codewars.com&lt;/a&gt; using your GitHub account.&lt;/li&gt;
-&lt;li&gt;Follow &lt;a href=&#34;https://www.codewars.com/users/sbaughman&#34;&gt;Seth Baughman&lt;/a&gt; and &lt;a href=&#34;https://www.codewars.com/users/dstrus&#34;&gt;Dave Strus&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Solve the problems on the list below.&lt;/li&gt;
-&lt;li&gt;Email &lt;a href=&#34;mailto:seth@getfretless.com&#34;&gt;Seth&lt;/a&gt; and &lt;a href=&#34;mailto:dave@getfretless.com&#34;&gt;Davey&lt;/a&gt; when you&amp;rsquo;re done so we can review your solutions. Pleae include your Codewars username.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;welcome&#34;&gt;Welcome!&lt;/h2&gt;
-
-&lt;p&gt;Congratulations on being accepted to the 2017 XTERN Bootcamp! This class will be a lot of fun and a lot of hard work, and by the end you&amp;rsquo;ll be able to create front-end web applications in React, one of the hottest JavaScript libraries on the market today.&lt;/p&gt;
-
-&lt;p&gt;In order to make sure everyone gets as much as possible out of this experience, it’s vitally important that everyone arrives with a solid understanding of the JavaScript language. That way, we get to focus on learning React and building cool stuff instead of spending all of our time on basic syntax.&lt;/p&gt;
-
-&lt;p&gt;You have already received a list of online resources that provide a basic foundation in JavaScript, HTML, and CSS (and they&amp;rsquo;re linked again here). Once you have completed reading/watching/coding those, we have an assignment for you! The assignment should be completed and submitted to us for review before your first day of attending class.&lt;/p&gt;
-
-&lt;p&gt;We will be using a website called Codewars to test your knowledge of basic JavaScript. Personally, I like solving their exercises for fun, and I’ve identified 12 problems that I particularly enjoyed and that cover topics we will be using daily in class: Arrays, Objects, and String manipulation.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/welcome&#34;&gt;Welcome!&lt;/a&gt; - 8 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/number-of-people-in-the-bus&#34;&gt;Number of People in the Bus&lt;/a&gt; - 8 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/vowel-count&#34;&gt;Vowel Count&lt;/a&gt; - 7 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/mumbling&#34;&gt;Mumbling&lt;/a&gt; - 7kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/sum-of-two-lowest-positive-integers&#34;&gt;Sum of two lowest positive integers&lt;/a&gt; - 7 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/find-how-many-times-did-a-team-from-a-given-country-win-the-champions-league&#34;&gt;Find how many times did a team from a given country win the Champions League?&lt;/a&gt; - 7 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/resistor-color-codes&#34;&gt;Resistor Color Codes&lt;/a&gt; - 7 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/who-likes-it&#34;&gt;Who likes it?&lt;/a&gt; - 6 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/find-the-divisors&#34;&gt;Find the divisors!&lt;/a&gt; - 6 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/format-a-string-of-names-like-bart-lisa-and-maggie&#34;&gt;Format a string of names like ‘Bart, Lisa &amp;amp; Maggie’&lt;/a&gt; - 6 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/decode-the-morse-code&#34;&gt;Decode the Morse Code&lt;/a&gt; - 6 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/mirror-object-tcejbo-rorrim&#34;&gt;Mirror object - tcejbo rorriM&lt;/a&gt; - 6 kyu&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Now, you’re probably wondering &lt;em&gt;what the heck is a kyu?&lt;/em&gt; On Codewars, exercises are ranked in difficulty from 8 kyu (really easy) to 1 kyu (really, really hard).  So, the above problems aren&amp;rsquo;t too difficult&amp;mdash;just challenging enough to make sure that you’ll be able to do what we need to do.&lt;/p&gt;
-
-&lt;p&gt;So, that’s basically it. Sign up, do the problems, and send us an email when you’re done. &lt;strong&gt;Please be sure to include your username in the email so that we can be sure we&amp;rsquo;re looking at the right solutions.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Below, I’ve included some screenshots and instructions for how to get started.&lt;/p&gt;
-
-&lt;h3 id=&#34;signing-up&#34;&gt;Signing up&lt;/h3&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://xternbootcamp17.github.io/images/cw-ss-01.png&#34; alt=&#34;Step 1&#34;&gt;
-&lt;figcaption&gt;&lt;strong&gt;Step 1:  Choose JavaScript as your language.&lt;/strong&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://xternbootcamp17.github.io/images/cw-ss-02.png&#34; alt=&#34;Step 2&#34;&gt;
-&lt;figcaption&gt;&lt;strong&gt;Step 2: Solve the first problem.&lt;/strong&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://xternbootcamp17.github.io/images/cw-ss-03.png&#34; alt=&#34;Step 3&#34;&gt;
-&lt;figcaption&gt;&lt;strong&gt;Step 3:  Link your GitHub Account.&lt;/strong&gt; (You do have a Github account, right? If not, &lt;a href=&#34;https://github.com/&#34;&gt;Sign up&lt;/a&gt;!&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&#34;following-a-user&#34;&gt;Following a User:&lt;/h3&gt;
-
-&lt;p&gt;Step 1:  Go to the url &lt;a href=&#34;https://www.codewars.com/users/:username&#34;&gt;https://www.codewars.com/users/:username&lt;/a&gt;, where &lt;em&gt;:username&lt;/em&gt; is the username of the person you want to follow.&lt;/p&gt;
-
-&lt;p&gt;For example, to follow Davey, go to &lt;a href=&#34;https://www.codewars.com/users/dstrus&#34;&gt;https://www.codewars.com/users/dstrus&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To follow Seth, go to &lt;a href=&#34;https://www.codewars.com/users/sbaughman&#34;&gt;https://www.codewars.com/users/sbaughman&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Step 2:  Click the &lt;em&gt;follow&lt;/em&gt; button.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/cw-ss-04.png&#34; alt=&#34;Follow&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;finding-a-particular-exercise&#34;&gt;Finding a Particular Exercise:&lt;/h3&gt;
-
-&lt;p&gt;Click on the links in the list on the first page, OR&amp;hellip;&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://xternbootcamp17.github.io/images/cw-ss-05.png&#34; alt=&#34;Kata&#34;&gt;
-&lt;figcaption&gt;&lt;strong&gt;Step 1:  Click on ‘Kata’ in the side menu.&lt;/strong&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://xternbootcamp17.github.io/images/cw-ss-06.png&#34; alt=&#34;Search&#34;&gt;
-&lt;figcaption&gt;&lt;strong&gt;Step 2:  Type the name of the exercise in the search box.&lt;/strong&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&#34;other-questions&#34;&gt;Other questions?&lt;/h3&gt;
-
-&lt;p&gt;Check out the &lt;a href=&#34;https://www.codewars.com/docs&#34;&gt;Codewars documentation&lt;/a&gt; or &lt;a href=&#34;mailto:dave@getfretless.com,seth@getfretless.com?subject=HALP&#34;&gt;email us&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>TL;DR  Sign up at codewars.com using your GitHub account. Follow Seth Baughman and Dave Strus. Solve the problems on the list below. Email Seth and Davey when you&amp;rsquo;re done so we can review your solutions. Pleae include your Codewars username.  Welcome! Congratulations on being accepted to the 2017 XTERN Bootcamp! This class will be a lot of fun and a lot of hard work, and by the end you&amp;rsquo;ll be able to create front-end web applications in React, one of the hottest JavaScript libraries on the market today.</description>
     </item>
     
     <item>
@@ -128,35 +35,8 @@
       <pubDate>Mon, 10 Apr 2017 22:15:59 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/prereqs/html-css/</guid>
-      <description>
-
-&lt;p&gt;You can&amp;rsquo;t get very far building the web without an understanding of HTML. HTML defines the &lt;em&gt;structure&lt;/em&gt; of web content, and it&amp;rsquo;s worth your time to familiarize yourself with various elements and their attributes.&lt;/p&gt;
-
-&lt;p&gt;Cascading Stylesheets (CSS) define the &lt;em&gt;presentation&lt;/em&gt; of web content. Even if you have little interest in becoming a professional designer, you can gain a lot from learning the basics of CSS. For example, you&amp;rsquo;ll use CSS selector sytax to target elements in JavaScript.&lt;/p&gt;
-
-&lt;p&gt;If you already have a decent handle on these topics, you&amp;rsquo;ll fly right through the lessons, but you may pick up a little bit of new knowledge along the way. I often find that when I review the basics, there&amp;rsquo;s something that I haven&amp;rsquo;t thought about in a long time that I ought to be using more often.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;Note&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;One of these courses or the other should be plenty of preparation. Don&amp;rsquo;t feel like you need to complete both, unless you just want the extra practice.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h3 id=&#34;learn-html-and-css-part-1-from-codecademy&#34;&gt;Learn HTML and CSS: Part 1, from Codecademy&lt;/h3&gt;
-
-&lt;p&gt;Codecademy&amp;rsquo;s free course &lt;a href=&#34;https://www.codecademy.com/learn/learn-html-css&#34;&gt;Learn HTML &amp;amp; CSS: Part 1&lt;/a&gt; is hot off the press! It hadn&amp;rsquo;t even been released yet when you received the last email with links to introductory material. It&amp;rsquo;s been rewritten from scratch to use the latest versions of HTML and CSS, replacing a much older course. You can complete the course right in the browser.&lt;/p&gt;
-
-&lt;h3 id=&#34;dash&#34;&gt;Dash&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://dash.generalassemb.ly/&#34;&gt;Dash&lt;/a&gt;, from General Assembly, offers several basic interactive courses that teach the fundamentals of modern HTML and CSS&amp;mdash;and even a little bit of JavaScript. And it&amp;rsquo;s all free, browser-based, and based on the lastest standards.&lt;/p&gt;
-</description>
+      <description>You can&amp;rsquo;t get very far building the web without an understanding of HTML. HTML defines the structure of web content, and it&amp;rsquo;s worth your time to familiarize yourself with various elements and their attributes.
+Cascading Stylesheets (CSS) define the presentation of web content. Even if you have little interest in becoming a professional designer, you can gain a lot from learning the basics of CSS. For example, you&amp;rsquo;ll use CSS selector sytax to target elements in JavaScript.</description>
     </item>
     
     <item>
@@ -165,22 +45,9 @@
       <pubDate>Tue, 11 Apr 2017 00:02:46 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/prereqs/javascript/</guid>
-      <description>
-
-&lt;p&gt;React is a JavaScript library, so it&amp;rsquo;s fair to say that we&amp;rsquo;ll be using a whole heck of a lot of JavaScript in this bootcamp. You ought to be familiar with the fundamentals of JavaScript before class begins.&lt;/p&gt;
-
-&lt;h2 id=&#34;basic&#34;&gt;Basic&lt;/h2&gt;
-
-&lt;h3 id=&#34;learn-javascript-by-codecademy&#34;&gt;Learn JavaScript by Codecademy&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.codecademy.com/learn/learn-javascript&#34;&gt;Lean JavaScript&lt;/a&gt; is another brand-new, free interactive tutorial that replaced an older Codecademy course.&lt;/p&gt;
-
-&lt;h2 id=&#34;intermediate&#34;&gt;Intermediate&lt;/h2&gt;
-
-&lt;h3 id=&#34;javascript-30-by-wes-bos&#34;&gt;JavaScript 30 by Wes Bos&lt;/h3&gt;
-
-&lt;p&gt;I highly recommend completing &lt;a href=&#34;https://javascript30.com/&#34;&gt;JavaScript 30&lt;/a&gt; by Wes Bos. It&amp;rsquo;s a series of thirty 20-minute videos, meant to be completed over the course of 30 days. That will take some planning on your part, obviously; you can&amp;rsquo;t wait until the last second to dive into this stuff. But it&amp;rsquo;s not a huge daily time commitment, and it will help a great deal.&lt;/p&gt;
-</description>
+      <description>React is a JavaScript library, so it&amp;rsquo;s fair to say that we&amp;rsquo;ll be using a whole heck of a lot of JavaScript in this bootcamp. You ought to be familiar with the fundamentals of JavaScript before class begins.
+Basic Learn JavaScript by Codecademy Lean JavaScript is another brand-new, free interactive tutorial that replaced an older Codecademy course.
+Intermediate JavaScript 30 by Wes Bos I highly recommend completing JavaScript 30 by Wes Bos.</description>
     </item>
     
     <item>
@@ -189,31 +56,9 @@
       <pubDate>Mon, 10 Apr 2017 22:52:24 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/prereqs/git/</guid>
-      <description>
-
-&lt;p&gt;We will be using Git for source code management&amp;ndash;and hosting our repositories on &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;&amp;ndash;throughout the bootcamp. It will help if you&amp;rsquo;re not seeing it for the first time.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;Note&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;Once again, one of these courses or the other should be plenty of preparation.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h3 id=&#34;learn-git-from-codecademy&#34;&gt;Learn Git from Codecademy&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.codecademy.com/learn/learn-git&#34;&gt;Learn Git&lt;/a&gt; is a free interactive course from Codecademy covering the fundamentals of version control with Git. As with the previous lessons, this can be completed entirely within the browser. This is the best browser-based introduction to Git that I&amp;rsquo;ve seen.&lt;/p&gt;
-
-&lt;h3 id=&#34;try-git-from-code-school&#34;&gt;Try Git from Code School&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://try.github.io/&#34;&gt;Try Git&lt;/a&gt;, created by Code School in partnership with GitHub, is another good intro to Git. It doesn&amp;rsquo;t have you do quite as much yourself as the Codecademy course, so I don&amp;rsquo;t like it quite as well. It does not, however, require you to sign up for anything&amp;mdash;not even a free account.&lt;/p&gt;
-</description>
+      <description>We will be using Git for source code management&amp;ndash;and hosting our repositories on GitHub&amp;ndash;throughout the bootcamp. It will help if you&amp;rsquo;re not seeing it for the first time.
+Note Once again, one of these courses or the other should be plenty of preparation.
+  Learn Git from Codecademy Learn Git is a free interactive course from Codecademy covering the fundamentals of version control with Git. As with the previous lessons, this can be completed entirely within the browser.</description>
     </item>
     
     <item>
@@ -222,16 +67,8 @@
       <pubDate>Tue, 11 Apr 2017 00:16:21 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/prereqs/terminal/</guid>
-      <description>
-
-&lt;h2 id=&#34;optional&#34;&gt;(Optional)&lt;/h2&gt;
-
-&lt;p&gt;Although it&amp;rsquo;s far from the focus of the course,  we&amp;rsquo;ll be using the command-line in class, and you&amp;rsquo;ll be better off if you&amp;rsquo;re not trying to learn it from scratch alongside React.&lt;/p&gt;
-
-&lt;h3 id=&#34;command-line-power-user-by-wes-bos&#34;&gt;Command Line Power User by Wes Bos&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://commandlinepoweruser.com/&#34;&gt;Command Line Power User&lt;/a&gt; series by Wes Bos is an excellent introduction to the *NIX style command line. This free course requires an email sign up, but all the videos are on YouTube if you want to hunt for them. (Wes&amp;rsquo;s email list is pretty good though.)&lt;/p&gt;
-</description>
+      <description>(Optional) Although it&amp;rsquo;s far from the focus of the course, we&amp;rsquo;ll be using the command-line in class, and you&amp;rsquo;ll be better off if you&amp;rsquo;re not trying to learn it from scratch alongside React.
+Command Line Power User by Wes Bos Command Line Power User series by Wes Bos is an excellent introduction to the *NIX style command line. This free course requires an email sign up, but all the videos are on YouTube if you want to hunt for them.</description>
     </item>
     
   </channel>

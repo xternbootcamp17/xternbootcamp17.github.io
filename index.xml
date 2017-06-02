@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>XTERN Bootcamp 2017</title>
-    <link>http://xternbootcamp17.github.io/index.xml</link>
+    <link>http://xternbootcamp17.github.io/</link>
     <description>Recent content on XTERN Bootcamp 2017</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 May 2017 09:40:47 -0400</lastBuildDate>
-    <atom:link href="http://xternbootcamp17.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://xternbootcamp17.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Routing and Fetching</title>
@@ -15,920 +17,10 @@
       <pubDate>Tue, 30 May 2017 09:40:47 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/week3/day9/</guid>
-      <description>
-
-&lt;p&gt;&lt;date&gt;Tuesday, May 30, 2017&lt;/date&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
-
-&lt;p&gt;Morning:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=uijEhxd85mY&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=54&#34;&gt;1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Afternoon:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1ZYirXVMKmc&amp;amp;index=77&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=VE69OzrcMB0&amp;amp;index=75&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=UOzQqU9NqYw&amp;amp;index=76&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=1ZYirXVMKmc&amp;amp;index=77&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=6xJwhzyAsII&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=78&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=2O8mQVR594s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=79&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=_a_E-wMeo3A&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=80&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Oqq9EeyctN4&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=81&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=4z_uUF3sNIo&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=82&#34;&gt;8&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
-
-&lt;h3 id=&#34;deployment&#34;&gt;Deployment&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;GitHub Pages &lt;a href=&#34;#deployment-github-pages&#34;&gt;↓&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Firebase &lt;a href=&#34;#deployment-firebase&#34;&gt;↓&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;routing&#34;&gt;Routing&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;React Router v4
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;&amp;lt;Router /&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Links and NavLinks&lt;/li&gt;
-&lt;li&gt;Routes&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;history&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;fetching-data&#34;&gt;Fetching Data&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The Fetch API&lt;/li&gt;
-&lt;li&gt;Promises&lt;/li&gt;
-&lt;li&gt;Parsing the response&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-
-&lt;h3 id=&#34;deployment-github-pages&#34;&gt;Deployment: GitHub Pages&lt;/h3&gt;
-
-&lt;p&gt;Deploying an app like Thing List is fairly simple, as it runs entirely on the client side (the browser). &lt;em&gt;create-react-app&lt;/em&gt; makes it even easier.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;Note&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;&lt;em&gt;create-react-app&lt;/em&gt; includes detailed instructions for &lt;a href=&#34;https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages&#34;&gt;deploying with GitHub Pages&lt;/a&gt; in the README.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Start by running the included &lt;em&gt;build&lt;/em&gt; script.&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn build
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm run build
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This builds the browser-ready version of our app in a &lt;code&gt;build&lt;/code&gt; directory. (There are several aspects of our &lt;code&gt;src&lt;/code&gt; directory that make it less than ideal for production use. For example, recall that our app is written using JSX, which browsers don&amp;rsquo;t understand.)&lt;/p&gt;
-
-&lt;p&gt;It also prints out these instructions:&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-  
-&lt;pre&gt;
-&lt;span class=&#34;command-line-prompt&#34;&gt;
-
-
-
-
-&lt;/span
-&gt;&lt;span class=&#34;terminal-commands&#34;&gt;
-&lt;span class=&#34;output-line&#34;&gt;The project was built assuming it is hosted at the server root.&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;To override this, specify the homepage in your package.json.&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;For example, add this to build it for GitHub Pages:&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;  &amp;#34;homepage&amp;#34; : &amp;#34;http://myname.github.io/myapp&amp;#34;,&lt;/span&gt;
-
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;To host the app on GitHub Pages (&lt;a href=&#34;https://pages.github.com/&#34;&gt;learn more about GitHub Pages&lt;/a&gt;), add the line to &lt;code&gt;package.json&lt;/code&gt;, just like it says, substituting your GitHub user name and repository name. In my case:&lt;/p&gt;
-
-
-  &lt;pre class=&#34;language-json line-numbers &#34;
-       
-       
-       data-line=&#34;3&#34;
-       rel=&#34;json&#34;
-  &gt;&lt;code class=&#34;language-json&#34;&gt;
-  
-  &#34;name&#34;: &#34;thing-list&#34;,
-  &#34;version&#34;: &#34;0.1.0&#34;,
-  &#34;homepage&#34;: &#34;http://xtbc17s1.github.io/thing-list&#34;,
-
-  &lt;/code&gt;
-  &lt;/pre&gt;
-
-
-
-&lt;p&gt;Now run &lt;code&gt;yarn build&lt;/code&gt; again.&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn build
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This time, the output will include some more specific instructions.&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-  
-&lt;pre&gt;
-&lt;span class=&#34;command-line-prompt&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;/span
-&gt;&lt;span class=&#34;terminal-commands&#34;&gt;
-&lt;span class=&#34;output-line&#34;&gt;The build folder is ready to be deployed.&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;To publish it at http://xtbc17s1.github.io/thing-list, run:&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;  yarn add --dev gh-pages&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;Add the following script in your package.json.&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;    // ...&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;    &amp;#34;scripts&amp;#34;: {&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;      // ...&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;      &amp;#34;predeploy&amp;#34;: &amp;#34;npm run build&amp;#34;,&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;      &amp;#34;deploy&amp;#34;: &amp;#34;gh-pages -d build&amp;#34;&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;    }&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;Then run:&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;&lt;/span&gt;
-
-&lt;span class=&#34;output-line&#34;&gt;  yarn run deploy&lt;/span&gt;
-
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Cool! Let&amp;rsquo;s add the &lt;code&gt;gh-pages&lt;/code&gt; package.&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn add --dev gh-pages
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install --save-dev gh-pages
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Now let&amp;rsquo;s add those two scripts to &lt;code&gt;package.json&lt;/code&gt;.&lt;/p&gt;
-
-
-  &lt;pre class=&#34;language-json line-numbers &#34;
-       
-       
-       data-line=&#34;6-7&#34;
-       rel=&#34;json&#34;
-  &gt;&lt;code class=&#34;language-json&#34;&gt;
-  
-  &#34;scripts&#34;: {
-    &#34;start&#34;: &#34;react-scripts start&#34;,
-    &#34;build&#34;: &#34;react-scripts build&#34;,
-    &#34;test&#34;: &#34;react-scripts test --env=jsdom&#34;,
-    &#34;eject&#34;: &#34;react-scripts eject&#34;,
-    &#34;predeploy&#34;: &#34;npm run build&#34;,
-    &#34;deploy&#34;: &#34;gh-pages -d build&#34;
-  }
-
-  &lt;/code&gt;
-  &lt;/pre&gt;
-
-
-
-&lt;p&gt;Now whenever you&amp;rsquo;re ready to deploy, you can just run &lt;code&gt;yarn deploy&lt;/code&gt;!&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn deploy
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm run deploy
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;And your app will be available at the homepage listed in your &lt;code&gt;package.json&lt;/code&gt;&amp;mdash;in my case, &lt;a href=&#34;http://xtbc17s1.github.io/thing-list&#34;&gt;http://xtbc17s1.github.io/thing-list&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;deployment-firebase&#34;&gt;Deployment: Firebase&lt;/h3&gt;
-
-&lt;p&gt;Firebase offers free hosting in addition to the database and authentication solutions that we&amp;rsquo;re already using. This again works quite well with &lt;em&gt;create-react-app&lt;/em&gt;.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;Note&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;&lt;em&gt;create-react-app&lt;/em&gt; includes detailed instructions for &lt;a href=&#34;https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#firebase&#34;&gt;deploying with Firebase&lt;/a&gt; in the README.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;First, install the command-line interface (CLI) for Firebase.&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn global add firebase-tools
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install -g firebase-tools
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Now initialize Firebase in your project directory&amp;hellip;&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;firebase init
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&amp;hellip; and follow the &lt;a href=&#34;https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#firebase&#34;&gt;instructions from the &lt;em&gt;create-react-app&lt;/em&gt; README&lt;/a&gt;.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-danger&#34;&gt;
-  
-    &lt;h4&gt;Warning&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;If you&amp;rsquo;ve already configured your app to deploy to GitHub Pages, you need to remove the &lt;code&gt;homepage&lt;/code&gt; line from &lt;code&gt;package.json&lt;/code&gt; before deploying to Firebase.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h3 id=&#34;routing-1&#34;&gt;Routing&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ReactTraining/react-router&#34;&gt;React Router&lt;/a&gt; provides a routing solution that allows us to change what UI we render based on the current URL.  The router is a &lt;em&gt;Higher Order Component&lt;/em&gt; that wraps a React app and allows us to navigate without additional requests and responses to and from the server.&lt;/p&gt;
-
-&lt;h4 id=&#34;router-setup&#34;&gt;Router Setup&lt;/h4&gt;
-
-&lt;p&gt;Setting up React Router is easy.  For web projects, install &lt;code&gt;react-router-dom&lt;/code&gt;&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn add react-router-dom  # install react router with yarn
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install --save react-router-dom  # install react router with npm
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Then, in your &lt;code&gt;ReactDOM.render&lt;/code&gt; call, attach the Router as your base element, wrapping the root-level &lt;code&gt;&amp;lt;App /&amp;gt;&lt;/code&gt; component.  The whole app is now contained within the Router component, so we can take advantage of it anywhere.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;index.js&lt;/strong&gt;&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-import React from &#39;react&#39;
-import ReactDOM from &#39;react-dom&#39;
-import { BrowserRouter as Router } from &#39;react-router-dom&#39;
-import App from &#39;./App&#39;
-
-ReactDOM.render(
-  &amp;lt;Router&amp;gt;
-    &amp;lt;App /&amp;gt;
-  &amp;lt;/Router&amp;gt;,
-  document.getElementById(&#39;root&#39;)
-)
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h4 id=&#34;routes&#34;&gt;Routes&lt;/h4&gt;
-
-&lt;p&gt;The core of React Router is the &lt;code&gt;&amp;lt;Route /&amp;gt;&lt;/code&gt; component.  It allows you to specify what UI to render when a particular URL is matched.  For instance, if we wanted to render a &lt;code&gt;&amp;lt;Users /&amp;gt;&lt;/code&gt; component when we matched a &lt;code&gt;/users&lt;/code&gt; URL, we could make the following Route:&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-&amp;lt;Route path=&#39;/users&#39; component={Users} /&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;If you don&amp;rsquo;t want to render a whole component, a Route can alternatively accept a &lt;code&gt;render&lt;/code&gt; prop, which accepts a function that returns JSX:&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-&amp;lt;Route path=&#39;/users&#39; render={() =&gt; &amp;lt;h1&amp;gt;Users Path!&amp;lt;/h1&amp;gt;} /&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;One important thing to keep in mind is that if we define a Route&amp;rsquo;s path as &lt;code&gt;/users&lt;/code&gt;, that will match both &lt;code&gt;/users&lt;/code&gt; &lt;em&gt;and&lt;/em&gt; &lt;code&gt;/users/123&lt;/code&gt;, because both begin with &lt;code&gt;/users&lt;/code&gt;.  If we want the Route to match only when the path is &lt;em&gt;exactly&lt;/em&gt; &lt;code&gt;/users&lt;/code&gt;, we can add the prop &lt;code&gt;exact&lt;/code&gt; to our Route component.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-&amp;lt;Route exact path=&#39;/users&#39; component={Users} /&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
-
-&lt;p&gt;React Router also provides &lt;code&gt;&amp;lt;Link /&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;NavLink /&amp;gt;&lt;/code&gt; components to make it easy to generate links to Routes. If we want to generate a Link that goes to &lt;code&gt;/about&lt;/code&gt;, we can do the following:&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-&amp;lt;Link to=&#39;/about&#39;&amp;gt;About&amp;lt;/Link&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;NavLinks are similar, but provide some additional functionality.  The main difference is that they will add an &lt;code&gt;activeClassName&lt;/code&gt; to the rendered link if the current URL matches the &lt;code&gt;to&lt;/code&gt; property of the NavLink.  This allows active links to be styled differently than inactive links.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-&amp;lt;NavLink to=&#39;/&#39;&amp;gt;Home&amp;lt;/NavLink&amp;gt;    // rendered link tag will have &#39;.active&#39; class when URL is &#39;/&#39;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h4 id=&#34;history&#34;&gt;History&lt;/h4&gt;
-
-&lt;p&gt;The &lt;code&gt;history&lt;/code&gt; object is maintained and updated by the Router to keep track of where the user has navigated within the app.  It is passed to every component contained within the Router as part of the component&amp;rsquo;s &lt;code&gt;props&lt;/code&gt;.  It has a variety of helpful properties and methods that provide information and navigation. Here are just a few:&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-history.length             // number of history entries
-history.location           // provides the current location
-history.push(path)         // navigates to a new path
-history.go(n)              // navigates n steps through history stack
-history.goBack()           // go back one step (history.go(-1))
-history.goForward()        // go forward one step (history.go(1))
-history.block(prompt)      // block navigation
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h3 id=&#34;fetch&#34;&gt;Fetch&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.  It also provides a global &lt;code&gt;fetch()&lt;/code&gt; method that provides an easy, logical way to fetch resources asynchronously across the network.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch&#34;&gt;&lt;em&gt;MDN - Using Fetch&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If we need to get data from a remote server (or send some to one), there are several ways to do it.  In vanilla JS, there is &lt;code&gt;XMLHttpRequest&lt;/code&gt;, jQuery provides &lt;code&gt;$.ajax&lt;/code&gt;, and there are a variety of other packages and libraries that provide their own version.  Luckily, there is a new kid in vanilla JS town - the &lt;em&gt;Fetch API&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;fetch()&lt;/code&gt; is a globally available, easy to use way to asynchronously send and receive data.  The simplest usage of fetch is to simply provide it with the URL of the request, and it will perform a &lt;code&gt;GET&lt;/code&gt; request by default.  The &lt;code&gt;fetch()&lt;/code&gt; function returns a promise that resolves when the data is received.  Once it is received, we can process and use the data with functions provided to the promise&amp;rsquo;s &lt;code&gt;.then()&lt;/code&gt; callbacks.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-fetch(&#39;https://api.mywebsite.com/users&#39;)    // fetch users data from &#39;mywebsite&#39; api
-  .then(response =&amp;gt; response.json())        // parse the response json into JavaScript object(s)
-  .then(users =&amp;gt; console.log(users))        // log the parsed users to the console
-  .catch(error =&amp;gt; console.warn(error))      // if any errors occur, log them to the console
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;Fetch does more than just fetch&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;If no second argument is provided to &lt;code&gt;fetch()&lt;/code&gt;, it defaults to a standard &lt;code&gt;GET&lt;/code&gt; request.  However, the second argument can be a configuration object, allowing it to use different HTTP methods, set Headers, include Credentials, etc.  To find out more, check out &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API&#34;&gt;the docs&lt;/a&gt;&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-
-&lt;p&gt;API Party &lt;a href=&#34;https://github.com/xtbc17s1/api-party/tree/c12abeed027a082be958a989ca33c0464c302eef&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/api-party/tree/09fb4270aac75af196a47d9a695df4d921085a09&#34;&gt;afternoon&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
-
-&lt;p&gt;Extend the API-Party app by adding at least one additional route that gets data from a public API.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A link to the route should appear in the header along with the &amp;lsquo;Github&amp;rsquo; and &amp;lsquo;NASA&amp;rsquo; links&lt;/li&gt;
-&lt;li&gt;When the link is clicked, it should be styled to show that it is active&lt;/li&gt;
-&lt;li&gt;The new component should fetch data from a public API&lt;/li&gt;
-&lt;li&gt;Some interesting data from the API should be presented&lt;/li&gt;
-&lt;li&gt;The data should look pretty (style it with CSS)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Accept user input to refine the data you request from the API&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Add additional routes and APIs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;super-mega-bonus-credit-hyper-fighting&#34;&gt;Super Mega Bonus Credit Hyper Fighting&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Figure out something interesting to do with the data on your own.  Make a graph, render a map, add child routes, go nuts!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Tuesday, May 30, 2017
+Lecture Videos Morning:
+ Playlist | 1  Afternoon:
+ Playlist | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8  Topics Deployment  GitHub Pages ↓ Firebase ↓  Routing  React Router v4  &amp;lt;Router /&amp;gt; Links and NavLinks Routes history   Fetching Data  The Fetch API Promises Parsing the response  Examples Deployment: GitHub Pages Deploying an app like Thing List is fairly simple, as it runs entirely on the client side (the browser).</description>
     </item>
     
     <item>
@@ -937,129 +29,8 @@ fetch(&#39;https://api.mywebsite.com/users&#39;)    // fetch users data from &#3
       <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/week1/day1/</guid>
-      <description>
-
-&lt;p&gt;&lt;date&gt;Monday, May 15, 2017&lt;/date&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;History of JavaScript and the Web&lt;/li&gt;
-&lt;li&gt;Getting the most out of a coding bootcamp&lt;/li&gt;
-&lt;li&gt;Anatomy of an HTML element (&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&#34;&gt;tags&lt;/a&gt;, &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes&#34;&gt;attributes&lt;/a&gt;, &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent&#34;&gt;text content&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Basic CSS selector syntax
-
-&lt;ul&gt;
-&lt;li&gt;Element name (&lt;code&gt;div&lt;/code&gt;, &lt;code&gt;h1&lt;/code&gt;, &lt;code&gt;p&lt;/code&gt;, etc.)&lt;/li&gt;
-&lt;li&gt;Element ID (&lt;code&gt;#theID&lt;/code&gt;, &lt;code&gt;div#theID&lt;/code&gt;, etc.)&lt;/li&gt;
-&lt;li&gt;Class name (&lt;code&gt;.theClass&lt;/code&gt;, &lt;code&gt;p.theClass&lt;/code&gt;, etc.)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Basic DOM manipulation
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;document.querySelector&lt;/code&gt;/&lt;code&gt;document.querySelectorAll&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;.textContent&lt;/code&gt;/&lt;code&gt;.innerHTML&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Developer console
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;console.log&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;console.group/.groupEnd/.groupCollapsed&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Basic &lt;a href=&#34;https://www.w3schools.com/js/js_events.asp&#34;&gt;event&lt;/a&gt; handling
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;onsubmit&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Anonymous functions&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;.preventDefault&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;.target&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Template strings
-
-&lt;ul&gt;
-&lt;li&gt;String interpolation, &lt;em&gt;e.g.&lt;/em&gt; &lt;code&gt;`Hi, ${name}`&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Multi-line strings&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Emmet abbreviations for code editors (&lt;a href=&#34;https://docs.emmet.io/abbreviations/syntax/&#34;&gt;syntax reference&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h2&gt;
-
-
-&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
-&lt;code class=&#34;language-html&#34;&gt;
-
-&amp;lt;div class=&amp;quot;person&amp;quot;&amp;gt;
-  &amp;lt;h2 id=&amp;quot;firstName&amp;quot;&gt;Han&amp;lt;/h2&amp;gt;
-  &amp;lt;h2 id=&amp;quot;lastName&amp;quot;&gt;Solo&amp;lt;/h2&amp;gt;
-  &amp;lt;p&gt;Made the Kessel Run in less than 12 parsecs&amp;lt;/p&amp;gt;
-  &amp;lt;button&gt;Click here to hire me!&amp;lt;/button&amp;gt;
-&amp;lt;/div&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-// Get all h2 elements with querySelectorAll. Returns a NodeList
-const headings = document.querySelectorAll(&#39;.person h2&#39;)
-console.log(headings) 
-// =&gt; [h2#firstName, h2#lastName]
-
-// Get a single element with querySelector
-const heading = document.querySelector(&#39;.person h2&#39;)
-console.log(heading)
-// =&gt; h2#firstName
-
-// Do something when a click event occurs
-const button = document.querySelector(&#39;button&#39;)
-button.onclick((ev) =&gt; {
-  alert(&#39;clicked!&#39;)
-  console.log(ev.target)
-  // =&gt; button
-})
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://xternbootcamp17.github.io/history-of-the-web.pdf&#34;&gt;JavaScript History&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://xternbootcamp17.github.io/bootcamp-success.pdf&#34;&gt;Bootcamp Expectations and Tips for Success&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://foundation.zurb.com&#34;&gt;Foundation CSS Framework&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;Mozilla Developer Network (MDN)&lt;/a&gt; - An excellent documentation and learning resource for all your HTML/CSS/JS needs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-
-&lt;h3 id=&#34;people-factory&#34;&gt;People Factory&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/xtbc17s1/people-factory/tree/3a7d947fa8b62fe6516a801db89bd2e0899a5385&#34;&gt;Morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/people-factory/tree/9d9e368d4125a2a3a1af549eb299ac9ebfdfad88&#34;&gt;Afternoon&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
-
-&lt;p&gt;Add form values to &lt;code&gt;.details&lt;/code&gt; using &lt;code&gt;document.createElement&lt;/code&gt; and &lt;code&gt;appendChild&lt;/code&gt;, instead of &lt;code&gt;innerHTML&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h4&gt;
-
-&lt;p&gt;Break out some of this functionality into a separate function.&lt;/p&gt;
-
-&lt;h4 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h4&gt;
-
-&lt;p&gt;Do not hard-code the names of the fields in your JavaScript. Loop over all the elements in the form.&lt;/p&gt;
-</description>
+      <description>Monday, May 15, 2017
+Topics  History of JavaScript and the Web Getting the most out of a coding bootcamp Anatomy of an HTML element (tags, attributes, text content) Basic CSS selector syntax  Element name (div, h1, p, etc.) Element ID (#theID, div#theID, etc.) Class name (.theClass, p.theClass, etc.)  Basic DOM manipulation  document.querySelector/document.querySelectorAll .textContent/.innerHTML  Developer console  console.log console.group/.groupEnd/.groupCollapsed  Basic event handling  onsubmit Anonymous functions .</description>
     </item>
     
     <item>
@@ -1068,341 +39,10 @@ button.onclick((ev) =&gt; {
       <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/week2/day5/</guid>
-      <description>
-
-&lt;p&gt;&lt;date&gt;Monday, May 22, 2017&lt;/date&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
-
-&lt;p&gt;Morning:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=jiLLHIpYyQw&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=18&#34;&gt;Day 5, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=dVfHMRBT4jE&amp;amp;index=23&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=mYbMOp9mYZ0&amp;amp;index=19&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=w6mIoGmGg34&amp;amp;index=20&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=7ZkYasspRVU&amp;amp;index=21&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=gwiGjyfGz1Y&amp;amp;index=22&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=IJA_qlN7BFc&amp;amp;index=25&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=xCSjpBUHqI4&amp;amp;index=26&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;8&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Afternoon:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=sPn2ED9hZ1I&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=27&#34;&gt;Day 5, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=a7eaK1Z5M5c&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=28&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=9xKX0Tb6Yzk&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=29&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=une1or5LnVM&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=30&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=e4AaZu2vLKs&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=31&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=F1bnQNnkOnE&amp;amp;index=32&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=A0H3Th9WA7k&amp;amp;index=33&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=slJzlsbhxDE&amp;amp;index=34&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;8&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
-
-&lt;h3 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;contenteditable&lt;/code&gt; - &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable&#34;&gt;MDN documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;keypress&lt;/code&gt; events&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;es2015-es6&#34;&gt;ES2015+ (ES6+)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Inheritance (with the ES2015 &lt;code&gt;class&lt;/code&gt; syntax; it&amp;rsquo;s still &lt;em&gt;prototypal&lt;/em&gt; inheritance though) - &lt;a href=&#34;https://babeljs.io/learn-es2015/#ecmascript-2015-features-classes&#34;&gt;ES2015 classes on Babel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Modules (import/export) - &lt;a href=&#34;https://babeljs.io/learn-es2015/#ecmascript-2015-features-modules&#34;&gt;ES2015 modules on Babel&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;react-https-facebook-github-io-react&#34;&gt;&lt;a href=&#34;https://facebook.github.io/react/&#34;&gt;React&lt;/a&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://tylermcginnis.com/imperative-vs-declarative-programming/&#34;&gt;Imperative vs. Declarative&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Components
-
-&lt;ul&gt;
-&lt;li&gt;JSX - &lt;a href=&#34;https://facebook.github.io/react/docs/introducing-jsx.html&#34;&gt;Docs: Introducing JSX&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Props - &lt;a href=&#34;https://facebook.github.io/react/docs/components-and-props.html&#34;&gt;Docs: Components and Props&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;State - &lt;a href=&#34;https://facebook.github.io/react/docs/state-and-lifecycle.html&#34;&gt;Docs: State and Lifecycle&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/facebookincubator/create-react-app&#34;&gt;create-react-app&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-
-&lt;h3 id=&#34;dom-manipulation-1&#34;&gt;DOM Manipulation&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;contentEditable&lt;/code&gt; is a property that, like the name suggests, allows the content of an HTML element to be edited through user interaction with the DOM (similar to a text input field).&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
-&lt;code class=&#34;language-html&#34;&gt;
-
-&amp;lt;div class=&amp;quot;person-name&amp;quot;&amp;gt;Mark&amp;lt;/div&amp;gt;
-&amp;lt;button&amp;gt;Click to Edit Name&amp;lt;/button&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-const nameDiv = document.querySelector(&#39;.person-name&#39;)
-console.log(nameDiv.isContentEditable) // =&gt; false
-
-const button = document.querySelector(&#39;button&#39;)
-button.addEventListener(&#39;click&#39;, (ev) =&gt; {
-  nameDiv.contentEditable = true
-  console.log(nameDiv.isContentEditable)
-})
-
-button.click() // =&gt; true (and div content will be editable)
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h3 id=&#34;react&#34;&gt;React&lt;/h3&gt;
-
-&lt;h4 id=&#34;basic-app&#34;&gt;Basic App&lt;/h4&gt;
-
-&lt;p&gt;A basic React application requires a minimum of four things:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;An HTML file with at least one empty element&lt;/li&gt;
-&lt;li&gt;The React library&lt;/li&gt;
-&lt;li&gt;One or more React Component(s)&lt;/li&gt;
-&lt;li&gt;A JavaScript call to attach the React Component to the empty element in step one&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;A minimal example:&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
-&lt;code class=&#34;language-html&#34;&gt;
-
-&amp;lt;-- index.html --&amp;gt;
-&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;title&amp;gt;Basic React App&amp;lt;/title&amp;gt;
-    &amp;lt;script src=&amp;quot;App.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-  &amp;lt;/head&amp;gt;
-  &amp;lt;body&amp;gt;
-    &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-// App.js
-class App extends React.Component {
-  render() {
-    return (
-      &amp;lt;h1&amp;gt;Hello, world!&amp;lt;/h1&amp;gt;
-    )
-  }
-}
-
-ReactDOM.render(&amp;lt;App /&amp;gt;, document.querySelector(&#39;#app&#39;))
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;The body of the HTML above contains only an empty &lt;code&gt;div&lt;/code&gt; with an id of &amp;lsquo;app&amp;rsquo;.  This is where we will tell React to render our app. The &lt;code&gt;App.js&lt;/code&gt; file defines the &lt;code&gt;App&lt;/code&gt; component, and also makes the call to &lt;code&gt;ReactDOM.render&lt;/code&gt;, which attaches &lt;code&gt;&amp;lt;App /&amp;gt;&lt;/code&gt; to the &lt;code&gt;div#app&lt;/code&gt; element.&lt;/p&gt;
-
-&lt;p&gt;React will &amp;lsquo;fill in&amp;rsquo; the div with the return result of the &lt;code&gt;App&lt;/code&gt; component&amp;rsquo;s &lt;code&gt;render&lt;/code&gt; method, in this case, the markup &lt;code&gt;&amp;lt;h1&amp;gt;Hello, world!&amp;lt;/h1&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;props&#34;&gt;Props&lt;/h4&gt;
-
-&lt;p&gt;React components can be thought of as JavaScript functions.  They take in arguments, called &lt;code&gt;props&lt;/code&gt;, and return markup that gets rendered to the page. Props can be just about anything, including strings, booleans, functions, objects, etc&amp;hellip;&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-class App extends React.Component {
-  render() {
-    return (
-      &amp;lt;h1&amp;gt;Hello, {this.props.name}!&amp;lt;/h1&amp;gt;
-    )
-  }
-}
-
-&amp;lt;App name=&amp;quot;Bob&amp;quot; /&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;By passing in the string &lt;code&gt;&amp;quot;Bob&amp;quot;&lt;/code&gt; to the &lt;code&gt;App&lt;/code&gt; component, we can access that value from within the &lt;code&gt;App&lt;/code&gt; class as a property on &lt;code&gt;this.props&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Our rendered output would then be:&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
-&lt;code class=&#34;language-html&#34;&gt;
-
-&amp;lt;h1&amp;gt;Hello, Bob!&amp;lt;/h1&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h4 id=&#34;state&#34;&gt;State&lt;/h4&gt;
-
-&lt;p&gt;Components receive &lt;em&gt;props&lt;/em&gt; as arguments and cannot change their values. Data that needs to change belongs in &lt;em&gt;state&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;State should be initialized in the constructor and updated via &lt;code&gt;setState&lt;/code&gt;.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-danger&#34;&gt;
-  
-    &lt;h4&gt;Do&lt;/h4&gt;
-    
-      &lt;div class=&#34;emoji&#34;&gt;
-        &lt;i class=&#34;fa fa-Not&#34;&gt;&lt;/i&gt;
-      &lt;/div&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;Always use &lt;code&gt;setState&lt;/code&gt; to modify a component&amp;rsquo;s state. The only time you should set state directly is in the constructor.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-class App extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      count: 0
-    }
-  }
-
-  increment(ev) {
-    count = this.state.count + 1
-    this.setState({ count })
-  }
-
-  render() {
-    return (
-      &amp;lt;button type=&#34;button&#34; onClick={this.increment.bind(this)}&amp;gt;
-        Click to Increment
-      &amp;lt;/button&amp;gt;
-      &amp;lt;p&amp;gt;
-        Button has been clicked {this.state.count} times
-      &amp;lt;p&amp;gt;
-    )
-  }
-}
-
-&amp;lt;App /&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h4 id=&#34;modules&#34;&gt;Modules&lt;/h4&gt;
-
-&lt;p&gt;With &lt;a href=&#34;https://babeljs.io/learn-es2015/#ecmascript-2015-features-modules&#34;&gt;modules&lt;/a&gt;, you can define each component in separate files, importing them as needed.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Header.js&lt;/strong&gt;&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-class Header extends React.Component {
-  render() {
-    return (
-      &amp;lt;h1&amp;gt;Hello, {this.props.name}!&amp;lt;/h1&amp;gt;
-    )
-  }
-}
-
-export default Header
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;App.js&lt;/strong&gt;&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-import Header from &#39;./Header&#39;
-
-class App extends React.Component {
-  render() {
-    return (
-      &amp;lt;Header name=&amp;quot;Bob&amp;quot; /&amp;gt;
-    )
-  }
-}
-
-export default App
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://xternbootcamp17.github.io/05-intro-to-react.pdf&#34;&gt;Intro to React&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Megaroster (final): &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/3ccd25f25db46ecff45a5b86ba32affcfb730f2d&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/commit/fc97404dada2d594970f64e9e4fbd3e9b3f6a271&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reactrobats on CodePen: &lt;a href=&#34;https://codepen.io/dstrus/pen/BRvLNg/&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://codepen.io/dstrus/pen/XRoMmR/&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/xtbc17s1/dwarf-underground/tree/3da6c4b4447d32404a141344867a457fdb9c3e60&#34;&gt;Dwarf Underground&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Split the page into at least 6 total components&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Split the page into at least 10 total components, including components &lt;em&gt;in&lt;/em&gt; components&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;super-bonus-credit&#34;&gt;Super Bonus Credit&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Render the four article links at the bottom of the screen using &lt;code&gt;map&lt;/code&gt; and passing in the props they need&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Make a component that contains a text field for leaving a comment&lt;/li&gt;
-&lt;li&gt;Have the text field appear only when the &amp;lsquo;comments&amp;rsquo; link at the bottom of the article is clicked&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;super-mega-bonus-credit-hyper-fighting&#34;&gt;Super Mega Bonus Credit Hyper Fighting&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Actually display comments that are entered and submitted&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Monday, May 22, 2017
+Lecture Videos Morning:
+ Full Playlist | Day 5, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8  Afternoon:
+ Full Playlist | Day 5, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8  Topics DOM Manipulation  contenteditable - MDN documentation keypress events  ES2015+ (ES6+)  Inheritance (with the ES2015 class syntax; it&amp;rsquo;s still prototypal inheritance though) - ES2015 classes on Babel Modules (import/export) - ES2015 modules on Babel  React  Imperative vs.</description>
     </item>
     
     <item>
@@ -1411,95 +51,7 @@ export default App
       <pubDate>Tue, 11 Apr 2017 00:23:58 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/prereqs/codewars/</guid>
-      <description>
-
-&lt;h3 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Sign up at &lt;a href=&#34;https://codewars.com&#34;&gt;codewars.com&lt;/a&gt; using your GitHub account.&lt;/li&gt;
-&lt;li&gt;Follow &lt;a href=&#34;https://www.codewars.com/users/sbaughman&#34;&gt;Seth Baughman&lt;/a&gt; and &lt;a href=&#34;https://www.codewars.com/users/dstrus&#34;&gt;Dave Strus&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Solve the problems on the list below.&lt;/li&gt;
-&lt;li&gt;Email &lt;a href=&#34;mailto:seth@getfretless.com&#34;&gt;Seth&lt;/a&gt; and &lt;a href=&#34;mailto:dave@getfretless.com&#34;&gt;Davey&lt;/a&gt; when you&amp;rsquo;re done so we can review your solutions. Pleae include your Codewars username.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;welcome&#34;&gt;Welcome!&lt;/h2&gt;
-
-&lt;p&gt;Congratulations on being accepted to the 2017 XTERN Bootcamp! This class will be a lot of fun and a lot of hard work, and by the end you&amp;rsquo;ll be able to create front-end web applications in React, one of the hottest JavaScript libraries on the market today.&lt;/p&gt;
-
-&lt;p&gt;In order to make sure everyone gets as much as possible out of this experience, it’s vitally important that everyone arrives with a solid understanding of the JavaScript language. That way, we get to focus on learning React and building cool stuff instead of spending all of our time on basic syntax.&lt;/p&gt;
-
-&lt;p&gt;You have already received a list of online resources that provide a basic foundation in JavaScript, HTML, and CSS (and they&amp;rsquo;re linked again here). Once you have completed reading/watching/coding those, we have an assignment for you! The assignment should be completed and submitted to us for review before your first day of attending class.&lt;/p&gt;
-
-&lt;p&gt;We will be using a website called Codewars to test your knowledge of basic JavaScript. Personally, I like solving their exercises for fun, and I’ve identified 12 problems that I particularly enjoyed and that cover topics we will be using daily in class: Arrays, Objects, and String manipulation.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/welcome&#34;&gt;Welcome!&lt;/a&gt; - 8 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/number-of-people-in-the-bus&#34;&gt;Number of People in the Bus&lt;/a&gt; - 8 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/vowel-count&#34;&gt;Vowel Count&lt;/a&gt; - 7 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/mumbling&#34;&gt;Mumbling&lt;/a&gt; - 7kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/sum-of-two-lowest-positive-integers&#34;&gt;Sum of two lowest positive integers&lt;/a&gt; - 7 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/find-how-many-times-did-a-team-from-a-given-country-win-the-champions-league&#34;&gt;Find how many times did a team from a given country win the Champions League?&lt;/a&gt; - 7 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/resistor-color-codes&#34;&gt;Resistor Color Codes&lt;/a&gt; - 7 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/who-likes-it&#34;&gt;Who likes it?&lt;/a&gt; - 6 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/find-the-divisors&#34;&gt;Find the divisors!&lt;/a&gt; - 6 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/format-a-string-of-names-like-bart-lisa-and-maggie&#34;&gt;Format a string of names like ‘Bart, Lisa &amp;amp; Maggie’&lt;/a&gt; - 6 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/decode-the-morse-code&#34;&gt;Decode the Morse Code&lt;/a&gt; - 6 kyu&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com/kata/mirror-object-tcejbo-rorrim&#34;&gt;Mirror object - tcejbo rorriM&lt;/a&gt; - 6 kyu&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Now, you’re probably wondering &lt;em&gt;what the heck is a kyu?&lt;/em&gt; On Codewars, exercises are ranked in difficulty from 8 kyu (really easy) to 1 kyu (really, really hard).  So, the above problems aren&amp;rsquo;t too difficult&amp;mdash;just challenging enough to make sure that you’ll be able to do what we need to do.&lt;/p&gt;
-
-&lt;p&gt;So, that’s basically it. Sign up, do the problems, and send us an email when you’re done. &lt;strong&gt;Please be sure to include your username in the email so that we can be sure we&amp;rsquo;re looking at the right solutions.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Below, I’ve included some screenshots and instructions for how to get started.&lt;/p&gt;
-
-&lt;h3 id=&#34;signing-up&#34;&gt;Signing up&lt;/h3&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://xternbootcamp17.github.io/images/cw-ss-01.png&#34; alt=&#34;Step 1&#34;&gt;
-&lt;figcaption&gt;&lt;strong&gt;Step 1:  Choose JavaScript as your language.&lt;/strong&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://xternbootcamp17.github.io/images/cw-ss-02.png&#34; alt=&#34;Step 2&#34;&gt;
-&lt;figcaption&gt;&lt;strong&gt;Step 2: Solve the first problem.&lt;/strong&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://xternbootcamp17.github.io/images/cw-ss-03.png&#34; alt=&#34;Step 3&#34;&gt;
-&lt;figcaption&gt;&lt;strong&gt;Step 3:  Link your GitHub Account.&lt;/strong&gt; (You do have a Github account, right? If not, &lt;a href=&#34;https://github.com/&#34;&gt;Sign up&lt;/a&gt;!&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&#34;following-a-user&#34;&gt;Following a User:&lt;/h3&gt;
-
-&lt;p&gt;Step 1:  Go to the url &lt;a href=&#34;https://www.codewars.com/users/:username&#34;&gt;https://www.codewars.com/users/:username&lt;/a&gt;, where &lt;em&gt;:username&lt;/em&gt; is the username of the person you want to follow.&lt;/p&gt;
-
-&lt;p&gt;For example, to follow Davey, go to &lt;a href=&#34;https://www.codewars.com/users/dstrus&#34;&gt;https://www.codewars.com/users/dstrus&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To follow Seth, go to &lt;a href=&#34;https://www.codewars.com/users/sbaughman&#34;&gt;https://www.codewars.com/users/sbaughman&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Step 2:  Click the &lt;em&gt;follow&lt;/em&gt; button.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/cw-ss-04.png&#34; alt=&#34;Follow&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;finding-a-particular-exercise&#34;&gt;Finding a Particular Exercise:&lt;/h3&gt;
-
-&lt;p&gt;Click on the links in the list on the first page, OR&amp;hellip;&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://xternbootcamp17.github.io/images/cw-ss-05.png&#34; alt=&#34;Kata&#34;&gt;
-&lt;figcaption&gt;&lt;strong&gt;Step 1:  Click on ‘Kata’ in the side menu.&lt;/strong&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;http://xternbootcamp17.github.io/images/cw-ss-06.png&#34; alt=&#34;Search&#34;&gt;
-&lt;figcaption&gt;&lt;strong&gt;Step 2:  Type the name of the exercise in the search box.&lt;/strong&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&#34;other-questions&#34;&gt;Other questions?&lt;/h3&gt;
-
-&lt;p&gt;Check out the &lt;a href=&#34;https://www.codewars.com/docs&#34;&gt;Codewars documentation&lt;/a&gt; or &lt;a href=&#34;mailto:dave@getfretless.com,seth@getfretless.com?subject=HALP&#34;&gt;email us&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>TL;DR  Sign up at codewars.com using your GitHub account. Follow Seth Baughman and Dave Strus. Solve the problems on the list below. Email Seth and Davey when you&amp;rsquo;re done so we can review your solutions. Pleae include your Codewars username.  Welcome! Congratulations on being accepted to the 2017 XTERN Bootcamp! This class will be a lot of fun and a lot of hard work, and by the end you&amp;rsquo;ll be able to create front-end web applications in React, one of the hottest JavaScript libraries on the market today.</description>
     </item>
     
     <item>
@@ -1508,247 +60,11 @@ export default App
       <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/tools/code-extensions/</guid>
-      <description>
-
-&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
-
-
-&lt;svg
-   xmlns:dc=&#34;http://purl.org/dc/elements/1.1/&#34;
-   xmlns:cc=&#34;http://creativecommons.org/ns#&#34;
-   xmlns:rdf=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#&#34;
-   xmlns:svg=&#34;http://www.w3.org/2000/svg&#34;
-   xmlns=&#34;http://www.w3.org/2000/svg&#34;
-   role=&#34;img&#34;
-   viewBox=&#34;0 0 500 516.8125&#34;
-   id=&#34;vs-logo-svg&#34;
-   aria-labelledby=&#34;vs-svg-title&#34;
-   version=&#34;1.2&#34;&gt;
-  &lt;title id=&#34;vs-svg-title&#34;&gt;Visual Studio Code&lt;/title&gt;
-  &lt;defs
-     id=&#34;defs4&#34; /&gt;
-  &lt;sodipodi:namedview
-     id=&#34;base&#34;
-     pagecolor=&#34;#2d2c31&#34;
-     bordercolor=&#34;#666666&#34;
-     borderopacity=&#34;1.0&#34;
-     inkscape:pageopacity=&#34;0&#34;
-     inkscape:pageshadow=&#34;2&#34;
-     inkscape:zoom=&#34;0.5&#34;
-     inkscape:cx=&#34;26.033824&#34;
-     inkscape:cy=&#34;342.90908&#34;
-     inkscape:document-units=&#34;px&#34;
-     inkscape:current-layer=&#34;layer1&#34;
-     showgrid=&#34;false&#34;
-     inkscape:window-width=&#34;1920&#34;
-     inkscape:window-height=&#34;1018&#34;
-     inkscape:window-x=&#34;1912&#34;
-     inkscape:window-y=&#34;-8&#34;
-     inkscape:window-maximized=&#34;1&#34;
-     fit-margin-top=&#34;0&#34;
-     fit-margin-left=&#34;0&#34;
-     fit-margin-right=&#34;0&#34;
-     fit-margin-bottom=&#34;0&#34; /&gt;
-  &lt;metadata
-     id=&#34;metadata7&#34;&gt;
-    &lt;rdf:RDF&gt;
-      &lt;cc:Work
-         rdf:about=&#34;&#34;&gt;
-        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
-        &lt;dc:type
-           rdf:resource=&#34;http://purl.org/dc/dcmitype/StillImage&#34; /&gt;
-      &lt;/cc:Work&gt;
-    &lt;/rdf:RDF&gt;
-  &lt;/metadata&gt;
-  &lt;g
-     inkscape:label=&#34;Ebene 1&#34;
-     inkscape:groupmode=&#34;layer&#34;
-     id=&#34;layer1&#34;
-     style=&#34;display:inline&#34;
-     transform=&#34;translate(0,-538.375)&#34;&gt;
-    &lt;path
-       style=&#34;fill:#ffffff;stroke:none&#34;
-       d=&#34;M 483.29234,602.44472 372.10411,557.87392 178.02375,746.87661 61.150238,657.90867 l -44.44058,22.35039 -0.04444,233.31307 44.23249,22.18974 116.777852,-88.89395 194.55776,188.82908 111.10146,-44.39718 z&#34;
-       id=&#34;path2998&#34;
-       inkscape:connector-curvature=&#34;0&#34; /&gt;
-    &lt;path
-       style=&#34;fill:#373277;stroke:none&#34;
-       d=&#34;m 361.0373,713.50273 -111.05802,83.02234 111.10146,83.67329 z&#34;
-       id=&#34;path3000&#34;
-       inkscape:connector-curvature=&#34;0&#34; /&gt;
-    &lt;path
-       style=&#34;fill:#373277;stroke:none&#34;
-       d=&#34;m 72.191838,746.97093 0.0667,99.85788 55.483402,-50.26641 z&#34;
-       id=&#34;path3002&#34;
-       inkscape:connector-curvature=&#34;0&#34; /&gt;
-  &lt;/g&gt;
-&lt;/svg&gt;
-
-
-
-&lt;p&gt;VS Code Extensions&lt;/p&gt;
-
-
-&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;We use a number of settings, shortcuts, and extensions to make our lives easier when developing with Visual Studio Code. Here are some of our favorites extensions.&lt;/p&gt;
-
-&lt;h2 id=&#34;recommended-extensions-for-vs-code&#34;&gt;Recommended Extensions for VS Code&lt;/h2&gt;
-
-&lt;p&gt;To install an extension, launch VS Code Quick Open (&lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;P&lt;/kbd&gt;), paste the command, and press &lt;kbd&gt;enter&lt;/kbd&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;vscode-icons-https-marketplace-visualstudio-com-items-itemname-robertohuertasm-vscode-icons&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons&#34;&gt;&lt;strong&gt;vscode-icons&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;ext install vscode-icons&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;vscode-icons shows icons in the sidebar that correspond to the file type.&lt;/p&gt;
-
-&lt;h3 id=&#34;can-i-use-https-marketplace-visualstudio-com-items-itemname-akamud-vscode-caniuse&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=akamud.vscode-caniuse&#34;&gt;&lt;strong&gt;Can I Use&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;ext install vscode-caniuse&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Can I Use checks HTML/CSS/JS for browser compatibility, based on &lt;a href=&#34;http://caniuse.com&#34;&gt;caniuse.com&lt;/a&gt;. The default keybinding is &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;shift&lt;/kbd&gt;+&lt;kbd&gt;i&lt;/kbd&gt; on Windows/Linux and &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;c&lt;/kbd&gt; on Mac.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/caniuse.png&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;color-highlight-https-marketplace-visualstudio-com-items-itemname-naumovs-color-highlight&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight&#34;&gt;&lt;strong&gt;Color Highlight&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;ext install color-highlight&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Color Highlights display web colors in your code &lt;em&gt;in that color&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/color-highlight.png&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;debugger-for-chrome-https-marketplace-visualstudio-com-items-itemname-msjsdiag-debugger-for-chrome&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome&#34;&gt;Debugger for Chrome&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;ext install debugger-for-chrome&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Debug in Chrome from inside VS Code. Pick a launch config from the dropdown on the Debug pane in Code, and press the play button or &lt;kbd&gt;F5&lt;/kbd&gt; to start.&lt;/p&gt;
-
-&lt;p&gt;For React projects, create the file &lt;code&gt;.vscode/launch.json&lt;/code&gt; in your project with the following configuration (&lt;a href=&#34;https://medium.com/@auchenberg/live-edit-and-debug-your-react-apps-directly-from-vs-code-without-leaving-the-editor-3da489ed905f&#34;&gt;more info&lt;/a&gt;):&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-json&#34; rel=&#34;json&#34;&gt;
-&lt;code class=&#34;language-json&#34;&gt;
-
-{
-  &#34;version&#34;: &#34;0.2.0&#34;,
-  &#34;configurations&#34;: [
-    {
-      &#34;name&#34;: &#34;Chrome&#34;,
-      &#34;type&#34;: &#34;chrome&#34;,
-      &#34;request&#34;: &#34;launch&#34;,
-      &#34;url&#34;: &#34;http://localhost:3000&#34;,
-      &#34;webRoot&#34;: &#34;${workspaceRoot}/src&#34;,
-      &#34;userDataDir&#34;: &#34;${workspaceRoot}/.chrome&#34;,
-      &#34;sourceMapPathOverrides&#34;: {
-          &#34;webpack:///src/*&#34;: &#34;${webRoot}/*&#34;
-      }
-    }
-  ]
-}
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/debugger-react.gif&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;ecmascript-quotes-transformer-https-marketplace-visualstudio-com-items-itemname-vilicvane-es-quotes&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=vilicvane.es-quotes&#34;&gt;ECMAScript Quotes Transformer&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;ext install es-quotes&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Switches a string between single and double quotes, and between normal strings and ES6+ template strings.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/es-quotes.gif&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;embrace-https-marketplace-visualstudio-com-items-itemname-mycelo-embrace&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=mycelo.embrace&#34;&gt;Embrace&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;ext install embrace&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Surround the selection with parentheses, brackets, quotes, etc. The extension does &lt;em&gt;not&lt;/em&gt; configure any keybindings for these commands by default.&lt;/p&gt;
-
-&lt;h3 id=&#34;eslint-https-marketplace-visualstudio-com-items-itemname-dbaeumer-vscode-eslint&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&#34;&gt;ESLint&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;ext install vscode-eslint&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Check JavaScript for errors and style violations as you edit. Requires ESLint, which you can install with:&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install eslint -g
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;html-boilerplate-https-marketplace-visualstudio-com-items-itemname-sidthesloth-html5-boilerplate&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate&#34;&gt;HTML Boilerplate&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;ext install html5-boilerplate&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Adds a snippet for HTML 5 boilerplate.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/html-boilerplate.gif&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;path-intellisense-https-marketplace-visualstudio-com-items-itemname-christian-kohler-path-intellisense&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense&#34;&gt;Path Intellisense&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;ext install path-intellisense&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Autocomplete filenames as you type. Very handy for module imports.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/path-intellisense.gif&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;view-in-browser-https-marketplace-visualstudio-com-items-itemname-qinjia-view-in-browser&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=qinjia.view-in-browser&#34;&gt;View In Browser&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;ext install view-in-browser&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Opens an HTML page in the default browser. Bound to &lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;F1&lt;/kbd&gt; (Mac) or &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;F1&lt;/kbd&gt; by default.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-tip&#34;&gt;
-  
-    &lt;h4&gt;Theme Info&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;Since I&amp;rsquo;m always asked, I use the following themes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Code: &lt;em&gt;Oceanic Next Italic&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Atom: &lt;em&gt;Atom Dark&lt;/em&gt; UI theme; &lt;em&gt;Kobalt&lt;/em&gt; syntax theme (with some personal customizations)&lt;/li&gt;
-&lt;/ul&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-</description>
+      <description>Visual Studio Code  image/svg+xml      VS Code Extensions
+ We use a number of settings, shortcuts, and extensions to make our lives easier when developing with Visual Studio Code. Here are some of our favorites extensions.
+Recommended Extensions for VS Code To install an extension, launch VS Code Quick Open (⌘+P), paste the command, and press enter.
+vscode-icons ext install vscode-icons
+vscode-icons shows icons in the sidebar that correspond to the file type.</description>
     </item>
     
     <item>
@@ -1757,196 +73,9 @@ export default App
       <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/tools/code-keybindings/</guid>
-      <description>
-
-&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
-
-
-&lt;svg
-   xmlns:dc=&#34;http://purl.org/dc/elements/1.1/&#34;
-   xmlns:cc=&#34;http://creativecommons.org/ns#&#34;
-   xmlns:rdf=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#&#34;
-   xmlns:svg=&#34;http://www.w3.org/2000/svg&#34;
-   xmlns=&#34;http://www.w3.org/2000/svg&#34;
-   role=&#34;img&#34;
-   viewBox=&#34;0 0 500 516.8125&#34;
-   id=&#34;vs-logo-svg&#34;
-   aria-labelledby=&#34;vs-svg-title&#34;
-   version=&#34;1.2&#34;&gt;
-  &lt;title id=&#34;vs-svg-title&#34;&gt;Visual Studio Code&lt;/title&gt;
-  &lt;defs
-     id=&#34;defs4&#34; /&gt;
-  &lt;sodipodi:namedview
-     id=&#34;base&#34;
-     pagecolor=&#34;#2d2c31&#34;
-     bordercolor=&#34;#666666&#34;
-     borderopacity=&#34;1.0&#34;
-     inkscape:pageopacity=&#34;0&#34;
-     inkscape:pageshadow=&#34;2&#34;
-     inkscape:zoom=&#34;0.5&#34;
-     inkscape:cx=&#34;26.033824&#34;
-     inkscape:cy=&#34;342.90908&#34;
-     inkscape:document-units=&#34;px&#34;
-     inkscape:current-layer=&#34;layer1&#34;
-     showgrid=&#34;false&#34;
-     inkscape:window-width=&#34;1920&#34;
-     inkscape:window-height=&#34;1018&#34;
-     inkscape:window-x=&#34;1912&#34;
-     inkscape:window-y=&#34;-8&#34;
-     inkscape:window-maximized=&#34;1&#34;
-     fit-margin-top=&#34;0&#34;
-     fit-margin-left=&#34;0&#34;
-     fit-margin-right=&#34;0&#34;
-     fit-margin-bottom=&#34;0&#34; /&gt;
-  &lt;metadata
-     id=&#34;metadata7&#34;&gt;
-    &lt;rdf:RDF&gt;
-      &lt;cc:Work
-         rdf:about=&#34;&#34;&gt;
-        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
-        &lt;dc:type
-           rdf:resource=&#34;http://purl.org/dc/dcmitype/StillImage&#34; /&gt;
-      &lt;/cc:Work&gt;
-    &lt;/rdf:RDF&gt;
-  &lt;/metadata&gt;
-  &lt;g
-     inkscape:label=&#34;Ebene 1&#34;
-     inkscape:groupmode=&#34;layer&#34;
-     id=&#34;layer1&#34;
-     style=&#34;display:inline&#34;
-     transform=&#34;translate(0,-538.375)&#34;&gt;
-    &lt;path
-       style=&#34;fill:#ffffff;stroke:none&#34;
-       d=&#34;M 483.29234,602.44472 372.10411,557.87392 178.02375,746.87661 61.150238,657.90867 l -44.44058,22.35039 -0.04444,233.31307 44.23249,22.18974 116.777852,-88.89395 194.55776,188.82908 111.10146,-44.39718 z&#34;
-       id=&#34;path2998&#34;
-       inkscape:connector-curvature=&#34;0&#34; /&gt;
-    &lt;path
-       style=&#34;fill:#373277;stroke:none&#34;
-       d=&#34;m 361.0373,713.50273 -111.05802,83.02234 111.10146,83.67329 z&#34;
-       id=&#34;path3000&#34;
-       inkscape:connector-curvature=&#34;0&#34; /&gt;
-    &lt;path
-       style=&#34;fill:#373277;stroke:none&#34;
-       d=&#34;m 72.191838,746.97093 0.0667,99.85788 55.483402,-50.26641 z&#34;
-       id=&#34;path3002&#34;
-       inkscape:connector-curvature=&#34;0&#34; /&gt;
-  &lt;/g&gt;
-&lt;/svg&gt;
-
-
-
-&lt;p&gt;VS Code Keybindings&lt;/p&gt;
-
-
-&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;It&amp;rsquo;s worth your time to get to know the keyboard shortcuts for whatever editor you use. We&amp;rsquo;ve gone a step further and added some custom keybindings for some of the commands we use most.&lt;/p&gt;
-
-&lt;h2 id=&#34;custom-keybindings-for-vs-code&#34;&gt;Custom Keybindings for VS Code&lt;/h2&gt;
-
-&lt;p&gt;Open your Keyboard Shortcuts from the menu (&lt;kbd&gt;Code &amp;gt; Preferences &amp;gt; Keyboard Shortcuts&lt;/kbd&gt;) or by using (what else?) the keyboard shortcut (&lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;K&lt;/kbd&gt;, &lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;S&lt;/kbd&gt;). From there, you can see all of the current keyboard shortcuts and customize them.&lt;/p&gt;
-
-&lt;p&gt;For serious customization, click the link to open &lt;em&gt;keybindings.js&lt;/em&gt;. That opens two panes: the default keybindings, and your custom bindings. My keybindings appear below. I&amp;rsquo;ll talk about a few of them.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-// Place your key bindings in this file to overwrite the defaults
-[
-  {
-    &#34;key&#34;: &#34;alt+cmd+.&#34;,
-    &#34;command&#34;: &#34;editor.emmet.action.matchingPair&#34;
-  },
-
-  {
-    &#34;key&#34;: &#34;shift+cmd+a&#34;,
-    &#34;command&#34;: &#34;editor.emmet.action.wrapWithAbbreviation&#34;
-  },
-
-  {
-    &#34;key&#34;: &#34;cmd+&#39;&#34;,
-    &#34;command&#34;: &#34;esQuotes.transformBetweenSingleDoubleQuotes&#34;
-  },
-
-  {
-    &#34;key&#34;: &#34;ctrl+space&#34;,
-    &#34;command&#34;: &#34;editor.emmet.action.expandAbbreviation&#34;,
-    &#34;when&#34;: &#34;editorTextFocus &amp;&amp; !editorHasMultipleSelections &amp;&amp; !editorHasSelection &amp;&amp; !editorReadonly&#34;
-  },
-
-  {
-        &#34;key&#34;: &#34;ctrl+k ctrl+e&#34;,
-        &#34;command&#34;: &#34;extension.embraceParenthesis&#34;,
-        &#34;when&#34;: &#34;editorHasSelection &amp;&amp; editorTextFocus&#34;
-    },
-    {
-        &#34;key&#34;: &#34;ctrl+k ctrl+[&#34;,
-        &#34;command&#34;: &#34;extension.embraceSquareBrackets&#34;,
-        &#34;when&#34;: &#34;editorHasSelection &amp;&amp; editorTextFocus&#34;
-    },
-    {
-        &#34;key&#34;: &#34;ctrl+k ctrl+l&#34;,
-        &#34;command&#34;: &#34;extension.embraceCurlyBrackets&#34;,
-        &#34;when&#34;: &#34;editorHasSelection &amp;&amp; editorTextFocus&#34;
-    },
-    {
-        &#34;key&#34;: &#34;ctrl+k ctrl+a&#34;,
-        &#34;command&#34;: &#34;extension.embraceAngleBrackets&#34;,
-        &#34;when&#34;: &#34;editorHasSelection &amp;&amp; editorTextFocus&#34;
-    },
-    {
-        &#34;key&#34;: &#34;ctrl+k ctrl+&#39;&#34;,
-        &#34;command&#34;: &#34;extension.embraceSingleQuotes&#34;,
-        &#34;when&#34;: &#34;editorHasSelection &amp;&amp; editorTextFocus&#34;
-    },
-    {
-        &#34;key&#34;: &#34;ctrl+k ctrl+o&#34;,
-        &#34;command&#34;: &#34;extension.embraceDoubleQuotes&#34;,
-        &#34;when&#34;: &#34;editorHasSelection &amp;&amp; editorTextFocus&#34;
-    }
-]
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;/p&gt;
-
-&lt;h3 id=&#34;emmet&#34;&gt;Emmet&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://emmet.io/&#34;&gt;Emmet&lt;/a&gt; is a wonderful tool for expanding CSS selector-like snippets into HTML elements. For example, type &lt;code&gt;.container&amp;gt;.row&amp;gt;.col-xs-12&amp;gt;p&lt;/code&gt;, and Emmet will expand it into this:&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
-&lt;code class=&#34;language-html&#34;&gt;
-
-&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
-  &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
-    &amp;lt;div class=&amp;quot;col-xs-12&amp;quot;&amp;gt;
-      &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
-    &amp;lt;/div&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;It will even put your cursor inside the &lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; tags. And if you use it within JSX, it will use &lt;code&gt;className&lt;/code&gt; instead of class, just as it should.&lt;/p&gt;
-
-&lt;p&gt;By default, IntelliSense will suggest Emmet expansion just like any other autocompletion. Sometimes that&amp;rsquo;s fine, but other times it can be a real pain in the neck. Thus, I prefer to set a custom shortcut: &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;space&lt;/kbd&gt;.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s another really handy Emmet feature to which I&amp;rsquo;ve assigned a shortcut: &lt;em&gt;wrap with abbreviation&lt;/em&gt;. It allows you to wrap a selection inside an HTML element identified by an Emmet abbreviation. Select the text you want to wrap and hit the shortcut. You&amp;rsquo;ll be presented with a box to type the abbreviation into. Magic! I&amp;rsquo;ve assigned this command to &lt;kbd&gt;shift&lt;/kbd&gt;+&lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;A&lt;/kbd&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;esquotes&#34;&gt;ESQuotes&lt;/h3&gt;
-
-&lt;p&gt;I mentioned the ECMAScript Quotes Transformer extension earlier. This begs for a keyboard shortcut to quickly switch between single and double quotes: &lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;&amp;lsquo;&lt;/kbd&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;embrace&#34;&gt;Embrace&lt;/h3&gt;
-
-&lt;p&gt;As mentioned on the previous page, the Embrace extension does not assign any keybindings by default, so I configured some. My shortcuts vary slightly from the recommended shortcuts on the extension&amp;rsquo;s page (in particular, I prefer &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;K&lt;/kbd&gt;, &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;[&lt;/kbd&gt; for wrapping with square brackets).&lt;/p&gt;
-</description>
+      <description>Visual Studio Code  image/svg+xml      VS Code Keybindings
+ It&amp;rsquo;s worth your time to get to know the keyboard shortcuts for whatever editor you use. We&amp;rsquo;ve gone a step further and added some custom keybindings for some of the commands we use most.
+Custom Keybindings for VS Code Open your Keyboard Shortcuts from the menu (Code &amp;gt; Preferences &amp;gt; Keyboard Shortcuts) or by using (what else?</description>
     </item>
     
     <item>
@@ -1955,131 +84,7 @@ export default App
       <pubDate>Fri, 10 Jun 2016 22:39:00 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/setup-mac/chrome/</guid>
-      <description>
-
-&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
-
-
-&lt;svg version=&#34;1.1&#34; role=&#34;img&#34; aria-labelledby=&#34;chrome-svg-title&#34; id=&#34;chrome-logo-svg&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; x=&#34;0px&#34; y=&#34;0px&#34;
-	 viewBox=&#34;0 0 648.4 170.8&#34; style=&#34;enable-background:new 0 0 648.4 170.8;&#34; xml:space=&#34;preserve&#34;&gt;
-&lt;title id=&#34;chrome-svg-title&#34;&gt;Chrome&lt;/title&gt;
-&lt;style type=&#34;text/css&#34;&gt;
-	.st0{fill:#FAFCFF;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill-opacity:0.1;}
-	.st3{fill:url(#circle53_2_);}
-	.st4{fill:url(#path55_2_);}
-	.st5{fill:url(#path57_2_);}
-	.st6{fill:url(#path59_2_);}
-	.st7{fill:url(#path61_2_);}
-	.st8{fill:url(#path63_2_);}
-	.st9{fill:url(#path65_2_);}
-&lt;/style&gt;
-&lt;g&gt;
-	&lt;g&gt;
-		&lt;path class=&#34;st0&#34; d=&#34;M247.2,120c-3.3,1.6-10.7,4-20,4c-21,0-34.7-14.3-34.7-35.6c0-21.5,14.7-37.2,37.4-37.2
-			c7.5,0,14.1,1.9,17.6,3.7l-2.9,9.6c-3-1.6-7.8-3.3-14.7-3.3c-16,0-24.6,12-24.6,26.4c0,16.1,10.4,26.1,24.2,26.1
-			c7.2,0,12-1.7,15.6-3.3L247.2,120z&#34;/&gt;
-		&lt;path class=&#34;st0&#34; d=&#34;M262,20.2h12.7v43.6h0.3c2-3.6,5.2-6.9,9.1-9.1c3.7-2.2,8.2-3.5,13-3.5c9.4,0,24.3,5.8,24.3,29.7v41.5h-12.7
-			v-40c0-11.2-4.2-20.6-16.1-20.6c-8.2,0-14.5,5.8-17,12.5c-0.7,1.9-0.9,3.7-0.9,6v42H262L262,20.2L262,20.2z&#34;/&gt;
-		&lt;path class=&#34;st0&#34; d=&#34;M341.9,74.5c0-8.2-0.1-15.3-0.6-21.7h11.1l0.6,13.8h0.4c3.2-9.4,10.9-15.3,19.4-15.3c1.3,0,2.3,0.1,3.5,0.3
-			v12c-1.3-0.3-2.6-0.3-4.3-0.3c-8.9,0-15.3,6.6-17,16.1c-0.3,1.7-0.4,3.9-0.4,5.9v37.2h-12.7V74.5z&#34;/&gt;
-		&lt;path class=&#34;st0&#34; d=&#34;M450.7,87c0,25.8-18,37-34.7,37c-18.7,0-33.4-13.8-33.4-35.9c0-23.2,15.4-36.9,34.6-36.9
-			C437.1,51.3,450.7,65.9,450.7,87z M395.5,87.7c0,15.3,8.6,26.8,21,26.8c12.1,0,21.2-11.4,21.2-27.1c0-11.8-5.9-26.6-20.9-26.6
-			C402,60.8,395.5,74.6,395.5,87.7z&#34;/&gt;
-		&lt;path class=&#34;st0&#34; d=&#34;M466.6,71.6c0-7.3-0.3-13.1-0.6-18.9h11.1l0.6,11.4h0.4c3.9-6.6,10.4-12.8,22-12.8c9.4,0,16.6,5.8,19.6,14
-			h0.3c2.2-4,5-6.9,7.9-9.1c4.2-3.2,8.6-4.9,15.3-4.9c9.4,0,23,6,23,30.2v40.9h-12.4V83.1c0-13.5-5-21.5-15.1-21.5
-			c-7.3,0-12.8,5.3-15.1,11.4c-0.6,1.9-1,4-1,6.3v43.1h-12.4V80.7c0-11.1-4.9-19-14.5-19c-7.8,0-13.7,6.3-15.7,12.7
-			c-0.7,1.7-1,4-1,6.2v41.9h-12.4V71.6z&#34;/&gt;
-		&lt;path class=&#34;st0&#34; d=&#34;M593.8,89.9c0.3,17.1,11.1,24.2,23.9,24.2c9.1,0,14.7-1.6,19.3-3.6l2.3,9.1c-4.5,2-12.2,4.5-23.3,4.5
-			c-21.5,0-34.3-14.3-34.3-35.3c0-21,12.4-37.4,32.7-37.4c22.9,0,28.8,19.9,28.8,32.7c0,2.6-0.1,4.5-0.4,5.9L593.8,89.9L593.8,89.9z
-			 M630.9,80.8c0.1-7.9-3.3-20.4-17.6-20.4c-13,0-18.4,11.7-19.4,20.4H630.9z&#34;/&gt;
-	&lt;/g&gt;
-&lt;/g&gt;
-&lt;circle id=&#34;circle47_1_&#34; class=&#34;st1&#34; cx=&#34;85.3&#34; cy=&#34;85.7&#34; r=&#34;83.8&#34;/&gt;
-&lt;path id=&#34;path49_1_&#34; class=&#34;st2&#34; d=&#34;M138.6,100.9c0-29.5-23.9-53.3-53.3-53.3C55.9,47.6,32,71.5,32,100.9h15.2
-	c0-21,17.1-38.1,38.1-38.1s38.1,17.1,38.1,38.1&#34;/&gt;
-&lt;circle id=&#34;circle51_1_&#34; class=&#34;st2&#34; cx=&#34;89.1&#34; cy=&#34;96.4&#34; r=&#34;29&#34;/&gt;
-&lt;linearGradient id=&#34;circle53_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-157.8861&#34; y1=&#34;-96.4174&#34; x2=&#34;-157.8861&#34; y2=&#34;-95.6555&#34; gradientTransform=&#34;matrix(82 0 0 82 13031.9707 7960.6992)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#81B4E0&#34;/&gt;
-	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#0C5A94&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;circle id=&#34;circle53_1_&#34; class=&#34;st3&#34; cx=&#34;85.3&#34; cy=&#34;85.7&#34; r=&#34;31.2&#34;/&gt;
-&lt;linearGradient id=&#34;path55_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-114.5195&#34; y1=&#34;541.6082&#34; x2=&#34;-114.5195&#34; y2=&#34;610.9379&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#F06B59&#34;/&gt;
-	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#DF2227&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;path id=&#34;path55_1_&#34; class=&#34;st4&#34; d=&#34;M161.5,47.6C140.5,5.4,89.3-11.8,47.1,9.2C34,15.7,22.7,25.6,14.5,37.7l34.3,59.4
-	c-6.3-20.1,4.8-41.5,24.9-47.8c3.5-1.1,7.2-1.7,10.9-1.8&#34;/&gt;
-&lt;linearGradient id=&#34;path57_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-181.7386&#34; y1=&#34;687.5891&#34; x2=&#34;-146.6936&#34; y2=&#34;629.6887&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#388B41&#34;/&gt;
-	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#4CB749&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;path id=&#34;path57_1_&#34; class=&#34;st5&#34; d=&#34;M14.5,37.7c-26.2,39.1-15.8,92.1,23.4,118.4c12.1,8.1,26.1,13,40.6,14.2l35.8-60.9
-	c-13.4,16.2-37.4,18.5-53.6,5.1c-5.5-4.5-9.6-10.6-11.9-17.3&#34;/&gt;
-&lt;linearGradient id=&#34;path59_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-64.3377&#34; y1=&#34;693.7479&#34; x2=&#34;-101.6686&#34; y2=&#34;603.8491&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#E4B022&#34;/&gt;
-	&lt;stop  offset=&#34;0.3&#34; style=&#34;stop-color:#FCD209&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;path id=&#34;path59_1_&#34; class=&#34;st6&#34; d=&#34;M78.5,170.3c47,3.6,88-31.7,91.5-78.7c1.1-15.2-1.8-30.4-8.5-44H84.6c21,0.1,38,17.2,37.9,38.3
-	c0,8.5-2.9,16.8-8.2,23.4&#34;/&gt;
-&lt;linearGradient id=&#34;path61_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-170.1355&#34; y1=&#34;636.0798&#34; x2=&#34;-170.1355&#34; y2=&#34;575.1317&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#000000;stop-opacity:0.15&#34;/&gt;
-	&lt;stop  offset=&#34;0.3&#34; style=&#34;stop-color:#000000;stop-opacity:6.000000e-02&#34;/&gt;
-	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#000000;stop-opacity:3.000000e-02&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;path id=&#34;path61_1_&#34; class=&#34;st7&#34; d=&#34;M14.5,37.7l34.3,59.4c-2.5-8.5-2-17.7,1.5-25.9L16,35.4&#34;/&gt;
-&lt;linearGradient id=&#34;path63_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-86.009&#34; y1=&#34;655.7618&#34; x2=&#34;-127.9107&#34; y2=&#34;698.4254&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#000000;stop-opacity:0.15&#34;/&gt;
-	&lt;stop  offset=&#34;0.3&#34; style=&#34;stop-color:#000000;stop-opacity:6.000000e-02&#34;/&gt;
-	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#000000;stop-opacity:3.000000e-02&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;path id=&#34;path63_1_&#34; class=&#34;st8&#34; d=&#34;M78.5,170.3l35.8-60.9c-5.7,6.7-13.5,11.3-22.1,13l-15.2,48&#34;/&gt;
-&lt;linearGradient id=&#34;path65_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-86.6163&#34; y1=&#34;668.0358&#34; x2=&#34;-80.5217&#34; y2=&#34;607.8517&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#000000;stop-opacity:0.15&#34;/&gt;
-	&lt;stop  offset=&#34;0.3&#34; style=&#34;stop-color:#000000;stop-opacity:6.000000e-02&#34;/&gt;
-	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#000000;stop-opacity:3.000000e-02&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;path id=&#34;path65_1_&#34; class=&#34;st9&#34; d=&#34;M161.5,47.6H84.6c11.6,0.1,22.5,5.4,29.7,14.5L163,49.9&#34;/&gt;
-&lt;/svg&gt;
-
-
-
-&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;To develop with React, you&amp;rsquo;ll want a modern web browser with a JavaScript console and debugger. The latest versions of all the major browsers have the tools you need, but we highly recommend using Google Chrome for the course, as we can provide the most detailed help for the tools built into Chrome.&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;download&#34;&gt;
-&lt;a href=&#34;http://www.google.com/chrome/&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; Download Chrome&lt;/a&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;recommended-extensions&#34;&gt;Recommended Extensions&lt;/h2&gt;
-
-&lt;p&gt;We recommend installing the following extensions:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi&#34;&gt;React Developer Tools&lt;/a&gt;: Self-explanatory.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa&#34;&gt;JSON Formatter&lt;/a&gt;: This displays JSON in a readable format in Chrome. There are several extensions that share this name. Accept no imitations; use the one I link to here.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop&#34;&gt;Postman&lt;/a&gt;: This is a REST client. It provies a nice interface for building HTTP requests, including POST requests&amp;mdash;ideal for testing APIs. Also available as a free, standalone &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;desktop app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;Paw&lt;/h4&gt;
-    
-      &lt;div class=&#34;emoji&#34;&gt;
-        &lt;i class=&#34;fa fa-paw&#34;&gt;&lt;/i&gt;
-      &lt;/div&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;&lt;a href=&#34;https://paw.cloud/&#34;&gt;Paw&lt;/a&gt; is a very nice alternative to Postman, but it isn&amp;rsquo;t free. If you like &lt;del&gt;making your student debt even higher&lt;/del&gt; supporting fellow developers by buying commercial software, give Paw a shot.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-</description>
+      <description>Chrome .st0{fill:#FAFCFF;} .st1{fill:#FFFFFF;} .st2{fill-opacity:0.1;} .st3{fill:url(#circle53_2_);} .st4{fill:url(#path55_2_);} .st5{fill:url(#path57_2_);} .st6{fill:url(#path59_2_);} .st7{fill:url(#path61_2_);} .st8{fill:url(#path63_2_);} .st9{fill:url(#path65_2_);}               To develop with React, you&amp;rsquo;ll want a modern web browser with a JavaScript console and debugger. The latest versions of all the major browsers have the tools you need, but we highly recommend using Google Chrome for the course, as we can provide the most detailed help for the tools built into Chrome.</description>
     </item>
     
     <item>
@@ -2088,114 +93,7 @@ export default App
       <pubDate>Fri, 10 Jun 2016 22:39:00 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/setup-windows/chrome/</guid>
-      <description>
-
-&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
-
-
-&lt;svg version=&#34;1.1&#34; role=&#34;img&#34; aria-labelledby=&#34;chrome-svg-title&#34; id=&#34;chrome-logo-svg&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; x=&#34;0px&#34; y=&#34;0px&#34;
-	 viewBox=&#34;0 0 648.4 170.8&#34; style=&#34;enable-background:new 0 0 648.4 170.8;&#34; xml:space=&#34;preserve&#34;&gt;
-&lt;title id=&#34;chrome-svg-title&#34;&gt;Chrome&lt;/title&gt;
-&lt;style type=&#34;text/css&#34;&gt;
-	.st0{fill:#FAFCFF;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill-opacity:0.1;}
-	.st3{fill:url(#circle53_2_);}
-	.st4{fill:url(#path55_2_);}
-	.st5{fill:url(#path57_2_);}
-	.st6{fill:url(#path59_2_);}
-	.st7{fill:url(#path61_2_);}
-	.st8{fill:url(#path63_2_);}
-	.st9{fill:url(#path65_2_);}
-&lt;/style&gt;
-&lt;g&gt;
-	&lt;g&gt;
-		&lt;path class=&#34;st0&#34; d=&#34;M247.2,120c-3.3,1.6-10.7,4-20,4c-21,0-34.7-14.3-34.7-35.6c0-21.5,14.7-37.2,37.4-37.2
-			c7.5,0,14.1,1.9,17.6,3.7l-2.9,9.6c-3-1.6-7.8-3.3-14.7-3.3c-16,0-24.6,12-24.6,26.4c0,16.1,10.4,26.1,24.2,26.1
-			c7.2,0,12-1.7,15.6-3.3L247.2,120z&#34;/&gt;
-		&lt;path class=&#34;st0&#34; d=&#34;M262,20.2h12.7v43.6h0.3c2-3.6,5.2-6.9,9.1-9.1c3.7-2.2,8.2-3.5,13-3.5c9.4,0,24.3,5.8,24.3,29.7v41.5h-12.7
-			v-40c0-11.2-4.2-20.6-16.1-20.6c-8.2,0-14.5,5.8-17,12.5c-0.7,1.9-0.9,3.7-0.9,6v42H262L262,20.2L262,20.2z&#34;/&gt;
-		&lt;path class=&#34;st0&#34; d=&#34;M341.9,74.5c0-8.2-0.1-15.3-0.6-21.7h11.1l0.6,13.8h0.4c3.2-9.4,10.9-15.3,19.4-15.3c1.3,0,2.3,0.1,3.5,0.3
-			v12c-1.3-0.3-2.6-0.3-4.3-0.3c-8.9,0-15.3,6.6-17,16.1c-0.3,1.7-0.4,3.9-0.4,5.9v37.2h-12.7V74.5z&#34;/&gt;
-		&lt;path class=&#34;st0&#34; d=&#34;M450.7,87c0,25.8-18,37-34.7,37c-18.7,0-33.4-13.8-33.4-35.9c0-23.2,15.4-36.9,34.6-36.9
-			C437.1,51.3,450.7,65.9,450.7,87z M395.5,87.7c0,15.3,8.6,26.8,21,26.8c12.1,0,21.2-11.4,21.2-27.1c0-11.8-5.9-26.6-20.9-26.6
-			C402,60.8,395.5,74.6,395.5,87.7z&#34;/&gt;
-		&lt;path class=&#34;st0&#34; d=&#34;M466.6,71.6c0-7.3-0.3-13.1-0.6-18.9h11.1l0.6,11.4h0.4c3.9-6.6,10.4-12.8,22-12.8c9.4,0,16.6,5.8,19.6,14
-			h0.3c2.2-4,5-6.9,7.9-9.1c4.2-3.2,8.6-4.9,15.3-4.9c9.4,0,23,6,23,30.2v40.9h-12.4V83.1c0-13.5-5-21.5-15.1-21.5
-			c-7.3,0-12.8,5.3-15.1,11.4c-0.6,1.9-1,4-1,6.3v43.1h-12.4V80.7c0-11.1-4.9-19-14.5-19c-7.8,0-13.7,6.3-15.7,12.7
-			c-0.7,1.7-1,4-1,6.2v41.9h-12.4V71.6z&#34;/&gt;
-		&lt;path class=&#34;st0&#34; d=&#34;M593.8,89.9c0.3,17.1,11.1,24.2,23.9,24.2c9.1,0,14.7-1.6,19.3-3.6l2.3,9.1c-4.5,2-12.2,4.5-23.3,4.5
-			c-21.5,0-34.3-14.3-34.3-35.3c0-21,12.4-37.4,32.7-37.4c22.9,0,28.8,19.9,28.8,32.7c0,2.6-0.1,4.5-0.4,5.9L593.8,89.9L593.8,89.9z
-			 M630.9,80.8c0.1-7.9-3.3-20.4-17.6-20.4c-13,0-18.4,11.7-19.4,20.4H630.9z&#34;/&gt;
-	&lt;/g&gt;
-&lt;/g&gt;
-&lt;circle id=&#34;circle47_1_&#34; class=&#34;st1&#34; cx=&#34;85.3&#34; cy=&#34;85.7&#34; r=&#34;83.8&#34;/&gt;
-&lt;path id=&#34;path49_1_&#34; class=&#34;st2&#34; d=&#34;M138.6,100.9c0-29.5-23.9-53.3-53.3-53.3C55.9,47.6,32,71.5,32,100.9h15.2
-	c0-21,17.1-38.1,38.1-38.1s38.1,17.1,38.1,38.1&#34;/&gt;
-&lt;circle id=&#34;circle51_1_&#34; class=&#34;st2&#34; cx=&#34;89.1&#34; cy=&#34;96.4&#34; r=&#34;29&#34;/&gt;
-&lt;linearGradient id=&#34;circle53_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-157.8861&#34; y1=&#34;-96.4174&#34; x2=&#34;-157.8861&#34; y2=&#34;-95.6555&#34; gradientTransform=&#34;matrix(82 0 0 82 13031.9707 7960.6992)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#81B4E0&#34;/&gt;
-	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#0C5A94&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;circle id=&#34;circle53_1_&#34; class=&#34;st3&#34; cx=&#34;85.3&#34; cy=&#34;85.7&#34; r=&#34;31.2&#34;/&gt;
-&lt;linearGradient id=&#34;path55_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-114.5195&#34; y1=&#34;541.6082&#34; x2=&#34;-114.5195&#34; y2=&#34;610.9379&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#F06B59&#34;/&gt;
-	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#DF2227&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;path id=&#34;path55_1_&#34; class=&#34;st4&#34; d=&#34;M161.5,47.6C140.5,5.4,89.3-11.8,47.1,9.2C34,15.7,22.7,25.6,14.5,37.7l34.3,59.4
-	c-6.3-20.1,4.8-41.5,24.9-47.8c3.5-1.1,7.2-1.7,10.9-1.8&#34;/&gt;
-&lt;linearGradient id=&#34;path57_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-181.7386&#34; y1=&#34;687.5891&#34; x2=&#34;-146.6936&#34; y2=&#34;629.6887&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#388B41&#34;/&gt;
-	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#4CB749&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;path id=&#34;path57_1_&#34; class=&#34;st5&#34; d=&#34;M14.5,37.7c-26.2,39.1-15.8,92.1,23.4,118.4c12.1,8.1,26.1,13,40.6,14.2l35.8-60.9
-	c-13.4,16.2-37.4,18.5-53.6,5.1c-5.5-4.5-9.6-10.6-11.9-17.3&#34;/&gt;
-&lt;linearGradient id=&#34;path59_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-64.3377&#34; y1=&#34;693.7479&#34; x2=&#34;-101.6686&#34; y2=&#34;603.8491&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#E4B022&#34;/&gt;
-	&lt;stop  offset=&#34;0.3&#34; style=&#34;stop-color:#FCD209&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;path id=&#34;path59_1_&#34; class=&#34;st6&#34; d=&#34;M78.5,170.3c47,3.6,88-31.7,91.5-78.7c1.1-15.2-1.8-30.4-8.5-44H84.6c21,0.1,38,17.2,37.9,38.3
-	c0,8.5-2.9,16.8-8.2,23.4&#34;/&gt;
-&lt;linearGradient id=&#34;path61_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-170.1355&#34; y1=&#34;636.0798&#34; x2=&#34;-170.1355&#34; y2=&#34;575.1317&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#000000;stop-opacity:0.15&#34;/&gt;
-	&lt;stop  offset=&#34;0.3&#34; style=&#34;stop-color:#000000;stop-opacity:6.000000e-02&#34;/&gt;
-	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#000000;stop-opacity:3.000000e-02&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;path id=&#34;path61_1_&#34; class=&#34;st7&#34; d=&#34;M14.5,37.7l34.3,59.4c-2.5-8.5-2-17.7,1.5-25.9L16,35.4&#34;/&gt;
-&lt;linearGradient id=&#34;path63_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-86.009&#34; y1=&#34;655.7618&#34; x2=&#34;-127.9107&#34; y2=&#34;698.4254&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#000000;stop-opacity:0.15&#34;/&gt;
-	&lt;stop  offset=&#34;0.3&#34; style=&#34;stop-color:#000000;stop-opacity:6.000000e-02&#34;/&gt;
-	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#000000;stop-opacity:3.000000e-02&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;path id=&#34;path63_1_&#34; class=&#34;st8&#34; d=&#34;M78.5,170.3l35.8-60.9c-5.7,6.7-13.5,11.3-22.1,13l-15.2,48&#34;/&gt;
-&lt;linearGradient id=&#34;path65_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-86.6163&#34; y1=&#34;668.0358&#34; x2=&#34;-80.5217&#34; y2=&#34;607.8517&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
-	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#000000;stop-opacity:0.15&#34;/&gt;
-	&lt;stop  offset=&#34;0.3&#34; style=&#34;stop-color:#000000;stop-opacity:6.000000e-02&#34;/&gt;
-	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#000000;stop-opacity:3.000000e-02&#34;/&gt;
-&lt;/linearGradient&gt;
-&lt;path id=&#34;path65_1_&#34; class=&#34;st9&#34; d=&#34;M161.5,47.6H84.6c11.6,0.1,22.5,5.4,29.7,14.5L163,49.9&#34;/&gt;
-&lt;/svg&gt;
-
-
-
-&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;To develop with React, you&amp;rsquo;ll want a modern web browser with a JavaScript console and debugger. The latest versions of all the major browsers have the tools you need, but we highly recommend using Google Chrome for the course, as we can provide the most detailed help for the tools built into Chrome.&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;download&#34;&gt;
-&lt;a href=&#34;http://www.google.com/chrome/&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; Download Chrome&lt;/a&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;recommended-extensions&#34;&gt;Recommended Extensions&lt;/h2&gt;
-
-&lt;p&gt;We recommend installing the following extensions:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi&#34;&gt;React Developer Tools&lt;/a&gt;: Self-explanatory.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa&#34;&gt;JSON Formatter&lt;/a&gt;: This displays JSON in a readable format in Chrome. There are several extensions that share this name. Accept no imitations; use the one I link to here.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop&#34;&gt;Postman&lt;/a&gt;: This is a REST client. It provides a nice interface for building HTTP requests, including POST requests&amp;mdash;ideal for testing APIs. Also available as a free, standalone &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;desktop app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Chrome .st0{fill:#FAFCFF;} .st1{fill:#FFFFFF;} .st2{fill-opacity:0.1;} .st3{fill:url(#circle53_2_);} .st4{fill:url(#path55_2_);} .st5{fill:url(#path57_2_);} .st6{fill:url(#path59_2_);} .st7{fill:url(#path61_2_);} .st8{fill:url(#path63_2_);} .st9{fill:url(#path65_2_);}               To develop with React, you&amp;rsquo;ll want a modern web browser with a JavaScript console and debugger. The latest versions of all the major browsers have the tools you need, but we highly recommend using Google Chrome for the course, as we can provide the most detailed help for the tools built into Chrome.</description>
     </item>
     
     <item>
@@ -2204,191 +102,10 @@ export default App
       <pubDate>Wed, 31 May 2017 09:54:15 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/week3/day10/</guid>
-      <description>
-
-&lt;p&gt;&lt;date&gt;Wednesday, May 31, 2017&lt;/date&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
-
-&lt;p&gt;Morning:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=LbXfZTiTeIk&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=55&#34;&gt;1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=FJkPBapdxa4&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=56&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=MBdNv10wMiw&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=57&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=hI1qt26ZAc0&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=58&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=N-XYDqyKvf0&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=59&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=V9XID50VYi8&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=60&#34;&gt;6&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Afternoon:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1ZYirXVMKmc&amp;amp;index=77&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=vjg4jiZVtGQ&amp;amp;index=83&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=w6xXc6bsFeQ&amp;amp;index=84&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=x_cHt4zKgWY&amp;amp;index=85&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=BozRAQuVyAI&amp;amp;index=86&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=uTifw6rEYMI&amp;amp;index=87&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
-
-&lt;h3 id=&#34;homework-showcase&#34;&gt;Homework Showcase&lt;/h3&gt;
-
-&lt;h4 id=&#34;morning&#34;&gt;Morning&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/yodasodabob/api-party&#34;&gt;Laurence&amp;rsquo;s Project&lt;/a&gt; - New NASA route that gets pictures from the &lt;a href=&#34;https://api.nasa.gov/api.html#EPIC&#34;&gt;&lt;em&gt;EPIC API&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/izanger/api-party&#34;&gt;Ian&amp;rsquo;s Project&lt;/a&gt; - Gets historical events from &lt;a href=&#34;http://history.muffinlabs.com/#api&#34;&gt;&lt;em&gt;This Day In History API&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/MohakC/api-party&#34;&gt;Mohak&amp;rsquo;s Project&lt;/a&gt; - Pokemon data from &lt;a href=&#34;https://pokeapi.co/&#34;&gt;&lt;em&gt;The PokeAPI&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sbenchik/api-party&#34;&gt;Steve&amp;rsquo;s Project&lt;/a&gt; - Today&amp;rsquo;s weather forecast by location from &lt;a href=&#34;https://openweathermap.org/api&#34;&gt;&lt;em&gt;OpenWeatherMap API&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;afternoon&#34;&gt;Afternoon&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/charleydrewwolak/api-party&#34;&gt;Charley&amp;rsquo;s Project&lt;/a&gt; - Pokemon data from &lt;a href=&#34;https://pokeapi.co/&#34;&gt;&lt;em&gt;The PokeAPI&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/trentspi/api-party&#34;&gt;Trent&amp;rsquo;s Project&lt;/a&gt; - Find and display videos from &lt;a href=&#34;https://developers.google.com/youtube/iframe_api_reference&#34;&gt;&lt;em&gt;YouTube API&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/nfordyc/api-party&#34;&gt;Nicholas&amp;rsquo;s Project&lt;/a&gt; - Run mathematical calculations using the &lt;a href=&#34;https://github.com/aunyks/newton-api&#34;&gt;&lt;em&gt;Newton API&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/EricChavarria/api-party&#34;&gt;Eric&amp;rsquo;s Project&lt;/a&gt; - Pokemon data from &lt;a href=&#34;https://pokeapi.co/&#34;&gt;&lt;em&gt;The PokeAPI&lt;/em&gt;&lt;/a&gt; (with tables of stats!)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/winderscm/api-party&#34;&gt;Clayton&amp;rsquo;s Project&lt;/a&gt; - Compare crypto-currency values with data from the &lt;a href=&#34;https://www.cryptocompare.com/api/&#34;&gt;&lt;em&gt;CryptoCompare API&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;noteherder&#34;&gt;Noteherder&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/xtbc17s1/noteherder&#34;&gt;Noteherder&lt;/a&gt; is a note-taking app built with a React front-end.  It utilizes Firebase as back-end for authentication and data storage.  Much of the basic functionality is similar to &lt;em&gt;ThingList&lt;/em&gt; - it renders a list of notes (aka things), with the ability to create, read, update, and delete notes.  Also, like &lt;em&gt;ThingList&lt;/em&gt;, it uses Github OAuth authentication for user sign-in and allowing for scoping of notes to users.&lt;/p&gt;
-
-&lt;p&gt;However, there are many new concepts as well. We&amp;rsquo;ll go over some of those here.&lt;/p&gt;
-
-&lt;h4 id=&#34;private-and-public-routes&#34;&gt;Private and Public Routes&lt;/h4&gt;
-
-&lt;p&gt;We are already familiar with the &lt;code&gt;&amp;lt;Route /&amp;gt;&lt;/code&gt; component provided by React Router, but what if we want to create specialized routes that only allow access based on the presence of an authorized user?  We can use the concept of &lt;a href=&#34;https://facebook.github.io/react/docs/composition-vs-inheritance.html&#34;&gt;&lt;em&gt;composition&lt;/em&gt;&lt;/a&gt; to create specialized versions of &lt;code&gt;&amp;lt;Route /&amp;gt;&lt;/code&gt; that we&amp;rsquo;ll call &lt;code&gt;&amp;lt;PrivateRoute /&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;PublicRoute /&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;RouteHelpers.js&lt;/strong&gt;&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-export function PrivateRoute({component: Component, render, authed, ...rest}) {
-  return (
-    &amp;lt;Route
-      {...rest}
-      render={(props) =&gt; authed
-        ? (render &amp;&amp; render()) || &amp;lt;Component {...props} /&amp;gt;
-        : &amp;lt;Redirect to={{pathname: &#39;/sign-in&#39;, state: {from: props.location}}} /&amp;gt;}
-    /&gt;
-  )
-}
-
-export function PublicRoute({component: Component, render, authed, ...rest}) {
-  return (
-    &amp;lt;Route
-      {...rest}
-      render={(props) =&gt; !authed
-        ? (render &amp;&amp; render()) || &amp;lt;Component {...props} /&amp;gt;
-        : &amp;lt;Redirect to=&#39;/notes&#39; /&amp;gt;}
-    /&gt;
-  )
-}
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;Let&amp;rsquo;s talk through the code for &lt;code&gt;PrivateRoute&lt;/code&gt;.  As you can see, it is essentially a stateless functional component that is a wrapper around a &lt;code&gt;Route&lt;/code&gt; component.  In the &lt;code&gt;Route&lt;/code&gt;&amp;rsquo;s render method is a ternary statement that checks whether there is a valid user passed to it (the &lt;code&gt;authed&lt;/code&gt; prop).&lt;/p&gt;
-
-&lt;p&gt;If there is an &lt;code&gt;authed&lt;/code&gt; user, the &lt;code&gt;Route&lt;/code&gt; does one of two things - run the &lt;code&gt;render&lt;/code&gt; method passed in as a prop (if there is one), or render a &lt;code&gt;Component&lt;/code&gt; passed in as a prop.&lt;/p&gt;
-
-&lt;p&gt;If there is not an &lt;code&gt;authed&lt;/code&gt; user, the &lt;code&gt;Route&lt;/code&gt; renders a &lt;code&gt;&amp;lt;Redirect /&amp;gt;&lt;/code&gt; component (part of React Router) that redirects the user to the &lt;code&gt;&#39;/sign-in&#39;&lt;/code&gt; path.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;PublicRoute&lt;/code&gt; is very similar, except it checks to make sure that there is &lt;em&gt;not&lt;/em&gt; an &lt;code&gt;authed&lt;/code&gt; user.  If there is not a user, it runs the &lt;code&gt;render&lt;/code&gt; method or renders a &lt;code&gt;Component&lt;/code&gt;.  If there &lt;em&gt;is&lt;/em&gt; an &lt;code&gt;authed&lt;/code&gt; user, it redirects to &lt;code&gt;&#39;/notes&#39;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;rich-text-editor&#34;&gt;Rich Text Editor&lt;/h4&gt;
-
-&lt;p&gt;In &lt;em&gt;ThingList&lt;/em&gt;, we used &lt;code&gt;contenteditable&lt;/code&gt; to allow us to input new text into a &lt;em&gt;Thing&lt;/em&gt;, but the user has no control over how the text looks.  For a more fully-featured app, wouldn&amp;rsquo;t it be nice to have the ability to do bold text, italics, change font size, etc&amp;hellip;?  Well good news, you can totally do that thing.  There are a variety of &lt;em&gt;WYSIWYG&lt;/em&gt; editors that can be added to your application to give the user far more formatting options for their text input.  The editor used in Noteherder is called, appropriately, &lt;a href=&#34;https://github.com/sstur/react-rte&#34;&gt;React Rich Text Editor&lt;/a&gt;.&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn add react-rte                # install using yarn
-
-npm install --save react-rte      # install using npm
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Once the package is added to your project, we can import and use the &lt;code&gt;&amp;lt;RichTextEditor /&amp;gt;&lt;/code&gt; component anywhere we need a rich text editor.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;NoteForm.js (simplified)&lt;/strong&gt;&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-import RichTextEditor from &#39;react-rte&#39;
-
-class NoteForm extends Component {
-  state = {
-    editorValue: RichTextEditor.createEmptyValue()
-    note: {
-      title: &#39;&#39;,
-      body: &#39;&#39;
-    }
-  }
-
-  handleEditorChange = (editorValue) =&gt; {
-    const note = {...this.state.note}
-    note.body = editorValue.toString(&#39;html&#39;)
-    this.setState({ note, editorValue })
-  }
-
-  render() {
-    return (
-      &amp;lt;form&amp;gt;
-        &amp;lt;RichTextEditor
-          name=&#34;body&#34;
-          value={this.state.editorValue}
-          onChange={this.handleEditorChange}
-        /&amp;gt;
-      &amp;lt;/form&amp;gt;
-    )
-  }
-}
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/xtbc17s1/noteherder&#34;&gt;Noteherder&lt;/a&gt; - source code&lt;/p&gt;
-
-&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
-
-&lt;p&gt;Read through the code for Noteherder and make sure you understand how the app works.  Reading other people&amp;rsquo;s code is an extremely valuable skill to have.&lt;/p&gt;
-
-&lt;p&gt;Finish your API-party homework if it is not yet complete and functional.&lt;/p&gt;
-</description>
+      <description>Wednesday, May 31, 2017
+Lecture Videos Morning:
+ Playlist | 1 | 2 | 3 | 4 | 5 | 6  Afternoon:
+ Playlist | 1 | 2 | 3 | 4 | 5  Topics Homework Showcase Morning  Laurence&amp;rsquo;s Project - New NASA route that gets pictures from the EPIC API Ian&amp;rsquo;s Project - Gets historical events from This Day In History API Mohak&amp;rsquo;s Project - Pokemon data from The PokeAPI Steve&amp;rsquo;s Project - Today&amp;rsquo;s weather forecast by location from OpenWeatherMap API  Afternoon  Charley&amp;rsquo;s Project - Pokemon data from The PokeAPI Trent&amp;rsquo;s Project - Find and display videos from YouTube API Nicholas&amp;rsquo;s Project - Run mathematical calculations using the Newton API Eric&amp;rsquo;s Project - Pokemon data from The PokeAPI (with tables of stats!</description>
     </item>
     
     <item>
@@ -2397,348 +114,10 @@ class NoteForm extends Component {
       <pubDate>Tue, 16 May 2017 10:06:46 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/week1/day2/</guid>
-      <description>
-
-&lt;p&gt;&lt;date&gt;Tuesday, May 16, 2017&lt;/date&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
-
-&lt;p&gt;Morning:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=wISoJ_P7aNs&amp;amp;t=10s&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=1&#34;&gt;part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=6JkRe4ZLhGQ&amp;amp;index=2&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;part 2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=YQrKjzVOuxs&amp;amp;index=3&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;part 3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Afternoon:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Lz9SD8oDm3M&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=1&#34;&gt;part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=kmLCIy6reuk&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=2&#34;&gt;part 2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=T-JKi6NUxG8&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=3&#34;&gt;part 3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
-
-&lt;h3 id=&#34;functions&#34;&gt;Functions&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Function Expressions&lt;/li&gt;
-&lt;li&gt;Function Declarations&lt;/li&gt;
-&lt;li&gt;Functions as Object properties (methods)&lt;/li&gt;
-&lt;li&gt;Variable Scope (&lt;code&gt;var&lt;/code&gt;, &lt;code&gt;const&lt;/code&gt;, &lt;code&gt;let&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;objects&#34;&gt;Objects&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Object literals&lt;/li&gt;
-&lt;li&gt;Property Naming&lt;/li&gt;
-&lt;li&gt;Retrieving property values&lt;/li&gt;
-&lt;li&gt;Setting property values&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;arrays&#34;&gt;Arrays&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Array.from&lt;/code&gt; - &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control&#34;&gt;Docs on MDN&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Array.map&lt;/code&gt; - &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map?v=control&#34;&gt;Docs on MDN&lt;/a&gt; | &lt;a href=&#34;https://www.discovermeteor.com/blog/understanding-javascript-map/&#34;&gt;Understanding JavaScript&amp;rsquo;s &lt;code&gt;map()&lt;/code&gt;&lt;/a&gt; blog post&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;dom&#34;&gt;DOM&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Creating elements with &lt;code&gt;document.createElement&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Setting style properties with &lt;code&gt;someElement.style.stylePropertyName&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Appending child elements with &lt;code&gt;someElement.appendChild&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/elements&#34;&gt;Form.elements&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;git-and-github&#34;&gt;Git and GitHub&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://rogerdudler.github.io/git-guide/&#34;&gt;Git - The Simple Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://guides.github.com/introduction/getting-your-project-on-github/&#34;&gt;Getting your project on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-
-&lt;h3 id=&#34;functions-1&#34;&gt;Functions&lt;/h3&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-  // function declaration - use &#39;function&#39; keyword
-  function aMostExcellentFunction() {
-    console.log(&#39;This function is great!&#39;)
-  }
-
-  aMostExcellentFunction() // =&gt; &#39;This function is great!&#39;
-
-  // function expression - defines a function as part of a larger expression syntax
-  // (usually assignment to a variable)
-  const anotherExcellentFunction = () =&gt; {
-    console.log(&#39;This function is also great!&#39;)
-  }
-
-  anotherExcellentFunction() // =&gt; &#39;This function is also great!&#39;
-
-  // functions as object properties (also known as &#39;methods&#39;)
-  const myObject = {
-    myMethod() {
-      console.log(&#39;I am a method!&#39;)
-    }
-  }
-
-  myObject.myMethod() // =&gt; &#39;I am a method!&#39;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h3 id=&#34;variable-scope&#34;&gt;Variable Scope&lt;/h3&gt;
-
-&lt;p&gt;The biggest difference between &lt;code&gt;var&lt;/code&gt; and &lt;code&gt;let&lt;/code&gt; is that &lt;code&gt;var&lt;/code&gt; variables are scoped to the &lt;em&gt;function&lt;/em&gt; in which they are declared, while &lt;code&gt;let&lt;/code&gt; variables are scoped to the &lt;em&gt;block&lt;/em&gt; in which they are declared.  One of the easiest examples to see this behavior is in a simple &lt;code&gt;for&lt;/code&gt; loop.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-function loopStuff() {
-  for (var i = 0; i &lt; 5; i++) {
-    // do stuff in the loop
-  }
-  console.log(i)
-}
-
-loopStuff() // =&gt; 5
-
-function loopMoreStuff() {
-  for (let i = 0; i &lt; 5; i++) {
-    // do stuff in the loop
-  }
-  console.log(i)
-}
-
-loopMoreStuff() // =&gt; Uncaught ReferenceError: i is not defined
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;In the function &lt;code&gt;loopStuff&lt;/code&gt;, &lt;code&gt;var i&lt;/code&gt; is still available outside the &lt;code&gt;for&lt;/code&gt; loop so it can be logged to the console.  It is scoped to the function itself.&lt;/p&gt;
-
-&lt;p&gt;In the function &lt;code&gt;loopMoreStuff&lt;/code&gt;, &lt;code&gt;let i&lt;/code&gt; is not available outside the block it is scoped to (the &lt;code&gt;for&lt;/code&gt; loop).&lt;/p&gt;
-
-&lt;p&gt;The main difference between &lt;code&gt;const&lt;/code&gt; and &lt;code&gt;var&lt;/code&gt;/&lt;code&gt;let&lt;/code&gt; is that &lt;code&gt;const&lt;/code&gt; cannot be reassigned.
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-let variableOne = 4
-variableOne = 5
-
-var variableTwo = 4
-variableTwo = 5
-
-const variableThree = 4
-variableThree = 5 // =&gt; Uncaught TypeError: Assignment to constant variable
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-tip&#34;&gt;
-  
-    &lt;h4&gt;Default to using const&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;Always use &lt;code&gt;const&lt;/code&gt; as your default way to declare variables, unless you know specifically that you will need to reassign it, in which case use &lt;code&gt;let&lt;/code&gt;.  You should rarely, if ever, use &lt;code&gt;var&lt;/code&gt;.  For further reading, check out &lt;a href=&#34;https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75&#34;&gt;this article&lt;/a&gt;&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h3 id=&#34;objects-1&#34;&gt;Objects&lt;/h3&gt;
-
-&lt;p&gt;Almost everything in JavaScript is an Object.  The easiest way to create new Objects is with the &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer&#34;&gt;object initializer&lt;/a&gt;, more commonly known as &amp;lsquo;object literal&amp;rsquo; syntax.  Basically, use curly braces to make an object &lt;code&gt;{}&lt;/code&gt; and fill in the properties that you want.&lt;/p&gt;
-
-&lt;p&gt;Objects contain &lt;code&gt;key&lt;/code&gt;/&lt;code&gt;value&lt;/code&gt; pairs that allow you to set and retrieve values from them.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-// create a new object and assign some properties
-const myObject = {
-  prop1: &#39;Hello there&#39;,
-  prop2: 42
-}
-
-// access the values in several ways, usually &#39;dot&#39; or &#39;square bracket&#39; notation
-myObject.prop1 // =&gt; &#39;Hello there&#39;
-myObject[&#39;prop1&#39;] //=&gt; &#39;Hello there&#39;
-
-// new key/value pairs can also be assigned with these notations
-myObject.prop3 = &#39;New Value!&#39;
-myObject[&#39;prop4&#39;] = &#39;Newest Value!&#39;
-
-console.log(myObject)
-// { 
-//   prop1: &#39;Hello there&#39;,
-//   prop2: 42,
-//   prop3: &#39;New Value!&#39;,
-//   prop4: &#39;Newest Value!&#39;
-// }
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h3 id=&#34;arrays-1&#34;&gt;Arrays&lt;/h3&gt;
-
-&lt;p&gt;Arrays are extremely useful data structures in JavaScript, as they can be easily iterated and transformed through methods like &lt;code&gt;map&lt;/code&gt;, &lt;code&gt;filter&lt;/code&gt;, and &lt;code&gt;reduce&lt;/code&gt;.  Sometimes, you may have an &amp;lsquo;array-like&amp;rsquo; collection (like a &lt;code&gt;NodeList&lt;/code&gt; or function arguments) that you would need to convert to an actual Array before you could use these methods.  This can be done using &lt;code&gt;Array.from&lt;/code&gt;&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-let paragraphs = document.querySelectorAll(&#39;p&#39;)
-paragraphs.map((paragraph) =&gt; {
-  p.textContent = &#34;This won&#39;t work because paragraphs is a NodeList, not Array!&#34;
-})
-// =&gt; Uncaught TypeError: paragraphs.map is not a function
-
-let actualArrayOfParagraphs = Array.from(paragraphs)
-actualArrayOfParagraphs.map((paragraph) =&gt; {
-  p.textContent = &#34;This totally does work because we created an Array from our NodeList!&#34;
-})
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;Requirements for &amp;#39;Array.from&amp;#39;&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;What objects can you convert to an Array using &amp;lsquo;Array.from&amp;rsquo;?&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Any array-like object with a &amp;lsquo;length&amp;rsquo; property and indexed elements&lt;/li&gt;
-&lt;li&gt;Iterable objects (like Map or Set)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For more info, check out &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control&#34;&gt;this article&lt;/a&gt; on MDN.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h3 id=&#34;dom-1&#34;&gt;DOM&lt;/h3&gt;
-
-&lt;p&gt;If we start with the following markup:
-
-&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
-&lt;code class=&#34;language-html&#34;&gt;
-
-&amp;lt;div id=&amp;quot;my-div&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-We can add additional markup to it programmatically using JavaScript.  One way is to create new HTMl elements using &lt;code&gt;document.createElement&lt;/code&gt;, and adding them by using &lt;code&gt;appendChild&lt;/code&gt;.  Styling of the element can even be changed by manipulating the element&amp;rsquo;s &lt;code&gt;style&lt;/code&gt; property.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-// create an h1 and modify text content and color
-const heading = document.createElement(&#39;h1&#39;)
-heading.textContent = &#34;This is the best heading I&#39;ve ever seen&#34;
-heading.style.color = &#34;red&#34;
-
-// get a reference to the existing div and add the heading as a child element
-const div = document.querySelector(&#39;#my-div&#39;)
-div.appendChild(heading)
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;This will produce the following markup:
-
-&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
-&lt;code class=&#34;language-html&#34;&gt;
-
-&amp;lt;div id=&amp;quot;my-div&amp;quot;&amp;gt;
-  &amp;lt;h1 style=&amp;quot;color: red;&amp;quot;&amp;gt;This is the best heading I&#39;ve ever seen&amp;lt;/h1&amp;gt;
-&amp;lt;/div&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;/p&gt;
-
-&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://xternbootcamp17.github.io/02-html-dom.pdf&#34;&gt;Review: HTML and the DOM&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-
-&lt;h3 id=&#34;people-factory&#34;&gt;People Factory&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/xtbc17s1/people-factory&#34;&gt;Morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/people-factory/tree/afternoon&#34;&gt;Afternoon&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
-
-&lt;h3 id=&#34;megaroster&#34;&gt;Megaroster&lt;/h3&gt;
-
-&lt;p&gt;Create a new project from scratch that adds students to a class roster and meets the following requirements:&lt;/p&gt;
-
-&lt;h4 id=&#34;baseline-goal&#34;&gt;Baseline Goal&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;User can enter a name to be added to the roster.&lt;/li&gt;
-&lt;li&gt;Name will be added to the end of a list.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Create &lt;em&gt;at most&lt;/em&gt; one global variable.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;mega-bonus-credit&#34;&gt;Mega Bonus Credit&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Add names to the top of the list instead of the bottom.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Add a &lt;em&gt;delete&lt;/em&gt; button to every list item that removes the name from the list when clicked.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;super-mega-bonus-credit-hyper-fighting&#34;&gt;Super Mega Bonus Credit Hyper Fighting&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Add a &lt;em&gt;promote&lt;/em&gt; button to every list item that changes the appearance(&lt;em&gt;e.g.&lt;/em&gt; changes the background color, adds a border, etc.) of that item when clicked.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Tuesday, May 16, 2017
+Lecture Videos Morning:
+ Full Playlist | part 1 | part 2 | part 3  Afternoon:
+ Full Playlist | part 1 | part 2 | part 3  Topics Functions  Function Expressions Function Declarations Functions as Object properties (methods) Variable Scope (var, const, let)  Objects  Object literals Property Naming Retrieving property values Setting property values  Arrays  Array.from - Docs on MDN Array.</description>
     </item>
     
     <item>
@@ -2747,583 +126,10 @@ div.appendChild(heading)
       <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/week2/day6/</guid>
-      <description>
-
-&lt;p&gt;&lt;date&gt;Tuesday, May 23, 2017&lt;/date&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
-
-&lt;p&gt;Morning:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=oWb1IdhOl7A&amp;amp;index=26&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Day 6, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=SsBUeaku12g&amp;amp;index=27&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=IlUoLPsrHrE&amp;amp;index=28&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=E01j6AcMSF4&amp;amp;index=29&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=xytTTrggEyc&amp;amp;index=30&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=9Dn6aMJMEHc&amp;amp;index=31&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Smzb6gGyz3w&amp;amp;index=32&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;7&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Afternoon:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=1VOesxJNbIA&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=35&#34;&gt;Day 6, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=yIiWHmuks1E&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=36&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=rxXsCqzzi7A&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=37&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=cGkv37JcAcM&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=38&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=iz8oJX49tLA&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=39&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=a1eQtVlx1Js&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=40&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=xEBCLL8YYE0&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=41&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=UjDVy0Qis4A&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=42&#34;&gt;8&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=ZuI0o8A-2nM&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=43&#34;&gt;9&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=e7UhOY48S7Q&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=44&#34;&gt;10&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
-
-&lt;h3 id=&#34;react-https-facebook-github-io-react&#34;&gt;&lt;a href=&#34;https://facebook.github.io/react/&#34;&gt;React&lt;/a&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Using &lt;code&gt;map&lt;/code&gt; with components&lt;/li&gt;
-&lt;li&gt;Stateless Functional Components&lt;/li&gt;
-&lt;li&gt;Conditional rendering&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;javascript&#34;&gt;JavaScript&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Named and default exports&lt;/li&gt;
-&lt;li&gt;Named and default imports&lt;/li&gt;
-&lt;li&gt;Property initializers&lt;/li&gt;
-&lt;li&gt;Spread operator&lt;/li&gt;
-&lt;li&gt;Destructuring assignment&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;package-managers&#34;&gt;Package Managers&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/&#34;&gt;NPM&lt;/a&gt; - Node Package Manager&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;Yarn&lt;/a&gt; - Facebook&amp;rsquo;s version of npm&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;css-specifity-https-specificity-keegan-st&#34;&gt;&lt;a href=&#34;https://specificity.keegan.st/&#34;&gt;CSS Specifity&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-
-&lt;h3 id=&#34;react&#34;&gt;React&lt;/h3&gt;
-
-&lt;h4 id=&#34;using-map-with-components&#34;&gt;Using &lt;code&gt;map&lt;/code&gt; with Components&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://codepen.io/dstrus/pen/gWZVOQ?editors=0010#0&#34;&gt;See this example live on CodePen →&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Person.js&lt;/strong&gt;&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-class Person extends React.Component {
-  render() {
-    return (
-      &amp;lt;li&amp;gt;Hello, {this.props.person.name}!&amp;lt;/li&amp;gt;
-    )
-  }
-}
-
-export default Person
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;PersonList.js&lt;/strong&gt;&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-import Person from &#39;./Person&#39;
-
-class PersonList extends React.Component {
-  render() {
-    const people = [
-      { name: &#39;Seth&#39;, hair: &#39;blonde&#39; },
-      { name: &#39;Nichole&#39;, hair: &#39;long&#39; },
-      { name: &#39;Davey&#39;, hair: &#39;long gone&#39; }
-    ]
-    return (
-      &amp;lt;div&amp;gt;
-        &amp;lt;h2&amp;gt;People&amp;lt;/h2&amp;gt;
-        {
-          people.map((person =&gt; &amp;lt;Person person={person} /&amp;gt;))
-        }
-      &amp;lt;/div&amp;gt;
-    )
-  }
-}
-
-export default PersonList
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h4 id=&#34;stateless-functional-components&#34;&gt;Stateless Functional Components&lt;/h4&gt;
-
-&lt;p&gt;Not every React Component needs to have state.  Many simply render a bit of &lt;code&gt;props&lt;/code&gt; and UI.  For such components, we don&amp;rsquo;t need to instantiate a whole class that inherits from &lt;code&gt;React.Component&lt;/code&gt;, we can simply write a function that accepts &lt;code&gt;props&lt;/code&gt; as an argument and returns the markup we need.&lt;/p&gt;
-
-&lt;p&gt;For instance, in the previous example, the &lt;code&gt;Person&lt;/code&gt; component can easily be re-written as a Stateless Functional Component.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-function Person (props) {
-  return (
-    &amp;lt;li&amp;gt;Hello, {props.person.name}!&amp;lt;/li&amp;gt;
-  )
-}
-
-// Or...
-
-const Person = (props) =&gt; &amp;lt;li&amp;gt;Hello, {props.person.name}!&amp;lt;/li&amp;gt;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h4 id=&#34;conditional-rendering&#34;&gt;Conditional Rendering&lt;/h4&gt;
-
-&lt;p&gt;There are many instances where you may want to render different UI depending on the state of the application.  One example would be a button that shows &amp;ldquo;Log in&amp;rdquo; or &amp;ldquo;Log out&amp;rdquo;, depending on whether there is a currently logged-in user.&lt;/p&gt;
-
-&lt;p&gt;Since React is just JavaScript, we can conditionally render using &lt;code&gt;if&lt;/code&gt;/&lt;code&gt;else&lt;/code&gt; statements, or we also learned about the &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator&#34;&gt;&lt;em&gt;ternary operator&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-const condition = true
-
-if (condition) {
-  console.log(&#39;true!&#39;)
-} else {
-  console.log(&#39;false!&#39;)
-}
-// =&gt; &#39;true!&#39;
-
-condition ? console.log(&#39;true!&#39;) : console.log(&#39;false!&#39;)
-// =&gt; &#39;true!&#39;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;An example in React:&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-function UserButton (props) {
-  return (
-    {props.loggedInUser ? &amp;lt;button&amp;gt;Log out&amp;lt;/button&amp;gt; : &amp;lt;button&amp;gt;Log in&amp;lt;/button&amp;gt;}
-  )
-}
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h3 id=&#34;javascript-es6&#34;&gt;JavaScript (ES6+)&lt;/h3&gt;
-
-&lt;h4 id=&#34;named-and-default-exports-and-imports&#34;&gt;Named and default exports and imports&lt;/h4&gt;
-
-&lt;p&gt;Prior to ES6, there were many competing ways to export and import JavaScript modules.  The most common were &lt;a href=&#34;https://webpack.github.io/docs/commonjs.html&#34;&gt;CommonJS&lt;/a&gt; and &lt;a href=&#34;http://requirejs.org/docs/whyamd.html&#34;&gt;AMD&lt;/a&gt;.  Luckily ES6 defined a specification for standardizing module export and import.&lt;/p&gt;
-
-&lt;p&gt;There are two types of exports from any JS file - &lt;em&gt;named&lt;/em&gt; and &lt;em&gt;default&lt;/em&gt;.  The important thing to remember is that there can only be &lt;em&gt;one&lt;/em&gt; default export per module, but there can be as many named exports as you want.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;myModule.js&lt;/strong&gt;
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-export const myNumber = 8
-
-export function sayHi () {
-  console.log(&#39;hello&#39;)
-}
-
-export default class MyClass {
-  add (a, b) {
-    return a + b
-  }
-}
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;/p&gt;
-
-&lt;p&gt;The main difference is how they are imported.  Default exports get the most concise syntax:&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-import MyClass from &#39;myModule&#39;
-
-const classInstance = new MyClass()
-classInstance.add(1, 2) // =&gt; 3
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;Default import naming&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;Since there can be only one default export per module, the name by which you import the default export is not important - you can name it whatever you want.  For instance, instead of importing as &lt;code&gt;MyClass&lt;/code&gt;, we could have said &lt;code&gt;import LuftBallons from &#39;myModule&#39;&lt;/code&gt;, and it would have worked just fine.  To read more about default and named exports, click &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Named exports get a slightly more verbose syntax for importing, and the names &lt;em&gt;are&lt;/em&gt; important (otherwise it can&amp;rsquo;t determine what you want to import).&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-import { myNumber, sayHi } from &#39;myModule&#39;
-
-console.log(myNumber) // =&gt; 8
-
-sayHi() // =&gt; &#39;hello&#39;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;If you need to import a named export under a different name&amp;mdash;if, for example, you have another import or local variable with the same name&amp;mdash;you can specifiy a different name using &lt;em&gt;as&lt;/em&gt;.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-import { myNumber as num, sayHi as yo } from &#39;myModule&#39;
-
-console.log(num) // =&gt; 8
-
-yo() // =&gt; &#39;hello&#39;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;You can also combine default and named imports in the same line.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-import MyClass, { myNumber, sayHi } from &#39;myModule&#39;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h4 id=&#34;property-initializers&#34;&gt;Property initializers&lt;/h4&gt;
-
-&lt;p&gt;From the proposal:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Class instance fields&amp;rdquo; describe properties intended to exist on instances of a class (and may optionally include initializer expressions for said properties).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We can take advantage of this in React.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://babeljs.io/blog/2015/06/07/react-on-es6-plus&#34;&gt;&lt;strong&gt;Read more: Using ES7 property initializers in React&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;We can use a property initializer to set the initial value of state without writing a constructor:&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-class Song extends React.Component {
-  state = {
-    versesRemaining: 5,
-  }
-}
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;We can even set default props and use those in the initial state:&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
-&lt;code class=&#34;language-jsx&#34;&gt;
-
-class Song extends React.Component {
-  static defaultProps = {
-    autoPlay: false,
-    verseCount: 10,
-  }
-  state = {
-    versesRemaining: this.props.verseCount,
-  }
-}
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-
-  &lt;div class=&#34;aside aside-danger&#34;&gt;
-  
-    &lt;h4&gt;Subject to  minor changes&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;&lt;a href=&#34;https://github.com/tc39/proposal-class-public-fields&#34;&gt;Property initializers&lt;/a&gt; are a &lt;a href=&#34;https://tc39.github.io/process-document/&#34;&gt;Stage 2 proposal&lt;/a&gt; for ECMAScript, meaning that it&amp;rsquo;s still a &lt;em&gt;draft&lt;/em&gt; and is subject to minor changes before becoming standardized. Facebook itself is already using these techniques in production, however.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h4 id=&#34;spread-operator&#34;&gt;Spread operator&lt;/h4&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator&#34;&gt;&lt;em&gt;spread operator&lt;/em&gt;&lt;/a&gt; was added in ES6 to allow an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) or multiple variables (for destructuring assignment) are expected.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-function myFunc (x, y, z) {
-  console.log(x)
-  console.log(y)
-  console.log(z)
-}
-const args = [1, 2, 3]
-
-myFunc(...args) // the spread &#39;...args&#39; applies the items in args to the three arguments in myFunc
-// =&gt; 1
-// =&gt; 2
-// =&gt; 3
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;It is also an easy way to make copies of iterable objects&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-const ary = [1, 2, 3]
-const aryCopy = [...ary] // makes a copy of ary
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;p&gt;If you are in a project using Babel (like a React project created with &lt;code&gt;create-react-app&lt;/code&gt;), you can also use the &lt;code&gt;object-rest-spread-transform&lt;/code&gt; to apply this same method to objects.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-this.state = {&#39;a&#39;: true, party: &#39;hard&#39;}
-const stateCopy = {...this.state} // makes a copy of this.state
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h4 id=&#34;destructuring-assignment&#34;&gt;Destructuring assignment&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment&#34;&gt;Destructuring assignment&lt;/a&gt; syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.&lt;/p&gt;
-
-
-&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
-&lt;code class=&#34;language-js&#34;&gt;
-
-const myObj = {
-  a: true,
-  b: &#39;Destructuring!&#39;
-}
-
-let { a, b } = myObj
-
-console.log(a) // =&gt; true
-console.log(b) // =&gt; &#39;Destructuring!&#39;
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-&lt;h3 id=&#34;package-managers-1&#34;&gt;Package Managers&lt;/h3&gt;
-
-&lt;h4 id=&#34;node-package-manager-npm&#34;&gt;Node Package Manager (npm)&lt;/h4&gt;
-
-&lt;p&gt;Node Package Manager hosts almost half a million packages of free, reusable JavaScript code and is the largest software registry in the world. It allows you to easily add any module to your project, and it will install the requested package, as well as any required dependencies of that package.&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install react
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h4 id=&#34;yarn&#34;&gt;Yarn&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;Yarn&lt;/a&gt; is Facebook&amp;rsquo;s version of npm, designed to improve performance and resolve several important issues.  The key differences are:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Deterministic installation - packages will always install in the same order on every machine&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;yarn.lock&lt;/code&gt; - this lockfile locks dependency versions for consistency and security&lt;/li&gt;
-&lt;li&gt;Local cache of downloaded packages - faster and can still work with no internet connection after initial installation&lt;/li&gt;
-&lt;li&gt;Parallel installation - Dependency installation can happen in parallel, greatly increasing speed&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To install yarn (npm was already installed as part of setup instructions), type the following command:&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;brew install yarn
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Once installed, you can use yarn with following commands:&lt;/p&gt;
-
-
-
-
-
-
-
-
-&lt;div class=&#34;shell macos&#34;&gt;
-&lt;div class=&#34;bar&#34;&gt;
-  &lt;div class=&#34;controls&#34;&gt;
-    &lt;div class=&#34;windows icon&#34;&gt;
-      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot red&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot yellow&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;dot green&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  user@localhost ~
-  &lt;div class=&#34;windows-controls&#34;&gt;
-    &amp;nbsp;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;shell-body&#34;&gt;
-
-&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
-&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn
-# installs all packages and dependencies listed in your project&amp;#39;s package.json
-
-yarn add {package_name}
-# installs a new package and adds it to package.json
-
-yarn start
-# starts your local development web server (in project from create-react-app)
-&lt;/span&gt;&lt;/pre&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Dwarf Underground: &lt;a href=&#34;https://github.com/sbaughman/dwarf-underground/tree/2330778425ae10658dadcd974b93aefd361c0bef&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/dwarf-underground/tree/599b3a3ac93da57e55aa898333b97d23c8169efb&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Static HTML/CSS for Thing List: &lt;a href=&#34;https://github.com/xtbc17s1/thing-list-static&#34;&gt;thing-list-static&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;ThingList: &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/3f7652d667e3c46342e6f7e90b9ca54d0951d6a3&#34;&gt;morning&lt;/a&gt; | afternoon&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
-
-&lt;p&gt;Add the &lt;em&gt;Add Thing&lt;/em&gt; button, including the corresponding CSS.&lt;/p&gt;
-
-&lt;h3 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h3&gt;
-
-&lt;p&gt;Make that button work!&lt;/p&gt;
-
-&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
-
-&lt;p&gt;Stop hard-coding &lt;em&gt;things&lt;/em&gt; altogether. Use only the things that were added via the &lt;em&gt;Add Thing&lt;/em&gt; button.&lt;/p&gt;
-
-&lt;h3 id=&#34;super-mega-bonus-credit-hyper-fighting&#34;&gt;Super Mega Bonus Credit Hyper Fighting&lt;/h3&gt;
-
-&lt;p&gt;Make the &lt;em&gt;remove&lt;/em&gt; button work.&lt;/p&gt;
-</description>
+      <description>Tuesday, May 23, 2017
+Lecture Videos Morning:
+ Full Playlist | Day 6, part 1 | 2 | 3 | 4 | 5 | 6 | 7  Afternoon:
+ Full Playlist | Day 6, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10  Topics React  Using map with components Stateless Functional Components Conditional rendering  JavaScript  Named and default exports Named and default imports Property initializers Spread operator Destructuring assignment  Package Managers  NPM - Node Package Manager Yarn - Facebook&amp;rsquo;s version of npm  CSS Specifity Examples React Using map with Components See this example live on CodePen →</description>
     </item>
     
     <item>
@@ -3332,35 +138,8 @@ yarn start
       <pubDate>Mon, 10 Apr 2017 22:15:59 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/prereqs/html-css/</guid>
-      <description>
-
-&lt;p&gt;You can&amp;rsquo;t get very far building the web without an understanding of HTML. HTML defines the &lt;em&gt;structure&lt;/em&gt; of web content, and it&amp;rsquo;s worth your time to familiarize yourself with various elements and their attributes.&lt;/p&gt;
-
-&lt;p&gt;Cascading Stylesheets (CSS) define the &lt;em&gt;presentation&lt;/em&gt; of web content. Even if you have little interest in becoming a professional designer, you can gain a lot from learning the basics of CSS. For example, you&amp;rsquo;ll use CSS selector sytax to target elements in JavaScript.&lt;/p&gt;
-
-&lt;p&gt;If you already have a decent handle on these topics, you&amp;rsquo;ll fly right through the lessons, but you may pick up a little bit of new knowledge along the way. I often find that when I review the basics, there&amp;rsquo;s something that I haven&amp;rsquo;t thought about in a long time that I ought to be using more often.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-info&#34;&gt;
-  
-    &lt;h4&gt;Note&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;One of these courses or the other should be plenty of preparation. Don&amp;rsquo;t feel like you need to complete both, unless you just want the extra practice.&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h3 id=&#34;learn-html-and-css-part-1-from-codecademy&#34;&gt;Learn HTML and CSS: Part 1, from Codecademy&lt;/h3&gt;
-
-&lt;p&gt;Codecademy&amp;rsquo;s free course &lt;a href=&#34;https://www.codecademy.com/learn/learn-html-css&#34;&gt;Learn HTML &amp;amp; CSS: Part 1&lt;/a&gt; is hot off the press! It hadn&amp;rsquo;t even been released yet when you received the last email with links to introductory material. It&amp;rsquo;s been rewritten from scratch to use the latest versions of HTML and CSS, replacing a much older course. You can complete the course right in the browser.&lt;/p&gt;
-
-&lt;h3 id=&#34;dash&#34;&gt;Dash&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://dash.generalassemb.ly/&#34;&gt;Dash&lt;/a&gt;, from General Assembly, offers several basic interactive courses that teach the fundamentals of modern HTML and CSS&amp;mdash;and even a little bit of JavaScript. And it&amp;rsquo;s all free, browser-based, and based on the lastest standards.&lt;/p&gt;
-</description>
+      <description>You can&amp;rsquo;t get very far building the web without an understanding of HTML. HTML defines the structure of web content, and it&amp;rsquo;s worth your time to familiarize yourself with various elements and their attributes.
+Cascading Stylesheets (CSS) define the presentation of web content. Even if you have little interest in becoming a professional designer, you can gain a lot from learning the basics of CSS. For example, you&amp;rsquo;ll use CSS selector sytax to target elements in JavaScript.</description>
     </item>
     
     <item>
@@ -3369,137 +148,9 @@ yarn start
       <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/setup-mac/editor/</guid>
-      <description>
-
-&lt;p&gt;You&amp;rsquo;ll need a code-friendly text editor. If you already have a strong preference for one in particular, knock yourself out. If not, we have a recommendation.&lt;/p&gt;
-
-&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
-
-
-&lt;svg
-   xmlns:dc=&#34;http://purl.org/dc/elements/1.1/&#34;
-   xmlns:cc=&#34;http://creativecommons.org/ns#&#34;
-   xmlns:rdf=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#&#34;
-   xmlns:svg=&#34;http://www.w3.org/2000/svg&#34;
-   xmlns=&#34;http://www.w3.org/2000/svg&#34;
-   role=&#34;img&#34;
-   viewBox=&#34;0 0 500 516.8125&#34;
-   id=&#34;vs-logo-svg&#34;
-   aria-labelledby=&#34;vs-svg-title&#34;
-   version=&#34;1.2&#34;&gt;
-  &lt;title id=&#34;vs-svg-title&#34;&gt;Visual Studio Code&lt;/title&gt;
-  &lt;defs
-     id=&#34;defs4&#34; /&gt;
-  &lt;sodipodi:namedview
-     id=&#34;base&#34;
-     pagecolor=&#34;#2d2c31&#34;
-     bordercolor=&#34;#666666&#34;
-     borderopacity=&#34;1.0&#34;
-     inkscape:pageopacity=&#34;0&#34;
-     inkscape:pageshadow=&#34;2&#34;
-     inkscape:zoom=&#34;0.5&#34;
-     inkscape:cx=&#34;26.033824&#34;
-     inkscape:cy=&#34;342.90908&#34;
-     inkscape:document-units=&#34;px&#34;
-     inkscape:current-layer=&#34;layer1&#34;
-     showgrid=&#34;false&#34;
-     inkscape:window-width=&#34;1920&#34;
-     inkscape:window-height=&#34;1018&#34;
-     inkscape:window-x=&#34;1912&#34;
-     inkscape:window-y=&#34;-8&#34;
-     inkscape:window-maximized=&#34;1&#34;
-     fit-margin-top=&#34;0&#34;
-     fit-margin-left=&#34;0&#34;
-     fit-margin-right=&#34;0&#34;
-     fit-margin-bottom=&#34;0&#34; /&gt;
-  &lt;metadata
-     id=&#34;metadata7&#34;&gt;
-    &lt;rdf:RDF&gt;
-      &lt;cc:Work
-         rdf:about=&#34;&#34;&gt;
-        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
-        &lt;dc:type
-           rdf:resource=&#34;http://purl.org/dc/dcmitype/StillImage&#34; /&gt;
-      &lt;/cc:Work&gt;
-    &lt;/rdf:RDF&gt;
-  &lt;/metadata&gt;
-  &lt;g
-     inkscape:label=&#34;Ebene 1&#34;
-     inkscape:groupmode=&#34;layer&#34;
-     id=&#34;layer1&#34;
-     style=&#34;display:inline&#34;
-     transform=&#34;translate(0,-538.375)&#34;&gt;
-    &lt;path
-       style=&#34;fill:#ffffff;stroke:none&#34;
-       d=&#34;M 483.29234,602.44472 372.10411,557.87392 178.02375,746.87661 61.150238,657.90867 l -44.44058,22.35039 -0.04444,233.31307 44.23249,22.18974 116.777852,-88.89395 194.55776,188.82908 111.10146,-44.39718 z&#34;
-       id=&#34;path2998&#34;
-       inkscape:connector-curvature=&#34;0&#34; /&gt;
-    &lt;path
-       style=&#34;fill:#373277;stroke:none&#34;
-       d=&#34;m 361.0373,713.50273 -111.05802,83.02234 111.10146,83.67329 z&#34;
-       id=&#34;path3000&#34;
-       inkscape:connector-curvature=&#34;0&#34; /&gt;
-    &lt;path
-       style=&#34;fill:#373277;stroke:none&#34;
-       d=&#34;m 72.191838,746.97093 0.0667,99.85788 55.483402,-50.26641 z&#34;
-       id=&#34;path3002&#34;
-       inkscape:connector-curvature=&#34;0&#34; /&gt;
-  &lt;/g&gt;
-&lt;/svg&gt;
-
-
-
-&lt;p&gt;Visual Studio Code&lt;/p&gt;
-
-
-&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt;&lt;/strong&gt; is a free, open source editor from Microsoft&amp;mdash;but don&amp;rsquo;t let that scare you. It doesn&amp;rsquo;t feel the least bit like a lazy port of a Windows product, because it isn&amp;rsquo;t one. It was built from the ground up to be cross-platform. It&amp;rsquo;s only two years old, but it&amp;rsquo;s impressive.&lt;/p&gt;
-
-&lt;p&gt;VS Code is particularly well suited for JavaScript development. It has Microsoft&amp;rsquo;s famous IntelliSense, built-in support for Git, and a variety of extensions to make our lives easier.&lt;/p&gt;
-
-&lt;p&gt;We will be using Visual Studio Code in class.&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;download&#34;&gt;
-&lt;a href=&#34;http://code.visualstudio.com/&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; Download Visual Studio Code&lt;/a&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;recommended-extensions-for-vs-code&#34;&gt;Recommended Extensions for VS Code&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons&#34;&gt;&lt;strong&gt;vscode-icons&lt;/strong&gt;&lt;/a&gt; shows icons in the sidebar that correspond to the file type.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;other-editors&#34;&gt;Other Editors&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://atom.io/&#34;&gt;Atom&lt;/a&gt;&lt;/strong&gt; is a free, open source editor from GitHub. It&amp;rsquo;s only been around a little longer than Code&amp;mdash;about three years&amp;mdash;but it&amp;rsquo;s quickly become a favorite. If you aren&amp;rsquo;t interested in VS Code, give Atom a chance.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sublimetext.com/&#34;&gt;Sublime Text&lt;/a&gt;&lt;/strong&gt; is another popular choice. Many of Atom&amp;rsquo;s features are borrowed from Sublime Text (which took them from TextMate). Sublime Text is commercial software, although the trial version does not expire. If you like it, consider coughing up the $70.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re used to a full IDE, &lt;strong&gt;&lt;a href=&#34;http://www.jetbrains.com/webstorm/&#34;&gt;WebStorm&lt;/a&gt;&lt;/strong&gt; might be more up your alley. Be warned: It&amp;rsquo;s subscription-based, and is $12.90/month, or $129.00 the first year. You may find that Visual Studio Code has most of the features you need. We&amp;rsquo;ve never used WebStorm ourselves, so we won&amp;rsquo;t be much help should you run into trouble.&lt;/p&gt;
-
-&lt;h2 id=&#34;dock-that-rascal&#34;&gt;Dock That Rascal&lt;/h2&gt;
-
-&lt;p&gt;Whichever editor you use, you&amp;rsquo;ll use it enough that I recommend keeping it in the Dock as well.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-tip&#34;&gt;
-  
-    &lt;h4&gt;Theme Info&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;Since I&amp;rsquo;m always asked, I use the following themes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Code: &lt;em&gt;Oceanic Next Italic&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Atom: &lt;em&gt;Atom Dark&lt;/em&gt; UI theme; &lt;em&gt;Kobalt&lt;/em&gt; syntax theme (with some personal customizations)&lt;/li&gt;
-&lt;/ul&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-</description>
+      <description>You&amp;rsquo;ll need a code-friendly text editor. If you already have a strong preference for one in particular, knock yourself out. If not, we have a recommendation.
+ Visual Studio Code  image/svg+xml      Visual Studio Code
+ Visual Studio Code is a free, open source editor from Microsoft&amp;mdash;but don&amp;rsquo;t let that scare you. It doesn&amp;rsquo;t feel the least bit like a lazy port of a Windows product, because it isn&amp;rsquo;t one.</description>
     </item>
     
     <item>
@@ -3508,141 +159,9 @@ yarn start
       <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/setup-windows/editor/</guid>
-      <description>
-
-&lt;p&gt;You&amp;rsquo;ll need a code-friendly text editor. If you already have a strong preference for one in particular, knock yourself out. If not, we have a recommendation.&lt;/p&gt;
-
-&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
-
-
-&lt;svg
-   xmlns:dc=&#34;http://purl.org/dc/elements/1.1/&#34;
-   xmlns:cc=&#34;http://creativecommons.org/ns#&#34;
-   xmlns:rdf=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#&#34;
-   xmlns:svg=&#34;http://www.w3.org/2000/svg&#34;
-   xmlns=&#34;http://www.w3.org/2000/svg&#34;
-   role=&#34;img&#34;
-   viewBox=&#34;0 0 500 516.8125&#34;
-   id=&#34;vs-logo-svg&#34;
-   aria-labelledby=&#34;vs-svg-title&#34;
-   version=&#34;1.2&#34;&gt;
-  &lt;title id=&#34;vs-svg-title&#34;&gt;Visual Studio Code&lt;/title&gt;
-  &lt;defs
-     id=&#34;defs4&#34; /&gt;
-  &lt;sodipodi:namedview
-     id=&#34;base&#34;
-     pagecolor=&#34;#2d2c31&#34;
-     bordercolor=&#34;#666666&#34;
-     borderopacity=&#34;1.0&#34;
-     inkscape:pageopacity=&#34;0&#34;
-     inkscape:pageshadow=&#34;2&#34;
-     inkscape:zoom=&#34;0.5&#34;
-     inkscape:cx=&#34;26.033824&#34;
-     inkscape:cy=&#34;342.90908&#34;
-     inkscape:document-units=&#34;px&#34;
-     inkscape:current-layer=&#34;layer1&#34;
-     showgrid=&#34;false&#34;
-     inkscape:window-width=&#34;1920&#34;
-     inkscape:window-height=&#34;1018&#34;
-     inkscape:window-x=&#34;1912&#34;
-     inkscape:window-y=&#34;-8&#34;
-     inkscape:window-maximized=&#34;1&#34;
-     fit-margin-top=&#34;0&#34;
-     fit-margin-left=&#34;0&#34;
-     fit-margin-right=&#34;0&#34;
-     fit-margin-bottom=&#34;0&#34; /&gt;
-  &lt;metadata
-     id=&#34;metadata7&#34;&gt;
-    &lt;rdf:RDF&gt;
-      &lt;cc:Work
-         rdf:about=&#34;&#34;&gt;
-        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
-        &lt;dc:type
-           rdf:resource=&#34;http://purl.org/dc/dcmitype/StillImage&#34; /&gt;
-      &lt;/cc:Work&gt;
-    &lt;/rdf:RDF&gt;
-  &lt;/metadata&gt;
-  &lt;g
-     inkscape:label=&#34;Ebene 1&#34;
-     inkscape:groupmode=&#34;layer&#34;
-     id=&#34;layer1&#34;
-     style=&#34;display:inline&#34;
-     transform=&#34;translate(0,-538.375)&#34;&gt;
-    &lt;path
-       style=&#34;fill:#ffffff;stroke:none&#34;
-       d=&#34;M 483.29234,602.44472 372.10411,557.87392 178.02375,746.87661 61.150238,657.90867 l -44.44058,22.35039 -0.04444,233.31307 44.23249,22.18974 116.777852,-88.89395 194.55776,188.82908 111.10146,-44.39718 z&#34;
-       id=&#34;path2998&#34;
-       inkscape:connector-curvature=&#34;0&#34; /&gt;
-    &lt;path
-       style=&#34;fill:#373277;stroke:none&#34;
-       d=&#34;m 361.0373,713.50273 -111.05802,83.02234 111.10146,83.67329 z&#34;
-       id=&#34;path3000&#34;
-       inkscape:connector-curvature=&#34;0&#34; /&gt;
-    &lt;path
-       style=&#34;fill:#373277;stroke:none&#34;
-       d=&#34;m 72.191838,746.97093 0.0667,99.85788 55.483402,-50.26641 z&#34;
-       id=&#34;path3002&#34;
-       inkscape:connector-curvature=&#34;0&#34; /&gt;
-  &lt;/g&gt;
-&lt;/svg&gt;
-
-
-
-&lt;p&gt;Visual Studio Code&lt;/p&gt;
-
-
-&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt;&lt;/strong&gt; is a free, open source editor from Microsoft. It was built from the ground up to be cross-platform. It&amp;rsquo;s only two years old, but it&amp;rsquo;s impressive.&lt;/p&gt;
-
-&lt;p&gt;VS Code is particularly well suited for JavaScript development. It has Microsoft&amp;rsquo;s famous IntelliSense, built-in support for Git, and a variety of extensions to make our lives easier.&lt;/p&gt;
-
-&lt;p&gt;We will be using Visual Studio Code in class.&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;download&#34;&gt;
-&lt;a href=&#34;http://code.visualstudio.com/&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; Download Visual Studio Code&lt;/a&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;When given the chance to &lt;strong&gt;Select Additional Tasks&lt;/strong&gt; during setup, go ahead and check all the boxes.&lt;/p&gt;
-
-&lt;div class=&#34;img vscode-setup&#34;&gt;&lt;span&gt;Check all the boxes for additional setup tasks.&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h3 id=&#34;recommended-extensions-for-vs-code&#34;&gt;Recommended Extensions for VS Code&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons&#34;&gt;&lt;strong&gt;vscode-icons&lt;/strong&gt;&lt;/a&gt; shows icons in the sidebar that correspond to the file type.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;other-editors&#34;&gt;Other Editors&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://atom.io/&#34;&gt;Atom&lt;/a&gt;&lt;/strong&gt; is a free, open source editor from GitHub. It&amp;rsquo;s only been around a little longer than Code&amp;mdash;about three years&amp;mdash;but it&amp;rsquo;s quickly become a favorite. If you aren&amp;rsquo;t interested in VS Code, give Atom a chance.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sublimetext.com/&#34;&gt;Sublime Text&lt;/a&gt;&lt;/strong&gt; is another popular choice. Many of Atom&amp;rsquo;s features are borrowed from Sublime Text (which took them from TextMate). Sublime Text is commercial software, although the trial version does not expire. If you like it, consider coughing up the $70.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re used to a full IDE, &lt;strong&gt;&lt;a href=&#34;http://www.jetbrains.com/webstorm/&#34;&gt;WebStorm&lt;/a&gt;&lt;/strong&gt; might be more up your alley. Be warned: It&amp;rsquo;s subscription-based, and is $12.90/month, or $129.00 the first year. You may find that Visual Studio Code has most of the features you need. We&amp;rsquo;ve never used WebStorm ourselves, so we won&amp;rsquo;t be much help should you run into trouble.&lt;/p&gt;
-
-&lt;h2 id=&#34;pin-that-rascal&#34;&gt;Pin That Rascal&lt;/h2&gt;
-
-&lt;p&gt;Whichever editor you use, you&amp;rsquo;ll use it enough that I recommend pinning it to the taskbar.&lt;/p&gt;
-
-
-  &lt;div class=&#34;aside aside-tip&#34;&gt;
-  
-    &lt;h4&gt;Theme Info&lt;/h4&gt;
-    
-  
-  &lt;div class=&#34;body&#34;&gt;
-  &lt;p&gt;Since I&amp;rsquo;m always asked, I use the following themes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Code: &lt;em&gt;Oceanic Next Italic&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Atom: &lt;em&gt;Atom Dark&lt;/em&gt; UI theme; &lt;em&gt;Kobalt&lt;/em&gt; syntax theme (with some personal customizations)&lt;/li&gt;
-&lt;/ul&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-</description>
+      <description>You&amp;rsquo;ll need a code-friendly text editor. If you already have a strong preference for one in particular, knock yourself out. If not, we have a recommendation.
+ Visual Studio Code  image/svg+xml      Visual Studio Code
+ Visual Studio Code is a free, open source editor from Microsoft. It was built from the ground up to be cross-platform. It&amp;rsquo;s only two years old, but it&amp;rsquo;s impressive.</description>
     </item>
     
     <item>
@@ -3651,42 +170,280 @@ yarn start
       <pubDate>Thu, 01 Jun 2017 09:13:25 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/week3/day11/</guid>
-      <description>
-
-&lt;p&gt;&lt;date&gt;Thursday, June 1, 2017&lt;/date&gt;&lt;/p&gt;
-
-&lt;p&gt;Congratulations, you survived the bootcamp! You&amp;rsquo;re all experts in React now, right?&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Just kidding&lt;/em&gt;.  We&amp;rsquo;ve got a good handle on the basics of React and web development, but it&amp;rsquo;s important to keep pushing yourself to solidify the concepts you&amp;rsquo;ve learned and continue extending your skills.  We&amp;rsquo;ve compiled a list of some resources to continue your journey towards becoming a competent web developer.&lt;/p&gt;
-
-&lt;h2 id=&#34;resources-for-continued-learning&#34;&gt;Resources for continued learning&lt;/h2&gt;
-
-&lt;h3 id=&#34;javascript&#34;&gt;JavaScript&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://javascript30.com/&#34;&gt;JavaScript 30&lt;/a&gt; - this was part of the optional pre-work, but it was definitely on the difficult side. If you haven&amp;rsquo;t completed it already, you should definitely have the skills to complete it now.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://leanpub.com/understandinges6/read&#34;&gt;Understanding ES6&lt;/a&gt; - I really enjoyed reading this free e-book. It&amp;rsquo;s well-written with good explanations, and helped solidify my understanding of how JavaScript works.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.codewars.com&#34;&gt;CodeWars&lt;/a&gt;, &lt;a href=&#34;https://www.hackerrank.com/&#34;&gt;HackerRank&lt;/a&gt;, &lt;a href=&#34;http://exercism.io/&#34;&gt;Exercism&lt;/a&gt; - All are free resources for solving practice problems (and seeing other people&amp;rsquo;s solutions) in the language of your choice.  Excellent for leveling up your skills.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;react&#34;&gt;React&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://reacttraining.com/&#34;&gt;React Training&lt;/a&gt; - Training on all sorts of React-related topics by the team that created React Router.  Some lessons are free, some are paid, but they&amp;rsquo;re all really good.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://learnredux.com/&#34;&gt;Learn Redux&lt;/a&gt; - An excellent tutorial for learning how to build an app (Instagram clone) using Redux - one of the most popular patterns for creating scalable React apps.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;development&#34;&gt;Development&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html&#34;&gt;The Conjoined Triangles of Senior Level Development&lt;/a&gt; - This is where the Technical Capability/Leadership/Community Venn diagram came from.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://decidedlycursory.com/post/30869180028/scale-of-awesomeness&#34;&gt;Tony Dewan&amp;rsquo;s Scale of Awesomeness&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/tonydewan/status/618583219101810688&#34;&gt;Twitter thread in which Tony followed up with a few more items&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Thursday, June 1, 2017
+Congratulations, you survived the bootcamp! You&amp;rsquo;re all experts in React now, right?
+Just kidding. We&amp;rsquo;ve got a good handle on the basics of React and web development, but it&amp;rsquo;s important to keep pushing yourself to solidify the concepts you&amp;rsquo;ve learned and continue extending your skills. We&amp;rsquo;ve compiled a list of some resources to continue your journey towards becoming a competent web developer.
+Resources for continued learning JavaScript  JavaScript 30 - this was part of the optional pre-work, but it was definitely on the difficult side.</description>
+    </item>
+    
+    <item>
+      <title>Day 3: Megaroster</title>
+      <link>http://xternbootcamp17.github.io/week1/day3/</link>
+      <pubDate>Wed, 17 May 2017 13:54:51 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week1/day3/</guid>
+      <description>Wednesday, May 17, 2017
+Lecture Videos Morning:
+ Full Playlist | Day 3, part 1 | 2 | 3 | 4 | 5 | 6 | 7  Afternoon:
+ Full Playlist | Day 3, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12  Topics Git  Starting a new repository Adding a remote repository (like Github) Seeing what changed with git diff Forking and cloning repositories  Foundation  The grid system Responsive design (adjusting style based on window size) Foundation Docs  Functions as methods  Methods calling methods (e.</description>
+    </item>
+    
+    <item>
+      <title>Day 7: Firebase</title>
+      <link>http://xternbootcamp17.github.io/week2/day7/</link>
+      <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week2/day7/</guid>
+      <description>Wednesday, May 24, 2017
+Lecture Videos Morning:
+ Full Playlist | Day 7, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13  Afternoon:
+ Full Playlist | Day 7, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17  Topics React  Methods as props Component lifecycle methods (Docs)  componentDidMount()  react-contenteditable package (on GitHub)  JavaScript  Property initializers + arrow functions  Firebase  Getting started Database rules Re-base for syncing React state with Firebase  Examples React Methods as props Sometimes one component needs to update another component&amp;rsquo;s state.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>http://xternbootcamp17.github.io/prereqs/javascript/</link>
+      <pubDate>Tue, 11 Apr 2017 00:02:46 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/prereqs/javascript/</guid>
+      <description>React is a JavaScript library, so it&amp;rsquo;s fair to say that we&amp;rsquo;ll be using a whole heck of a lot of JavaScript in this bootcamp. You ought to be familiar with the fundamentals of JavaScript before class begins.
+Basic Learn JavaScript by Codecademy Lean JavaScript is another brand-new, free interactive tutorial that replaced an older Codecademy course.
+Intermediate JavaScript 30 by Wes Bos I highly recommend completing JavaScript 30 by Wes Bos.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://xternbootcamp17.github.io/setup-windows/git/</link>
+      <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-windows/git/</guid>
+      <description>Git   .cls-1 { fill: #fff; }   git  for Windows  Git is a distributed version control system. (But you knew that already, because you totally completed a Git tutorial&amp;mdash;right?)
+There are several ways to go about making Git usable on Windows, but my favorite is to install the aptly-named Git for Windows. The great thing about Git for Windows is that it comes with Git Bash&amp;mdash;a UNIX-style shell.</description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://xternbootcamp17.github.io/setup-mac/terminal/</link>
+      <pubDate>Fri, 10 Jun 2016 23:02:52 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-mac/terminal/</guid>
+      <description>terminal
+ You&amp;rsquo;ll be using a terminal app throughout the setup process, as well as in class.
+macOS comes with Terminal.app, which you can find at /Applications/Utilities/Terminal.app or by searching for Terminal in Spotlight. It will do the job just fine, but if you&amp;rsquo;re interesting in dressing it up or exploring other shells, read on.
+iTerm2 is a popular alternative to Terminal.app. It&amp;rsquo;s free and includes some advanced features that the built-in Terminal lacks.</description>
+    </item>
+    
+    <item>
+      <title>Day 8: Authentication</title>
+      <link>http://xternbootcamp17.github.io/week2/day8/</link>
+      <pubDate>Thu, 25 May 2017 09:34:51 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week2/day8/</guid>
+      <description>Thursday, May 25, 2017
+Lecture Videos Morning:
+ Full Playlist | Day 8, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8  Afternoon:
+ Full Playlist | Day 8, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13  Topics Firebase Authentication  &amp;lsquo;firebase/auth&amp;rsquo; authWithPopup signing in and out handling auth state changes  Examples Firebase Authentication Firebase isn&amp;rsquo;t just a real-time database.</description>
+    </item>
+    
+    <item>
+      <title>Day 4: LocalStorage and JavaScript Classes</title>
+      <link>http://xternbootcamp17.github.io/week1/day4/</link>
+      <pubDate>Thu, 18 May 2017 11:29:27 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week1/day4/</guid>
+      <description>Thursday, May 18, 2017
+Lecture Videos Morning:
+ Full Playlist | Day 4, part 1 | 2 | 3 | 4 | 5 | 6 | 7  Afternoon:
+ Full Playlist | Day 4, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11  Topics localStorage ↓  Using localStorage JSON.stringify  Using JSON.stringify Live example API reference, including optional arguments for whitelisting properties and transforming the data as it&amp;rsquo;s stringified  JSON.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://xternbootcamp17.github.io/prereqs/git/</link>
+      <pubDate>Mon, 10 Apr 2017 22:52:24 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/prereqs/git/</guid>
+      <description>We will be using Git for source code management&amp;ndash;and hosting our repositories on GitHub&amp;ndash;throughout the bootcamp. It will help if you&amp;rsquo;re not seeing it for the first time.
+Note Once again, one of these courses or the other should be plenty of preparation.
+  Learn Git from Codecademy Learn Git is a free interactive course from Codecademy covering the fundamentals of version control with Git. As with the previous lessons, this can be completed entirely within the browser.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://xternbootcamp17.github.io/setup-mac/git/</link>
+      <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-mac/git/</guid>
+      <description>Git   .cls-1 { fill: #fff; }   git   Git is a distributed version control system. (But you knew that already, because you totally completed a Git tutorial&amp;mdash;right?) If you have previously installed Xcode and its command-line tools, you may already have Git installed. Find out by entering the following command:
+      user@localhost ~ &amp;nbsp;     git --version git version 2.</description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>http://xternbootcamp17.github.io/setup-mac/node/</link>
+      <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-mac/node/</guid>
+      <description>Node.js  If you installed Homebrew in the previous step, use it to install Node.js:
+      user@localhost ~ &amp;nbsp;   brew install node   
+If not, you can click one of the big, green download links on the Node.js web site.
+ Download Node.js  Note Node version numbers are confusing, but either the LTS version (6.10.2 as of this writing) or the Current version (7.</description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://xternbootcamp17.github.io/setup-windows/terminal/</link>
+      <pubDate>Fri, 10 Jun 2016 23:02:52 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-windows/terminal/</guid>
+      <description>terminal
+ You&amp;rsquo;ll be using the command line a fair amount in class. We&amp;rsquo;ll be demonstrating everything on macOS, which is UNIX-based. Now that you&amp;rsquo;ve installed Git Bash, you too have a UNIX-like shell and can run the same commands.
+As noted during setup, Git Bash can run in the default cmd.exe terminal, but it also comes with MinTTY. If you&amp;rsquo;re on Windows 10, cmd.exe isn&amp;rsquo;t quite the inexcusable piece of crap that it used to be.</description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://xternbootcamp17.github.io/prereqs/terminal/</link>
+      <pubDate>Tue, 11 Apr 2017 00:16:21 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/prereqs/terminal/</guid>
+      <description>(Optional) Although it&amp;rsquo;s far from the focus of the course, we&amp;rsquo;ll be using the command-line in class, and you&amp;rsquo;ll be better off if you&amp;rsquo;re not trying to learn it from scratch alongside React.
+Command Line Power User by Wes Bos Command Line Power User series by Wes Bos is an excellent introduction to the *NIX style command line. This free course requires an email sign up, but all the videos are on YouTube if you want to hunt for them.</description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>http://xternbootcamp17.github.io/setup-windows/node/</link>
+      <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-windows/node/</guid>
+      <description>Node.js  Installation To install Node.js, click one of the big, green download links on the web site.
+ Download Node.js 
+Note Node version numbers are confusing, but either the LTS version (6.10.2 as of this writing) or the Current version (7.9.0) will do for our purposes.
+  Testing your installation After Node is installed, close Hyper and reopen it. That way, node and other related commands will be available to you from any folder.</description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>http://xternbootcamp17.github.io/setup-windows/ssh/</link>
+      <pubDate>Fri, 10 Jun 2016 23:40:37 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-windows/ssh/</guid>
+      <description>ssh
+ We recommend setting up an SSH key to simplify authentication with GitHub and other services.
+Check for an existing key In Hyper, make sure you&amp;rsquo;re in your home directory. You will be by default, but you can double-check with the &amp;ldquo;print working directory&amp;rdquo; command: pwd
+     WINGW64:/c/Users/user &amp;nbsp;     pwd /c/Users/dstrus    You should be in /c/Users/yourusername.</description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>http://xternbootcamp17.github.io/setup-mac/ssh/</link>
+      <pubDate>Fri, 10 Jun 2016 23:28:03 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-mac/ssh/</guid>
+      <description>ssh
+ We recommend setting up an SSH key to simplify authentication with GitHub and other services.
+Check for an existing key Make sure you&amp;rsquo;re in your home directory. You should be by default, but you can double-check with the &amp;ldquo;print working directory&amp;rdquo; command: pwd. You should be in /Users/yourusername. If not, you can switch to that directory with the cd command, passing in the directory you want to switch to.</description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>http://xternbootcamp17.github.io/setup-mac/github/</link>
+      <pubDate>Fri, 10 Jun 2016 23:31:46 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-mac/github/</guid>
+      <description>GitHub.cls-1{fill:#fff;}github-logo  Create a free GitHub account GitHub is a service for storing your code in the cloud. It&amp;rsquo;s wonderful for collaboration.
+Sign up for GitHub using the same email address you used when creating your SSH key and your Git configuration.
+Enter your info, and hit the green &#34;Create an account&#34; button. On the next screen, you&amp;rsquo;ll see information about GitHub&amp;rsquo;s free and paid plans. To finish creating a free account, just hit the green &amp;ldquo;Continue&amp;rdquo; button.</description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>http://xternbootcamp17.github.io/setup-windows/github/</link>
+      <pubDate>Fri, 10 Jun 2016 23:31:46 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-windows/github/</guid>
+      <description>GitHub.cls-1{fill:#fff;}github-logo  Create a free GitHub account GitHub is a service for storing your code in the cloud. It&amp;rsquo;s wonderful for collaboration.
+Sign up for GitHub using the same email address you used when creating your SSH key and your Git configuration.
+Enter your info, and hit the green &#34;Create an account&#34; button. On the next screen, you&amp;rsquo;ll see information about GitHub&amp;rsquo;s free and paid plans. To finish creating a free account, just hit the green &amp;ldquo;Continue&amp;rdquo; button.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Desktop</title>
+      <link>http://xternbootcamp17.github.io/tools/github-desktop/</link>
+      <pubDate>Fri, 10 Jun 2016 23:31:46 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/tools/github-desktop/</guid>
+      <description>GitHub.cls-1{fill:#fff;}github-logo &amp;nbsp;Desktop
+ GitHub Desktop is my favorite of the free GUIs for Git. It&amp;rsquo;s made by GitHub, but there&amp;rsquo;s nothing tying it to their service. It&amp;rsquo;s just a Git client, and it will work fine with any host, or just locally. Check out GitHub&amp;rsquo;s guide: Getting your project on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Week One</title>
+      <link>http://xternbootcamp17.github.io/week1/</link>
+      <pubDate>Mon, 15 May 2017 11:23:26 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week1/</guid>
+      <description>Week One An overview of the course and web technologies, some vanilla JavaScript, and basic DOM manipulation.</description>
+    </item>
+    
+    <item>
+      <title>Week Three</title>
+      <link>http://xternbootcamp17.github.io/week3/</link>
+      <pubDate>Mon, 15 May 2017 11:23:26 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week3/</guid>
+      <description>Week Three More React</description>
+    </item>
+    
+    <item>
+      <title>Week Two</title>
+      <link>http://xternbootcamp17.github.io/week2/</link>
+      <pubDate>Mon, 15 May 2017 11:23:26 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week2/</guid>
+      <description>Week Two React!</description>
+    </item>
+    
+    <item>
+      <title>Setup for Mac</title>
+      <link>http://xternbootcamp17.github.io/setup-mac/</link>
+      <pubDate>Tue, 11 Apr 2017 19:48:50 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-mac/</guid>
+      <description>Setup
+ With this guide, you can prepare your laptop with everything you&amp;rsquo;ll need to get started with the Xtern Bootcamp. This guide is written specifically for macOS/Mac OS X.
+If you have trouble at any point, please contact Davey or Seth.</description>
+    </item>
+    
+    <item>
+      <title>Setup for Windows</title>
+      <link>http://xternbootcamp17.github.io/setup-windows/</link>
+      <pubDate>Tue, 11 Apr 2017 19:48:50 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/setup-windows/</guid>
+      <description>Setup
+ With this guide, you can prepare your laptop with everything you&amp;rsquo;ll need to get started with the Xtern Bootcamp. This guide is written specifically for Windows 10, but most of it will work on Windows 7 or higher.
+If you have trouble at any point, please contact Davey or Seth.</description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>http://xternbootcamp17.github.io/tools/</link>
+      <pubDate>Tue, 11 Apr 2017 19:48:50 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/tools/</guid>
+      <description>Tools
+ This guide includes information about additional tools and configuration options you may find helpful.</description>
+    </item>
+    
+    <item>
+      <title>Prerequisites</title>
+      <link>http://xternbootcamp17.github.io/prereqs/</link>
+      <pubDate>Mon, 10 Apr 2017 11:10:36 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/prereqs/</guid>
+      <description>Before you start Prerequisites Three weeks is not a whole lot of time, so the more you know about the fundamentals of the Web&amp;mdash;HTML, CSS, and JavaScript&amp;mdash;the better prepared we&amp;rsquo;ll be to jump right into React.</description>
     </item>
     
   </channel>
