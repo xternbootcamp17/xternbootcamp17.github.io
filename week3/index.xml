@@ -1138,5 +1138,49 @@ class NoteForm extends Component {
 </description>
     </item>
     
+    <item>
+      <title>Final Wrap-up</title>
+      <link>http://xternbootcamp17.github.io/week3/day11/</link>
+      <pubDate>Thu, 01 Jun 2017 09:13:25 -0400</pubDate>
+      
+      <guid>http://xternbootcamp17.github.io/week3/day11/</guid>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Thursday, June 1, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;p&gt;Congratulations, you survived the bootcamp! You&amp;rsquo;re all experts in React now, right?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Just kidding&lt;/em&gt;.  We&amp;rsquo;ve got a good handle on the basics of React and web development, but it&amp;rsquo;s important to keep pushing yourself to solidify the concepts you&amp;rsquo;ve learned and continue extending your skills.  We&amp;rsquo;ve compiled a list of some resources to continue your journey towards becoming a competent web developer.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources-for-continued-learning&#34;&gt;Resources for continued learning&lt;/h2&gt;
+
+&lt;h3 id=&#34;javascript&#34;&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://javascript30.com/&#34;&gt;JavaScript 30&lt;/a&gt; - this was part of the optional pre-work, but it was definitely on the difficult side. If you haven&amp;rsquo;t completed it already, you should definitely have the skills to complete it now.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://leanpub.com/understandinges6/read&#34;&gt;Understanding ES6&lt;/a&gt; - I really enjoyed reading this free e-book. It&amp;rsquo;s well-written with good explanations, and helped solidify my understanding of how JavaScript works.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.codewars.com&#34;&gt;CodeWars&lt;/a&gt;, &lt;a href=&#34;https://www.hackerrank.com/&#34;&gt;HackerRank&lt;/a&gt;, &lt;a href=&#34;http://exercism.io/&#34;&gt;Exercism&lt;/a&gt; - All are free resources for solving practice problems (and seeing other people&amp;rsquo;s solutions) in the language of your choice.  Excellent for leveling up your skills.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;react&#34;&gt;React&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://reacttraining.com/&#34;&gt;React Training&lt;/a&gt; - Training on all sorts of React-related topics by the team that created React Router.  Some lessons are free, some are paid, but they&amp;rsquo;re all really good.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnredux.com/&#34;&gt;Learn Redux&lt;/a&gt; - An excellent tutorial for learning how to build an app (Instagram clone) using Redux - one of the most popular patterns for creating scalable React apps.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;development&#34;&gt;Development&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html&#34;&gt;The Conjoined Triangles of Senior Level Development&lt;/a&gt; - This is where the Technical Capability/Leadership/Community Venn diagram came from.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://decidedlycursory.com/post/30869180028/scale-of-awesomeness&#34;&gt;Tony Dewan&amp;rsquo;s Scale of Awesomeness&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/tonydewan/status/618583219101810688&#34;&gt;Twitter thread in which Tony followed up with a few more items&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
