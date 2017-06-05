@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Setup-macs on XTERN Bootcamp 2017</title>
-    <link>http://xternbootcamp17.github.io/setup-mac/</link>
+    <link>http://xternbootcamp17.github.io/setup-mac/index.xml</link>
     <description>Recent content in Setup-macs on XTERN Bootcamp 2017</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Apr 2017 19:48:50 -0400</lastBuildDate>
-    
-	<atom:link href="http://xternbootcamp17.github.io/setup-mac/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="http://xternbootcamp17.github.io/setup-mac/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Setup for Mac</title>
@@ -17,9 +15,18 @@
       <pubDate>Tue, 11 Apr 2017 19:48:50 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/setup-mac/</guid>
-      <description>Setup
- With this guide, you can prepare your laptop with everything you&amp;rsquo;ll need to get started with the Xtern Bootcamp. This guide is written specifically for macOS/Mac OS X.
-If you have trouble at any point, please contact Davey or Seth.</description>
+      <description>&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;p&gt;&lt;i class=&#34;fa fa-apple&#34;&gt;&lt;/i&gt; Setup&lt;/p&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;With this guide, you can prepare your laptop with everything you&amp;rsquo;ll need to get started with the Xtern Bootcamp. This guide is written specifically for macOS/Mac OS X.&lt;/p&gt;
+
+&lt;p&gt;If you have trouble at any point, please contact &lt;a href=&#34;mailto:dave@getfretless.com&#34;&gt;Davey&lt;/a&gt; or &lt;a href=&#34;mailto:seth@getfretless.com&#34;&gt;Seth&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -28,7 +35,131 @@ If you have trouble at any point, please contact Davey or Seth.</description>
       <pubDate>Fri, 10 Jun 2016 22:39:00 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/setup-mac/chrome/</guid>
-      <description>Chrome .st0{fill:#FAFCFF;} .st1{fill:#FFFFFF;} .st2{fill-opacity:0.1;} .st3{fill:url(#circle53_2_);} .st4{fill:url(#path55_2_);} .st5{fill:url(#path57_2_);} .st6{fill:url(#path59_2_);} .st7{fill:url(#path61_2_);} .st8{fill:url(#path63_2_);} .st9{fill:url(#path65_2_);}               To develop with React, you&amp;rsquo;ll want a modern web browser with a JavaScript console and debugger. The latest versions of all the major browsers have the tools you need, but we highly recommend using Google Chrome for the course, as we can provide the most detailed help for the tools built into Chrome.</description>
+      <description>
+
+&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;svg version=&#34;1.1&#34; role=&#34;img&#34; aria-labelledby=&#34;chrome-svg-title&#34; id=&#34;chrome-logo-svg&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; x=&#34;0px&#34; y=&#34;0px&#34;
+	 viewBox=&#34;0 0 648.4 170.8&#34; style=&#34;enable-background:new 0 0 648.4 170.8;&#34; xml:space=&#34;preserve&#34;&gt;
+&lt;title id=&#34;chrome-svg-title&#34;&gt;Chrome&lt;/title&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+	.st0{fill:#FAFCFF;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill-opacity:0.1;}
+	.st3{fill:url(#circle53_2_);}
+	.st4{fill:url(#path55_2_);}
+	.st5{fill:url(#path57_2_);}
+	.st6{fill:url(#path59_2_);}
+	.st7{fill:url(#path61_2_);}
+	.st8{fill:url(#path63_2_);}
+	.st9{fill:url(#path65_2_);}
+&lt;/style&gt;
+&lt;g&gt;
+	&lt;g&gt;
+		&lt;path class=&#34;st0&#34; d=&#34;M247.2,120c-3.3,1.6-10.7,4-20,4c-21,0-34.7-14.3-34.7-35.6c0-21.5,14.7-37.2,37.4-37.2
+			c7.5,0,14.1,1.9,17.6,3.7l-2.9,9.6c-3-1.6-7.8-3.3-14.7-3.3c-16,0-24.6,12-24.6,26.4c0,16.1,10.4,26.1,24.2,26.1
+			c7.2,0,12-1.7,15.6-3.3L247.2,120z&#34;/&gt;
+		&lt;path class=&#34;st0&#34; d=&#34;M262,20.2h12.7v43.6h0.3c2-3.6,5.2-6.9,9.1-9.1c3.7-2.2,8.2-3.5,13-3.5c9.4,0,24.3,5.8,24.3,29.7v41.5h-12.7
+			v-40c0-11.2-4.2-20.6-16.1-20.6c-8.2,0-14.5,5.8-17,12.5c-0.7,1.9-0.9,3.7-0.9,6v42H262L262,20.2L262,20.2z&#34;/&gt;
+		&lt;path class=&#34;st0&#34; d=&#34;M341.9,74.5c0-8.2-0.1-15.3-0.6-21.7h11.1l0.6,13.8h0.4c3.2-9.4,10.9-15.3,19.4-15.3c1.3,0,2.3,0.1,3.5,0.3
+			v12c-1.3-0.3-2.6-0.3-4.3-0.3c-8.9,0-15.3,6.6-17,16.1c-0.3,1.7-0.4,3.9-0.4,5.9v37.2h-12.7V74.5z&#34;/&gt;
+		&lt;path class=&#34;st0&#34; d=&#34;M450.7,87c0,25.8-18,37-34.7,37c-18.7,0-33.4-13.8-33.4-35.9c0-23.2,15.4-36.9,34.6-36.9
+			C437.1,51.3,450.7,65.9,450.7,87z M395.5,87.7c0,15.3,8.6,26.8,21,26.8c12.1,0,21.2-11.4,21.2-27.1c0-11.8-5.9-26.6-20.9-26.6
+			C402,60.8,395.5,74.6,395.5,87.7z&#34;/&gt;
+		&lt;path class=&#34;st0&#34; d=&#34;M466.6,71.6c0-7.3-0.3-13.1-0.6-18.9h11.1l0.6,11.4h0.4c3.9-6.6,10.4-12.8,22-12.8c9.4,0,16.6,5.8,19.6,14
+			h0.3c2.2-4,5-6.9,7.9-9.1c4.2-3.2,8.6-4.9,15.3-4.9c9.4,0,23,6,23,30.2v40.9h-12.4V83.1c0-13.5-5-21.5-15.1-21.5
+			c-7.3,0-12.8,5.3-15.1,11.4c-0.6,1.9-1,4-1,6.3v43.1h-12.4V80.7c0-11.1-4.9-19-14.5-19c-7.8,0-13.7,6.3-15.7,12.7
+			c-0.7,1.7-1,4-1,6.2v41.9h-12.4V71.6z&#34;/&gt;
+		&lt;path class=&#34;st0&#34; d=&#34;M593.8,89.9c0.3,17.1,11.1,24.2,23.9,24.2c9.1,0,14.7-1.6,19.3-3.6l2.3,9.1c-4.5,2-12.2,4.5-23.3,4.5
+			c-21.5,0-34.3-14.3-34.3-35.3c0-21,12.4-37.4,32.7-37.4c22.9,0,28.8,19.9,28.8,32.7c0,2.6-0.1,4.5-0.4,5.9L593.8,89.9L593.8,89.9z
+			 M630.9,80.8c0.1-7.9-3.3-20.4-17.6-20.4c-13,0-18.4,11.7-19.4,20.4H630.9z&#34;/&gt;
+	&lt;/g&gt;
+&lt;/g&gt;
+&lt;circle id=&#34;circle47_1_&#34; class=&#34;st1&#34; cx=&#34;85.3&#34; cy=&#34;85.7&#34; r=&#34;83.8&#34;/&gt;
+&lt;path id=&#34;path49_1_&#34; class=&#34;st2&#34; d=&#34;M138.6,100.9c0-29.5-23.9-53.3-53.3-53.3C55.9,47.6,32,71.5,32,100.9h15.2
+	c0-21,17.1-38.1,38.1-38.1s38.1,17.1,38.1,38.1&#34;/&gt;
+&lt;circle id=&#34;circle51_1_&#34; class=&#34;st2&#34; cx=&#34;89.1&#34; cy=&#34;96.4&#34; r=&#34;29&#34;/&gt;
+&lt;linearGradient id=&#34;circle53_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-157.8861&#34; y1=&#34;-96.4174&#34; x2=&#34;-157.8861&#34; y2=&#34;-95.6555&#34; gradientTransform=&#34;matrix(82 0 0 82 13031.9707 7960.6992)&#34;&gt;
+	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#81B4E0&#34;/&gt;
+	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#0C5A94&#34;/&gt;
+&lt;/linearGradient&gt;
+&lt;circle id=&#34;circle53_1_&#34; class=&#34;st3&#34; cx=&#34;85.3&#34; cy=&#34;85.7&#34; r=&#34;31.2&#34;/&gt;
+&lt;linearGradient id=&#34;path55_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-114.5195&#34; y1=&#34;541.6082&#34; x2=&#34;-114.5195&#34; y2=&#34;610.9379&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
+	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#F06B59&#34;/&gt;
+	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#DF2227&#34;/&gt;
+&lt;/linearGradient&gt;
+&lt;path id=&#34;path55_1_&#34; class=&#34;st4&#34; d=&#34;M161.5,47.6C140.5,5.4,89.3-11.8,47.1,9.2C34,15.7,22.7,25.6,14.5,37.7l34.3,59.4
+	c-6.3-20.1,4.8-41.5,24.9-47.8c3.5-1.1,7.2-1.7,10.9-1.8&#34;/&gt;
+&lt;linearGradient id=&#34;path57_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-181.7386&#34; y1=&#34;687.5891&#34; x2=&#34;-146.6936&#34; y2=&#34;629.6887&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
+	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#388B41&#34;/&gt;
+	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#4CB749&#34;/&gt;
+&lt;/linearGradient&gt;
+&lt;path id=&#34;path57_1_&#34; class=&#34;st5&#34; d=&#34;M14.5,37.7c-26.2,39.1-15.8,92.1,23.4,118.4c12.1,8.1,26.1,13,40.6,14.2l35.8-60.9
+	c-13.4,16.2-37.4,18.5-53.6,5.1c-5.5-4.5-9.6-10.6-11.9-17.3&#34;/&gt;
+&lt;linearGradient id=&#34;path59_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-64.3377&#34; y1=&#34;693.7479&#34; x2=&#34;-101.6686&#34; y2=&#34;603.8491&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
+	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#E4B022&#34;/&gt;
+	&lt;stop  offset=&#34;0.3&#34; style=&#34;stop-color:#FCD209&#34;/&gt;
+&lt;/linearGradient&gt;
+&lt;path id=&#34;path59_1_&#34; class=&#34;st6&#34; d=&#34;M78.5,170.3c47,3.6,88-31.7,91.5-78.7c1.1-15.2-1.8-30.4-8.5-44H84.6c21,0.1,38,17.2,37.9,38.3
+	c0,8.5-2.9,16.8-8.2,23.4&#34;/&gt;
+&lt;linearGradient id=&#34;path61_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-170.1355&#34; y1=&#34;636.0798&#34; x2=&#34;-170.1355&#34; y2=&#34;575.1317&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
+	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#000000;stop-opacity:0.15&#34;/&gt;
+	&lt;stop  offset=&#34;0.3&#34; style=&#34;stop-color:#000000;stop-opacity:6.000000e-02&#34;/&gt;
+	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#000000;stop-opacity:3.000000e-02&#34;/&gt;
+&lt;/linearGradient&gt;
+&lt;path id=&#34;path61_1_&#34; class=&#34;st7&#34; d=&#34;M14.5,37.7l34.3,59.4c-2.5-8.5-2-17.7,1.5-25.9L16,35.4&#34;/&gt;
+&lt;linearGradient id=&#34;path63_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-86.009&#34; y1=&#34;655.7618&#34; x2=&#34;-127.9107&#34; y2=&#34;698.4254&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
+	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#000000;stop-opacity:0.15&#34;/&gt;
+	&lt;stop  offset=&#34;0.3&#34; style=&#34;stop-color:#000000;stop-opacity:6.000000e-02&#34;/&gt;
+	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#000000;stop-opacity:3.000000e-02&#34;/&gt;
+&lt;/linearGradient&gt;
+&lt;path id=&#34;path63_1_&#34; class=&#34;st8&#34; d=&#34;M78.5,170.3l35.8-60.9c-5.7,6.7-13.5,11.3-22.1,13l-15.2,48&#34;/&gt;
+&lt;linearGradient id=&#34;path65_2_&#34; gradientUnits=&#34;userSpaceOnUse&#34; x1=&#34;-86.6163&#34; y1=&#34;668.0358&#34; x2=&#34;-80.5217&#34; y2=&#34;607.8517&#34; gradientTransform=&#34;matrix(1 0 0 1 202.5 -541.2241)&#34;&gt;
+	&lt;stop  offset=&#34;0&#34; style=&#34;stop-color:#000000;stop-opacity:0.15&#34;/&gt;
+	&lt;stop  offset=&#34;0.3&#34; style=&#34;stop-color:#000000;stop-opacity:6.000000e-02&#34;/&gt;
+	&lt;stop  offset=&#34;1&#34; style=&#34;stop-color:#000000;stop-opacity:3.000000e-02&#34;/&gt;
+&lt;/linearGradient&gt;
+&lt;path id=&#34;path65_1_&#34; class=&#34;st9&#34; d=&#34;M161.5,47.6H84.6c11.6,0.1,22.5,5.4,29.7,14.5L163,49.9&#34;/&gt;
+&lt;/svg&gt;
+
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To develop with React, you&amp;rsquo;ll want a modern web browser with a JavaScript console and debugger. The latest versions of all the major browsers have the tools you need, but we highly recommend using Google Chrome for the course, as we can provide the most detailed help for the tools built into Chrome.&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;download&#34;&gt;
+&lt;a href=&#34;http://www.google.com/chrome/&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; Download Chrome&lt;/a&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;recommended-extensions&#34;&gt;Recommended Extensions&lt;/h2&gt;
+
+&lt;p&gt;We recommend installing the following extensions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi&#34;&gt;React Developer Tools&lt;/a&gt;: Self-explanatory.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa&#34;&gt;JSON Formatter&lt;/a&gt;: This displays JSON in a readable format in Chrome. There are several extensions that share this name. Accept no imitations; use the one I link to here.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop&#34;&gt;Postman&lt;/a&gt;: This is a REST client. It provies a nice interface for building HTTP requests, including POST requests&amp;mdash;ideal for testing APIs. Also available as a free, standalone &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;desktop app&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;Paw&lt;/h4&gt;
+    
+      &lt;div class=&#34;emoji&#34;&gt;
+        &lt;i class=&#34;fa fa-paw&#34;&gt;&lt;/i&gt;
+      &lt;/div&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;https://paw.cloud/&#34;&gt;Paw&lt;/a&gt; is a very nice alternative to Postman, but it isn&amp;rsquo;t free. If you like &lt;del&gt;making your student debt even higher&lt;/del&gt; supporting fellow developers by buying commercial software, give Paw a shot.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -37,9 +168,137 @@ If you have trouble at any point, please contact Davey or Seth.</description>
       <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/setup-mac/editor/</guid>
-      <description>You&amp;rsquo;ll need a code-friendly text editor. If you already have a strong preference for one in particular, knock yourself out. If not, we have a recommendation.
- Visual Studio Code  image/svg+xml      Visual Studio Code
- Visual Studio Code is a free, open source editor from Microsoft&amp;mdash;but don&amp;rsquo;t let that scare you. It doesn&amp;rsquo;t feel the least bit like a lazy port of a Windows product, because it isn&amp;rsquo;t one.</description>
+      <description>
+
+&lt;p&gt;You&amp;rsquo;ll need a code-friendly text editor. If you already have a strong preference for one in particular, knock yourself out. If not, we have a recommendation.&lt;/p&gt;
+
+&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;svg
+   xmlns:dc=&#34;http://purl.org/dc/elements/1.1/&#34;
+   xmlns:cc=&#34;http://creativecommons.org/ns#&#34;
+   xmlns:rdf=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#&#34;
+   xmlns:svg=&#34;http://www.w3.org/2000/svg&#34;
+   xmlns=&#34;http://www.w3.org/2000/svg&#34;
+   role=&#34;img&#34;
+   viewBox=&#34;0 0 500 516.8125&#34;
+   id=&#34;vs-logo-svg&#34;
+   aria-labelledby=&#34;vs-svg-title&#34;
+   version=&#34;1.2&#34;&gt;
+  &lt;title id=&#34;vs-svg-title&#34;&gt;Visual Studio Code&lt;/title&gt;
+  &lt;defs
+     id=&#34;defs4&#34; /&gt;
+  &lt;sodipodi:namedview
+     id=&#34;base&#34;
+     pagecolor=&#34;#2d2c31&#34;
+     bordercolor=&#34;#666666&#34;
+     borderopacity=&#34;1.0&#34;
+     inkscape:pageopacity=&#34;0&#34;
+     inkscape:pageshadow=&#34;2&#34;
+     inkscape:zoom=&#34;0.5&#34;
+     inkscape:cx=&#34;26.033824&#34;
+     inkscape:cy=&#34;342.90908&#34;
+     inkscape:document-units=&#34;px&#34;
+     inkscape:current-layer=&#34;layer1&#34;
+     showgrid=&#34;false&#34;
+     inkscape:window-width=&#34;1920&#34;
+     inkscape:window-height=&#34;1018&#34;
+     inkscape:window-x=&#34;1912&#34;
+     inkscape:window-y=&#34;-8&#34;
+     inkscape:window-maximized=&#34;1&#34;
+     fit-margin-top=&#34;0&#34;
+     fit-margin-left=&#34;0&#34;
+     fit-margin-right=&#34;0&#34;
+     fit-margin-bottom=&#34;0&#34; /&gt;
+  &lt;metadata
+     id=&#34;metadata7&#34;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=&#34;&#34;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource=&#34;http://purl.org/dc/dcmitype/StillImage&#34; /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g
+     inkscape:label=&#34;Ebene 1&#34;
+     inkscape:groupmode=&#34;layer&#34;
+     id=&#34;layer1&#34;
+     style=&#34;display:inline&#34;
+     transform=&#34;translate(0,-538.375)&#34;&gt;
+    &lt;path
+       style=&#34;fill:#ffffff;stroke:none&#34;
+       d=&#34;M 483.29234,602.44472 372.10411,557.87392 178.02375,746.87661 61.150238,657.90867 l -44.44058,22.35039 -0.04444,233.31307 44.23249,22.18974 116.777852,-88.89395 194.55776,188.82908 111.10146,-44.39718 z&#34;
+       id=&#34;path2998&#34;
+       inkscape:connector-curvature=&#34;0&#34; /&gt;
+    &lt;path
+       style=&#34;fill:#373277;stroke:none&#34;
+       d=&#34;m 361.0373,713.50273 -111.05802,83.02234 111.10146,83.67329 z&#34;
+       id=&#34;path3000&#34;
+       inkscape:connector-curvature=&#34;0&#34; /&gt;
+    &lt;path
+       style=&#34;fill:#373277;stroke:none&#34;
+       d=&#34;m 72.191838,746.97093 0.0667,99.85788 55.483402,-50.26641 z&#34;
+       id=&#34;path3002&#34;
+       inkscape:connector-curvature=&#34;0&#34; /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+
+
+
+&lt;p&gt;Visual Studio Code&lt;/p&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt;&lt;/strong&gt; is a free, open source editor from Microsoft&amp;mdash;but don&amp;rsquo;t let that scare you. It doesn&amp;rsquo;t feel the least bit like a lazy port of a Windows product, because it isn&amp;rsquo;t one. It was built from the ground up to be cross-platform. It&amp;rsquo;s only two years old, but it&amp;rsquo;s impressive.&lt;/p&gt;
+
+&lt;p&gt;VS Code is particularly well suited for JavaScript development. It has Microsoft&amp;rsquo;s famous IntelliSense, built-in support for Git, and a variety of extensions to make our lives easier.&lt;/p&gt;
+
+&lt;p&gt;We will be using Visual Studio Code in class.&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;download&#34;&gt;
+&lt;a href=&#34;http://code.visualstudio.com/&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; Download Visual Studio Code&lt;/a&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;recommended-extensions-for-vs-code&#34;&gt;Recommended Extensions for VS Code&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons&#34;&gt;&lt;strong&gt;vscode-icons&lt;/strong&gt;&lt;/a&gt; shows icons in the sidebar that correspond to the file type.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;other-editors&#34;&gt;Other Editors&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://atom.io/&#34;&gt;Atom&lt;/a&gt;&lt;/strong&gt; is a free, open source editor from GitHub. It&amp;rsquo;s only been around a little longer than Code&amp;mdash;about three years&amp;mdash;but it&amp;rsquo;s quickly become a favorite. If you aren&amp;rsquo;t interested in VS Code, give Atom a chance.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sublimetext.com/&#34;&gt;Sublime Text&lt;/a&gt;&lt;/strong&gt; is another popular choice. Many of Atom&amp;rsquo;s features are borrowed from Sublime Text (which took them from TextMate). Sublime Text is commercial software, although the trial version does not expire. If you like it, consider coughing up the $70.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re used to a full IDE, &lt;strong&gt;&lt;a href=&#34;http://www.jetbrains.com/webstorm/&#34;&gt;WebStorm&lt;/a&gt;&lt;/strong&gt; might be more up your alley. Be warned: It&amp;rsquo;s subscription-based, and is $12.90/month, or $129.00 the first year. You may find that Visual Studio Code has most of the features you need. We&amp;rsquo;ve never used WebStorm ourselves, so we won&amp;rsquo;t be much help should you run into trouble.&lt;/p&gt;
+
+&lt;h2 id=&#34;dock-that-rascal&#34;&gt;Dock That Rascal&lt;/h2&gt;
+
+&lt;p&gt;Whichever editor you use, you&amp;rsquo;ll use it enough that I recommend keeping it in the Dock as well.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-tip&#34;&gt;
+  
+    &lt;h4&gt;Theme Info&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;Since I&amp;rsquo;m always asked, I use the following themes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Code: &lt;em&gt;Oceanic Next Italic&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Atom: &lt;em&gt;Atom Dark&lt;/em&gt; UI theme; &lt;em&gt;Kobalt&lt;/em&gt; syntax theme (with some personal customizations)&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -48,10 +307,58 @@ If you have trouble at any point, please contact Davey or Seth.</description>
       <pubDate>Fri, 10 Jun 2016 23:02:52 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/setup-mac/terminal/</guid>
-      <description>terminal
- You&amp;rsquo;ll be using a terminal app throughout the setup process, as well as in class.
-macOS comes with Terminal.app, which you can find at /Applications/Utilities/Terminal.app or by searching for Terminal in Spotlight. It will do the job just fine, but if you&amp;rsquo;re interesting in dressing it up or exploring other shells, read on.
-iTerm2 is a popular alternative to Terminal.app. It&amp;rsquo;s free and includes some advanced features that the built-in Terminal lacks.</description>
+      <description>
+
+&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;p&gt;&lt;i class=&#34;fa fa-terminal&#34;&gt;&lt;/i&gt; terminal&lt;/p&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You&amp;rsquo;ll be using a terminal app throughout the setup process, as well as in class.&lt;/p&gt;
+
+&lt;p&gt;macOS comes with &lt;strong&gt;Terminal.app&lt;/strong&gt;, which you can find at &lt;code&gt;/Applications/Utilities/Terminal.app&lt;/code&gt; or by searching for &lt;em&gt;Terminal&lt;/em&gt; in Spotlight. It will do the job just fine, but if you&amp;rsquo;re interesting in dressing it up or exploring other shells, read on.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/terminal-icon.png&#34; alt=&#34;Terminal.app&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.iterm2.com/index.html&#34;&gt;iTerm2&lt;/a&gt;&lt;/strong&gt; is a popular alternative to Terminal.app. It&amp;rsquo;s free and includes some advanced features that the built-in Terminal lacks. Personally, I&amp;rsquo;ve been using &lt;strong&gt;&lt;a href=&#34;https://hyper.is/&#34;&gt;Hyper&lt;/a&gt;&lt;/strong&gt; for about a month. Hyper is written in JavaScript, HTML, and CSS and is cross-platform, which is particularly appealing for class.&lt;/p&gt;
+
+&lt;p&gt;Whichever you choose, you&amp;rsquo;ll use it frequently enough that I recommend keeping it in your Dock.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;$ _&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;When you launch your terminal, it will (by default) run a UNIX shell called Bash. Bash will present a command prompt, indicated by &lt;code&gt;$&lt;/code&gt;. We&amp;rsquo;ll generally prefix terminal commands with that symbol in our documentation. You&amp;rsquo;re not meant to type the &lt;code&gt;$&lt;/code&gt; character, and it won&amp;rsquo;t be included if you copy and paste the commands from this site.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;zsh&#34;&gt;Zsh&lt;/h2&gt;
+
+&lt;p&gt;I am a big fan of Zsh (&amp;ldquo;Z shell&amp;rdquo;), which is an alternative to Bash. Even better is &lt;strong&gt;&lt;a href=&#34;http://ohmyz.sh/&#34;&gt;Oh My Zsh&lt;/a&gt;&lt;/strong&gt;, which is a framework for managing Zsh configuration. I love it. You&amp;rsquo;ll still use Terminal.app, iTerm2, or Hyper to launch your shell, but it will run Zsh in place of Bash.&lt;/p&gt;
+
+&lt;p&gt;I will be using Zsh (with Oh My Zsh) in class, but most of what we&amp;rsquo;ll do works just as well in Bash.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;Command Line Power User&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;If you&amp;rsquo;re not very familiar with UNIX shells, or if you&amp;rsquo;d like to learn some cool tricks, including Oh My ZSH features, sign up for Wes Bos&amp;rsquo;s free &lt;strong&gt;&lt;a href=&#34;http://commandlinepoweruser.com/&#34;&gt;Command Line Power User&lt;/a&gt;&lt;/strong&gt; videos. (They&amp;rsquo;re all on YouTube, but signing up for the email makes it a little easier to find them.)&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -60,8 +367,286 @@ iTerm2 is a popular alternative to Terminal.app. It&amp;rsquo;s free and include
       <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/setup-mac/git/</guid>
-      <description>Git   .cls-1 { fill: #fff; }   git   Git is a distributed version control system. (But you knew that already, because you totally completed a Git tutorial&amp;mdash;right?) If you have previously installed Xcode and its command-line tools, you may already have Git installed. Find out by entering the following command:
-      user@localhost ~ &amp;nbsp;     git --version git version 2.</description>
+      <description>
+
+&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;svg role=&#34;img&#34; aria-labelledby=&#34;git-svg-title&#34; id=&#34;git-logo-svg&#34; data-name=&#34;git-logo-svg&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;218.37&#34; height=&#34;91.21&#34; viewBox=&#34;0 0 218.37 91.21&#34;&gt;
+  &lt;title id=&#34;git-svg-title&#34;&gt;Git&lt;/title&gt;
+  &lt;defs&gt;
+    &lt;style&gt;
+      .cls-1 {
+        fill: #fff;
+      }
+    &lt;/style&gt;
+  &lt;/defs&gt;
+  &lt;title&gt;git&lt;/title&gt;
+  &lt;path class=&#34;cls-1&#34; d=&#34;M147.06,31.31a13.8,13.8,0,0,1,3.22,8.79c0,9.66-7.57,15.32-18.54,15.32a27.68,27.68,0,0,1-6.88-.78L122,59.25l8.53.52c15.06,1,23.93,1.4,23.93,13,0,10-8.79,15.67-23.93,15.67-15.75,0-21.76-4-21.76-10.88,0-3.92,1.74-6,4.79-8.88a5.8,5.8,0,0,1-3.83-5.74,7.8,7.8,0,0,1,2.53-5.31c1.57-1.65,3.31-3.31,5.39-5.22-4.26-2.09-7.48-6.61-7.48-13.06,0-10,6.61-16.88,19.93-16.88a29.86,29.86,0,0,1,8,.87h17v7.4ZM121.3,71c-1.13,1.39-2.26,2.87-2.26,4.61,0,3.48,4.44,4.53,10.53,4.53,5,0,11.92-.35,11.92-5,0-2.79-3.31-3-7.49-3.22Zm9.57-40c-4.79,0-8.35,2.35-8.35,8,0,4.26,2.35,7.22,8.1,7.22,4.87,0,8.18-2.87,8.18-7.4C138.79,33.75,135.83,31,130.87,31Z&#34;/&gt;
+  &lt;path class=&#34;cls-1&#34; d=&#34;M159.15,67.79V60.92l4.44-.61c1.22-.18,1.39-.44,1.39-1.74V33c0-1-.26-1.57-1.13-1.83l-4.7-1.66,1-7h18V58.57c0,1.39.08,1.57,1.39,1.74l4.44.61v6.87Zm11.23-52.3c-5,0-7.83-2.87-7.83-7.84S165.42,0,170.38,0s7.92,2.7,7.92,7.66S175.43,15.49,170.38,15.49Z&#34;/&gt;
+  &lt;path class=&#34;cls-1&#34; d=&#34;M218.37,64.42a34.81,34.81,0,0,1-14.19,3.48c-10.36,0-14.27-4.17-14.27-14V31.09c0-.52,0-.87-.7-.87h-6.09V22.47c7.66-.87,10.71-4.7,11.66-14.19h8.27V20.64c0,.61,0,.87.7.87H216v8.7h-13V51c0,5.14,1.22,7.14,5.92,7.14a20.72,20.72,0,0,0,7-1.39Z&#34;/&gt;
+  &lt;path class=&#34;cls-1&#34; d=&#34;M89.42,41.58,49.63,1.79a5.87,5.87,0,0,0-8.3,0l-8.26,8.26L43.55,20.54a7,7,0,0,1,8.83,8.89l10.1,10.1a7,7,0,1,1-4.18,3.94L48.87,34V58.83a7,7,0,1,1-5.74-.2v-25a6.91,6.91,0,0,1-2.29-1.52,7,7,0,0,1-1.5-7.64L29,14.11,1.72,41.4a5.87,5.87,0,0,0,0,8.3L41.51,89.49a5.87,5.87,0,0,0,8.3,0L89.42,49.88A5.87,5.87,0,0,0,89.42,41.58Z&#34;/&gt;
+&lt;/svg&gt;
+
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Git is a distributed version control system. (But you knew that already, because you totally completed a &lt;a href=&#34;http://xternbootcamp17.github.io/prereqs/git/&#34;&gt;Git tutorial&lt;/a&gt;&amp;mdash;&lt;em&gt;right&lt;/em&gt;?) If you have previously installed Xcode and its command-line tools, you may already have Git installed. Find out by entering the following command:&lt;/p&gt;
+
+&lt;p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+  
+&lt;pre&gt;
+&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;
+&lt;/span
+&gt;&lt;span class=&#34;terminal-commands&#34;&gt;git --version
+&lt;span class=&#34;output-line&#34;&gt;git version 2.12.2&lt;/span&gt;
+
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;If you see something like &lt;code&gt;git version 2.12.2&lt;/code&gt;, then you already have Git. If not, skip to the next section to install Homebrew. If you have Git, but the version number is lower than 2.12.2 (as of April 11, 2017), then your version of Git is out of date. Continue to the next step to install Homebrew.&lt;/p&gt;
+
+&lt;p&gt;If your Git version is up-to-date, skip to the &lt;a href=&#34;#configuring-git&#34;&gt;Git Configuration&lt;/a&gt; section.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;GitHub Desktop&lt;/h4&gt;
+    
+      &lt;div class=&#34;emoji&#34;&gt;
+        &lt;i class=&#34;fa fa-github-alt&#34;&gt;&lt;/i&gt;
+      &lt;/div&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://desktop.github.com/&#34;&gt;GitHub Desktop&lt;/a&gt;&lt;/strong&gt; is a very nice, free graphical interface for Git. Although we&amp;rsquo;ll use Git from the command-line a great deal, we&amp;rsquo;ll also look at how GitHub Desktop can make certain tasks easier.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;homebrew&#34;&gt;Homebrew&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://brew.sh&#34;&gt;Homebrew&lt;/a&gt;&lt;/strong&gt; is a package manager for macOS. That is, it manages the installation of certain software&amp;mdash;especially UNIX tools&amp;mdash;and the installed versions of that software.&lt;/p&gt;
+
+&lt;p&gt;Install Homebrew with the following command:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;ruby -e &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;#34;
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;installing-git-with-homebrew&#34;&gt;Installing Git with Homebrew&lt;/h2&gt;
+
+&lt;p&gt;If you do not have Git installed at all, or if your version is out of date, run the following command to install the latest version:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;brew install git
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now check your Git version again.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;git --version
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You should see an up-to-date version number.&lt;/p&gt;
+
+&lt;p&gt;The next time a new version of Git is released, just type the following commands:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;brew update           # This updates Homebrew so it knows about the latest versions.
+brew upgrade git      # This upgrades Git itself.
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;configuring-git&#34;&gt;Configuring Git&lt;/h2&gt;
+
+&lt;p&gt;Next, tell Git what name and email address it should use to sign code that you&amp;rsquo;ve authored. While you&amp;rsquo;re at it, tell it to use Code as the editor. Enter the following commands, substituting your actual name and email address:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;git config --global user.name &amp;#34;Your Full Name&amp;#34;
+git config --global user.email &amp;#34;youremailaddress@example.com&amp;#34;
+git config --global core.editor &amp;#34;code --wait&amp;#34;
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -70,10 +655,204 @@ iTerm2 is a popular alternative to Terminal.app. It&amp;rsquo;s free and include
       <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/setup-mac/node/</guid>
-      <description>Node.js  If you installed Homebrew in the previous step, use it to install Node.js:
-      user@localhost ~ &amp;nbsp;   brew install node   
-If not, you can click one of the big, green download links on the Node.js web site.
- Download Node.js  Note Node version numbers are confusing, but either the LTS version (6.10.2 as of this writing) or the Current version (7.</description>
+      <description>
+
+&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;svg role=&#34;img&#34; aria-labelledby=&#34;node-svg-title&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; version=&#34;1.2&#34; viewBox=&#34;0 0 442.37 270.929&#34;&gt;&lt;title id=&#34;node-svg-title&#34;&gt;Node.js&lt;/title&gt;&lt;defs&gt;&lt;clipPath id=&#34;a&#34;&gt;&lt;path d=&#34;M239.03 226.605l-42.13 24.317c-1.578.91-2.546 2.59-2.546 4.406v48.668c0 1.817.968 3.496 2.546 4.406l42.133 24.336c1.575.907 3.517.907 5.09 0l42.126-24.336c1.57-.91 2.54-2.59 2.54-4.406v-48.668c0-1.816-.97-3.496-2.55-4.406l-42.12-24.317c-.79-.453-1.67-.68-2.55-.68-.88 0-1.76.227-2.55.68&#34;/&gt;&lt;/clipPath&gt;&lt;linearGradient id=&#34;b&#34; x1=&#34;-.348&#34; x2=&#34;1.251&#34; gradientTransform=&#34;rotate(116.114 53.1 202.97) scale(86.48)&#34; gradientUnits=&#34;userSpaceOnUse&#34;&gt;&lt;stop offset=&#34;.3&#34; stop-color=&#34;#3E863D&#34;/&gt;&lt;stop offset=&#34;.5&#34; stop-color=&#34;#55934F&#34;/&gt;&lt;stop offset=&#34;.8&#34; stop-color=&#34;#5AAD45&#34;/&gt;&lt;/linearGradient&gt;&lt;clipPath id=&#34;c&#34;&gt;&lt;path d=&#34;M195.398 307.086c.403.523.907.976 1.5 1.316l36.14 20.875 6.02 3.46c.9.52 1.926.74 2.934.665.336-.027.672-.09 1-.183l44.434-81.36c-.34-.37-.738-.68-1.184-.94l-27.586-15.93-14.582-8.39c-.414-.24-.863-.41-1.32-.53zm0 0&#34;/&gt;&lt;/clipPath&gt;&lt;linearGradient id=&#34;d&#34; x1=&#34;-.456&#34; x2=&#34;.582&#34; gradientTransform=&#34;rotate(-36.46 550.846 -214.337) scale(132.798)&#34; gradientUnits=&#34;userSpaceOnUse&#34;&gt;&lt;stop offset=&#34;.57&#34; stop-color=&#34;#3E863D&#34;/&gt;&lt;stop offset=&#34;.72&#34; stop-color=&#34;#619857&#34;/&gt;&lt;stop offset=&#34;1&#34; stop-color=&#34;#76AC64&#34;/&gt;&lt;/linearGradient&gt;&lt;clipPath id=&#34;e&#34;&gt;&lt;path d=&#34;M241.066 225.953c-.707.07-1.398.29-2.035.652l-42.01 24.247 45.3 82.51c.63-.09 1.25-.3 1.81-.624l42.13-24.336c1.3-.754 2.19-2.03 2.46-3.476l-46.18-78.89c-.34-.067-.68-.102-1.03-.102-.14 0-.28.007-.42.02&#34;/&gt;&lt;/clipPath&gt;&lt;linearGradient id=&#34;f&#34; x1=&#34;.043&#34; x2=&#34;.984&#34; gradientTransform=&#34;translate(192.862 279.652) scale(97.417)&#34; gradientUnits=&#34;userSpaceOnUse&#34;&gt;&lt;stop offset=&#34;.16&#34; stop-color=&#34;#6BBF47&#34;/&gt;&lt;stop offset=&#34;.38&#34; stop-color=&#34;#79B461&#34;/&gt;&lt;stop offset=&#34;.47&#34; stop-color=&#34;#75AC64&#34;/&gt;&lt;stop offset=&#34;.7&#34; stop-color=&#34;#659E5A&#34;/&gt;&lt;stop offset=&#34;.9&#34; stop-color=&#34;#3E863D&#34;/&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;path fill=&#34;#689f63&#34; d=&#34;M218.647 270.93c-1.46 0-2.91-.383-4.19-1.12l-13.337-7.896c-1.992-1.114-1.02-1.508-.363-1.735 2.656-.93 3.195-1.14 6.03-2.75.298-.17.688-.11.993.07l10.246 6.08c.37.2.895.2 1.238 0l39.95-23.06c.37-.21.61-.64.61-1.08v-46.1c0-.46-.24-.87-.618-1.1l-39.934-23.04c-.37-.22-.86-.22-1.23 0l-39.926 23.04c-.387.22-.633.65-.633 1.09v46.1c0 .44.24.86.62 1.07l10.94 6.32c5.94 2.97 9.57-.53 9.57-4.05v-45.5c0-.65.51-1.15 1.16-1.15h5.06c.63 0 1.15.5 1.15 1.15v45.52c0 7.92-4.32 12.47-11.83 12.47-2.31 0-4.13 0-9.21-2.5l-10.48-6.04c-2.59-1.5-4.19-4.3-4.19-7.29v-46.1c0-3 1.6-5.8 4.19-7.28l39.99-23.07c2.53-1.43 5.89-1.43 8.4 0l39.94 23.08c2.58 1.49 4.19 4.28 4.19 7.28v46.1c0 2.99-1.61 5.78-4.19 7.28l-39.94 23.07c-1.28.74-2.73 1.12-4.21 1.12&#34;/&gt;&lt;path fill=&#34;#689f63&#34; d=&#34;M230.987 239.164c-17.48 0-21.145-8.024-21.145-14.754 0-.64.516-1.15 1.157-1.15h5.16c.57 0 1.05.415 1.14.978.78 5.258 3.1 7.91 13.67 7.91 8.42 0 12-1.902 12-6.367 0-2.57-1.02-4.48-14.1-5.76-10.94-1.08-17.7-3.49-17.7-12.24 0-8.06 6.8-12.86 18.19-12.86 12.79 0 19.13 4.44 19.93 13.98.03.33-.09.65-.31.89-.22.23-.53.37-.85.37h-5.19c-.54 0-1.01-.38-1.12-.9-1.25-5.53-4.27-7.3-12.48-7.3-9.19 0-10.26 3.2-10.26 5.6 0 2.91 1.26 3.76 13.66 5.4 12.28 1.63 18.11 3.93 18.11 12.56 0 8.7-7.26 13.69-19.92 13.69m48.66-48.89h1.34c1.1 0 1.31-.77 1.31-1.22 0-1.18-.81-1.18-1.26-1.18h-1.38zm-1.63-3.78h2.97c1.02 0 3.02 0 3.02 2.28 0 1.59-1.02 1.92-1.63 2.12 1.19.08 1.27.86 1.43 1.96.08.69.21 1.88.45 2.28h-1.83c-.05-.4-.33-2.6-.33-2.72-.12-.49-.29-.73-.9-.73h-1.51v3.46h-1.67zm-3.57 4.3c0 3.58 2.89 6.48 6.44 6.48 3.58 0 6.47-2.96 6.47-6.48 0-3.59-2.93-6.44-6.48-6.44-3.5 0-6.44 2.81-6.44 6.43m14.16.03c0 4.24-3.47 7.7-7.7 7.7-4.2 0-7.7-3.42-7.7-7.7 0-4.36 3.58-7.7 7.7-7.7 4.15 0 7.69 3.35 7.69 7.7&#34;/&gt;&lt;path fill=&#34;#fff&#34; fill-rule=&#34;evenodd&#34; d=&#34;M94.936 90.55c0-1.84-.97-3.53-2.558-4.445l-42.356-24.37c-.715-.42-1.516-.64-2.328-.67h-.438c-.812.03-1.613.25-2.34.67L2.562 86.105C.984 87.025 0 88.715 0 90.555l.093 65.64c0 .91.47 1.76 1.27 2.21.78.48 1.76.48 2.54 0l25.18-14.42c1.59-.946 2.56-2.618 2.56-4.44V108.88c0-1.83.97-3.52 2.555-4.43l10.72-6.174c.796-.46 1.67-.688 2.56-.688.876 0 1.77.226 2.544.687l10.715 6.172c1.586.91 2.56 2.6 2.56 4.43v30.663c0 1.82.983 3.5 2.565 4.44l25.164 14.41c.79.47 1.773.47 2.56 0 .776-.45 1.268-1.3 1.268-2.21zm199.868 34.176c0 .457-.243.88-.64 1.106l-14.548 8.386c-.395.227-.883.227-1.277 0l-14.55-8.386c-.4-.227-.64-.65-.64-1.106V107.93c0-.458.24-.88.63-1.11l14.54-8.4c.4-.23.89-.23 1.29 0l14.55 8.4c.4.23.64.652.64 1.11zM298.734.324c-.794-.442-1.76-.43-2.544.027-.78.46-1.262 1.3-1.262 2.21v65c0 .64-.34 1.23-.894 1.55-.55.32-1.235.32-1.79 0L281.634 63c-1.58-.914-3.526-.914-5.112 0l-42.37 24.453c-1.583.91-2.56 2.6-2.56 4.42v48.92c0 1.83.977 3.51 2.56 4.43l42.37 24.47c1.582.91 3.53.91 5.117 0l42.37-24.48c1.58-.92 2.56-2.6 2.56-4.43V18.863c0-1.856-1.01-3.563-2.63-4.47zm141.093 107.164c1.574-.914 2.543-2.602 2.543-4.422V91.21c0-1.824-.97-3.507-2.547-4.425l-42.1-24.44c-1.59-.92-3.54-.92-5.13 0l-42.36 24.45c-1.59.92-2.56 2.6-2.56 4.43v48.9c0 1.84.99 3.54 2.58 4.45l42.09 23.99c1.55.89 3.45.9 5.02.03l25.46-14.15c.8-.45 1.31-1.3 1.31-2.22 0-.92-.49-1.78-1.29-2.23l-42.62-24.46c-.8-.45-1.29-1.3-1.29-2.21v-15.34c0-.916.48-1.76 1.28-2.216l13.26-7.65c.79-.46 1.76-.46 2.55 0l13.27 7.65c.79.45 1.28 1.3 1.28 2.21v12.06c0 .91.49 1.76 1.28 2.22.79.45 1.77.45 2.56-.01zm0 0&#34;/&gt;&lt;path fill=&#34;#689f63&#34; fill-rule=&#34;evenodd&#34; d=&#34;M394.538 105.2c.3-.177.676-.177.98 0l8.13 4.69c.304.176.49.5.49.85v9.39c0 .35-.186.674-.49.85l-8.13 4.69c-.304.177-.68.177-.98 0l-8.125-4.69c-.31-.176-.5-.5-.5-.85v-9.39c0-.35.18-.674.49-.85zm0 0&#34;/&gt;&lt;g clip-path=&#34;url(#a)&#34; transform=&#34;translate(-78.306 -164.016)&#34;&gt;&lt;path fill=&#34;url(#b)&#34; d=&#34;M331.363 246.793l-118.715-58.19-60.87 124.174L270.49 370.97zm0 0&#34;/&gt;&lt;/g&gt;&lt;g clip-path=&#34;url(#c)&#34; transform=&#34;translate(-78.306 -164.016)&#34;&gt;&lt;path fill=&#34;url(#d)&#34; d=&#34;M144.07 264.004l83.825 113.453 110.86-81.906-83.83-113.45zm0 0&#34;/&gt;&lt;/g&gt;&lt;g clip-path=&#34;url(#e)&#34; transform=&#34;translate(-78.306 -164.016)&#34;&gt;&lt;path fill=&#34;url(#f)&#34; d=&#34;M197.02 225.934v107.43h91.683v-107.43zm0 0&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;
+
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you installed Homebrew in the previous step, use it to install Node.js:&lt;/p&gt;
+
+&lt;p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;brew install node
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;If not, you can click one of the big, green download links on the Node.js web site.&lt;/p&gt;
+
+&lt;div class=&#34;download&#34;&gt;
+&lt;a href=&#34;http://nodejs.org/&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; Download Node.js&lt;/a&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;Note&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;Node version numbers are confusing, but either the LTS version (6.10.2 as of this writing) or the Current version (7.9.0) will do for our purposes.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;testing-your-installation&#34;&gt;Testing your installation&lt;/h2&gt;
+
+&lt;p&gt;After Node is installed, test your installation by running NPM, a JavaScript package manager that&amp;rsquo;s included with Node. Run the following command:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install -g create-react-app
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You should see a progress bar of sorts while packages download and, eventually, a tree structure of various package names and version numbers. As you may have guessed, aside from testing your Node installation, this has the side effect of installing &lt;code&gt;create-react-app&lt;/code&gt;, which we&amp;rsquo;ll later use to do exactly what its name suggests.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-tip&#34;&gt;
+  
+    &lt;h4&gt;tip&lt;/h4&gt;
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;If the &lt;code&gt;npm&lt;/code&gt; command isn&amp;rsquo;t available, open a new tab in your terminal and try again. Opening a new tab should make &lt;code&gt;node&lt;/code&gt; and other related commands available to you from any directory, if they weren&amp;rsquo;t already.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;yarn&#34;&gt;Yarn&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn&lt;/a&gt; is an alternative to NPM that offers several advantages&amp;mdash;not the least of which is speed.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;ve installed Homebrew, run the following command to install Yarn:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;brew install yarn
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Otherwise, follow the insructions on the Yarn site to &lt;a href=&#34;https://yarnpkg.com/en/docs/install&#34;&gt;Install Yarn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;testing-yarn&#34;&gt;Testing Yarn&lt;/h2&gt;
+
+&lt;p&gt;Once Yarn is installed, run this command to test it:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn global add eslint
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -82,9 +861,199 @@ If not, you can click one of the big, green download links on the Node.js web si
       <pubDate>Fri, 10 Jun 2016 23:28:03 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/setup-mac/ssh/</guid>
-      <description>ssh
- We recommend setting up an SSH key to simplify authentication with GitHub and other services.
-Check for an existing key Make sure you&amp;rsquo;re in your home directory. You should be by default, but you can double-check with the &amp;ldquo;print working directory&amp;rdquo; command: pwd. You should be in /Users/yourusername. If not, you can switch to that directory with the cd command, passing in the directory you want to switch to.</description>
+      <description>
+
+&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;p&gt;&lt;i class=&#34;fa fa-terminal&#34;&gt;&lt;/i&gt; ssh&lt;/p&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We recommend setting up an SSH key to simplify authentication with GitHub and other services.&lt;/p&gt;
+
+&lt;h2 id=&#34;check-for-an-existing-key&#34;&gt;Check for an existing key&lt;/h2&gt;
+
+&lt;p&gt;Make sure you&amp;rsquo;re in your home directory. You should be by default, but you can double-check with the &amp;ldquo;print working directory&amp;rdquo; command: &lt;code&gt;pwd&lt;/code&gt;. You should be in &lt;code&gt;/Users/yourusername&lt;/code&gt;. If not, you can switch to that directory with the &lt;code&gt;cd&lt;/code&gt; command, passing in the directory you want to switch to.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+  
+&lt;pre&gt;
+&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;
+&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span
+&gt;&lt;span class=&#34;terminal-commands&#34;&gt;pwd
+&lt;span class=&#34;output-line&#34;&gt;/some/other/dir&lt;/span&gt;
+cd ~
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;aside aside-tip&#34;&gt;
+  
+    &lt;h4&gt;~&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;You can always use a tilde &lt;code&gt;~&lt;/code&gt; as a shortcut for your home directory.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Check to see if you already have an .ssh key configured:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+  
+&lt;pre&gt;
+&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;
+&lt;/span
+&gt;&lt;span class=&#34;terminal-commands&#34;&gt;ls ~/.ssh/id_rsa
+&lt;span class=&#34;output-line&#34;&gt;/Users/dstrus/.ssh/id_rsa&lt;/span&gt;
+
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If it prints &lt;code&gt;/Users/yourusername/.ssh/id_rsa&lt;/code&gt;, then you already have an SSH key and can skip to the next page. Otherwise, read on.&lt;/p&gt;
+
+&lt;h2 id=&#34;generate-an-ssh-key&#34;&gt;Generate an SSH key&lt;/h2&gt;
+
+&lt;p&gt;Type the following command to generate your SSH key, substituting the same email address you used for Git earlier:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;ssh-keygen -t rsa -C &amp;#34;youremail@example.com&amp;#34;
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It should prompt you for a file name. You can just hit &amp;lsquo;enter&amp;rsquo; to accept the default.&lt;/p&gt;
+
+&lt;p&gt;It will then prompt you for a password. You can just hit &amp;lsquo;enter&amp;rsquo; (twice) to not set a passphrase. That compromises your key should anyone gain access to your laptop, but it may be simpler for the sake of this course. When you truly want to maximize security, it&amp;rsquo;s much safer to create a passphrase when generating a key.&lt;/p&gt;
+
+&lt;p&gt;If all is well, you should see that your identification and your public key have been saved to &lt;code&gt;.ssh/id_rsa&lt;/code&gt; and &lt;code&gt;.ssh/id_rsa.pub&lt;/code&gt; respectively.&lt;/p&gt;
+
+&lt;p&gt;Run the following command to add your new key to the SSH agent on your Mac:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;ssh-add ~/.ssh/id_rsa
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You&amp;rsquo;ll test your new key shortly, but first you&amp;rsquo;ll need to create a GitHub account and add your public key to the account.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -93,9 +1062,192 @@ Check for an existing key Make sure you&amp;rsquo;re in your home directory. You
       <pubDate>Fri, 10 Jun 2016 23:31:46 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/setup-mac/github/</guid>
-      <description>GitHub.cls-1{fill:#fff;}github-logo  Create a free GitHub account GitHub is a service for storing your code in the cloud. It&amp;rsquo;s wonderful for collaboration.
-Sign up for GitHub using the same email address you used when creating your SSH key and your Git configuration.
-Enter your info, and hit the green &#34;Create an account&#34; button. On the next screen, you&amp;rsquo;ll see information about GitHub&amp;rsquo;s free and paid plans. To finish creating a free account, just hit the green &amp;ldquo;Continue&amp;rdquo; button.</description>
+      <description>
+
+&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;svg role=&#34;img&#34; aria-labelledby=&#34;github-svg-title&#34; id=&#34;github-logo&#34; data-name=&#34;github-logo&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 480.24 129.87&#34;&gt;&lt;title id=&#34;github-svg-title&#34;&gt;GitHub&lt;/title&gt;&lt;defs&gt;&lt;style&gt;.cls-1{fill:#fff;}&lt;/style&gt;&lt;/defs&gt;&lt;title&gt;github-logo&lt;/title&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M92.5,55.59H52.14a1.89,1.89,0,0,0-1.89,1.89V77.2a1.89,1.89,0,0,0,1.89,1.89H67.88v24.51s-3.54,1.21-13.31,1.21c-11.53,0-27.64-4.21-27.64-39.63S43.71,25.09,59.46,25.09c13.63,0,19.5,2.4,23.24,3.56A1.9,1.9,0,0,0,85,26.8l4.5-19.06a1.76,1.76,0,0,0-.72-1.47C87.22,5.18,78,0,54.58,0,27.63,0,0,11.46,0,66.56s31.64,63.31,58.3,63.31c22.08,0,35.47-9.43,35.47-9.43a1.62,1.62,0,0,0,.61-1.43V57.47A1.89,1.89,0,0,0,92.5,55.59Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M300.47,6.6a1.88,1.88,0,0,0-1.87-1.9H275.88A1.89,1.89,0,0,0,274,6.6V50.51H238.58V6.6a1.88,1.88,0,0,0-1.87-1.9H214a1.89,1.89,0,0,0-1.88,1.9v118.9a1.89,1.89,0,0,0,1.88,1.9h22.72a1.89,1.89,0,0,0,1.88-1.9V74.65H274l-.06,50.86a1.89,1.89,0,0,0,1.88,1.9H298.6a1.89,1.89,0,0,0,1.88-1.9Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M135.38,22.2A14.65,14.65,0,1,0,120.72,37,14.72,14.72,0,0,0,135.38,22.2Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M133.75,100.42V45.54a1.89,1.89,0,0,0-1.88-1.89H109.22a2.17,2.17,0,0,0-2,2.11v78.64c0,2.31,1.44,3,3.3,3H131c2.24,0,2.79-1.1,2.79-3Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M386.83,43.82H364.28a1.89,1.89,0,0,0-1.88,1.9V104a25.48,25.48,0,0,1-13.86,4.19c-8.13,0-10.29-3.69-10.29-11.65V45.72a1.89,1.89,0,0,0-1.87-1.9H313.5a1.89,1.89,0,0,0-1.88,1.9v54.69c0,23.65,13.18,29.43,31.31,29.43,14.87,0,26.87-8.22,26.87-8.22a47.74,47.74,0,0,0,.83,4.84,2,2,0,0,0,1.66,1l14.56-.06a1.89,1.89,0,0,0,1.88-1.9V45.72A1.89,1.89,0,0,0,386.83,43.82Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M448.46,41.15a42.4,42.4,0,0,0-21.52,5.71V6.6a1.88,1.88,0,0,0-1.87-1.9H402.28a1.89,1.89,0,0,0-1.88,1.9v118.9a1.89,1.89,0,0,0,1.88,1.9h15.81a1.88,1.88,0,0,0,1.65-1c.39-.64,1-5.48,1-5.48s9.32,8.83,27,8.83c20.71,0,32.58-10.5,32.58-47.15S461.28,41.15,448.46,41.15Zm-8.89,67a27,27,0,0,1-13.13-3.79V66.7a30.05,30.05,0,0,1,11.65-3.78C446.22,62.19,454,64.65,454,84,454,104.44,450.51,108.47,439.57,108.14Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M199.06,43.63H182l0-22.52c0-.85-.44-1.28-1.42-1.28H157.33c-.9,0-1.39.4-1.39,1.27V44.37s-11.64,2.81-12.43,3a1.89,1.89,0,0,0-1.36,1.81V63.84a1.89,1.89,0,0,0,1.88,1.9h11.91v35.18c0,26.13,18.33,28.7,30.7,28.7a51.86,51.86,0,0,0,13.53-2.23,1.76,1.76,0,0,0,1.07-1.71l0-16.09a1.92,1.92,0,0,0-1.88-1.9c-1,0-3.53.4-6.15.4-8.37,0-11.21-3.89-11.21-8.93s0-33.43,0-33.43h17a1.89,1.89,0,0,0,1.88-1.9V45.53A1.89,1.89,0,0,0,199.06,43.63Z&#34;/&gt;&lt;/svg&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;create-a-free-github-account&#34;&gt;Create a free GitHub account&lt;/h2&gt;
+
+&lt;p&gt;GitHub is a service for storing your code in the cloud. It&amp;rsquo;s wonderful for collaboration.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/join?source=header-home&#34;&gt;Sign up for GitHub&lt;/a&gt; using the same email address you used when creating your SSH key and your Git configuration.&lt;/p&gt;
+
+&lt;div class=&#34;img github-create-account&#34;&gt;&lt;span&gt;Enter your info, and hit the green &#34;Create an account&#34; button.&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;On the next screen, you&amp;rsquo;ll see information about GitHub&amp;rsquo;s free and paid plans. To finish creating a free account, just hit the green &amp;ldquo;Continue&amp;rdquo; button.&lt;/p&gt;
+
+&lt;div class=&#34;img github-choose-plan&#34;&gt;&lt;span&gt;Hit the green &#34;Continue&#34; button.&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;The next screen includes a survey. You&amp;rsquo;re welcome to hit the &amp;ldquo;skip this step&amp;rdquo; link.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;div class=&#34;aside aside-tip&#34;&gt;
+  
+    &lt;h4&gt;Verify your email address&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;GitHub will send you an email after you sign up. Click the link in the email to verify that the address belongs to you.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;add-your-public-key-to-your-github-account&#34;&gt;Add your public key to your GitHub account&lt;/h2&gt;
+
+&lt;p&gt;To send and receive code between your laptop and GitHub securely, you&amp;rsquo;ll need to add your public SSH key to your GitHub account. &lt;strong&gt;Never copy your private key to another machine unless you are absolutely sure what you&amp;rsquo;re doing.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy the contents of your public key to the clipboard with the following command:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;cat ~/.ssh/id_rsa.pub | pbcopy
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;code&gt;cat&lt;/code&gt; command prints the contents of a text file to the screen&amp;mdash;or more accurately, to STDOUT. The &lt;code&gt;pbcopy&lt;/code&gt; command&amp;mdash;which is not a standard UNIX utility, but is included with OS X/macOS&amp;mdash;copies text to the clipboard. The pipe &lt;code&gt;|&lt;/code&gt; takes the output from the command on the left and passes it as an argument to the command on the right.&lt;/p&gt;
+
+&lt;p&gt;Now go to GitHub settings to add your public key to your account.&lt;/p&gt;
+
+&lt;div class=&#34;img github-settings&#34;&gt;&lt;span&gt;Choose &lt;em&gt;Settings&lt;/em&gt; from the user menu in the upper-right of your GitHub page.&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;Choose &amp;ldquo;SSH and GPG Keys&amp;rdquo; from the left menu, then click &amp;ldquo;New SSH key&amp;rdquo; on the right.&lt;/p&gt;
+
+&lt;div class=&#34;img github-ssh-settings&#34;&gt;&lt;span&gt;Click the button to add an SSH key to your account.&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;Give your SSH Key a title (something to identify the machine on which the key was generated, such as &amp;ldquo;MacBook&amp;rdquo;), and then paste in the contents that you copied from the terminal.&lt;/p&gt;
+
+&lt;div class=&#34;img github-new-ssh-key&#34;&gt;&lt;span&gt;Paste in the contents of your public key.&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;test-your-ssh-key-with-your-github-account&#34;&gt;Test your SSH key with your GitHub account&lt;/h2&gt;
+
+&lt;p&gt;Return to Terminal and type the following command:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+  
+&lt;pre&gt;
+&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;
+
+
+&lt;/span
+&gt;&lt;span class=&#34;terminal-commands&#34;&gt;ssh -T git@github.com
+&lt;span class=&#34;output-line&#34;&gt;The authenticity of host &amp;#39;github.com (192.30.255.112)&amp;#39; can&amp;#39;t be established.&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;Are you sure you want to continue connecting (yes/no)?&lt;/span&gt;
+
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Go ahead and type &lt;code&gt;yes&lt;/code&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+  
+&lt;pre&gt;
+&lt;span class=&#34;command-line-prompt&#34;&gt;
+
+&lt;/span
+&gt;&lt;span class=&#34;terminal-commands&#34;&gt;
+&lt;span class=&#34;output-line&#34;&gt;Warning: Permanently added &amp;#39;github.com,192.30.255.112&amp;#39; (RSA) to the list of known hosts.&lt;/span&gt;
+
+&lt;span class=&#34;output-line&#34;&gt;Hi dstrus! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access.&lt;/span&gt;
+
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you see a message like the one above, you&amp;rsquo;re ready to go!&lt;/p&gt;
+</description>
     </item>
     
   </channel>

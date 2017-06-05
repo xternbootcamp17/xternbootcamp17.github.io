@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Week2s on XTERN Bootcamp 2017</title>
-    <link>http://xternbootcamp17.github.io/week2/</link>
+    <link>http://xternbootcamp17.github.io/week2/index.xml</link>
     <description>Recent content in Week2s on XTERN Bootcamp 2017</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 May 2017 11:23:26 -0400</lastBuildDate>
-    
-	<atom:link href="http://xternbootcamp17.github.io/week2/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="http://xternbootcamp17.github.io/week2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Week Two</title>
@@ -17,7 +15,12 @@
       <pubDate>Mon, 15 May 2017 11:23:26 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/week2/</guid>
-      <description>Week Two React!</description>
+      <description>
+
+&lt;h1 id=&#34;week-two&#34;&gt;Week Two&lt;/h1&gt;
+
+&lt;p&gt;React!&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -26,10 +29,341 @@
       <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/week2/day5/</guid>
-      <description>Monday, May 22, 2017
-Lecture Videos Morning:
- Full Playlist | Day 5, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8  Afternoon:
- Full Playlist | Day 5, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8  Topics DOM Manipulation  contenteditable - MDN documentation keypress events  ES2015+ (ES6+)  Inheritance (with the ES2015 class syntax; it&amp;rsquo;s still prototypal inheritance though) - ES2015 classes on Babel Modules (import/export) - ES2015 modules on Babel  React  Imperative vs.</description>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Monday, May 22, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+
+&lt;p&gt;Morning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=jiLLHIpYyQw&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&amp;amp;index=18&#34;&gt;Day 5, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=dVfHMRBT4jE&amp;amp;index=23&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=mYbMOp9mYZ0&amp;amp;index=19&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=w6mIoGmGg34&amp;amp;index=20&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=7ZkYasspRVU&amp;amp;index=21&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=gwiGjyfGz1Y&amp;amp;index=22&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=IJA_qlN7BFc&amp;amp;index=25&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=xCSjpBUHqI4&amp;amp;index=26&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afternoon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=sPn2ED9hZ1I&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=27&#34;&gt;Day 5, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=a7eaK1Z5M5c&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=28&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=9xKX0Tb6Yzk&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=29&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=une1or5LnVM&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=30&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=e4AaZu2vLKs&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=31&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=F1bnQNnkOnE&amp;amp;index=32&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=A0H3Th9WA7k&amp;amp;index=33&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=slJzlsbhxDE&amp;amp;index=34&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;contenteditable&lt;/code&gt; - &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable&#34;&gt;MDN documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;keypress&lt;/code&gt; events&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;es2015-es6&#34;&gt;ES2015+ (ES6+)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inheritance (with the ES2015 &lt;code&gt;class&lt;/code&gt; syntax; it&amp;rsquo;s still &lt;em&gt;prototypal&lt;/em&gt; inheritance though) - &lt;a href=&#34;https://babeljs.io/learn-es2015/#ecmascript-2015-features-classes&#34;&gt;ES2015 classes on Babel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modules (import/export) - &lt;a href=&#34;https://babeljs.io/learn-es2015/#ecmascript-2015-features-modules&#34;&gt;ES2015 modules on Babel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;react-https-facebook-github-io-react&#34;&gt;&lt;a href=&#34;https://facebook.github.io/react/&#34;&gt;React&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tylermcginnis.com/imperative-vs-declarative-programming/&#34;&gt;Imperative vs. Declarative&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Components
+
+&lt;ul&gt;
+&lt;li&gt;JSX - &lt;a href=&#34;https://facebook.github.io/react/docs/introducing-jsx.html&#34;&gt;Docs: Introducing JSX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Props - &lt;a href=&#34;https://facebook.github.io/react/docs/components-and-props.html&#34;&gt;Docs: Components and Props&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;State - &lt;a href=&#34;https://facebook.github.io/react/docs/state-and-lifecycle.html&#34;&gt;Docs: State and Lifecycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/facebookincubator/create-react-app&#34;&gt;create-react-app&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;dom-manipulation-1&#34;&gt;DOM Manipulation&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;contentEditable&lt;/code&gt; is a property that, like the name suggests, allows the content of an HTML element to be edited through user interaction with the DOM (similar to a text input field).&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;div class=&amp;quot;person-name&amp;quot;&amp;gt;Mark&amp;lt;/div&amp;gt;
+&amp;lt;button&amp;gt;Click to Edit Name&amp;lt;/button&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+const nameDiv = document.querySelector(&#39;.person-name&#39;)
+console.log(nameDiv.isContentEditable) // =&gt; false
+
+const button = document.querySelector(&#39;button&#39;)
+button.addEventListener(&#39;click&#39;, (ev) =&gt; {
+  nameDiv.contentEditable = true
+  console.log(nameDiv.isContentEditable)
+})
+
+button.click() // =&gt; true (and div content will be editable)
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;react&#34;&gt;React&lt;/h3&gt;
+
+&lt;h4 id=&#34;basic-app&#34;&gt;Basic App&lt;/h4&gt;
+
+&lt;p&gt;A basic React application requires a minimum of four things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;An HTML file with at least one empty element&lt;/li&gt;
+&lt;li&gt;The React library&lt;/li&gt;
+&lt;li&gt;One or more React Component(s)&lt;/li&gt;
+&lt;li&gt;A JavaScript call to attach the React Component to the empty element in step one&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A minimal example:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;-- index.html --&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;Basic React App&amp;lt;/title&amp;gt;
+    &amp;lt;script src=&amp;quot;App.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+// App.js
+class App extends React.Component {
+  render() {
+    return (
+      &amp;lt;h1&amp;gt;Hello, world!&amp;lt;/h1&amp;gt;
+    )
+  }
+}
+
+ReactDOM.render(&amp;lt;App /&amp;gt;, document.querySelector(&#39;#app&#39;))
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;The body of the HTML above contains only an empty &lt;code&gt;div&lt;/code&gt; with an id of &amp;lsquo;app&amp;rsquo;.  This is where we will tell React to render our app. The &lt;code&gt;App.js&lt;/code&gt; file defines the &lt;code&gt;App&lt;/code&gt; component, and also makes the call to &lt;code&gt;ReactDOM.render&lt;/code&gt;, which attaches &lt;code&gt;&amp;lt;App /&amp;gt;&lt;/code&gt; to the &lt;code&gt;div#app&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;p&gt;React will &amp;lsquo;fill in&amp;rsquo; the div with the return result of the &lt;code&gt;App&lt;/code&gt; component&amp;rsquo;s &lt;code&gt;render&lt;/code&gt; method, in this case, the markup &lt;code&gt;&amp;lt;h1&amp;gt;Hello, world!&amp;lt;/h1&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;props&#34;&gt;Props&lt;/h4&gt;
+
+&lt;p&gt;React components can be thought of as JavaScript functions.  They take in arguments, called &lt;code&gt;props&lt;/code&gt;, and return markup that gets rendered to the page. Props can be just about anything, including strings, booleans, functions, objects, etc&amp;hellip;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class App extends React.Component {
+  render() {
+    return (
+      &amp;lt;h1&amp;gt;Hello, {this.props.name}!&amp;lt;/h1&amp;gt;
+    )
+  }
+}
+
+&amp;lt;App name=&amp;quot;Bob&amp;quot; /&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;By passing in the string &lt;code&gt;&amp;quot;Bob&amp;quot;&lt;/code&gt; to the &lt;code&gt;App&lt;/code&gt; component, we can access that value from within the &lt;code&gt;App&lt;/code&gt; class as a property on &lt;code&gt;this.props&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our rendered output would then be:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;h1&amp;gt;Hello, Bob!&amp;lt;/h1&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;state&#34;&gt;State&lt;/h4&gt;
+
+&lt;p&gt;Components receive &lt;em&gt;props&lt;/em&gt; as arguments and cannot change their values. Data that needs to change belongs in &lt;em&gt;state&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;State should be initialized in the constructor and updated via &lt;code&gt;setState&lt;/code&gt;.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-danger&#34;&gt;
+  
+    &lt;h4&gt;Do&lt;/h4&gt;
+    
+      &lt;div class=&#34;emoji&#34;&gt;
+        &lt;i class=&#34;fa fa-Not&#34;&gt;&lt;/i&gt;
+      &lt;/div&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;Always use &lt;code&gt;setState&lt;/code&gt; to modify a component&amp;rsquo;s state. The only time you should set state directly is in the constructor.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      count: 0
+    }
+  }
+
+  increment(ev) {
+    count = this.state.count + 1
+    this.setState({ count })
+  }
+
+  render() {
+    return (
+      &amp;lt;button type=&#34;button&#34; onClick={this.increment.bind(this)}&amp;gt;
+        Click to Increment
+      &amp;lt;/button&amp;gt;
+      &amp;lt;p&amp;gt;
+        Button has been clicked {this.state.count} times
+      &amp;lt;p&amp;gt;
+    )
+  }
+}
+
+&amp;lt;App /&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;modules&#34;&gt;Modules&lt;/h4&gt;
+
+&lt;p&gt;With &lt;a href=&#34;https://babeljs.io/learn-es2015/#ecmascript-2015-features-modules&#34;&gt;modules&lt;/a&gt;, you can define each component in separate files, importing them as needed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Header.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class Header extends React.Component {
+  render() {
+    return (
+      &amp;lt;h1&amp;gt;Hello, {this.props.name}!&amp;lt;/h1&amp;gt;
+    )
+  }
+}
+
+export default Header
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;App.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import Header from &#39;./Header&#39;
+
+class App extends React.Component {
+  render() {
+    return (
+      &amp;lt;Header name=&amp;quot;Bob&amp;quot; /&amp;gt;
+    )
+  }
+}
+
+export default App
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://xternbootcamp17.github.io/05-intro-to-react.pdf&#34;&gt;Intro to React&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Megaroster (final): &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/tree/3ccd25f25db46ecff45a5b86ba32affcfb730f2d&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/megaroster/commit/fc97404dada2d594970f64e9e4fbd3e9b3f6a271&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reactrobats on CodePen: &lt;a href=&#34;https://codepen.io/dstrus/pen/BRvLNg/&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://codepen.io/dstrus/pen/XRoMmR/&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xtbc17s1/dwarf-underground/tree/3da6c4b4447d32404a141344867a457fdb9c3e60&#34;&gt;Dwarf Underground&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Split the page into at least 6 total components&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Split the page into at least 10 total components, including components &lt;em&gt;in&lt;/em&gt; components&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-bonus-credit&#34;&gt;Super Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Render the four article links at the bottom of the screen using &lt;code&gt;map&lt;/code&gt; and passing in the props they need&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make a component that contains a text field for leaving a comment&lt;/li&gt;
+&lt;li&gt;Have the text field appear only when the &amp;lsquo;comments&amp;rsquo; link at the bottom of the article is clicked&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit-hyper-fighting&#34;&gt;Super Mega Bonus Credit Hyper Fighting&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Actually display comments that are entered and submitted&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -38,10 +372,583 @@ Lecture Videos Morning:
       <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/week2/day6/</guid>
-      <description>Tuesday, May 23, 2017
-Lecture Videos Morning:
- Full Playlist | Day 6, part 1 | 2 | 3 | 4 | 5 | 6 | 7  Afternoon:
- Full Playlist | Day 6, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10  Topics React  Using map with components Stateless Functional Components Conditional rendering  JavaScript  Named and default exports Named and default imports Property initializers Spread operator Destructuring assignment  Package Managers  NPM - Node Package Manager Yarn - Facebook&amp;rsquo;s version of npm  CSS Specifity Examples React Using map with Components See this example live on CodePen →</description>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Tuesday, May 23, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+
+&lt;p&gt;Morning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=oWb1IdhOl7A&amp;amp;index=26&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Day 6, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=SsBUeaku12g&amp;amp;index=27&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=IlUoLPsrHrE&amp;amp;index=28&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=E01j6AcMSF4&amp;amp;index=29&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=xytTTrggEyc&amp;amp;index=30&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=9Dn6aMJMEHc&amp;amp;index=31&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Smzb6gGyz3w&amp;amp;index=32&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afternoon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=1VOesxJNbIA&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=35&#34;&gt;Day 6, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=yIiWHmuks1E&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=36&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=rxXsCqzzi7A&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=37&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=cGkv37JcAcM&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=38&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=iz8oJX49tLA&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=39&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=a1eQtVlx1Js&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=40&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=xEBCLL8YYE0&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=41&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=UjDVy0Qis4A&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=42&#34;&gt;8&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=ZuI0o8A-2nM&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=43&#34;&gt;9&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=e7UhOY48S7Q&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=44&#34;&gt;10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;react-https-facebook-github-io-react&#34;&gt;&lt;a href=&#34;https://facebook.github.io/react/&#34;&gt;React&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using &lt;code&gt;map&lt;/code&gt; with components&lt;/li&gt;
+&lt;li&gt;Stateless Functional Components&lt;/li&gt;
+&lt;li&gt;Conditional rendering&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;javascript&#34;&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Named and default exports&lt;/li&gt;
+&lt;li&gt;Named and default imports&lt;/li&gt;
+&lt;li&gt;Property initializers&lt;/li&gt;
+&lt;li&gt;Spread operator&lt;/li&gt;
+&lt;li&gt;Destructuring assignment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;package-managers&#34;&gt;Package Managers&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/&#34;&gt;NPM&lt;/a&gt; - Node Package Manager&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;Yarn&lt;/a&gt; - Facebook&amp;rsquo;s version of npm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;css-specifity-https-specificity-keegan-st&#34;&gt;&lt;a href=&#34;https://specificity.keegan.st/&#34;&gt;CSS Specifity&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;react&#34;&gt;React&lt;/h3&gt;
+
+&lt;h4 id=&#34;using-map-with-components&#34;&gt;Using &lt;code&gt;map&lt;/code&gt; with Components&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://codepen.io/dstrus/pen/gWZVOQ?editors=0010#0&#34;&gt;See this example live on CodePen →&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Person.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class Person extends React.Component {
+  render() {
+    return (
+      &amp;lt;li&amp;gt;Hello, {this.props.person.name}!&amp;lt;/li&amp;gt;
+    )
+  }
+}
+
+export default Person
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;PersonList.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import Person from &#39;./Person&#39;
+
+class PersonList extends React.Component {
+  render() {
+    const people = [
+      { name: &#39;Seth&#39;, hair: &#39;blonde&#39; },
+      { name: &#39;Nichole&#39;, hair: &#39;long&#39; },
+      { name: &#39;Davey&#39;, hair: &#39;long gone&#39; }
+    ]
+    return (
+      &amp;lt;div&amp;gt;
+        &amp;lt;h2&amp;gt;People&amp;lt;/h2&amp;gt;
+        {
+          people.map((person =&gt; &amp;lt;Person person={person} /&amp;gt;))
+        }
+      &amp;lt;/div&amp;gt;
+    )
+  }
+}
+
+export default PersonList
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;stateless-functional-components&#34;&gt;Stateless Functional Components&lt;/h4&gt;
+
+&lt;p&gt;Not every React Component needs to have state.  Many simply render a bit of &lt;code&gt;props&lt;/code&gt; and UI.  For such components, we don&amp;rsquo;t need to instantiate a whole class that inherits from &lt;code&gt;React.Component&lt;/code&gt;, we can simply write a function that accepts &lt;code&gt;props&lt;/code&gt; as an argument and returns the markup we need.&lt;/p&gt;
+
+&lt;p&gt;For instance, in the previous example, the &lt;code&gt;Person&lt;/code&gt; component can easily be re-written as a Stateless Functional Component.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+function Person (props) {
+  return (
+    &amp;lt;li&amp;gt;Hello, {props.person.name}!&amp;lt;/li&amp;gt;
+  )
+}
+
+// Or...
+
+const Person = (props) =&gt; &amp;lt;li&amp;gt;Hello, {props.person.name}!&amp;lt;/li&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;conditional-rendering&#34;&gt;Conditional Rendering&lt;/h4&gt;
+
+&lt;p&gt;There are many instances where you may want to render different UI depending on the state of the application.  One example would be a button that shows &amp;ldquo;Log in&amp;rdquo; or &amp;ldquo;Log out&amp;rdquo;, depending on whether there is a currently logged-in user.&lt;/p&gt;
+
+&lt;p&gt;Since React is just JavaScript, we can conditionally render using &lt;code&gt;if&lt;/code&gt;/&lt;code&gt;else&lt;/code&gt; statements, or we also learned about the &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator&#34;&gt;&lt;em&gt;ternary operator&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+const condition = true
+
+if (condition) {
+  console.log(&#39;true!&#39;)
+} else {
+  console.log(&#39;false!&#39;)
+}
+// =&gt; &#39;true!&#39;
+
+condition ? console.log(&#39;true!&#39;) : console.log(&#39;false!&#39;)
+// =&gt; &#39;true!&#39;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;An example in React:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+function UserButton (props) {
+  return (
+    {props.loggedInUser ? &amp;lt;button&amp;gt;Log out&amp;lt;/button&amp;gt; : &amp;lt;button&amp;gt;Log in&amp;lt;/button&amp;gt;}
+  )
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;javascript-es6&#34;&gt;JavaScript (ES6+)&lt;/h3&gt;
+
+&lt;h4 id=&#34;named-and-default-exports-and-imports&#34;&gt;Named and default exports and imports&lt;/h4&gt;
+
+&lt;p&gt;Prior to ES6, there were many competing ways to export and import JavaScript modules.  The most common were &lt;a href=&#34;https://webpack.github.io/docs/commonjs.html&#34;&gt;CommonJS&lt;/a&gt; and &lt;a href=&#34;http://requirejs.org/docs/whyamd.html&#34;&gt;AMD&lt;/a&gt;.  Luckily ES6 defined a specification for standardizing module export and import.&lt;/p&gt;
+
+&lt;p&gt;There are two types of exports from any JS file - &lt;em&gt;named&lt;/em&gt; and &lt;em&gt;default&lt;/em&gt;.  The important thing to remember is that there can only be &lt;em&gt;one&lt;/em&gt; default export per module, but there can be as many named exports as you want.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;myModule.js&lt;/strong&gt;
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+export const myNumber = 8
+
+export function sayHi () {
+  console.log(&#39;hello&#39;)
+}
+
+export default class MyClass {
+  add (a, b) {
+    return a + b
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;The main difference is how they are imported.  Default exports get the most concise syntax:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+import MyClass from &#39;myModule&#39;
+
+const classInstance = new MyClass()
+classInstance.add(1, 2) // =&gt; 3
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;Default import naming&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;Since there can be only one default export per module, the name by which you import the default export is not important - you can name it whatever you want.  For instance, instead of importing as &lt;code&gt;MyClass&lt;/code&gt;, we could have said &lt;code&gt;import LuftBallons from &#39;myModule&#39;&lt;/code&gt;, and it would have worked just fine.  To read more about default and named exports, click &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Named exports get a slightly more verbose syntax for importing, and the names &lt;em&gt;are&lt;/em&gt; important (otherwise it can&amp;rsquo;t determine what you want to import).&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+import { myNumber, sayHi } from &#39;myModule&#39;
+
+console.log(myNumber) // =&gt; 8
+
+sayHi() // =&gt; &#39;hello&#39;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;If you need to import a named export under a different name&amp;mdash;if, for example, you have another import or local variable with the same name&amp;mdash;you can specifiy a different name using &lt;em&gt;as&lt;/em&gt;.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+import { myNumber as num, sayHi as yo } from &#39;myModule&#39;
+
+console.log(num) // =&gt; 8
+
+yo() // =&gt; &#39;hello&#39;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;You can also combine default and named imports in the same line.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+import MyClass, { myNumber, sayHi } from &#39;myModule&#39;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;property-initializers&#34;&gt;Property initializers&lt;/h4&gt;
+
+&lt;p&gt;From the proposal:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Class instance fields&amp;rdquo; describe properties intended to exist on instances of a class (and may optionally include initializer expressions for said properties).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We can take advantage of this in React.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://babeljs.io/blog/2015/06/07/react-on-es6-plus&#34;&gt;&lt;strong&gt;Read more: Using ES7 property initializers in React&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We can use a property initializer to set the initial value of state without writing a constructor:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class Song extends React.Component {
+  state = {
+    versesRemaining: 5,
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;We can even set default props and use those in the initial state:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class Song extends React.Component {
+  static defaultProps = {
+    autoPlay: false,
+    verseCount: 10,
+  }
+  state = {
+    versesRemaining: this.props.verseCount,
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+
+  &lt;div class=&#34;aside aside-danger&#34;&gt;
+  
+    &lt;h4&gt;Subject to  minor changes&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;https://github.com/tc39/proposal-class-public-fields&#34;&gt;Property initializers&lt;/a&gt; are a &lt;a href=&#34;https://tc39.github.io/process-document/&#34;&gt;Stage 2 proposal&lt;/a&gt; for ECMAScript, meaning that it&amp;rsquo;s still a &lt;em&gt;draft&lt;/em&gt; and is subject to minor changes before becoming standardized. Facebook itself is already using these techniques in production, however.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h4 id=&#34;spread-operator&#34;&gt;Spread operator&lt;/h4&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator&#34;&gt;&lt;em&gt;spread operator&lt;/em&gt;&lt;/a&gt; was added in ES6 to allow an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) or multiple variables (for destructuring assignment) are expected.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+function myFunc (x, y, z) {
+  console.log(x)
+  console.log(y)
+  console.log(z)
+}
+const args = [1, 2, 3]
+
+myFunc(...args) // the spread &#39;...args&#39; applies the items in args to the three arguments in myFunc
+// =&gt; 1
+// =&gt; 2
+// =&gt; 3
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;It is also an easy way to make copies of iterable objects&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+const ary = [1, 2, 3]
+const aryCopy = [...ary] // makes a copy of ary
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;If you are in a project using Babel (like a React project created with &lt;code&gt;create-react-app&lt;/code&gt;), you can also use the &lt;code&gt;object-rest-spread-transform&lt;/code&gt; to apply this same method to objects.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+this.state = {&#39;a&#39;: true, party: &#39;hard&#39;}
+const stateCopy = {...this.state} // makes a copy of this.state
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;destructuring-assignment&#34;&gt;Destructuring assignment&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment&#34;&gt;Destructuring assignment&lt;/a&gt; syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+const myObj = {
+  a: true,
+  b: &#39;Destructuring!&#39;
+}
+
+let { a, b } = myObj
+
+console.log(a) // =&gt; true
+console.log(b) // =&gt; &#39;Destructuring!&#39;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;package-managers-1&#34;&gt;Package Managers&lt;/h3&gt;
+
+&lt;h4 id=&#34;node-package-manager-npm&#34;&gt;Node Package Manager (npm)&lt;/h4&gt;
+
+&lt;p&gt;Node Package Manager hosts almost half a million packages of free, reusable JavaScript code and is the largest software registry in the world. It allows you to easily add any module to your project, and it will install the requested package, as well as any required dependencies of that package.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install react
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;yarn&#34;&gt;Yarn&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;Yarn&lt;/a&gt; is Facebook&amp;rsquo;s version of npm, designed to improve performance and resolve several important issues.  The key differences are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Deterministic installation - packages will always install in the same order on every machine&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;yarn.lock&lt;/code&gt; - this lockfile locks dependency versions for consistency and security&lt;/li&gt;
+&lt;li&gt;Local cache of downloaded packages - faster and can still work with no internet connection after initial installation&lt;/li&gt;
+&lt;li&gt;Parallel installation - Dependency installation can happen in parallel, greatly increasing speed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To install yarn (npm was already installed as part of setup instructions), type the following command:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;brew install yarn
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once installed, you can use yarn with following commands:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn
+# installs all packages and dependencies listed in your project&amp;#39;s package.json
+
+yarn add {package_name}
+# installs a new package and adds it to package.json
+
+yarn start
+# starts your local development web server (in project from create-react-app)
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dwarf Underground: &lt;a href=&#34;https://github.com/sbaughman/dwarf-underground/tree/2330778425ae10658dadcd974b93aefd361c0bef&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/dwarf-underground/tree/599b3a3ac93da57e55aa898333b97d23c8169efb&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Static HTML/CSS for Thing List: &lt;a href=&#34;https://github.com/xtbc17s1/thing-list-static&#34;&gt;thing-list-static&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ThingList: &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/3f7652d667e3c46342e6f7e90b9ca54d0951d6a3&#34;&gt;morning&lt;/a&gt; | afternoon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;p&gt;Add the &lt;em&gt;Add Thing&lt;/em&gt; button, including the corresponding CSS.&lt;/p&gt;
+
+&lt;h3 id=&#34;bonus-credit&#34;&gt;Bonus Credit&lt;/h3&gt;
+
+&lt;p&gt;Make that button work!&lt;/p&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
+
+&lt;p&gt;Stop hard-coding &lt;em&gt;things&lt;/em&gt; altogether. Use only the things that were added via the &lt;em&gt;Add Thing&lt;/em&gt; button.&lt;/p&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit-hyper-fighting&#34;&gt;Super Mega Bonus Credit Hyper Fighting&lt;/h3&gt;
+
+&lt;p&gt;Make the &lt;em&gt;remove&lt;/em&gt; button work.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -50,10 +957,378 @@ Lecture Videos Morning:
       <pubDate>Mon, 15 May 2017 11:13:46 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/week2/day7/</guid>
-      <description>Wednesday, May 24, 2017
-Lecture Videos Morning:
- Full Playlist | Day 7, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13  Afternoon:
- Full Playlist | Day 7, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17  Topics React  Methods as props Component lifecycle methods (Docs)  componentDidMount()  react-contenteditable package (on GitHub)  JavaScript  Property initializers + arrow functions  Firebase  Getting started Database rules Re-base for syncing React state with Firebase  Examples React Methods as props Sometimes one component needs to update another component&amp;rsquo;s state.</description>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Wednesday, May 24, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+
+&lt;p&gt;Morning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=yjyMHL0o6o0&amp;amp;index=33&amp;amp;t=2s&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Day 7, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Rl715WP0bA8&amp;amp;index=34&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=bCCBdrIW9pc&amp;amp;index=35&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=T-7Nxpxzi6A&amp;amp;index=36&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=vHJS4yLPXKY&amp;amp;index=37&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=XCCHobIBzZ8&amp;amp;index=38&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=JuerIuH0F5A&amp;amp;index=39&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=1iVZskxFbl4&amp;amp;index=40&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;8&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=M_wdst2C6Wc&amp;amp;index=41&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;9&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=CSm_vhwvpQg&amp;amp;index=42&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;10&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Ckgd-cQ7-74&amp;amp;index=43&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;11&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=pq3ykdFCfOE&amp;amp;index=44&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;12&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=jBPwpbnK2IE&amp;amp;index=45&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afternoon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=lc5tFOkT2IE&amp;amp;index=45&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Day 7, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=9o6iLoiSLio&amp;amp;index=46&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Oa18SuRjTn0&amp;amp;index=47&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=dluPtCac-EU&amp;amp;index=48&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=a449vljRvz8&amp;amp;index=49&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=lBBsCOMEXDk&amp;amp;index=50&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=g6Sq74gGkNU&amp;amp;index=51&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Aqto7b817Bs&amp;amp;index=61&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;8&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=_fBZSDW_rAk&amp;amp;index=52&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;9&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=F8-RyjinoB8&amp;amp;index=53&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;10&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=B-8vT3dr9qg&amp;amp;index=54&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;11&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=4Q-YHIbr7vM&amp;amp;index=55&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;12&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=yysJJmi9Lkk&amp;amp;index=56&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;13&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=TAaec0bUS6Q&amp;amp;index=57&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;14&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=zJTctScRUxA&amp;amp;index=58&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;15&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=TEnzkS6c_8M&amp;amp;index=59&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;16&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=HzXnpJD4AS8&amp;amp;index=60&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;17&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;react&#34;&gt;React&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Methods as props&lt;/li&gt;
+&lt;li&gt;Component lifecycle methods (&lt;a href=&#34;https://facebook.github.io/react/docs/react-component.html&#34;&gt;Docs&lt;/a&gt;)
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://facebook.github.io/react/docs/react-component.html#componentdidmount&#34;&gt;&lt;code&gt;componentDidMount()&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;react-contenteditable&lt;/code&gt; package (&lt;a href=&#34;https://github.com/lovasoa/react-contenteditable&#34;&gt;on GitHub&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;javascript&#34;&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Property initializers + arrow functions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;firebase&#34;&gt;Firebase&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Getting started&lt;/li&gt;
+&lt;li&gt;Database rules&lt;/li&gt;
+&lt;li&gt;Re-base for syncing React state with Firebase&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;react-1&#34;&gt;React&lt;/h3&gt;
+
+&lt;h4 id=&#34;methods-as-props&#34;&gt;Methods as props&lt;/h4&gt;
+
+&lt;p&gt;Sometimes one component needs to update another component&amp;rsquo;s state. It can&amp;rsquo;t do that directly, but it can call a method from that other component if it&amp;rsquo;s available via a prop.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://codepen.io/dstrus/pen/bWzWew?editors=1010&#34;&gt;&lt;strong&gt;Try this example live on CodePen&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+  &lt;pre class=&#34;language-jsx line-numbers &#34;
+       
+       
+       data-line=&#34;5,23&#34;
+       rel=&#34;jsx&#34;
+  &gt;&lt;code class=&#34;language-jsx&#34;&gt;
+  
+import React from &#39;react&#39;
+import ReactDOM from &#39;react-dom&#39;
+
+const PartyButton = ({ celebrate, celebrations }) =&amp;gt; {
+  return &amp;lt;button onClick={celebrate}&amp;gt;Party! {celebrations}&amp;lt;/button&amp;gt;
+}
+
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      celebrations: 0,
+    }
+    this.celebrate = this.celebrate.bind(this)
+  }
+
+  celebrate() {
+    const celebrations = this.state.celebrations + 1
+    this.setState({ celebrations })
+  }
+
+  render() {
+    return &amp;lt;PartyButton celebrate={this.celebrate} celebrations={this.state.celebrations} /&amp;gt;
+  }
+}
+
+ReactDOM.render(&amp;lt;App /&amp;gt;, document.querySelector(&#39;main&#39;))
+
+  &lt;/code&gt;
+  &lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;component-lifecycle-methods&#34;&gt;Component lifecycle methods&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;componentDidMount()&lt;/code&gt;&lt;/strong&gt; is invoked immediately after a component is mounted. Initialization that requires DOM nodes should go here.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import React, { Component } from &#39;react&#39;
+
+class MyComponent extends Component {
+  componentDidMount() {
+    this.nameInput.focus()
+  }
+
+  render() {
+    return (
+      &amp;lt;input 
+        ref={(input) =&amp;gt; { this.nameInput = input; }} 
+        defaultValue=&#34;will focus&#34;
+      /&amp;gt;
+    )
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;react-contenteditable-package&#34;&gt;&lt;code&gt;react-contenteditable&lt;/code&gt; package&lt;/h4&gt;
+
+&lt;p&gt;This package provides a React component for a div with editable contents, handling all the messy stuff (like &lt;code&gt;dangerouslySetInnerHTML&lt;/code&gt;).&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import React from &#39;react&#39;
+import ContentEditable from &#39;react-contenteditable&#39;
+
+class MyComponent extends React.Component {
+  constructor() {
+    this.state = {
+      html: &amp;quot;&amp;lt;strong&amp;gt;Hello, &amp;lt;em&amp;gt;World&amp;lt;/em&amp;gt;!&amp;lt;/strong&amp;gt;&amp;quot;
+    }
+    this.handleChange = this.handleChange.bind(this)
+  }
+
+  handleChange(ev) {
+    this.setState({ html: evt.target.value })
+  }
+
+  render() {
+    return (
+      &amp;lt;ContentEditable
+        html={this.state.html}       // innerHTML of the editable div
+        disabled={false}             // use true to disable
+        onChange={this.handleChange} // handle innerHTML change
+      /&amp;gt;
+    )
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;javascript-es6&#34;&gt;JavaScript (ES6+)&lt;/h3&gt;
+
+&lt;h4 id=&#34;property-initializers&#34;&gt;Property initializers&lt;/h4&gt;
+
+&lt;p&gt;Yesterday, we used property initializers to set a component&amp;rsquo;s initial state without adding a constructor. Combining property initializers and arrow functions also gives us a convenient way to auto-bind &lt;code&gt;this&lt;/code&gt;:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+class Something extends React.Component {
+  handleButtonClick = (ev) =&gt; {
+    // `this` is bound correctly!
+    this.setState({ buttonWasClicked: true });
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;firebase-1&#34;&gt;Firebase&lt;/h3&gt;
+
+&lt;h4 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://firebase.google.com/&#34;&gt;Firebase&lt;/a&gt; is a real-time database hosted by Google.  In addition to the database, it also provides features of authentication, analytics, cloud storage, and hosting.  For &lt;em&gt;Thing List&lt;/em&gt;, we synced the &lt;code&gt;state&lt;/code&gt; of our app to our database on Firebase.  This allowed all of our data to be persisted, even after page refreshes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/tylermcginnis/re-base&#34;&gt;Re-base&lt;/a&gt; is an open source package that allows easy syncing of local state with a Firebase database. Add rebase to your project with one of the following commands:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;yarn add re-base               # add package using yarn
+npm install --save re-base     # add package using npm
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once you have re-base installed, setup is easy!  First, create a new project on Firebase, then click on &amp;ldquo;Add to a web app&amp;rdquo; to see your JavaScript config object.  Next, initialize a Firebase app and database in your project using the config object, and provide the database to re-base.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+import Rebase from &#39;re-base&#39;
+import firebase from &#39;firebase/app&#39;
+import database from &#39;firebase/database&#39;
+
+const app = firebase.initializeApp({
+  apiKey: &#34;YOURAPIKEY&#34;,
+  authDomain: &#34;YOURAUTHDOMAIN&#34;,
+  databaseURL: &#34;YOURDATABASEURL&#34;,
+  projectId: &#34;YOURPROJECTID&#34;,
+  storageBucket: &#34;YOURSTORAGEBUCKET&#34;,
+  messagingSenderId: &#34;YOURSENDERID&#34;
+})
+
+const db = database(app)
+const base = Rebase.createClass(db)
+
+export default base
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;Finally, call &lt;code&gt;base.syncState&lt;/code&gt; to sync your app&amp;rsquo;s local state with Firebase.  The first argument to &lt;code&gt;syncState&lt;/code&gt; is the name of the Firebase endpoint you want to sync, and the second is a configuration object.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+base.syncState(&#39;myFavoriteEndpoint&#39;, {
+  context: this,
+  state: &#39;items&#39;
+})
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;Now, any time we update the state of our app, the changes will sync with Firebase in real time.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-info&#34;&gt;
+  
+    &lt;h4&gt;More Re-base Options&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;Re-base can do much more than just syncing state.  There are methods for &lt;code&gt;fetch&lt;/code&gt;, &lt;code&gt;push&lt;/code&gt;, &lt;code&gt;post&lt;/code&gt;, etc.  To find out more about what all you can do with re-base, check out the &lt;a href=&#34;https://github.com/tylermcginnis/re-base#re-base&#34;&gt;README&lt;/a&gt;&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h4 id=&#34;rules&#34;&gt;Rules&lt;/h4&gt;
+
+&lt;p&gt;For your Firebase database, you can set up rules (written in JSON) that specify the conditions under which data is allowed to be read or written.  By default, a newly generated project will require that a user be authenticated to read or write &lt;em&gt;any&lt;/em&gt; data.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+{
+  &#34;rules&#34;: {
+    &#34;.read&#34;: &#34;auth != null&#34;,
+    &#34;.write&#34;: &#34;auth != null&#34;
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;If you do not have authentication set up yet, these values can be set to &lt;code&gt;true&lt;/code&gt;.  This allows &lt;em&gt;anyone&lt;/em&gt; to read or write any data in the database.  This can be convenient, but probably not a good idea long-term (and you &lt;em&gt;will&lt;/em&gt; get a warning if you do that).&lt;/p&gt;
+
+&lt;p&gt;Additional rules can be applied per endpoint:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+{
+  &#34;rules&#34;: {
+    &#34;emails&#34;: {
+      &#34;.read&#34;: true,
+      &#34;.write&#34;: &#34;auth != null&#34;
+    },
+    &#34;texts&#34;: {
+      &#34;.read&#34;: true,
+      &#34;.write&#34;: &#34;auth != null&#34;
+    },
+    &#34;users&#34;: {
+      &#34;$userId&#34;: {
+        &#34;.read&#34;: &#34;auth != null &amp;&amp; auth.uid == $userId&#34;,
+        &#34;.write&#34;: &#34;auth != null &amp;&amp; auth.uid == $userId&#34;
+      }
+    }
+  }
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;The above rules translate to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;texts and emails can be read by anyone, but only written by authenticated users&lt;/li&gt;
+&lt;li&gt;users data can be read and written only by an authenticated user whose &lt;code&gt;uid&lt;/code&gt; matches the &lt;code&gt;$userId&lt;/code&gt; of that item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ThingList &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/23bd5cd351313500c971d4fbded85a0fbc656c0f&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/899e37a64952ec96d3b8756bd6077499764851b3&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;When the checkbox is checked, mark the corresponding Thing as &lt;em&gt;completed&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Be sure this gets synced to Firebase and persists across page refreshes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;super-mega-bonus-credit&#34;&gt;Super Mega Bonus Credit&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add a due date to each thing.&lt;/li&gt;
+&lt;li&gt;Make sure it persists&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Hint&lt;/strong&gt;: HTML 5 includes an input type &lt;strong&gt;date&lt;/strong&gt;, &lt;em&gt;i.e.&lt;/em&gt; &lt;code&gt;&amp;lt;input type=&amp;quot;date&amp;quot; /&amp;gt;&lt;/code&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -62,10 +1337,229 @@ Lecture Videos Morning:
       <pubDate>Thu, 25 May 2017 09:34:51 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/week2/day8/</guid>
-      <description>Thursday, May 25, 2017
-Lecture Videos Morning:
- Full Playlist | Day 8, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8  Afternoon:
- Full Playlist | Day 8, part 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13  Topics Firebase Authentication  &amp;lsquo;firebase/auth&amp;rsquo; authWithPopup signing in and out handling auth state changes  Examples Firebase Authentication Firebase isn&amp;rsquo;t just a real-time database.</description>
+      <description>
+
+&lt;p&gt;&lt;date&gt;Thursday, May 25, 2017&lt;/date&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lecture-videos&#34;&gt;Lecture Videos&lt;/h2&gt;
+
+&lt;p&gt;Morning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=KcKRs6EF2aQ&amp;amp;index=46&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;Day 8, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=PqBGnicbwBo&amp;amp;index=47&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Qgb9slE1Vy8&amp;amp;index=48&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Y4flcs43y2I&amp;amp;index=49&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Rs5qHdIcJdg&amp;amp;index=50&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=Nqln3z3Qm3A&amp;amp;index=51&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=w4Hm_YkP7O8&amp;amp;index=52&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=NNhIOZ7scH8&amp;amp;index=53&amp;amp;list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&#34;&gt;8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afternoon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&#34;&gt;Full Playlist&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=MPwdC4keEa8&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=62&#34;&gt;Day 8, part 1&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=fV4Nj-qyrCs&amp;amp;t=2s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=63&#34;&gt;2&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=pyV2ch1Z6kc&amp;amp;t=1s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=64&#34;&gt;3&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=hrUmU-Xe-5k&amp;amp;t=4s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=65&#34;&gt;4&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=J60k6tSosfs&amp;amp;t=6s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=66&#34;&gt;5&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=KQQqja3IlYg&amp;amp;t=3s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=67&#34;&gt;6&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=zJgYth64v7U&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=68&#34;&gt;7&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=qDYMyPwjmCk&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=69&#34;&gt;8&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=CqLtfW4fdbc&amp;amp;t=655s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=70&#34;&gt;9&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=9wrGqsY15ds&amp;amp;t=5s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=71&#34;&gt;10&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=dfztTfau9qo&amp;amp;t=394s&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=72&#34;&gt;11&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=HkWNB-GCUPI&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=73&#34;&gt;12&lt;/a&gt; | &lt;a href=&#34;https://www.youtube.com/watch?v=yak0SVTJ9Zc&amp;amp;list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&amp;amp;index=74&#34;&gt;13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;h3 id=&#34;firebase-authentication&#34;&gt;Firebase Authentication&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;lsquo;firebase/auth&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authWithPopup&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;signing in and out&lt;/li&gt;
+&lt;li&gt;handling auth state changes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;firebase-authentication-1&#34;&gt;Firebase Authentication&lt;/h3&gt;
+
+&lt;p&gt;Firebase isn&amp;rsquo;t just a real-time database.  It can also provide authentication services via email/password, phone, or common third-party services like Github, Facebook, and Google. For ThingList, we set up authentication via Github OAuth.&lt;/p&gt;
+
+&lt;h4 id=&#34;step-1-get-your-authorization-callback-url-from-firebase&#34;&gt;Step 1: Get your authorization callback URL from Firebase&lt;/h4&gt;
+
+&lt;p&gt;Navigate to your project in Firebase console.  Click on the &amp;lsquo;Authenticate&amp;rsquo; tab on the left and then on the Github logo.  Copy the authorization callback URL.&lt;/p&gt;
+
+&lt;div class=&#34;img firebase-enable-github&#34;&gt;&lt;span&gt;The data for the Client ID and Client Secret will be generated in the next step.&lt;/span&gt;&lt;/div&gt;
+
+&lt;h4 id=&#34;step-2-register-your-app-in-github&#34;&gt;Step 2: Register your app in Github&lt;/h4&gt;
+
+&lt;p&gt;Log in to Github and click on &amp;lsquo;Settings&amp;rsquo;.  On the left hand side, click on &amp;lsquo;OAuth Applications&amp;rsquo; under the &amp;lsquo;Developer settings&amp;rsquo; menu.  Register a new app and fill out the form.&lt;/p&gt;
+
+&lt;div class=&#34;img github-oauth-new-registration&#34;&gt;&lt;span&gt;Use the Authorization callback URL from step 1&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;After successfully registering the app, you&amp;rsquo;ll be taken to your new app&amp;rsquo;s settings page.&lt;/p&gt;
+
+&lt;div class=&#34;img github-oauth-secrets&#34;&gt;&lt;span&gt;Seeeeecrets...  (Don&#39;t worry, this app has been deleted. Never post your app secrets publicly.)&lt;/span&gt;&lt;/div&gt;
+
+&lt;h4 id=&#34;step-3-enable-github-authentication-in-firebase&#34;&gt;Step 3: Enable Github authentication in Firebase&lt;/h4&gt;
+
+&lt;p&gt;Go back to the Github authentication tab in Firebase and fill in the Client ID and Client Secret that you got from registering your app with Github.&lt;/p&gt;
+
+&lt;div class=&#34;img firebase-github-secrets&#34;&gt;&lt;span&gt;More Seeeeecrets...  (But seriously, don&#39;t share your secrets)&lt;/span&gt;&lt;/div&gt;
+
+&lt;h4 id=&#34;step-4-add-firebase-auth-to-your-app&#34;&gt;Step 4: Add Firebase auth to your app&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Note: This step assumes you already have your Firebase database added to your app.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Import &lt;code&gt;firebase/auth&lt;/code&gt; into your app&amp;rsquo;s firebase setup.  Enable firebase auth and also create an instance of &lt;code&gt;GithubAuthProvider&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;base.js&lt;/strong&gt;&lt;/p&gt;
+
+
+  &lt;pre class=&#34;language-js line-numbers &#34;
+       
+       
+       data-line=&#34;4,17,18&#34;
+       rel=&#34;js&#34;
+  &gt;&lt;code class=&#34;language-js&#34;&gt;
+  
+import Rebase from &#39;re-base&#39;
+import firebase from &#39;firebase/app&#39;
+import database from &#39;firebase/database&#39;
+import &#39;firebase/auth&#39;
+
+const app = firebase.initializeApp({
+  apiKey: &#34;&#34;,
+  authDomain: &#34;&#34;,
+  databaseURL: &#34;&#34;,
+  projectId: &#34;&#34;,
+  storageBucket: &#34;&#34;,
+  messagingSenderId: &#34;&#34;
+})
+
+const db = database(app)
+
+export const auth = app.auth()
+export const githubProvider = new firebase.auth.GithubAuthProvider()
+
+export default Rebase.createClass(db)
+
+  &lt;/code&gt;
+  &lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;step-5-set-up-the-signin-component&#34;&gt;Step 5: Set up the SignIn Component&lt;/h4&gt;
+
+&lt;p&gt;Import &lt;code&gt;auth&lt;/code&gt; and the &lt;code&gt;githubProvider&lt;/code&gt; into whatever component handles the sign-in process.  Call &lt;code&gt;signInWithPopup&lt;/code&gt; on the &lt;code&gt;auth&lt;/code&gt; object, passing the provider as a parameter.  Then call an &lt;code&gt;authHandler&lt;/code&gt; function when the promise resolves to handle whatever you want to do after authorization is successful.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SignIn.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-jsx&#34; rel=&#34;jsx&#34;&gt;
+&lt;code class=&#34;language-jsx&#34;&gt;
+
+import React from &#39;react&#39;
+import { auth, githubProvider } from &#39;./base&#39;
+
+const SignIn = ({ authHandler }) =&gt; {
+  const authenticate = (provider) =&gt; {
+    auth
+      .signInWithPopup(provider)
+      .then(authHandler)
+  }
+
+  return (
+    &amp;lt;button className=&#34;SignIn&#34; onClick={() =&gt; authenticate(githubProvider)}&amp;gt;
+      Sign In With GitHub
+    &amp;lt;/button&amp;gt;
+  )
+}
+
+export default SignIn
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;step-6-finishing-sign-in&#34;&gt;Step 6: Finishing sign-in&lt;/h4&gt;
+
+&lt;p&gt;What the &lt;code&gt;authHandler&lt;/code&gt; callback does is up to you, but for &lt;em&gt;ThingList&lt;/em&gt;, we had it do pretty typical things - save the user ID to state, and initialize syncing our local state for &amp;lsquo;things&amp;rsquo; with the data stored on Firebase.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;App.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+// ...
+
+authHandler = (authData) =&gt; {
+  this.setState(
+    { uid: authData.user.uid },
+    this.syncThings
+  )
+}
+
+// ...
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;step-7-handling-auth-state-changes-and-page-refreshes&#34;&gt;Step 7: Handling auth state changes (and page refreshes)&lt;/h4&gt;
+
+&lt;p&gt;What happens if auth state changes?  Or the user refreshes the page?  We should probably set up something to listen for that.  In the &lt;code&gt;componentWillMount&lt;/code&gt; lifecycle hook that runs when the Component is first getting loaded, we can call the &lt;code&gt;onAuthStateChanged&lt;/code&gt; method to set up such a listener.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;App.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+// ...
+
+componentWillMount() {
+  auth.onAuthStateChanged(
+    (user) =&gt; {
+      if (user) {
+        this.authHandler({ user })
+      }
+    }
+  )
+}
+
+// ...
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h4 id=&#34;step-8-signing-out&#34;&gt;Step 8: Signing out&lt;/h4&gt;
+
+&lt;p&gt;Signing out when using Firebase for authentication is quite simple - just call &lt;code&gt;auth.signOut()&lt;/code&gt;!  Once the promise returned by &lt;code&gt;signOut&lt;/code&gt; has resolved, you can handle any additional cleanup.  In &lt;em&gt;ThingList&lt;/em&gt;, we just set &lt;code&gt;state.uid&lt;/code&gt; back to &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;App.js&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+// ...
+
+signOut = () =&gt; {
+  auth
+    .signOut()
+    .then(() =&gt; this.setState({ uid: null }))
+}
+
+// ...
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ThingList &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/bb66ddd5b3a562f2dd3a20c1b284fe23b9f71b59&#34;&gt;morning&lt;/a&gt; | &lt;a href=&#34;https://github.com/xtbc17s1/thing-list/tree/040e15b7cbcb0d4c06c36940c2c12759b495fc73&#34;&gt;afternoon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;PRACTICE!&lt;/strong&gt;  Extend a project from class.  Write a new project.  Add a different type of authentication.  You know enough to start building things on your own, and it&amp;rsquo;s definitely the best way to learn once you have the basics down.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -202,11 +202,6 @@
   </url>
   
   <url>
-    <loc>http://xternbootcamp17.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://xternbootcamp17.github.io/prereqs/</loc>
     <lastmod>2017-04-10T11:10:36-04:00</lastmod>
     <priority>0</priority>
@@ -221,11 +216,6 @@
   <url>
     <loc>http://xternbootcamp17.github.io/setup-windows/</loc>
     <lastmod>2017-04-11T19:48:50-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://xternbootcamp17.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on XTERN Bootcamp 2017</title>
-    <link>http://xternbootcamp17.github.io/tools/</link>
+    <link>http://xternbootcamp17.github.io/tools/index.xml</link>
     <description>Recent content in Tools on XTERN Bootcamp 2017</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Apr 2017 19:48:50 -0400</lastBuildDate>
-    
-	<atom:link href="http://xternbootcamp17.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="http://xternbootcamp17.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Tools</title>
@@ -17,8 +15,16 @@
       <pubDate>Tue, 11 Apr 2017 19:48:50 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/tools/</guid>
-      <description>Tools
- This guide includes information about additional tools and configuration options you may find helpful.</description>
+      <description>&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;p&gt;Tools&lt;/p&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This guide includes information about additional tools and configuration options you may find helpful.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -27,11 +33,247 @@
       <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/tools/code-extensions/</guid>
-      <description>Visual Studio Code  image/svg+xml      VS Code Extensions
- We use a number of settings, shortcuts, and extensions to make our lives easier when developing with Visual Studio Code. Here are some of our favorites extensions.
-Recommended Extensions for VS Code To install an extension, launch VS Code Quick Open (⌘+P), paste the command, and press enter.
-vscode-icons ext install vscode-icons
-vscode-icons shows icons in the sidebar that correspond to the file type.</description>
+      <description>
+
+&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;svg
+   xmlns:dc=&#34;http://purl.org/dc/elements/1.1/&#34;
+   xmlns:cc=&#34;http://creativecommons.org/ns#&#34;
+   xmlns:rdf=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#&#34;
+   xmlns:svg=&#34;http://www.w3.org/2000/svg&#34;
+   xmlns=&#34;http://www.w3.org/2000/svg&#34;
+   role=&#34;img&#34;
+   viewBox=&#34;0 0 500 516.8125&#34;
+   id=&#34;vs-logo-svg&#34;
+   aria-labelledby=&#34;vs-svg-title&#34;
+   version=&#34;1.2&#34;&gt;
+  &lt;title id=&#34;vs-svg-title&#34;&gt;Visual Studio Code&lt;/title&gt;
+  &lt;defs
+     id=&#34;defs4&#34; /&gt;
+  &lt;sodipodi:namedview
+     id=&#34;base&#34;
+     pagecolor=&#34;#2d2c31&#34;
+     bordercolor=&#34;#666666&#34;
+     borderopacity=&#34;1.0&#34;
+     inkscape:pageopacity=&#34;0&#34;
+     inkscape:pageshadow=&#34;2&#34;
+     inkscape:zoom=&#34;0.5&#34;
+     inkscape:cx=&#34;26.033824&#34;
+     inkscape:cy=&#34;342.90908&#34;
+     inkscape:document-units=&#34;px&#34;
+     inkscape:current-layer=&#34;layer1&#34;
+     showgrid=&#34;false&#34;
+     inkscape:window-width=&#34;1920&#34;
+     inkscape:window-height=&#34;1018&#34;
+     inkscape:window-x=&#34;1912&#34;
+     inkscape:window-y=&#34;-8&#34;
+     inkscape:window-maximized=&#34;1&#34;
+     fit-margin-top=&#34;0&#34;
+     fit-margin-left=&#34;0&#34;
+     fit-margin-right=&#34;0&#34;
+     fit-margin-bottom=&#34;0&#34; /&gt;
+  &lt;metadata
+     id=&#34;metadata7&#34;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=&#34;&#34;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource=&#34;http://purl.org/dc/dcmitype/StillImage&#34; /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g
+     inkscape:label=&#34;Ebene 1&#34;
+     inkscape:groupmode=&#34;layer&#34;
+     id=&#34;layer1&#34;
+     style=&#34;display:inline&#34;
+     transform=&#34;translate(0,-538.375)&#34;&gt;
+    &lt;path
+       style=&#34;fill:#ffffff;stroke:none&#34;
+       d=&#34;M 483.29234,602.44472 372.10411,557.87392 178.02375,746.87661 61.150238,657.90867 l -44.44058,22.35039 -0.04444,233.31307 44.23249,22.18974 116.777852,-88.89395 194.55776,188.82908 111.10146,-44.39718 z&#34;
+       id=&#34;path2998&#34;
+       inkscape:connector-curvature=&#34;0&#34; /&gt;
+    &lt;path
+       style=&#34;fill:#373277;stroke:none&#34;
+       d=&#34;m 361.0373,713.50273 -111.05802,83.02234 111.10146,83.67329 z&#34;
+       id=&#34;path3000&#34;
+       inkscape:connector-curvature=&#34;0&#34; /&gt;
+    &lt;path
+       style=&#34;fill:#373277;stroke:none&#34;
+       d=&#34;m 72.191838,746.97093 0.0667,99.85788 55.483402,-50.26641 z&#34;
+       id=&#34;path3002&#34;
+       inkscape:connector-curvature=&#34;0&#34; /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+
+
+
+&lt;p&gt;VS Code Extensions&lt;/p&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We use a number of settings, shortcuts, and extensions to make our lives easier when developing with Visual Studio Code. Here are some of our favorites extensions.&lt;/p&gt;
+
+&lt;h2 id=&#34;recommended-extensions-for-vs-code&#34;&gt;Recommended Extensions for VS Code&lt;/h2&gt;
+
+&lt;p&gt;To install an extension, launch VS Code Quick Open (&lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;P&lt;/kbd&gt;), paste the command, and press &lt;kbd&gt;enter&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;vscode-icons-https-marketplace-visualstudio-com-items-itemname-robertohuertasm-vscode-icons&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons&#34;&gt;&lt;strong&gt;vscode-icons&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;ext install vscode-icons&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;vscode-icons shows icons in the sidebar that correspond to the file type.&lt;/p&gt;
+
+&lt;h3 id=&#34;can-i-use-https-marketplace-visualstudio-com-items-itemname-akamud-vscode-caniuse&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=akamud.vscode-caniuse&#34;&gt;&lt;strong&gt;Can I Use&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;ext install vscode-caniuse&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Can I Use checks HTML/CSS/JS for browser compatibility, based on &lt;a href=&#34;http://caniuse.com&#34;&gt;caniuse.com&lt;/a&gt;. The default keybinding is &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;shift&lt;/kbd&gt;+&lt;kbd&gt;i&lt;/kbd&gt; on Windows/Linux and &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;c&lt;/kbd&gt; on Mac.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/caniuse.png&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;color-highlight-https-marketplace-visualstudio-com-items-itemname-naumovs-color-highlight&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight&#34;&gt;&lt;strong&gt;Color Highlight&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;ext install color-highlight&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Color Highlights display web colors in your code &lt;em&gt;in that color&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/color-highlight.png&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;debugger-for-chrome-https-marketplace-visualstudio-com-items-itemname-msjsdiag-debugger-for-chrome&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome&#34;&gt;Debugger for Chrome&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;ext install debugger-for-chrome&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Debug in Chrome from inside VS Code. Pick a launch config from the dropdown on the Debug pane in Code, and press the play button or &lt;kbd&gt;F5&lt;/kbd&gt; to start.&lt;/p&gt;
+
+&lt;p&gt;For React projects, create the file &lt;code&gt;.vscode/launch.json&lt;/code&gt; in your project with the following configuration (&lt;a href=&#34;https://medium.com/@auchenberg/live-edit-and-debug-your-react-apps-directly-from-vs-code-without-leaving-the-editor-3da489ed905f&#34;&gt;more info&lt;/a&gt;):&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-json&#34; rel=&#34;json&#34;&gt;
+&lt;code class=&#34;language-json&#34;&gt;
+
+{
+  &#34;version&#34;: &#34;0.2.0&#34;,
+  &#34;configurations&#34;: [
+    {
+      &#34;name&#34;: &#34;Chrome&#34;,
+      &#34;type&#34;: &#34;chrome&#34;,
+      &#34;request&#34;: &#34;launch&#34;,
+      &#34;url&#34;: &#34;http://localhost:3000&#34;,
+      &#34;webRoot&#34;: &#34;${workspaceRoot}/src&#34;,
+      &#34;userDataDir&#34;: &#34;${workspaceRoot}/.chrome&#34;,
+      &#34;sourceMapPathOverrides&#34;: {
+          &#34;webpack:///src/*&#34;: &#34;${webRoot}/*&#34;
+      }
+    }
+  ]
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/debugger-react.gif&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ecmascript-quotes-transformer-https-marketplace-visualstudio-com-items-itemname-vilicvane-es-quotes&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=vilicvane.es-quotes&#34;&gt;ECMAScript Quotes Transformer&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;ext install es-quotes&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Switches a string between single and double quotes, and between normal strings and ES6+ template strings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/es-quotes.gif&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;embrace-https-marketplace-visualstudio-com-items-itemname-mycelo-embrace&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=mycelo.embrace&#34;&gt;Embrace&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;ext install embrace&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Surround the selection with parentheses, brackets, quotes, etc. The extension does &lt;em&gt;not&lt;/em&gt; configure any keybindings for these commands by default.&lt;/p&gt;
+
+&lt;h3 id=&#34;eslint-https-marketplace-visualstudio-com-items-itemname-dbaeumer-vscode-eslint&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&#34;&gt;ESLint&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;ext install vscode-eslint&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Check JavaScript for errors and style violations as you edit. Requires ESLint, which you can install with:&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;shell macos&#34;&gt;
+&lt;div class=&#34;bar&#34;&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;div class=&#34;windows icon&#34;&gt;
+      &lt;img src=&#34;http://xternbootcamp17.github.io/images/git-bash.png&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot red&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot yellow&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;dot green&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  user@localhost ~
+  &lt;div class=&#34;windows-controls&#34;&gt;
+    &amp;nbsp;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shell-body&#34;&gt;
+
+&lt;pre&gt;&lt;span class=&#34;terminal-commands&#34;
+&gt;&lt;span class=&#34;command-line-prompt&#34;&gt;&lt;span data-prompt=&#34;$&#34;&gt;&lt;/span&gt;&lt;/span&gt;npm install eslint -g
+&lt;/span&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;html-boilerplate-https-marketplace-visualstudio-com-items-itemname-sidthesloth-html5-boilerplate&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate&#34;&gt;HTML Boilerplate&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;ext install html5-boilerplate&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Adds a snippet for HTML 5 boilerplate.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/html-boilerplate.gif&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;path-intellisense-https-marketplace-visualstudio-com-items-itemname-christian-kohler-path-intellisense&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense&#34;&gt;Path Intellisense&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;ext install path-intellisense&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Autocomplete filenames as you type. Very handy for module imports.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://xternbootcamp17.github.io/images/path-intellisense.gif&#34; class=&#39;no-margin&#39;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;view-in-browser-https-marketplace-visualstudio-com-items-itemname-qinjia-view-in-browser&#34;&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=qinjia.view-in-browser&#34;&gt;View In Browser&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;ext install view-in-browser&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Opens an HTML page in the default browser. Bound to &lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;F1&lt;/kbd&gt; (Mac) or &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;F1&lt;/kbd&gt; by default.&lt;/p&gt;
+
+
+  &lt;div class=&#34;aside aside-tip&#34;&gt;
+  
+    &lt;h4&gt;Theme Info&lt;/h4&gt;
+    
+  
+  &lt;div class=&#34;body&#34;&gt;
+  &lt;p&gt;Since I&amp;rsquo;m always asked, I use the following themes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Code: &lt;em&gt;Oceanic Next Italic&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Atom: &lt;em&gt;Atom Dark&lt;/em&gt; UI theme; &lt;em&gt;Kobalt&lt;/em&gt; syntax theme (with some personal customizations)&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -40,9 +282,224 @@ vscode-icons shows icons in the sidebar that correspond to the file type.</descr
       <pubDate>Fri, 10 Jun 2016 23:06:12 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/tools/code-keybindings/</guid>
-      <description>Visual Studio Code  image/svg+xml      VS Code Keybindings
- It&amp;rsquo;s worth your time to get to know the keyboard shortcuts for whatever editor you use. We&amp;rsquo;ve gone a step further and added some custom keybindings for some of the commands we use most.
-Custom Keybindings for VS Code Open your Keyboard Shortcuts from the menu (Code &amp;gt; Preferences &amp;gt; Keyboard Shortcuts) or by using (what else?</description>
+      <description>
+
+&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;svg
+   xmlns:dc=&#34;http://purl.org/dc/elements/1.1/&#34;
+   xmlns:cc=&#34;http://creativecommons.org/ns#&#34;
+   xmlns:rdf=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#&#34;
+   xmlns:svg=&#34;http://www.w3.org/2000/svg&#34;
+   xmlns=&#34;http://www.w3.org/2000/svg&#34;
+   role=&#34;img&#34;
+   viewBox=&#34;0 0 500 516.8125&#34;
+   id=&#34;vs-logo-svg&#34;
+   aria-labelledby=&#34;vs-svg-title&#34;
+   version=&#34;1.2&#34;&gt;
+  &lt;title id=&#34;vs-svg-title&#34;&gt;Visual Studio Code&lt;/title&gt;
+  &lt;defs
+     id=&#34;defs4&#34; /&gt;
+  &lt;sodipodi:namedview
+     id=&#34;base&#34;
+     pagecolor=&#34;#2d2c31&#34;
+     bordercolor=&#34;#666666&#34;
+     borderopacity=&#34;1.0&#34;
+     inkscape:pageopacity=&#34;0&#34;
+     inkscape:pageshadow=&#34;2&#34;
+     inkscape:zoom=&#34;0.5&#34;
+     inkscape:cx=&#34;26.033824&#34;
+     inkscape:cy=&#34;342.90908&#34;
+     inkscape:document-units=&#34;px&#34;
+     inkscape:current-layer=&#34;layer1&#34;
+     showgrid=&#34;false&#34;
+     inkscape:window-width=&#34;1920&#34;
+     inkscape:window-height=&#34;1018&#34;
+     inkscape:window-x=&#34;1912&#34;
+     inkscape:window-y=&#34;-8&#34;
+     inkscape:window-maximized=&#34;1&#34;
+     fit-margin-top=&#34;0&#34;
+     fit-margin-left=&#34;0&#34;
+     fit-margin-right=&#34;0&#34;
+     fit-margin-bottom=&#34;0&#34; /&gt;
+  &lt;metadata
+     id=&#34;metadata7&#34;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=&#34;&#34;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource=&#34;http://purl.org/dc/dcmitype/StillImage&#34; /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g
+     inkscape:label=&#34;Ebene 1&#34;
+     inkscape:groupmode=&#34;layer&#34;
+     id=&#34;layer1&#34;
+     style=&#34;display:inline&#34;
+     transform=&#34;translate(0,-538.375)&#34;&gt;
+    &lt;path
+       style=&#34;fill:#ffffff;stroke:none&#34;
+       d=&#34;M 483.29234,602.44472 372.10411,557.87392 178.02375,746.87661 61.150238,657.90867 l -44.44058,22.35039 -0.04444,233.31307 44.23249,22.18974 116.777852,-88.89395 194.55776,188.82908 111.10146,-44.39718 z&#34;
+       id=&#34;path2998&#34;
+       inkscape:connector-curvature=&#34;0&#34; /&gt;
+    &lt;path
+       style=&#34;fill:#373277;stroke:none&#34;
+       d=&#34;m 361.0373,713.50273 -111.05802,83.02234 111.10146,83.67329 z&#34;
+       id=&#34;path3000&#34;
+       inkscape:connector-curvature=&#34;0&#34; /&gt;
+    &lt;path
+       style=&#34;fill:#373277;stroke:none&#34;
+       d=&#34;m 72.191838,746.97093 0.0667,99.85788 55.483402,-50.26641 z&#34;
+       id=&#34;path3002&#34;
+       inkscape:connector-curvature=&#34;0&#34; /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+
+
+
+&lt;p&gt;VS Code Keybindings&lt;/p&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It&amp;rsquo;s worth your time to get to know the keyboard shortcuts for whatever editor you use. We&amp;rsquo;ve gone a step further and added some custom keybindings for some of the commands we use most.&lt;/p&gt;
+
+&lt;h2 id=&#34;custom-keybindings-for-vs-code&#34;&gt;Custom Keybindings for VS Code&lt;/h2&gt;
+
+&lt;p&gt;Open your Keyboard Shortcuts from the menu (&lt;kbd&gt;Code &amp;gt; Preferences &amp;gt; Keyboard Shortcuts&lt;/kbd&gt;) or by using (what else?) the keyboard shortcut (&lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;K&lt;/kbd&gt;, &lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;S&lt;/kbd&gt;). From there, you can see all of the current keyboard shortcuts and customize them.&lt;/p&gt;
+
+&lt;p&gt;For serious customization, click the link to open &lt;em&gt;keybindings.js&lt;/em&gt;. That opens two panes: the default keybindings, and your custom bindings. My keybindings appear below. I&amp;rsquo;ll talk about a few of them.&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-js&#34; rel=&#34;js&#34;&gt;
+&lt;code class=&#34;language-js&#34;&gt;
+
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    &#34;key&#34;: &#34;alt+cmd+.&#34;,
+    &#34;command&#34;: &#34;editor.emmet.action.matchingPair&#34;
+  },
+
+  {
+    &#34;key&#34;: &#34;shift+cmd+a&#34;,
+    &#34;command&#34;: &#34;editor.emmet.action.wrapWithAbbreviation&#34;
+  },
+
+  {
+    &#34;key&#34;: &#34;cmd+&#39;&#34;,
+    &#34;command&#34;: &#34;esQuotes.transformBetweenSingleDoubleQuotes&#34;
+  },
+
+  {
+    &#34;key&#34;: &#34;ctrl+space&#34;,
+    &#34;command&#34;: &#34;editor.emmet.action.expandAbbreviation&#34;,
+    &#34;when&#34;: &#34;editorTextFocus &amp;&amp; !editorHasMultipleSelections &amp;&amp; !editorHasSelection &amp;&amp; !editorReadonly&#34;
+  },
+
+  {
+      &#34;key&#34;: &#34;ctrl+shift+space&#34;,
+      &#34;command&#34;: &#34;editor.emmet.action.splitJoinTag&#34;,
+      &#34;when&#34;: &#34;editorTextFocus &amp;&amp; !editorHasMultipleSelections &amp;&amp; !editorHasSelection &amp;&amp; !editorReadonly&#34;
+  },
+
+  {
+      &#34;key&#34;: &#34;ctrl+k ctrl+e&#34;,
+      &#34;command&#34;: &#34;extension.embraceParenthesis&#34;,
+      &#34;when&#34;: &#34;editorHasSelection &amp;&amp; editorTextFocus&#34;
+  },
+
+  {
+      &#34;key&#34;: &#34;ctrl+k ctrl+[&#34;,
+      &#34;command&#34;: &#34;extension.embraceSquareBrackets&#34;,
+      &#34;when&#34;: &#34;editorHasSelection &amp;&amp; editorTextFocus&#34;
+  },
+
+  {
+      &#34;key&#34;: &#34;ctrl+k ctrl+l&#34;,
+      &#34;command&#34;: &#34;extension.embraceCurlyBrackets&#34;,
+      &#34;when&#34;: &#34;editorHasSelection &amp;&amp; editorTextFocus&#34;
+  },
+
+  {
+      &#34;key&#34;: &#34;ctrl+k ctrl+a&#34;,
+      &#34;command&#34;: &#34;extension.embraceAngleBrackets&#34;,
+      &#34;when&#34;: &#34;editorHasSelection &amp;&amp; editorTextFocus&#34;
+  },
+
+  {
+      &#34;key&#34;: &#34;ctrl+k ctrl+&#39;&#34;,
+      &#34;command&#34;: &#34;extension.embraceSingleQuotes&#34;,
+      &#34;when&#34;: &#34;editorHasSelection &amp;&amp; editorTextFocus&#34;
+  },
+
+  {
+      &#34;key&#34;: &#34;ctrl+k ctrl+o&#34;,
+      &#34;command&#34;: &#34;extension.embraceDoubleQuotes&#34;,
+      &#34;when&#34;: &#34;editorHasSelection &amp;&amp; editorTextFocus&#34;
+  }
+]
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;emmet&#34;&gt;Emmet&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://emmet.io/&#34;&gt;Emmet&lt;/a&gt; is a wonderful tool for expanding CSS selector-like snippets into HTML elements. For example, type &lt;code&gt;.container&amp;gt;.row&amp;gt;.col-xs-12&amp;gt;p&lt;/code&gt;, and Emmet will expand it into this:&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-html&#34; rel=&#34;html&#34;&gt;
+&lt;code class=&#34;language-html&#34;&gt;
+
+&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;col-xs-12&amp;quot;&amp;gt;
+      &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;It will even put your cursor inside the &lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; tags. And if you use it within JSX, it will use &lt;code&gt;className&lt;/code&gt; instead of class, just as it should.&lt;/p&gt;
+
+&lt;p&gt;By default, IntelliSense will suggest Emmet expansion just like any other autocompletion. Sometimes that&amp;rsquo;s fine, but other times it can be a real pain in the neck. Thus, I prefer to set a custom shortcut: &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;space&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;p&gt;When Emmet expands an abbreviation for a React component, it adds both a closing and opening tag.  Sometimes, we just want a single, self-closing tag.  In the keybindings listed in the previous section, we added one for &lt;code&gt;&amp;quot;editor.emmet.action.splitJoinTag&amp;quot;&lt;/code&gt;.  This toggles between the open / closing tag and self-closing tag by pressing &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;shift&lt;/kbd&gt;+&lt;kbd&gt;space&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s another really handy Emmet feature to which I&amp;rsquo;ve assigned a shortcut: &lt;em&gt;wrap with abbreviation&lt;/em&gt;. It allows you to wrap a selection inside an HTML element identified by an Emmet abbreviation. Select the text you want to wrap and hit the shortcut. You&amp;rsquo;ll be presented with a box to type the abbreviation into. Magic! I&amp;rsquo;ve assigned this command to &lt;kbd&gt;shift&lt;/kbd&gt;+&lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;A&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;p&gt;To make sure Emmet will work with JSX files suffixed with &lt;code&gt;.js&lt;/code&gt;, add the following lines to your VSCode settings (&lt;kbd&gt;Code &amp;gt; Preferences &amp;gt; Settings&lt;/kbd&gt;):&lt;/p&gt;
+
+
+&lt;pre class=&#34;line-numbers language-json&#34; rel=&#34;json&#34;&gt;
+&lt;code class=&#34;language-json&#34;&gt;
+
+&#34;emmet.syntaxProfiles&#34;: {
+    &#34;javascript&#34;: &#34;jsx&#34;
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;h3 id=&#34;esquotes&#34;&gt;ESQuotes&lt;/h3&gt;
+
+&lt;p&gt;I mentioned the ECMAScript Quotes Transformer extension earlier. This begs for a keyboard shortcut to quickly switch between single and double quotes: &lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;&amp;lsquo;&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;embrace&#34;&gt;Embrace&lt;/h3&gt;
+
+&lt;p&gt;As mentioned on the previous page, the Embrace extension does not assign any keybindings by default, so I configured some. My shortcuts vary slightly from the recommended shortcuts on the extension&amp;rsquo;s page (in particular, I prefer &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;K&lt;/kbd&gt;, &lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;[&lt;/kbd&gt; for wrapping with square brackets).&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -51,8 +508,19 @@ Custom Keybindings for VS Code Open your Keyboard Shortcuts from the menu (Code 
       <pubDate>Fri, 10 Jun 2016 23:31:46 -0400</pubDate>
       
       <guid>http://xternbootcamp17.github.io/tools/github-desktop/</guid>
-      <description>GitHub.cls-1{fill:#fff;}github-logo &amp;nbsp;Desktop
- GitHub Desktop is my favorite of the free GUIs for Git. It&amp;rsquo;s made by GitHub, but there&amp;rsquo;s nothing tying it to their service. It&amp;rsquo;s just a Git client, and it will work fine with any host, or just locally. Check out GitHub&amp;rsquo;s guide: Getting your project on GitHub.</description>
+      <description>&lt;div class=&#34;page-heading&#34;&gt;&lt;div&gt;
+
+
+&lt;svg role=&#34;img&#34; aria-labelledby=&#34;github-svg-title&#34; id=&#34;github-logo&#34; data-name=&#34;github-logo&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 480.24 129.87&#34;&gt;&lt;title id=&#34;github-svg-title&#34;&gt;GitHub&lt;/title&gt;&lt;defs&gt;&lt;style&gt;.cls-1{fill:#fff;}&lt;/style&gt;&lt;/defs&gt;&lt;title&gt;github-logo&lt;/title&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M92.5,55.59H52.14a1.89,1.89,0,0,0-1.89,1.89V77.2a1.89,1.89,0,0,0,1.89,1.89H67.88v24.51s-3.54,1.21-13.31,1.21c-11.53,0-27.64-4.21-27.64-39.63S43.71,25.09,59.46,25.09c13.63,0,19.5,2.4,23.24,3.56A1.9,1.9,0,0,0,85,26.8l4.5-19.06a1.76,1.76,0,0,0-.72-1.47C87.22,5.18,78,0,54.58,0,27.63,0,0,11.46,0,66.56s31.64,63.31,58.3,63.31c22.08,0,35.47-9.43,35.47-9.43a1.62,1.62,0,0,0,.61-1.43V57.47A1.89,1.89,0,0,0,92.5,55.59Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M300.47,6.6a1.88,1.88,0,0,0-1.87-1.9H275.88A1.89,1.89,0,0,0,274,6.6V50.51H238.58V6.6a1.88,1.88,0,0,0-1.87-1.9H214a1.89,1.89,0,0,0-1.88,1.9v118.9a1.89,1.89,0,0,0,1.88,1.9h22.72a1.89,1.89,0,0,0,1.88-1.9V74.65H274l-.06,50.86a1.89,1.89,0,0,0,1.88,1.9H298.6a1.89,1.89,0,0,0,1.88-1.9Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M135.38,22.2A14.65,14.65,0,1,0,120.72,37,14.72,14.72,0,0,0,135.38,22.2Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M133.75,100.42V45.54a1.89,1.89,0,0,0-1.88-1.89H109.22a2.17,2.17,0,0,0-2,2.11v78.64c0,2.31,1.44,3,3.3,3H131c2.24,0,2.79-1.1,2.79-3Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M386.83,43.82H364.28a1.89,1.89,0,0,0-1.88,1.9V104a25.48,25.48,0,0,1-13.86,4.19c-8.13,0-10.29-3.69-10.29-11.65V45.72a1.89,1.89,0,0,0-1.87-1.9H313.5a1.89,1.89,0,0,0-1.88,1.9v54.69c0,23.65,13.18,29.43,31.31,29.43,14.87,0,26.87-8.22,26.87-8.22a47.74,47.74,0,0,0,.83,4.84,2,2,0,0,0,1.66,1l14.56-.06a1.89,1.89,0,0,0,1.88-1.9V45.72A1.89,1.89,0,0,0,386.83,43.82Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M448.46,41.15a42.4,42.4,0,0,0-21.52,5.71V6.6a1.88,1.88,0,0,0-1.87-1.9H402.28a1.89,1.89,0,0,0-1.88,1.9v118.9a1.89,1.89,0,0,0,1.88,1.9h15.81a1.88,1.88,0,0,0,1.65-1c.39-.64,1-5.48,1-5.48s9.32,8.83,27,8.83c20.71,0,32.58-10.5,32.58-47.15S461.28,41.15,448.46,41.15Zm-8.89,67a27,27,0,0,1-13.13-3.79V66.7a30.05,30.05,0,0,1,11.65-3.78C446.22,62.19,454,64.65,454,84,454,104.44,450.51,108.47,439.57,108.14Z&#34;/&gt;&lt;path class=&#34;cls-1&#34; d=&#34;M199.06,43.63H182l0-22.52c0-.85-.44-1.28-1.42-1.28H157.33c-.9,0-1.39.4-1.39,1.27V44.37s-11.64,2.81-12.43,3a1.89,1.89,0,0,0-1.36,1.81V63.84a1.89,1.89,0,0,0,1.88,1.9h11.91v35.18c0,26.13,18.33,28.7,30.7,28.7a51.86,51.86,0,0,0,13.53-2.23,1.76,1.76,0,0,0,1.07-1.71l0-16.09a1.92,1.92,0,0,0-1.88-1.9c-1,0-3.53.4-6.15.4-8.37,0-11.21-3.89-11.21-8.93s0-33.43,0-33.43h17a1.89,1.89,0,0,0,1.88-1.9V45.53A1.89,1.89,0,0,0,199.06,43.63Z&#34;/&gt;&lt;/svg&gt;
+
+
+&lt;p&gt;&amp;nbsp;Desktop&lt;/p&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://desktop.github.com/&#34;&gt;GitHub Desktop&lt;/a&gt; is my favorite of the free GUIs for Git. It&amp;rsquo;s made by GitHub, but there&amp;rsquo;s nothing tying it to their service. It&amp;rsquo;s just a Git client, and it will work fine with any host, or just locally. Check out GitHub&amp;rsquo;s guide: &lt;a href=&#34;https://guides.github.com/introduction/getting-your-project-on-github/&#34;&gt;Getting your project on GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
